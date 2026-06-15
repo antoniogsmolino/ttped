@@ -206,7 +206,7 @@ function loadAffiliate() {
       <div class="dropzone" id="dropzone">
         <div style="font-size:34px;margin-bottom:10px">📂</div>
         Trascina qui il file ordini (<b>CSV o Excel .xlsx</b>) esportato dal <b>Centro Affiliazione TikTok Shop</b><br/>
-        <span style="font-size:12px">(Centro Affiliazione → Dati → Analisi ordini → Esporta) · i dati restano sul tuo dispositivo</span>
+        <span style="font-size:12px">(Centro Affiliazione → Dati → Analisi ordini → Esporta) · i dati restano sul tuo dispositivo<br/>hai già un <b>backup .json</b> da un altro dispositivo? Importalo qui.</span>
       </div>`;
     bindDropzone();
     return;
@@ -245,14 +245,28 @@ function loadAffiliate() {
         </div>`).join('') : `<p class="sub">${esc(s.message)}</p>`}
     </div>
     <div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
-      <span class="hint">${orders.length} ordini in memoria sul dispositivo</span>
-      <label class="btn btn-ghost btn-sm" for="csvInput2">⬆ Aggiungi altro file</label>
-      <input type="file" id="csvInput2" accept=".csv,.xlsx,text/csv" hidden multiple />
+      <span class="hint">${orders.length} ordini salvati su questo dispositivo</span>
+      <label class="btn btn-ghost btn-sm" for="csvInput2">⬆ Aggiungi file</label>
+      <input type="file" id="csvInput2" accept=".csv,.xlsx,.json,text/csv,application/json" hidden multiple />
+      <button class="btn btn-ghost btn-sm" onclick="exportBackup()">💾 Esporta backup</button>
       <button class="btn btn-danger btn-sm" style="margin-left:auto" onclick="resetAffiliate()">🗑 Azzera dati</button>
-    </div>`;
+    </div>
+    <p class="hint" style="margin-top:8px">📱 I dati restano su questo dispositivo (non vanno mai online). Per averli anche altrove: <b>Esporta backup</b> qui, poi importa il file <code>.json</code> sull'altro dispositivo.</p>`;
   const extra = $('#csvInput2');
   if (extra) extra.addEventListener('change', (e) => importFiles([...e.target.files]));
 }
+
+window.exportBackup = () => {
+  const orders = getOrders();
+  if (!orders.length) return toast('Nessun dato da esportare', 'err');
+  const blob = new Blob([JSON.stringify({ type: 'ttped-affiliate-backup', version: 1, orders }, null, 0)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'ttped-affiliate-backup.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  toast('Backup esportato: importalo sull\'altro dispositivo', 'ok');
+};
 
 async function importFiles(files) {
   let orders = getOrders();
@@ -260,9 +274,17 @@ async function importFiles(files) {
   for (const file of files) {
     try {
       const isXlsx = /\.xlsx$/i.test(file.name) || /sheet|excel/i.test(file.type);
-      const { orders: parsed } = isXlsx
-        ? await Affiliate.parseXlsx(await file.arrayBuffer())
-        : Affiliate.parse(await file.text());
+      const isJson = /\.json$/i.test(file.name) || file.type === 'application/json';
+      let parsed;
+      if (isJson) {
+        const data = JSON.parse(await file.text()); // backup TTPED
+        parsed = Array.isArray(data) ? data : (data.orders || []);
+        if (!parsed.length) throw new Error('backup vuoto o non valido');
+      } else if (isXlsx) {
+        ({ orders: parsed } = await Affiliate.parseXlsx(await file.arrayBuffer()));
+      } else {
+        ({ orders: parsed } = Affiliate.parse(await file.text()));
+      }
       let added = 0;
       for (const o of parsed) { if (!existing.has(o.orderId)) { orders.push(o); existing.add(o.orderId); added++; } }
       toast(`${file.name}: ${added} ordini nuovi (${parsed.length - added} duplicati)`, 'ok');
