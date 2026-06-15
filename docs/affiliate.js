@@ -292,7 +292,68 @@
     return { ready: true, generatedAt: new Date().toISOString(), sections, matches };
   }
 
-  const API = { parse, analytics, strategy };
+  // ---------- Profilo storico personale (cosa converte PER TE) ----------
+  // Parole troppo generiche da ignorare quando si confrontano i titoli.
+  const STOP = new Set(['donna', 'donne', 'women', 'woman', 'lady', 'ladies', 'with', 'from', 'your', 'that', 'this',
+    'pezzi', 'colore', 'color', 'stampa', 'print', 'taglia', 'taglie', 'size', 'nuovo', 'nuova', 'stile', 'style',
+    'moda', 'design', 'estate', 'inverno', 'casual', 'elegante', 'sexy', 'vita', 'alta']);
+
+  function profileTokens(s) {
+    return [...new Set((s || '').toLowerCase().replace(/[^a-z0-9àèéìòù ]+/g, ' ').split(/\s+/)
+      .filter((w) => w.length > 3 && !STOP.has(w)))];
+  }
+
+  // Estrae dai tuoi ordini i segnali di ciò che converte: parole-chiave e fascia di prezzo vincenti.
+  function profile(allOrders) {
+    const valid = (allOrders || []).filter((o) => !isCancelled(o.status));
+    const kw = new Map();
+    let totalComm = 0;
+    const prices = [];
+    for (const o of valid) {
+      const c = commissionOf(o);
+      totalComm += c;
+      const weight = Math.max(c, 0.01);
+      for (const t of profileTokens(o.productName)) kw.set(t, (kw.get(t) || 0) + weight);
+      if (o.amount > 0) prices.push({ amount: o.amount, w: weight });
+    }
+    let pMean = 0, wsum = 0;
+    for (const p of prices) { pMean += p.amount * p.w; wsum += p.w; }
+    pMean = wsum ? pMean / wsum : 0;
+    const topKw = [...kw.entries()].sort((a, b) => b[1] - a[1]).slice(0, 30);
+    return {
+      orders: valid.length,
+      totalComm: Math.round(totalComm * 100) / 100,
+      kw: Object.fromEntries(topKw),
+      maxKw: topKw.length ? topKw[0][1] : 1,
+      priceMean: Math.round(pMean * 100) / 100,
+      priceLo: Math.round(pMean * 0.6 * 100) / 100,
+      priceHi: Math.round(pMean * 1.6 * 100) / 100,
+    };
+  }
+
+  // Quanto un prodotto in trend somiglia ai tuoi vincenti (0..1) + motivazioni.
+  function personalMatch(title, priceValue, prof) {
+    if (!prof || prof.orders === 0) return null;
+    const toks = profileTokens(title);
+    let kwScore = 0; const hits = [];
+    for (const t of toks) if (prof.kw[t]) { kwScore += prof.kw[t]; hits.push(t); }
+    const kwNorm = Math.min(1, kwScore / (prof.maxKw * 1.5));
+    let priceFit = 0;
+    if (priceValue > 0 && prof.priceMean > 0) {
+      if (priceValue >= prof.priceLo && priceValue <= prof.priceHi) priceFit = 1;
+      else {
+        const d = priceValue < prof.priceLo ? (prof.priceLo - priceValue) / prof.priceLo : (priceValue - prof.priceHi) / prof.priceHi;
+        priceFit = Math.max(0, 1 - d);
+      }
+    }
+    const score = 0.7 * kwNorm + 0.3 * priceFit;
+    const reasons = [];
+    if (hits.length) reasons.push('capi simili ti hanno già reso (' + hits.slice(0, 3).join(', ') + ')');
+    if (priceFit >= 0.8 && prof.priceMean > 0) reasons.push('fascia prezzo che converte per te (~€' + prof.priceMean.toFixed(0) + ')');
+    return { score: Math.round(score * 100) / 100, reasons };
+  }
+
+  const API = { parse, analytics, strategy, profile, personalMatch };
   if (typeof module !== 'undefined' && module.exports) module.exports = API;
   else root.Affiliate = API;
 })(typeof window !== 'undefined' ? window : globalThis);

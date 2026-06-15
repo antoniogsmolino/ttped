@@ -75,39 +75,82 @@ async function loadTrends() {
   }
 }
 
+function getProfile() {
+  try {
+    const orders = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    return orders.length ? Affiliate.profile(orders) : null;
+  } catch { return null; }
+}
+
+function cardHTML(p, i, winLabel, match) {
+  const t = p.trend;
+  const g = t.spikePct, up = g >= 0;
+  const sat = [];
+  if (t.creators) sat.push(`👤 ${fmtN(t.creators)} affiliate`);
+  if (t.videos) sat.push(`🎬 ${fmtN(t.videos)} video`);
+  const badge = match ? `<div class="match-badge">🎯 ${esc(match.reasons[0] || 'in linea col tuo storico')}</div>` : '';
+  return `<div class="pcard" style="animation-delay:${i * 35}ms">
+    <div class="rank r${i + 1}">${i + 1}</div>
+    <div class="pcard-top">
+      <img class="cover" src="${esc(p.cover)}" loading="lazy" onerror="this.style.visibility='hidden'"/>
+      <div>
+        <div class="title">${esc(p.title)}</div>
+        <div class="chips">
+          ${t.catLabel ? `<span class="chip cat">👗 ${esc(t.catLabel)}</span>` : ''}
+          ${p.price ? `<span class="chip price">${esc(p.price)}</span>` : ''}
+        </div>
+      </div>
+    </div>
+    ${badge}
+    <div class="pstats">
+      <div class="pstat"><div class="v growth ${up ? 'up' : 'down'}">${up ? '▲' : '▼'} ${Math.abs(g)}%</div><div class="l">impennata ${winLabel}</div></div>
+      <div class="pstat"><div class="v earn">${t.euroPerVideo ? fmtEur(t.euroPerVideo) : '–'}</div><div class="l">€/video atteso</div></div>
+      <div class="pstat"><div class="v">${t.euroPerSale ? fmtEur(t.euroPerSale) : '–'}</div><div class="l">€/vendita</div></div>
+      <div class="pstat"><div class="v" style="color:var(--cyan)">${p.commissionRate ? p.commissionRate + '%' : '–'}</div><div class="l">commissione</div></div>
+    </div>
+    <div class="pmeta">
+      <span class="sat">${sat.join(' · ') || 'saturazione n/d'}</span>
+      ${sparkline(t.spark, 90, 30)}
+    </div>
+    <div class="pcard-actions">
+      <a class="btn btn-primary btn-sm" href="${esc(p.tiktokUrl)}" target="_blank">Vedi su TikTok ↗</a>
+      <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank">Dettagli ↗</a>
+    </div>
+  </div>`;
+}
+
 function renderRanking() {
+  const winLabel = WINDOW_LABELS[currentWindow] || '';
+  const profile = getProfile();
+
+  // Vista "Per te": incrocia tutte le finestre con il tuo storico di conversione.
+  if (currentWindow === 'foryou') {
+    if (!profile) {
+      $('#trendsGrid').innerHTML = '<div class="empty">🎯 <b>Per te</b> incrocia la classifica con il tuo storico di vendite.<br/>Importa il CSV ordini nel tab <b>💰 Affiliate</b> per attivarla — più ordini importi, più diventa precisa.</div>';
+      return;
+    }
+    const seen = new Map();
+    for (const w of ['d7', 'h48', 'h24']) for (const p of (trendsRankings[w] || [])) if (!seen.has(p.id)) seen.set(p.id, p);
+    const pool = [...seen.values()]
+      .map((p) => ({ p, m: Affiliate.personalMatch(p.title, p.trend.priceValue, profile) }))
+      .filter((x) => x.m && x.m.score > 0.15)
+      .sort((a, b) => (b.m.score - a.m.score) || (b.p.trend.euroPerVideo - a.p.trend.euroPerVideo));
+    if (!pool.length) {
+      $('#trendsGrid').innerHTML = '<div class="empty">Nessun prodotto in trend somiglia ancora ai tuoi vincenti. Importa più ordini o riprova domani.</div>';
+      return;
+    }
+    $('#trendsGrid').innerHTML = pool.slice(0, 20).map((x, i) => cardHTML(x.p, i, WINDOW_LABELS.d7, x.m)).join('');
+    return;
+  }
+
   const list = trendsRankings[currentWindow] || [];
-  const winLabel = WINDOW_LABELS[currentWindow];
   if (!list.length) {
     $('#trendsGrid').innerHTML = `<div class="empty">Nessun prodotto con dati sufficienti per la finestra ${winLabel}. Lo storico si arricchisce ogni giorno.</div>`;
     return;
   }
   $('#trendsGrid').innerHTML = list.map((p, i) => {
-    const g = p.trend.spikePct;
-    const up = g >= 0;
-    return `<div class="pcard" style="animation-delay:${i * 35}ms">
-      <div class="rank r${i + 1}">${i + 1}</div>
-      <div class="pcard-top">
-        <img class="cover" src="${esc(p.cover)}" loading="lazy" onerror="this.style.visibility='hidden'"/>
-        <div>
-          <div class="title">${esc(p.title)}</div>
-          <div class="chips">
-            ${p.trend.catLabel ? `<span class="chip cat">👗 ${esc(p.trend.catLabel)}</span>` : ''}
-            ${p.price ? `<span class="chip price">${esc(p.price)}</span>` : ''}
-          </div>
-        </div>
-      </div>
-      <div class="pstats">
-        <div class="pstat"><div class="v growth ${up ? 'up' : 'down'}">${up ? '▲' : '▼'} ${Math.abs(g)}%</div><div class="l">impennata ${winLabel}</div></div>
-        <div class="pstat"><div class="v earn">${p.trend.euroPerSale ? fmtEur(p.trend.euroPerSale) : '–'}</div><div class="l">guadagno / vendita</div></div>
-        <div class="pstat"><div class="v" style="color:var(--cyan)">${p.commissionRate ? p.commissionRate + '%' : '–'}</div><div class="l">commissione</div></div>
-        <div class="pstat">${sparkline(p.trend.spark)}<div class="l">${p.trend.days} gg storico</div></div>
-      </div>
-      <div class="pcard-actions">
-        <a class="btn btn-primary btn-sm" href="${esc(p.tiktokUrl)}" target="_blank">Vedi su TikTok ↗</a>
-        <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank">Dettagli ↗</a>
-      </div>
-    </div>`;
+    const m = profile ? Affiliate.personalMatch(p.title, p.trend.priceValue, profile) : null;
+    return cardHTML(p, i, winLabel, m && m.score >= 0.4 ? m : null);
   }).join('');
 }
 

@@ -141,8 +141,19 @@ main { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; paddin
 .seg-btn:hover { color: var(--text); }
 .seg-btn.active { color: #fff; background: var(--grad); box-shadow: 0 4px 16px rgba(254, 44, 85, .35); }
 
-/* guadagno stimato a vendita */
+/* guadagno stimato (a vendita / per video) */
 .pstat .v.earn { color: var(--green); }
+
+/* riga saturazione + sparkline */
+.pmeta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; }
+.pmeta .sat { font-size: 11px; color: var(--muted); }
+
+/* badge match con lo storico personale */
+.match-badge {
+  margin-top: 12px; padding: 7px 11px; border-radius: 10px; font-size: 11.5px; font-weight: 600;
+  color: #ffd6e0; background: rgba(254, 44, 85, 0.14); border: 1px solid rgba(254, 44, 85, 0.3);
+  line-height: 1.35;
+}
 
 .pstats { display: flex; align-items: flex-end; justify-content: space-between; margin-top: 14px; gap: 10px; }
 .pstat .v { font-size: 19px; font-weight: 800; letter-spacing: -0.5px; }
