@@ -135,6 +135,15 @@ main { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; paddin
 .chip.cat { color: #ff8fab; background: rgba(254, 44, 85, 0.12); }
 .chip.price { color: #fff; }
 
+/* selettore finestra temporale (7gg / 48h / 24h) */
+.seg { display: inline-flex; gap: 4px; padding: 4px; margin-bottom: 18px; background: var(--card); border: 1px solid var(--card-border); border-radius: 14px; }
+.seg-btn { border: 0; background: transparent; color: var(--muted); font-weight: 700; font-size: 13px; padding: 8px 16px; border-radius: 10px; cursor: pointer; transition: all .18s ease; white-space: nowrap; }
+.seg-btn:hover { color: var(--text); }
+.seg-btn.active { color: #fff; background: var(--grad); box-shadow: 0 4px 16px rgba(254, 44, 85, .35); }
+
+/* guadagno stimato a vendita */
+.pstat .v.earn { color: var(--green); }
+
 .pstats { display: flex; align-items: flex-end; justify-content: space-between; margin-top: 14px; gap: 10px; }
 .pstat .v { font-size: 19px; font-weight: 800; letter-spacing: -0.5px; }
 .pstat .l { font-size: 10.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; margin-top: 2px; }

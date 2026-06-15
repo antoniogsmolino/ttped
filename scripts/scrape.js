@@ -9,17 +9,29 @@ const scraper = require('../lib/scraper');
 
 (async () => {
   const status = await scraper.runScrape();
-  const top = scraper.computeTrends(20);
-  writeJSON(path.join(process.env.DATA_DIR, 'trends.json'), {
-    status,
-    top,
-    generatedAt: new Date().toISOString(),
-  });
   console.log('Scrape completato:', JSON.stringify(status));
+
   if (!status.ok) {
     console.error('Nessun prodotto raccolto: controlla il Secret FASTMOSS_COOKIE.');
     process.exit(1);
   }
+  // Rilevamento cookie scaduto: con focus moda donna attivo dovremmo trovarne centinaia.
+  // Se ne troviamo pochissimi il cookie è quasi certamente scaduto: NON sovrascrivere i dati
+  // buoni e fai fallire il job, così GitHub invia un'email di notifica.
+  if (status.focus && status.matched < 20) {
+    console.error(`⚠️ Solo ${status.matched} prodotti moda donna trovati: il cookie FASTMOSS_COOKIE è probabilmente SCADUTO.`);
+    console.error('   Rigeneralo (Copy as cURL su una richiesta www.fastmoss.com/api/...) e aggiorna il Secret su GitHub.');
+    process.exit(1);
+  }
+
+  const rankings = scraper.computeAllRankings(20);
+  writeJSON(path.join(process.env.DATA_DIR, 'trends.json'), {
+    status,
+    rankings,
+    top: rankings.d7, // compat: cross-match affiliate usa la classifica 7 giorni
+    generatedAt: new Date().toISOString(),
+  });
+  console.log(`Classifiche: 7gg=${rankings.d7.length} · 48h=${rankings.h48.length} · 24h=${rankings.h24.length}`);
 })().catch((e) => {
   console.error('Scrape fallito:', e);
   process.exit(1);

@@ -7,7 +7,10 @@ const fmtN = (n) => (n ?? 0).toLocaleString('it-IT');
 const fmtEur = (n) => '€' + (n ?? 0).toLocaleString('it-IT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const STORAGE_KEY = 'ttped_affiliate_orders';
 
-let trendsTop = []; // cache dei trend per il cross-match affiliate
+let trendsTop = []; // cache della classifica 7gg per il cross-match affiliate
+let trendsRankings = { d7: [], h48: [], h24: [] };
+let currentWindow = 'd7';
+const WINDOW_LABELS = { d7: '7 giorni', h48: '48 ore', h24: '24 ore' };
 
 function toast(msg, type = '') {
   const el = document.createElement('div');
@@ -47,11 +50,14 @@ async function loadTrends() {
   try {
     const res = await fetch('data/trends.json?t=' + Date.now());
     if (!res.ok) throw new Error('Dati trend non ancora disponibili');
-    const { status, top, generatedAt } = await res.json();
-    trendsTop = top || [];
+    const data = await res.json();
+    const status = data.status;
+    // Compat: vecchio formato aveva solo `top` (classifica 7gg).
+    trendsRankings = data.rankings || { d7: data.top || [], h48: [], h24: [] };
+    trendsTop = trendsRankings.d7 || data.top || [];
 
     const meta = [];
-    const when = generatedAt || status?.lastRun;
+    const when = data.generatedAt || status?.lastRun;
     if (when) meta.push(`Aggiornato: ${new Date(when).toLocaleString('it-IT')}`);
     meta.push(`Fonte: FastMoss · Regione ${status?.region || 'IT'} · ${status?.matched ?? status?.count ?? 0} prodotti moda donna`);
     meta.push('Aggiornamento automatico ogni mattina');
@@ -59,45 +65,59 @@ async function loadTrends() {
 
     let banner = '';
     if (status?.error) banner = `<div class="banner err">⚠️ Ultimo aggiornamento fallito: ${esc(status.error)}</div>`;
-    else if (status?.limited && (top || []).length < 20) banner = `<div class="banner">🔒 Cookie FastMoss assente o scaduto: classifica parziale. Aggiorna il Secret FASTMOSS_COOKIE su GitHub.</div>`;
+    else if (status?.limited && trendsTop.length < 20) banner = `<div class="banner">🔒 Cookie FastMoss assente o scaduto: classifica parziale. Aggiorna il Secret FASTMOSS_COOKIE su GitHub.</div>`;
     $('#trendsBanner').innerHTML = banner;
 
-    if (!trendsTop.length) {
-      $('#trendsGrid').innerHTML = '<div class="empty">Nessun dato ancora. Il primo aggiornamento popolerà la classifica.</div>';
-      return;
-    }
-    $('#trendsGrid').innerHTML = trendsTop.map((p, i) => {
-      const g = p.trend.spikePct;
-      const up = g >= 0;
-      return `<div class="pcard" style="animation-delay:${i * 35}ms">
-        <div class="rank r${i + 1}">${i + 1}</div>
-        <div class="pcard-top">
-          <img class="cover" src="${esc(p.cover)}" loading="lazy" onerror="this.style.visibility='hidden'"/>
-          <div>
-            <div class="title">${esc(p.title)}</div>
-            <div class="chips">
-              ${p.trend.catLabel ? `<span class="chip cat">👗 ${esc(p.trend.catLabel)}</span>` : ''}
-              ${p.price ? `<span class="chip price">${esc(p.price)}</span>` : ''}
-            </div>
-          </div>
-        </div>
-        <div class="pstats">
-          <div class="pstat"><div class="v growth ${up ? 'up' : 'down'}">${up ? '▲' : '▼'} ${Math.abs(g)}%</div><div class="l">impennata 7gg</div></div>
-          <div class="pstat"><div class="v" style="color:var(--cyan)">${p.commissionRate ? p.commissionRate + '%' : '–'}</div><div class="l">commissione</div></div>
-          <div class="pstat"><div class="v">${fmtN(p.trend.sold7)}</div><div class="l">vendite 7gg</div></div>
-          <div class="pstat">${sparkline(p.trend.spark)}<div class="l">${p.trend.days} gg storico</div></div>
-        </div>
-        <div class="pcard-actions">
-          <a class="btn btn-primary btn-sm" href="${esc(p.tiktokUrl)}" target="_blank">Vedi su TikTok ↗</a>
-          <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank">Dettagli ↗</a>
-        </div>
-      </div>`;
-    }).join('');
+    renderRanking();
   } catch (e) {
     $('#trendsBanner').innerHTML = `<div class="banner err">${esc(e.message)}</div>`;
     $('#trendsGrid').innerHTML = '<div class="empty">In attesa del primo aggiornamento giornaliero.</div>';
   }
 }
+
+function renderRanking() {
+  const list = trendsRankings[currentWindow] || [];
+  const winLabel = WINDOW_LABELS[currentWindow];
+  if (!list.length) {
+    $('#trendsGrid').innerHTML = `<div class="empty">Nessun prodotto con dati sufficienti per la finestra ${winLabel}. Lo storico si arricchisce ogni giorno.</div>`;
+    return;
+  }
+  $('#trendsGrid').innerHTML = list.map((p, i) => {
+    const g = p.trend.spikePct;
+    const up = g >= 0;
+    return `<div class="pcard" style="animation-delay:${i * 35}ms">
+      <div class="rank r${i + 1}">${i + 1}</div>
+      <div class="pcard-top">
+        <img class="cover" src="${esc(p.cover)}" loading="lazy" onerror="this.style.visibility='hidden'"/>
+        <div>
+          <div class="title">${esc(p.title)}</div>
+          <div class="chips">
+            ${p.trend.catLabel ? `<span class="chip cat">👗 ${esc(p.trend.catLabel)}</span>` : ''}
+            ${p.price ? `<span class="chip price">${esc(p.price)}</span>` : ''}
+          </div>
+        </div>
+      </div>
+      <div class="pstats">
+        <div class="pstat"><div class="v growth ${up ? 'up' : 'down'}">${up ? '▲' : '▼'} ${Math.abs(g)}%</div><div class="l">impennata ${winLabel}</div></div>
+        <div class="pstat"><div class="v earn">${p.trend.euroPerSale ? fmtEur(p.trend.euroPerSale) : '–'}</div><div class="l">guadagno / vendita</div></div>
+        <div class="pstat"><div class="v" style="color:var(--cyan)">${p.commissionRate ? p.commissionRate + '%' : '–'}</div><div class="l">commissione</div></div>
+        <div class="pstat">${sparkline(p.trend.spark)}<div class="l">${p.trend.days} gg storico</div></div>
+      </div>
+      <div class="pcard-actions">
+        <a class="btn btn-primary btn-sm" href="${esc(p.tiktokUrl)}" target="_blank">Vedi su TikTok ↗</a>
+        <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank">Dettagli ↗</a>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+$('#trendWindows').addEventListener('click', (e) => {
+  const btn = e.target.closest('.seg-btn');
+  if (!btn) return;
+  currentWindow = btn.dataset.win;
+  document.querySelectorAll('#trendWindows .seg-btn').forEach((b) => b.classList.toggle('active', b === btn));
+  renderRanking();
+});
 
 $('#btnReload').addEventListener('click', () => { loadTrends(); toast('Dati ricaricati', 'ok'); });
 
