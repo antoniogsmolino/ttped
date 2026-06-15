@@ -1,0 +1,28 @@
+# Configurazione Fly.io — usata solo se scegli Fly come piattaforma.
+# Sostituisci "ttped-studio" con il nome app scelto in `fly launch`.
+app = "ttped-studio"
+primary_region = "fra"   # Francoforte: la regione più vicina all'Italia
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  HOST = "0.0.0.0"
+  PORT = "4280"
+  DATA_DIR = "/data"
+
+[mounts]
+  source = "ttped_data"
+  destination = "/data"
+
+[http_service]
+  internal_port = 4280
+  force_https = true
+  # Il processo deve restare SEMPRE attivo per i cron giornalieri:
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"

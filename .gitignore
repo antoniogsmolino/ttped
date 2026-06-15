@@ -1,0 +1,10 @@
+# Dati locali della versione full (chiavi API, cookie FastMoss, token TikTok, video):
+# il / iniziale limita a /data nella root — docs/data (trend pubblici) resta versionato.
+/data/
+node_modules/
+*.log
+.DS_Store
+.claude/
+
+# Snapshot giornalieri: non servono nel repo (lo storico vive in docs/data/products.json)
+docs/data/snapshots/

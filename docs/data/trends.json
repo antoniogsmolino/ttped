@@ -1,0 +1,1210 @@
+{
+  "status": {
+    "lastRun": "2026-06-15T09:40:17.304Z",
+    "ok": true,
+    "count": 437,
+    "matched": 313,
+    "limited": false,
+    "source": "fastmoss",
+    "region": "IT",
+    "focus": true,
+    "error": null
+  },
+  "top": [
+    {
+      "history": [
+        {
+          "date": "2026-06-08",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-09",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-10",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-11",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-12",
+          "soldDaily": 2
+        },
+        {
+          "date": "2026-06-13",
+          "soldDaily": 4
+        },
+        {
+          "date": "2026-06-14",
+          "soldDaily": 4
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 4,
+          "soldTotal": 141,
+          "incRate": 0
+        }
+      ],
+      "id": "1729483469484563130",
+      "title": "Romper da donna con stampa floreale a patchwork e cintura, Romper casual senza maniche con scollo quadrato, Abbigliamento da donna per tutte le stagioni",
+      "cover": "https://s.500fd.com/tt_product/412fe1ec3b2d43bb8430a2ee20c7dac1~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "price": "€4,67",
+      "currency": "EUR",
+      "cats": [
+        "Womenswear & Underwear",
+        "Women's Suits & Overalls"
+      ],
+      "shop": "MIXIFashion",
+      "soldDaily": 4,
+      "soldTotal": 141,
+      "amountDaily": 18.68,
+      "incRate": 0,
+      "commissionRate": 17,
+      "region": "IT",
+      "sold7": 10,
+      "sold14": 19,
+      "rating": 4.5,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729483469484563130",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729483469484563130",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 85.2,
+        "spikePct": 437.1,
+        "growthPct": 437.1,
+        "sold7": 10,
+        "catLabel": "Abbigliamento donna",
+        "days": 8,
+        "spark": [
+          {
+            "date": "2026-06-08",
+            "v": 0
+          },
+          {
+            "date": "2026-06-09",
+            "v": 0
+          },
+          {
+            "date": "2026-06-10",
+            "v": 0
+          },
+          {
+            "date": "2026-06-11",
+            "v": 0
+          },
+          {
+            "date": "2026-06-12",
+            "v": 2
+          },
+          {
+            "date": "2026-06-13",
+            "v": 4
+          },
+          {
+            "date": "2026-06-14",
+            "v": 4
+          },
+          {
+            "date": "2026-06-15",
+            "v": 4
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 120,
+          "soldTotal": 177,
+          "incRate": 242.86
+        }
+      ],
+      "id": "1729823804713375752",
+      "title": "Pantalone Satin",
+      "cover": "https://s.500fd.com/tt_product/ba3b355eb4894922b5441742e368ef09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "17,99 €",
+      "currency": "EUR",
+      "cats": [
+        "Trousers"
+      ],
+      "shop": "Normaleclothing",
+      "soldDaily": 120,
+      "soldTotal": 177,
+      "amountDaily": 2158.8,
+      "incRate": 242.86,
+      "commissionRate": 12.5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729823804713375752",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823804713375752",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "score": 83.1,
+        "spikePct": 242.9,
+        "growthPct": 242.9,
+        "sold7": 120,
+        "catLabel": "Pantaloni donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 120
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 206,
+          "soldTotal": 588,
+          "incRate": 116.84
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 127,
+          "soldTotal": 715,
+          "incRate": 323.33
+        }
+      ],
+      "id": "1729782768461257327",
+      "title": "[MIXMUSE.NOHO] Stella, Tuta Pantalone Lunga Smanicata",
+      "cover": "https://s.500fd.com/tt_product/9ff0c4b2351b4d57bd686f4a9341de35~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "27,52 €",
+      "currency": "EUR",
+      "cats": [
+        "Women's Bottoms"
+      ],
+      "shop": "MixMUSE",
+      "soldDaily": 127,
+      "soldTotal": 715,
+      "amountDaily": 3495.04,
+      "incRate": 323.33,
+      "commissionRate": 10,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729782768461257327",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729782768461257327",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 81.4,
+        "spikePct": 323.3,
+        "growthPct": 323.3,
+        "sold7": 333,
+        "catLabel": "Pantaloni donna",
+        "days": 2,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 206
+          },
+          {
+            "date": "2026-06-15",
+            "v": 127
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-15",
+          "soldDaily": 3,
+          "soldTotal": 189,
+          "incRate": 200
+        }
+      ],
+      "id": "1729726309590014526",
+      "title": "Top sexy da donna in raso con scollo all'americana, Top corto a schiena scoperta da donna in stile corsetto, Top senza maniche in stile y2k, Top da donna in stile casual, Top da vacanza in stile casual",
+      "cover": "https://s.500fd.com/tt_product/440a4000e8934120991e13eefe572350~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "4,06 - €4,99",
+      "currency": "EUR",
+      "cats": [
+        "Women's Tops"
+      ],
+      "shop": "NWOMN",
+      "soldDaily": 3,
+      "soldTotal": 189,
+      "amountDaily": 12.18,
+      "incRate": 200,
+      "commissionRate": 17,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729726309590014526",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729726309590014526",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 79,
+        "spikePct": 200,
+        "growthPct": 200,
+        "sold7": 3,
+        "catLabel": "Top donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-15",
+            "v": 3
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-15",
+          "soldDaily": 9,
+          "soldTotal": 143,
+          "incRate": 800
+        }
+      ],
+      "id": "1729818131500866197",
+      "title": "Pantalone Balloon in cotone",
+      "cover": "https://s.500fd.com/tt_product/7a3778d879ff40b38e0ba96d92cc6c09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "23,99 €",
+      "currency": "EUR",
+      "cats": [
+        "Trousers"
+      ],
+      "shop": "SophieBijoux",
+      "soldDaily": 9,
+      "soldTotal": 143,
+      "amountDaily": 215.91,
+      "incRate": 800,
+      "commissionRate": 12.5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729818131500866197",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729818131500866197",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 78.3,
+        "spikePct": 800,
+        "growthPct": 800,
+        "sold7": 9,
+        "catLabel": "Pantaloni donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-15",
+            "v": 9
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-15",
+          "soldDaily": 158,
+          "soldTotal": 296,
+          "incRate": 305.13
+        }
+      ],
+      "id": "1729829151902046921",
+      "title": "Completo Summer Lux in Viscosa - Made in Italy",
+      "cover": "https://s.500fd.com/tt_product/f7125340847b47849f3b6588350c31b1~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "29,99 €",
+      "currency": "EUR",
+      "cats": [
+        "Sets"
+      ],
+      "shop": "L group-Lady First",
+      "soldDaily": 158,
+      "soldTotal": 296,
+      "amountDaily": 4738.42,
+      "incRate": 305.13,
+      "commissionRate": 7,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729829151902046921",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829151902046921",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 75.4,
+        "spikePct": 305.1,
+        "growthPct": 305.1,
+        "sold7": 158,
+        "catLabel": "Abbigliamento donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-15",
+            "v": 158
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 28,
+          "soldTotal": 6702,
+          "incRate": 3.7
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 248,
+          "soldTotal": 6798,
+          "incRate": 552.63
+        }
+      ],
+      "id": "1729490967232682799",
+      "title": "Reggiseno senza ferretto e schiena scoperta in tinta unita da donna, Comodi reggiseni traspiranti multiuso per uso quotidiano, Lingerie morbida per tutte le stagioni",
+      "cover": "https://s.500fd.com/tt_product/4b4e04ea2b394fa49501d7b0949b0bc1~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "5,24 - 24,65 €",
+      "currency": "EUR",
+      "cats": [
+        "Women's Underwear"
+      ],
+      "shop": "Simply Chic Lingerie",
+      "soldDaily": 248,
+      "soldTotal": 6798,
+      "amountDaily": 1299.52,
+      "incRate": 552.63,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729490967232682799",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729490967232682799",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 73.5,
+        "spikePct": 552.6,
+        "growthPct": 552.6,
+        "sold7": 276,
+        "catLabel": "Abbigliamento donna",
+        "days": 2,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 28
+          },
+          {
+            "date": "2026-06-15",
+            "v": 248
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 67,
+          "soldTotal": 97,
+          "incRate": 0
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 135,
+          "soldTotal": 165,
+          "incRate": 542.86
+        }
+      ],
+      "id": "1729751208647760164",
+      "title": "Shorts di jeans da donna eleganti a vita alta, linea ad A, vestibilità ampia e design valorizzante, stile boho versatile per la moda estiva",
+      "cover": "https://s.500fd.com/tt_product/ecaabedc009d42148c4bee12f6acbbb5~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "price": "18,27 €",
+      "currency": "EUR",
+      "cats": [
+        "Women's Bottoms"
+      ],
+      "shop": "Fashion forefront",
+      "soldDaily": 135,
+      "soldTotal": 165,
+      "amountDaily": 2466.45,
+      "incRate": 542.86,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729751208647760164",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729751208647760164",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 72.9,
+        "spikePct": 542.9,
+        "growthPct": 542.9,
+        "sold7": 202,
+        "catLabel": "Pantaloni donna",
+        "days": 2,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 67
+          },
+          {
+            "date": "2026-06-15",
+            "v": 135
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 146,
+          "soldTotal": 2410,
+          "incRate": 461.54
+        }
+      ],
+      "id": "1729756133624486724",
+      "title": "Body modellante da donna con profondo scollo a V e schiena scoperta, taglie XS–XXL, design semplice, spalline regolabili, stile casual, adatto a tutte le stagioni",
+      "cover": "https://s.500fd.com/tt_product/32a6d83212894fbfa537bdc102566c93~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "€4,90",
+      "currency": "EUR",
+      "cats": [
+        "Women's Underwear"
+      ],
+      "shop": "Jiaxiya Store",
+      "soldDaily": 146,
+      "soldTotal": 2410,
+      "amountDaily": 715.4,
+      "incRate": 461.54,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729756133624486724",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729756133624486724",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "score": 72.3,
+        "spikePct": 461.5,
+        "growthPct": 461.5,
+        "sold7": 146,
+        "catLabel": "Abbigliamento donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 146
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 104,
+          "soldTotal": 236,
+          "incRate": 395.24
+        }
+      ],
+      "id": "1729690218700839537",
+      "title": "4/6/8/10 pz Biancheria intima da donna Biancheria intima in pizzo Vita Alta Controllo della pancia Cucito Traforato Aderente Sensuale Stampa da donna di alta qualità Pantaloncini triangolari morbidi stampati da donna",
+      "cover": "https://s.500fd.com/tt_product/f36fd1798eee4387ada0a8c7e63dae45~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "10,99 €",
+      "currency": "EUR",
+      "cats": [
+        "Women's Underwear"
+      ],
+      "shop": "Tengke Featured",
+      "soldDaily": 104,
+      "soldTotal": 236,
+      "amountDaily": 1142.96,
+      "incRate": 395.24,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729690218700839537",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729690218700839537",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "score": 71.6,
+        "spikePct": 395.2,
+        "growthPct": 395.2,
+        "sold7": 104,
+        "catLabel": "Abbigliamento donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 104
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 29,
+          "soldTotal": 10929,
+          "incRate": -82.84
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 71,
+          "soldTotal": 11000,
+          "incRate": 222.73
+        }
+      ],
+      "id": "1729480630644546372",
+      "title": "Body modellante da donna in tinta unita, trasparente e con ruche, body modellante a tinta unita con spallina regolabile per uso quotidiano, abbigliamento modellante da donna per tutte le stagioni",
+      "cover": "https://s.500fd.com/tt_product/01aa39ceae744753ad34f932bc3dbc62~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "€5,09",
+      "currency": "EUR",
+      "cats": [
+        "Women's Underwear"
+      ],
+      "shop": "Jiaxiya Store",
+      "soldDaily": 71,
+      "soldTotal": 11000,
+      "amountDaily": 361.39,
+      "incRate": 222.73,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729480630644546372",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480630644546372",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 71.5,
+        "spikePct": 222.7,
+        "growthPct": 222.7,
+        "sold7": 100,
+        "catLabel": "Abbigliamento donna",
+        "days": 2,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 29
+          },
+          {
+            "date": "2026-06-15",
+            "v": 71
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-15",
+          "soldDaily": 149,
+          "soldTotal": 2497,
+          "incRate": 166.07
+        }
+      ],
+      "id": "1729546929211415241",
+      "title": "Completo Gilet & Pantalone in Viscosa – Coordinato set 2 pezzi - Made in Italy",
+      "cover": "https://s.500fd.com/tt_product/f65a89dc94f446aa8ba377f0a9087114~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "17,60 - €17,87",
+      "currency": "EUR",
+      "cats": [
+        "Sets"
+      ],
+      "shop": "L group-Lady First",
+      "soldDaily": 149,
+      "soldTotal": 2497,
+      "amountDaily": 2622.4,
+      "incRate": 166.07,
+      "commissionRate": 9,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729546929211415241",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729546929211415241",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 69,
+        "spikePct": 166.1,
+        "growthPct": 166.1,
+        "sold7": 149,
+        "catLabel": "Pantaloni donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-15",
+            "v": 149
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-15",
+          "soldDaily": 25,
+          "soldTotal": 120,
+          "incRate": 1150
+        }
+      ],
+      "id": "1729771356087621708",
+      "title": "Completo due pezzi con top a canotta semplice e informale con volant e pantaloni a gamba larga; colore puro, vita alta, senza maniche, aderente, modello a H.",
+      "cover": "https://s.500fd.com/tt_product/3f99a95bc3da4d6aa7376188c08fbc94~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "27,43 €",
+      "currency": "EUR",
+      "cats": [
+        "Women's Suits & Overalls"
+      ],
+      "shop": "KAYWIDE Resort",
+      "soldDaily": 25,
+      "soldTotal": 120,
+      "amountDaily": 685.75,
+      "incRate": 1150,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729771356087621708",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771356087621708",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 68.9,
+        "spikePct": 1150,
+        "growthPct": 1150,
+        "sold7": 25,
+        "catLabel": "Pantaloni donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-15",
+            "v": 25
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-05",
+          "soldDaily": 3
+        },
+        {
+          "date": "2026-06-06",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-07",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-08",
+          "soldDaily": 1
+        },
+        {
+          "date": "2026-06-09",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-10",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-11",
+          "soldDaily": 4
+        },
+        {
+          "date": "2026-06-12",
+          "soldDaily": 4,
+          "soldTotal": 78,
+          "incRate": 0
+        }
+      ],
+      "id": "1729487622847699202",
+      "title": "Pantaloncini sportivi da donna in tinta unita a vita alta, Pantaloncini da ginnastica, Leggings corti con fascia larga in vita ad alta elasticità, Abbigliamento sportivo da donna per uso interno ed esterno",
+      "cover": "https://s.500fd.com/tt_product/4b0028480ca8434d92d56c1f04446833~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "7,06 - €7,88",
+      "currency": "EUR",
+      "cats": [
+        "Sports & Outdoor",
+        "Sport & Outdoor Clothing"
+      ],
+      "shop": "hearuisavy",
+      "soldDaily": 4,
+      "soldTotal": 78,
+      "amountDaily": 28.24,
+      "incRate": 0,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": 8,
+      "sold14": 16,
+      "rating": 5,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729487622847699202",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729487622847699202",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "score": 66.8,
+        "spikePct": 601.1,
+        "growthPct": 601.1,
+        "sold7": 8,
+        "catLabel": "Pantaloni donna",
+        "days": 8,
+        "spark": [
+          {
+            "date": "2026-06-05",
+            "v": 3
+          },
+          {
+            "date": "2026-06-06",
+            "v": 0
+          },
+          {
+            "date": "2026-06-07",
+            "v": 0
+          },
+          {
+            "date": "2026-06-08",
+            "v": 1
+          },
+          {
+            "date": "2026-06-09",
+            "v": 0
+          },
+          {
+            "date": "2026-06-10",
+            "v": 0
+          },
+          {
+            "date": "2026-06-11",
+            "v": 4
+          },
+          {
+            "date": "2026-06-12",
+            "v": 4
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 210,
+          "soldTotal": 2732,
+          "incRate": -18.6
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 46,
+          "soldTotal": 3044,
+          "incRate": 228.57
+        }
+      ],
+      "id": "1729791843007503314",
+      "title": "Collana Magnetica Color",
+      "cover": "https://s.500fd.com/tt_product/0537c506b2d94e589118ddd8b18140aa~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "12 €",
+      "currency": "EUR",
+      "cats": [
+        "Necklaces"
+      ],
+      "shop": "rosy.shop1",
+      "soldDaily": 46,
+      "soldTotal": 3044,
+      "amountDaily": 552,
+      "incRate": 228.57,
+      "commissionRate": 15,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729791843007503314",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791843007503314",
+      "l1Hint": "accessories",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 66.3,
+        "spikePct": 228.6,
+        "growthPct": 228.6,
+        "sold7": 256,
+        "catLabel": "Accessori donna",
+        "days": 2,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 210
+          },
+          {
+            "date": "2026-06-15",
+            "v": 46
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-08",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-09",
+          "soldDaily": 1
+        },
+        {
+          "date": "2026-06-10",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-11",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-12",
+          "soldDaily": 1
+        },
+        {
+          "date": "2026-06-13",
+          "soldDaily": 1
+        },
+        {
+          "date": "2026-06-14",
+          "soldDaily": 3
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 3,
+          "soldTotal": 389,
+          "incRate": 0
+        }
+      ],
+      "id": "1729487521562729345",
+      "title": "Leggings sportivi da donna a vita alta a tinta unita, pantaloni aderenti sportivi comodi e traspiranti a costine per l'allenamento in palestra e lo yoga, abbigliamento sportivo da donna per tutte le stagioni",
+      "cover": "https://s.500fd.com/tt_product/7aec9f285aa74539863f3dcc273347f0~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "15,44 - 18,70 €",
+      "currency": "EUR",
+      "cats": [
+        "Sports & Outdoor",
+        "Sport & Outdoor Clothing"
+      ],
+      "shop": "Sijin yoga",
+      "soldDaily": 3,
+      "soldTotal": 389,
+      "amountDaily": 46.32,
+      "incRate": 0,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": 6,
+      "sold14": 10,
+      "rating": 4.6,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729487521562729345",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729487521562729345",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 66.3,
+        "spikePct": 234.4,
+        "growthPct": 234.4,
+        "sold7": 6,
+        "catLabel": "Pantaloni donna",
+        "days": 8,
+        "spark": [
+          {
+            "date": "2026-06-08",
+            "v": 0
+          },
+          {
+            "date": "2026-06-09",
+            "v": 1
+          },
+          {
+            "date": "2026-06-10",
+            "v": 0
+          },
+          {
+            "date": "2026-06-11",
+            "v": 0
+          },
+          {
+            "date": "2026-06-12",
+            "v": 1
+          },
+          {
+            "date": "2026-06-13",
+            "v": 1
+          },
+          {
+            "date": "2026-06-14",
+            "v": 3
+          },
+          {
+            "date": "2026-06-15",
+            "v": 3
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-08",
+          "soldDaily": 2
+        },
+        {
+          "date": "2026-06-09",
+          "soldDaily": 0
+        },
+        {
+          "date": "2026-06-10",
+          "soldDaily": 4
+        },
+        {
+          "date": "2026-06-11",
+          "soldDaily": 1
+        },
+        {
+          "date": "2026-06-12",
+          "soldDaily": 3
+        },
+        {
+          "date": "2026-06-13",
+          "soldDaily": 18
+        },
+        {
+          "date": "2026-06-14",
+          "soldDaily": 3
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 3,
+          "soldTotal": 62,
+          "incRate": 0
+        }
+      ],
+      "id": "1729794918595598575",
+      "title": "GILIPUR pantaloni capri da donna in denim elasticizzato a tinta unita, vita media, girovita elastico, vestibilità slim e skinny, jeans casual comodi senza bottoni per l’estate, uso quotidiano e attività all’aperto, TChic",
+      "cover": "https://s.500fd.com/tt_product/b6a4612fbcfd40a292d42fea22fe9fb3~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "29,09 €",
+      "currency": "EUR",
+      "cats": [
+        "Womenswear & Underwear",
+        "Women's Bottoms"
+      ],
+      "shop": "GILIPUR",
+      "soldDaily": 3,
+      "soldTotal": 62,
+      "amountDaily": 87.27,
+      "incRate": 0,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": 31,
+      "sold14": 37,
+      "rating": 5,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729794918595598575",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729794918595598575",
+      "lastSeen": "2026-06-15",
+      "trend": {
+        "score": 65.8,
+        "spikePct": 187.5,
+        "growthPct": 187.5,
+        "sold7": 31,
+        "catLabel": "Abbigliamento donna",
+        "days": 8,
+        "spark": [
+          {
+            "date": "2026-06-08",
+            "v": 2
+          },
+          {
+            "date": "2026-06-09",
+            "v": 0
+          },
+          {
+            "date": "2026-06-10",
+            "v": 4
+          },
+          {
+            "date": "2026-06-11",
+            "v": 1
+          },
+          {
+            "date": "2026-06-12",
+            "v": 3
+          },
+          {
+            "date": "2026-06-13",
+            "v": 18
+          },
+          {
+            "date": "2026-06-14",
+            "v": 3
+          },
+          {
+            "date": "2026-06-15",
+            "v": 3
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 169,
+          "soldTotal": 549,
+          "incRate": 2716.67
+        }
+      ],
+      "id": "1729468100859563516",
+      "title": "Anello da Donna in Argento Sterling 925 - A Mia Figlia",
+      "cover": "https://s.500fd.com/tt_product/38f16fec106742c690b1544c7f248179~tplv-tulkllf4y5-resize-jpeg:800:800.jpeg",
+      "price": "28,44 €",
+      "currency": "EUR",
+      "cats": [
+        "Silver Rings"
+      ],
+      "shop": "Bramart",
+      "soldDaily": 169,
+      "soldTotal": 549,
+      "amountDaily": 4806.36,
+      "incRate": 2716.67,
+      "commissionRate": 15,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729468100859563516",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729468100859563516",
+      "l1Hint": "accessories",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "score": 65.7,
+        "spikePct": 2716.7,
+        "growthPct": 2716.7,
+        "sold7": 169,
+        "catLabel": "Accessori donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 169
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 3,
+          "soldTotal": 205,
+          "incRate": 200
+        }
+      ],
+      "id": "1729502054411901315",
+      "title": "8 paia Calzini da donna alla caviglia, stampa floreale, Calzini low cut casual, comodi e traspiranti per uso quotidiano all'aperto, Moda estate 2024",
+      "cover": "https://s.500fd.com/tt_product/04cc00d2868b4f6b86281f276fc62a0f~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "3,74 €",
+      "currency": "EUR",
+      "cats": [
+        "Women's Underwear"
+      ],
+      "shop": "Yimo Knit",
+      "soldDaily": 3,
+      "soldTotal": 205,
+      "amountDaily": 11.22,
+      "incRate": 200,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729502054411901315",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729502054411901315",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "score": 65.2,
+        "spikePct": 200,
+        "growthPct": 200,
+        "sold7": 3,
+        "catLabel": "Abbigliamento donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 3
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 8,
+          "soldTotal": 92,
+          "incRate": 166.67
+        }
+      ],
+      "id": "1729739781942253735",
+      "title": "Popilush abito mini da cocktail con shapewear integrato, modellante, da donna, senza maniche, satin sexy, scollo quadrato, controllo dell’addome, con integrato",
+      "cover": "https://s.500fd.com/tt_product/4e2fb598dc0b4aa7a82f323ba5a5221e~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "29,99 €",
+      "currency": "EUR",
+      "cats": [
+        "Casual Dresses"
+      ],
+      "shop": "Popilush EU Shop",
+      "soldDaily": 8,
+      "soldTotal": 92,
+      "amountDaily": 239.92,
+      "incRate": 166.67,
+      "commissionRate": 10,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729739781942253735",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729739781942253735",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "score": 65.1,
+        "spikePct": 166.7,
+        "growthPct": 166.7,
+        "sold7": 8,
+        "catLabel": "Abbigliamento donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 8
+          }
+        ]
+      }
+    }
+  ],
+  "generatedAt": "2026-06-15T09:40:17.347Z"
+}

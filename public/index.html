@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TTPED Studio — TikTok Shop Trend & Profit Engine</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🚀</text></svg>" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-pink"></div>
+  <div class="bg-glow bg-glow-cyan"></div>
+
+  <header class="topbar">
+    <div class="logo">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text">TTPED<em>Studio</em></span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-tab="trends">🔥 Trend</button>
+      <button class="tab" data-tab="studio">🎬 Video Studio</button>
+      <button class="tab" data-tab="affiliate">💰 Affiliate</button>
+      <button class="tab" data-tab="settings">⚙️ Impostazioni</button>
+    </nav>
+    <div class="top-status" id="topStatus"></div>
+  </header>
+
+  <main>
+    <!-- TREND -->
+    <section id="tab-trends" class="panel active">
+      <div class="panel-head">
+        <div>
+          <h1>Top 20 moda donna in impennata <span class="accent">su TikTok Shop</span></h1>
+          <p class="sub" id="trendsMeta">Caricamento…</p>
+          <p class="sub">Ranking = impennata vendite ultimi 7 giorni (55%) + commissione affiliate (30%) + volume (15%) · priorità ad abbigliamento e pantaloni donna</p>
+        </div>
+        <button class="btn btn-primary" id="btnScrape">↻ Aggiorna ora</button>
+      </div>
+      <div id="trendsBanner"></div>
+      <div class="grid" id="trendsGrid"></div>
+    </section>
+
+    <!-- STUDIO -->
+    <section id="tab-studio" class="panel">
+      <div class="panel-head">
+        <div>
+          <h1>Video Studio <span class="accent">AI</span></h1>
+          <p class="sub">Nano Banana 2 → Kling 2.5 (10s · 9:16) via API Freepik · download e pubblicazione su TikTok</p>
+        </div>
+        <button class="btn btn-primary" id="btnDaily">⚡ Genera i 10 video di oggi</button>
+      </div>
+      <div class="kpi-row" id="studioKpis"></div>
+      <div id="studioBanner"></div>
+      <div class="jobs" id="jobsList"></div>
+    </section>
+
+    <!-- AFFILIATE -->
+    <section id="tab-affiliate" class="panel">
+      <div class="panel-head">
+        <div>
+          <h1>Affiliate <span class="accent">Intelligence</span></h1>
+          <p class="sub">Importa l'export ordini dal Centro Affiliazione TikTok Shop (Dati → Ordini → Esporta CSV)</p>
+        </div>
+        <label class="btn btn-ghost" for="csvInput">⬆ Importa CSV ordini</label>
+        <input type="file" id="csvInput" accept=".csv,text/csv" hidden multiple />
+      </div>
+      <div id="affBanner"></div>
+      <div id="affContent"></div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section id="tab-settings" class="panel">
+      <div class="panel-head">
+        <div>
+          <h1>Impostazioni</h1>
+          <p class="sub">Chiavi API, account TikTok e automazioni giornaliere</p>
+        </div>
+        <button class="btn btn-primary" id="btnSaveSettings">💾 Salva</button>
+      </div>
+      <div id="settingsForm" class="settings"></div>
+    </section>
+  </main>
+
+  <div class="toasts" id="toasts"></div>
+  <script src="app.js"></script>
+</body>
+</html>

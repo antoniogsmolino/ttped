@@ -1,0 +1,42 @@
+name: Aggiorna trend TikTok Shop
+
+on:
+  schedule:
+    # 05:30 UTC = 07:30 (ora legale) / 06:30 (ora solare) in Italia. GitHub usa UTC.
+    - cron: '30 5 * * *'
+  workflow_dispatch: {}   # permette l'avvio manuale dal tab "Actions" di GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Esegui scraping
+        env:
+          FASTMOSS_COOKIE: ${{ secrets.FASTMOSS_COOKIE }}
+          REGION: IT
+        run: node scripts/scrape.js
+
+      - name: Pubblica i risultati
+        run: |
+          git config user.name "ttped-bot"
+          git config user.email "bot@ttped.local"
+          git add docs/data/trends.json docs/data/products.json docs/data/status.json
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica da pubblicare."
+          else
+            git commit -m "Trend update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
