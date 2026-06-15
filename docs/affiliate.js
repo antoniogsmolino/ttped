@@ -41,24 +41,34 @@
     productName: ['product name', 'nome prodotto', 'nome del prodotto', 'product', 'prodotto', 'titolo prodotto'],
     productId: ['product id', 'id prodotto', 'product_id'],
     shopName: ['shop name', 'nome negozio', 'nome del negozio', 'negozio', 'seller', 'seller name', 'nome venditore', 'venditore', 'shop'],
-    status: ['order status', 'stato ordine', "stato dell'ordine", 'status', 'stato', 'order substatus'],
+    status: ['stato pagamento ordini', 'order status', 'stato ordine', "stato dell'ordine", 'status', 'stato', 'order substatus'],
     commissionRate: ['commission rate', 'tasso di commissione', 'percentuale di commissione', 'commission rate(%)', 'commission rate (%)', 'tasso commissione'],
-    estCommission: ['estimated commission', 'commissione stimata', 'est. commission', 'estimated commission amount'],
-    actualCommission: ['actual commission', 'commissione effettiva', 'actual commission amount', 'commissione reale', 'commission', 'commissione'],
-    amount: ['order amount', 'importo ordine', "importo dell'ordine", 'payment amount', 'importo pagato', 'gmv', 'total revenue', 'order paid amount', 'prezzo totale', 'importo totale'],
-    date: ['order created time', 'created time', 'data ordine', 'data di creazione', 'order create time', 'data creazione ordine', 'time', 'data', 'order time', 'ora di creazione'],
-    contentType: ['content type', 'tipo di contenuto', 'source', 'fonte', 'canale'],
+    // NB: "Commissione base stimata"/"Base commissione effettiva" sono la base imponibile (≈GMV), non la commissione → escluse.
+    estCommission: ['commissione stimata standard', 'estimated commission', 'commissione stimata', 'est. commission', 'estimated commission amount'],
+    actualCommission: ['importo totale finale guadagnato', 'actual commission', 'commissione effettiva', 'actual commission amount', 'commissione reale'],
+    amount: ['valore lordo della merce (gmv)', 'valore lordo della merce(gmv)', 'valore lordo della merce', 'order amount', 'importo ordine', "importo dell'ordine", 'payment amount', 'importo pagato', 'gmv', 'total revenue', 'order paid amount', 'prezzo totale', 'importo totale'],
+    date: ['data ordine', 'order created time', 'created time', 'data di creazione', 'order create time', 'data creazione ordine', 'order time', 'ora di creazione', 'time', 'data'],
+    contentType: ['tipo di contenuto', 'content type', 'source', 'fonte', 'canale'],
   };
 
   const normHeader = (h) => h.toLowerCase().replace(/["']/g, '').replace(/\s+/g, ' ').trim();
 
   function mapHeaders(headerRow) {
+    const headers = headerRow.map(normHeader);
     const mapping = {};
-    headerRow.forEach((raw, idx) => {
-      const h = normHeader(raw);
+    // Passata 1: match esatti (deterministici, gestiscono le tante colonne "Commissione…").
+    headers.forEach((h, idx) => {
       for (const [field, variants] of Object.entries(HEADER_MAP)) {
         if (mapping[field] !== undefined) continue;
-        if (variants.some((v) => h === v || h.startsWith(v))) { mapping[field] = idx; break; }
+        if (variants.includes(h)) { mapping[field] = idx; break; }
+      }
+    });
+    // Passata 2: match per prefisso, solo per i campi ancora liberi.
+    headers.forEach((h, idx) => {
+      if (Object.values(mapping).includes(idx)) return;
+      for (const [field, variants] of Object.entries(HEADER_MAP)) {
+        if (mapping[field] !== undefined) continue;
+        if (variants.some((v) => h.startsWith(v))) { mapping[field] = idx; break; }
       }
     });
     return mapping;
@@ -92,15 +102,14 @@
   const isSettled = (s) => /settl|complet|pagat|paid|liquidat/.test((s || '').toLowerCase());
   const commissionOf = (o) => o.actualCommission || o.estCommission || 0;
 
-  // Restituisce gli ordini parsati da un CSV (senza salvarli: lo fa il chiamante).
-  function parse(text) {
-    const rows = parseCSV(text);
-    if (rows.length < 2) throw new Error('CSV vuoto o non valido');
+  // Converte righe (array di array) in ordini. Usata sia per CSV sia per Excel.
+  function rowsToOrders(rows) {
+    if (rows.length < 2) throw new Error('File vuoto o senza dati');
     const mapping = mapHeaders(rows[0]);
     if (mapping.productName === undefined && mapping.orderId === undefined) {
       throw new Error('Intestazioni non riconosciute: ' + rows[0].slice(0, 8).join(' | '));
     }
-    const get = (row, field) => (mapping[field] !== undefined ? (row[mapping[field]] || '').trim() : '');
+    const get = (row, field) => (mapping[field] !== undefined ? String(row[mapping[field]] ?? '').trim() : '');
     const orders = [];
     for (const row of rows.slice(1)) {
       const o = {
@@ -117,9 +126,111 @@
         contentType: get(row, 'contentType'),
       };
       if (!o.productName && !o.amount) continue;
+      // L'export TikTok non ha una colonna "% commissione": la deriviamo dall'incassato sul GMV.
+      if (!o.commissionRate) {
+        const c = o.actualCommission || o.estCommission;
+        if (c && o.amount) o.commissionRate = Math.round((c / o.amount) * 1000) / 10;
+      }
       orders.push(o);
     }
     return { orders, mappedFields: Object.keys(mapping) };
+  }
+
+  // Parsing CSV (testo).
+  function parse(text) {
+    return rowsToOrders(parseCSV(text));
+  }
+
+  // ---------- Lettore XLSX nativo (niente librerie: usa DecompressionStream) ----------
+  function colIndex(ref) {
+    const m = (ref || '').match(/^([A-Z]+)/);
+    if (!m) return 0;
+    let n = 0;
+    for (const ch of m[1]) n = n * 26 + (ch.charCodeAt(0) - 64);
+    return n - 1;
+  }
+
+  async function inflateRaw(bytes) {
+    const ds = new DecompressionStream('deflate-raw');
+    const w = ds.writable.getWriter();
+    w.write(bytes); w.close();
+    return new Uint8Array(await new Response(ds.readable).arrayBuffer());
+  }
+
+  // Estrae il testo di un file dall'archivio ZIP (.xlsx) leggendo la central directory.
+  async function readZipEntry(buf, name) {
+    const dv = new DataView(buf), u8 = new Uint8Array(buf);
+    let eocd = -1;
+    for (let i = buf.byteLength - 22; i >= 0; i--) { if (dv.getUint32(i, true) === 0x06054b50) { eocd = i; break; } }
+    if (eocd < 0) throw new Error('File Excel non valido');
+    let off = dv.getUint32(eocd + 16, true);
+    const count = dv.getUint16(eocd + 10, true);
+    const dec = new TextDecoder();
+    for (let i = 0; i < count; i++) {
+      if (dv.getUint32(off, true) !== 0x02014b50) break;
+      const method = dv.getUint16(off + 10, true);
+      const compSize = dv.getUint32(off + 20, true);
+      const nameLen = dv.getUint16(off + 28, true);
+      const extraLen = dv.getUint16(off + 30, true);
+      const commentLen = dv.getUint16(off + 32, true);
+      const lho = dv.getUint32(off + 42, true);
+      const fname = dec.decode(u8.subarray(off + 46, off + 46 + nameLen));
+      if (fname === name) {
+        const lNameLen = dv.getUint16(lho + 26, true);
+        const lExtraLen = dv.getUint16(lho + 28, true);
+        const start = lho + 30 + lNameLen + lExtraLen;
+        const data = u8.subarray(start, start + compSize);
+        if (method === 0) return dec.decode(data);
+        if (method === 8) return dec.decode(await inflateRaw(data));
+        throw new Error('Compressione Excel non supportata');
+      }
+      off += 46 + nameLen + extraLen + commentLen;
+    }
+    throw new Error('Foglio non trovato nel file Excel');
+  }
+
+  function parseSharedStrings(xml) {
+    const doc = new DOMParser().parseFromString(xml, 'application/xml');
+    return [...doc.getElementsByTagName('si')].map((si) =>
+      [...si.getElementsByTagName('t')].map((t) => t.textContent).join(''));
+  }
+
+  function sheetToRows(xml, shared) {
+    const doc = new DOMParser().parseFromString(xml, 'application/xml');
+    const rows = [];
+    for (const r of doc.getElementsByTagName('row')) {
+      const row = [];
+      for (const c of r.getElementsByTagName('c')) {
+        const idx = colIndex(c.getAttribute('r'));
+        const type = c.getAttribute('t');
+        let val = '';
+        if (type === 'inlineStr') {
+          const tEl = c.getElementsByTagName('t')[0];
+          val = tEl ? tEl.textContent : '';
+        } else {
+          const v = c.getElementsByTagName('v')[0];
+          val = v ? v.textContent : '';
+          if (type === 's' && shared && shared.length) val = shared[+val] || ''; // riferimento a shared strings
+        }
+        row[idx] = val;
+      }
+      for (let i = 0; i < row.length; i++) if (row[i] === undefined) row[i] = '';
+      rows.push(row);
+    }
+    return rows;
+  }
+
+  // Parsing XLSX (ArrayBuffer). Async per via della decompressione.
+  async function parseXlsx(arrayBuffer) {
+    if (typeof DecompressionStream === 'undefined') {
+      throw new Error('Il tuo browser non supporta i file Excel: esporta in CSV o aprilo con Chrome/Safari aggiornato');
+    }
+    let shared = [];
+    try { shared = parseSharedStrings(await readZipEntry(arrayBuffer, 'xl/sharedStrings.xml')); } catch { /* inline strings */ }
+    let xml;
+    try { xml = await readZipEntry(arrayBuffer, 'xl/worksheets/sheet1.xml'); }
+    catch { xml = await readZipEntry(arrayBuffer, 'xl/worksheets/sheet01.xml'); }
+    return rowsToOrders(sheetToRows(xml, shared));
   }
 
   // ---------- Analytics ----------
@@ -353,7 +464,7 @@
     return { score: Math.round(score * 100) / 100, reasons };
   }
 
-  const API = { parse, analytics, strategy, profile, personalMatch };
+  const API = { parse, parseXlsx, analytics, strategy, profile, personalMatch };
   if (typeof module !== 'undefined' && module.exports) module.exports = API;
   else root.Affiliate = API;
 })(typeof window !== 'undefined' ? window : globalThis);

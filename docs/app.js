@@ -195,7 +195,7 @@ function loadAffiliate() {
     $('#affContent').innerHTML = `
       <div class="dropzone" id="dropzone">
         <div style="font-size:34px;margin-bottom:10px">📂</div>
-        Trascina qui il CSV degli ordini esportato dal <b>Centro Affiliazione TikTok Shop</b><br/>
+        Trascina qui il file ordini (<b>CSV o Excel .xlsx</b>) esportato dal <b>Centro Affiliazione TikTok Shop</b><br/>
         <span style="font-size:12px">(Centro Affiliazione → Dati → Analisi ordini → Esporta) · i dati restano sul tuo dispositivo</span>
       </div>`;
     bindDropzone();
@@ -236,8 +236,8 @@ function loadAffiliate() {
     </div>
     <div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
       <span class="hint">${orders.length} ordini in memoria sul dispositivo</span>
-      <label class="btn btn-ghost btn-sm" for="csvInput2">⬆ Aggiungi altro CSV</label>
-      <input type="file" id="csvInput2" accept=".csv,text/csv" hidden multiple />
+      <label class="btn btn-ghost btn-sm" for="csvInput2">⬆ Aggiungi altro file</label>
+      <input type="file" id="csvInput2" accept=".csv,.xlsx,text/csv" hidden multiple />
       <button class="btn btn-danger btn-sm" style="margin-left:auto" onclick="resetAffiliate()">🗑 Azzera dati</button>
     </div>`;
   const extra = $('#csvInput2');
@@ -249,8 +249,10 @@ async function importFiles(files) {
   const existing = new Set(orders.map((o) => o.orderId));
   for (const file of files) {
     try {
-      const text = await file.text();
-      const { orders: parsed } = Affiliate.parse(text);
+      const isXlsx = /\.xlsx$/i.test(file.name) || /sheet|excel/i.test(file.type);
+      const { orders: parsed } = isXlsx
+        ? await Affiliate.parseXlsx(await file.arrayBuffer())
+        : Affiliate.parse(await file.text());
       let added = 0;
       for (const o of parsed) { if (!existing.has(o.orderId)) { orders.push(o); existing.add(o.orderId); added++; } }
       toast(`${file.name}: ${added} ordini nuovi (${parsed.length - added} duplicati)`, 'ok');

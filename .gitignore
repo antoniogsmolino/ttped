@@ -8,3 +8,8 @@ node_modules/
 
 # Snapshot giornalieri: non servono nel repo (lo storico vive in docs/data/products.json)
 docs/data/snapshots/
+
+# Export ordini affiliate dell'utente (dati di vendita privati): MAI nel repo pubblico
+*.xlsx
+*.csv
+affiliate_orders*
