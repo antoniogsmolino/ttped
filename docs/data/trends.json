@@ -1,6 +1,6 @@
 {
   "status": {
-    "lastRun": "2026-06-15T11:10:37.777Z",
+    "lastRun": "2026-06-15T15:36:44.726Z",
     "ok": true,
     "count": 437,
     "matched": 313,
@@ -12,122 +12,6 @@
   },
   "rankings": {
     "d7": [
-      {
-        "history": [
-          {
-            "date": "2026-06-12",
-            "soldDaily": 120,
-            "soldTotal": 177,
-            "incRate": 242.86
-          }
-        ],
-        "id": "1729823804713375752",
-        "title": "Pantalone Satin",
-        "cover": "https://s.500fd.com/tt_product/ba3b355eb4894922b5441742e368ef09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "17,99 €",
-        "currency": "EUR",
-        "cats": [
-          "Trousers"
-        ],
-        "shop": "Normaleclothing",
-        "soldDaily": 120,
-        "soldTotal": 177,
-        "amountDaily": 2158.8,
-        "incRate": 242.86,
-        "commissionRate": 12.5,
-        "region": "IT",
-        "sold7": null,
-        "sold14": null,
-        "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729823804713375752",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823804713375752",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-12",
-        "trend": {
-          "window": "d7",
-          "score": 86.4,
-          "spikePct": 242.9,
-          "euroPerSale": 2.25,
-          "euroPerVideo": 33.75,
-          "salesPerVideo": 15,
-          "creators": 0,
-          "videos": 0,
-          "priceValue": 17.99,
-          "sold7": 120,
-          "catLabel": "Pantaloni donna",
-          "days": 1,
-          "spark": [
-            {
-              "date": "2026-06-12",
-              "v": 120
-            }
-          ]
-        }
-      },
-      {
-        "history": [
-          {
-            "date": "2026-06-12",
-            "soldDaily": 67,
-            "soldTotal": 97,
-            "incRate": 0
-          },
-          {
-            "date": "2026-06-15",
-            "soldDaily": 135,
-            "soldTotal": 165,
-            "incRate": 542.86
-          }
-        ],
-        "id": "1729751208647760164",
-        "title": "Shorts di jeans da donna eleganti a vita alta, linea ad A, vestibilità ampia e design valorizzante, stile boho versatile per la moda estiva",
-        "cover": "https://s.500fd.com/tt_product/ecaabedc009d42148c4bee12f6acbbb5~tplv-aphluv4xwc-resize-webp:800:800.webp",
-        "price": "18,27 €",
-        "currency": "EUR",
-        "cats": [
-          "Women's Bottoms"
-        ],
-        "shop": "Fashion forefront",
-        "soldDaily": 135,
-        "soldTotal": 165,
-        "amountDaily": 2466.45,
-        "incRate": 542.86,
-        "commissionRate": 5,
-        "region": "IT",
-        "sold7": null,
-        "sold14": null,
-        "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729751208647760164",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729751208647760164",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-15",
-        "creators": 5,
-        "videosCount": 0,
-        "trend": {
-          "window": "d7",
-          "score": 81.6,
-          "spikePct": 542.9,
-          "euroPerSale": 0.91,
-          "euroPerVideo": 30.64,
-          "salesPerVideo": 33.7,
-          "creators": 5,
-          "videos": 0,
-          "priceValue": 18.27,
-          "sold7": 202,
-          "catLabel": "Pantaloni donna",
-          "days": 2,
-          "spark": [
-            {
-              "date": "2026-06-12",
-              "v": 67
-            },
-            {
-              "date": "2026-06-15",
-              "v": 135
-            }
-          ]
-        }
-      },
       {
         "history": [
           {
@@ -188,6 +72,58 @@
             {
               "date": "2026-06-15",
               "v": 127
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
+            "date": "2026-06-12",
+            "soldDaily": 120,
+            "soldTotal": 177,
+            "incRate": 242.86
+          }
+        ],
+        "id": "1729823804713375752",
+        "title": "Pantalone Satin",
+        "cover": "https://s.500fd.com/tt_product/ba3b355eb4894922b5441742e368ef09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "17,99 €",
+        "currency": "EUR",
+        "cats": [
+          "Trousers"
+        ],
+        "shop": "Normaleclothing",
+        "soldDaily": 120,
+        "soldTotal": 177,
+        "amountDaily": 2158.8,
+        "incRate": 242.86,
+        "commissionRate": 12.5,
+        "region": "IT",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729823804713375752",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823804713375752",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-12",
+        "trend": {
+          "window": "d7",
+          "score": 81.4,
+          "spikePct": 242.9,
+          "euroPerSale": 2.25,
+          "euroPerVideo": 18,
+          "salesPerVideo": 8,
+          "creators": 0,
+          "videos": 0,
+          "priceValue": 17.99,
+          "sold7": 120,
+          "catLabel": "Pantaloni donna",
+          "days": 1,
+          "spark": [
+            {
+              "date": "2026-06-12",
+              "v": 120
             }
           ]
         }
@@ -360,50 +296,62 @@
         "history": [
           {
             "date": "2026-06-12",
-            "soldDaily": 169,
-            "soldTotal": 549,
-            "incRate": 2716.67
+            "soldDaily": 67,
+            "soldTotal": 97,
+            "incRate": 0
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 135,
+            "soldTotal": 165,
+            "incRate": 542.86
           }
         ],
-        "id": "1729468100859563516",
-        "title": "Anello da Donna in Argento Sterling 925 - A Mia Figlia",
-        "cover": "https://s.500fd.com/tt_product/38f16fec106742c690b1544c7f248179~tplv-tulkllf4y5-resize-jpeg:800:800.jpeg",
-        "price": "28,44 €",
+        "id": "1729751208647760164",
+        "title": "Shorts di jeans da donna eleganti a vita alta, linea ad A, vestibilità ampia e design valorizzante, stile boho versatile per la moda estiva",
+        "cover": "https://s.500fd.com/tt_product/ecaabedc009d42148c4bee12f6acbbb5~tplv-aphluv4xwc-resize-webp:800:800.webp",
+        "price": "18,27 €",
         "currency": "EUR",
         "cats": [
-          "Silver Rings"
+          "Women's Bottoms"
         ],
-        "shop": "Bramart",
-        "soldDaily": 169,
-        "soldTotal": 549,
-        "amountDaily": 4806.36,
-        "incRate": 2716.67,
-        "commissionRate": 15,
+        "shop": "Fashion forefront",
+        "soldDaily": 135,
+        "soldTotal": 165,
+        "amountDaily": 2466.45,
+        "incRate": 542.86,
+        "commissionRate": 5,
         "region": "IT",
         "sold7": null,
         "sold14": null,
         "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729468100859563516",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729468100859563516",
-        "l1Hint": "accessories",
-        "lastSeen": "2026-06-12",
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729751208647760164",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729751208647760164",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-15",
+        "creators": 5,
+        "videosCount": 0,
         "trend": {
           "window": "d7",
           "score": 73.4,
-          "spikePct": 2716.7,
-          "euroPerSale": 4.27,
-          "euroPerVideo": 90.2,
-          "salesPerVideo": 21.1,
-          "creators": 0,
+          "spikePct": 542.9,
+          "euroPerSale": 0.91,
+          "euroPerVideo": 10.92,
+          "salesPerVideo": 33.7,
+          "creators": 5,
           "videos": 0,
-          "priceValue": 28.44,
-          "sold7": 169,
-          "catLabel": "Accessori donna",
-          "days": 1,
+          "priceValue": 18.27,
+          "sold7": 202,
+          "catLabel": "Pantaloni donna",
+          "days": 2,
           "spark": [
             {
               "date": "2026-06-12",
-              "v": 169
+              "v": 67
+            },
+            {
+              "date": "2026-06-15",
+              "v": 135
             }
           ]
         }
@@ -465,6 +413,58 @@
       {
         "history": [
           {
+            "date": "2026-06-12",
+            "soldDaily": 169,
+            "soldTotal": 549,
+            "incRate": 2716.67
+          }
+        ],
+        "id": "1729468100859563516",
+        "title": "Anello da Donna in Argento Sterling 925 - A Mia Figlia",
+        "cover": "https://s.500fd.com/tt_product/38f16fec106742c690b1544c7f248179~tplv-tulkllf4y5-resize-jpeg:800:800.jpeg",
+        "price": "28,44 €",
+        "currency": "EUR",
+        "cats": [
+          "Silver Rings"
+        ],
+        "shop": "Bramart",
+        "soldDaily": 169,
+        "soldTotal": 549,
+        "amountDaily": 4806.36,
+        "incRate": 2716.67,
+        "commissionRate": 15,
+        "region": "IT",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729468100859563516",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729468100859563516",
+        "l1Hint": "accessories",
+        "lastSeen": "2026-06-12",
+        "trend": {
+          "window": "d7",
+          "score": 71.5,
+          "spikePct": 2716.7,
+          "euroPerSale": 4.27,
+          "euroPerVideo": 48.11,
+          "salesPerVideo": 11.3,
+          "creators": 0,
+          "videos": 0,
+          "priceValue": 28.44,
+          "sold7": 169,
+          "catLabel": "Accessori donna",
+          "days": 1,
+          "spark": [
+            {
+              "date": "2026-06-12",
+              "v": 169
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
             "date": "2026-06-15",
             "soldDaily": 314,
             "soldTotal": 2201,
@@ -497,10 +497,10 @@
         "videosCount": 0,
         "trend": {
           "window": "d7",
-          "score": 70.1,
+          "score": 66.1,
           "spikePct": 4385.7,
           "euroPerSale": 2.81,
-          "euroPerVideo": 168.6,
+          "euroPerVideo": 33.72,
           "salesPerVideo": 78.5,
           "creators": 3,
           "videos": 0,
@@ -512,70 +512,6 @@
             {
               "date": "2026-06-15",
               "v": 314
-            }
-          ]
-        }
-      },
-      {
-        "history": [
-          {
-            "date": "2026-06-12",
-            "soldDaily": 50,
-            "soldTotal": 404,
-            "incRate": 0
-          },
-          {
-            "date": "2026-06-15",
-            "soldDaily": 135,
-            "soldTotal": 443,
-            "incRate": 136.84
-          }
-        ],
-        "id": "1729829597791361070",
-        "title": "Bretelle Nascoste a X da 1,5 Pollici per Indossare Sotto i Vestiti, Bretelle da Lavoro Resistenti per Uomini e Donne",
-        "cover": "https://s.500fd.com/tt_product/2630b98855d04b67ab837e0eb1f8be83~tplv-o3syd03w52-resize-webp:800:800.webp",
-        "price": "19,80 €",
-        "currency": "EUR",
-        "cats": [
-          "Ties & Bow ties"
-        ],
-        "shop": "TechChic",
-        "soldDaily": 135,
-        "soldTotal": 443,
-        "amountDaily": 2673,
-        "incRate": 136.84,
-        "commissionRate": 5,
-        "region": "IT",
-        "sold7": null,
-        "sold14": null,
-        "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729829597791361070",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829597791361070",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-15",
-        "creators": 3,
-        "videosCount": 0,
-        "trend": {
-          "window": "d7",
-          "score": 69.3,
-          "spikePct": 136.8,
-          "euroPerSale": 0.99,
-          "euroPerVideo": 45.79,
-          "salesPerVideo": 46.3,
-          "creators": 3,
-          "videos": 0,
-          "priceValue": 19.8,
-          "sold7": 185,
-          "catLabel": "Abiti donna",
-          "days": 2,
-          "spark": [
-            {
-              "date": "2026-06-12",
-              "v": 50
-            },
-            {
-              "date": "2026-06-15",
-              "v": 135
             }
           ]
         }
@@ -613,11 +549,11 @@
         "lastSeen": "2026-06-12",
         "trend": {
           "window": "d7",
-          "score": 69.2,
+          "score": 64.8,
           "spikePct": 395.2,
           "euroPerSale": 0.55,
-          "euroPerVideo": 7.15,
-          "salesPerVideo": 13,
+          "euroPerVideo": 3.81,
+          "salesPerVideo": 6.9,
           "creators": 0,
           "videos": 0,
           "priceValue": 10.99,
@@ -628,58 +564,6 @@
             {
               "date": "2026-06-12",
               "v": 104
-            }
-          ]
-        }
-      },
-      {
-        "history": [
-          {
-            "date": "2026-06-12",
-            "soldDaily": 146,
-            "soldTotal": 2410,
-            "incRate": 461.54
-          }
-        ],
-        "id": "1729756133624486724",
-        "title": "Body modellante da donna con profondo scollo a V e schiena scoperta, taglie XS–XXL, design semplice, spalline regolabili, stile casual, adatto a tutte le stagioni",
-        "cover": "https://s.500fd.com/tt_product/32a6d83212894fbfa537bdc102566c93~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "€4,90",
-        "currency": "EUR",
-        "cats": [
-          "Women's Underwear"
-        ],
-        "shop": "Jiaxiya Store",
-        "soldDaily": 146,
-        "soldTotal": 2410,
-        "amountDaily": 715.4,
-        "incRate": 461.54,
-        "commissionRate": 5,
-        "region": "IT",
-        "sold7": null,
-        "sold14": null,
-        "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729756133624486724",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729756133624486724",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-12",
-        "trend": {
-          "window": "d7",
-          "score": 65.1,
-          "spikePct": 461.5,
-          "euroPerSale": 0.25,
-          "euroPerVideo": 4.56,
-          "salesPerVideo": 18.3,
-          "creators": 0,
-          "videos": 0,
-          "priceValue": 4.9,
-          "sold7": 146,
-          "catLabel": "Abbigliamento donna",
-          "days": 1,
-          "spark": [
-            {
-              "date": "2026-06-12",
-              "v": 146
             }
           ]
         }
@@ -752,50 +636,50 @@
         "history": [
           {
             "date": "2026-06-12",
-            "soldDaily": 8,
-            "soldTotal": 92,
-            "incRate": 166.67
+            "soldDaily": 146,
+            "soldTotal": 2410,
+            "incRate": 461.54
           }
         ],
-        "id": "1729739781942253735",
-        "title": "Popilush abito mini da cocktail con shapewear integrato, modellante, da donna, senza maniche, satin sexy, scollo quadrato, controllo dell’addome, con integrato",
-        "cover": "https://s.500fd.com/tt_product/4e2fb598dc0b4aa7a82f323ba5a5221e~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "29,99 €",
+        "id": "1729756133624486724",
+        "title": "Body modellante da donna con profondo scollo a V e schiena scoperta, taglie XS–XXL, design semplice, spalline regolabili, stile casual, adatto a tutte le stagioni",
+        "cover": "https://s.500fd.com/tt_product/32a6d83212894fbfa537bdc102566c93~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "€4,90",
         "currency": "EUR",
         "cats": [
-          "Casual Dresses"
+          "Women's Underwear"
         ],
-        "shop": "Popilush EU Shop",
-        "soldDaily": 8,
-        "soldTotal": 92,
-        "amountDaily": 239.92,
-        "incRate": 166.67,
-        "commissionRate": 10,
+        "shop": "Jiaxiya Store",
+        "soldDaily": 146,
+        "soldTotal": 2410,
+        "amountDaily": 715.4,
+        "incRate": 461.54,
+        "commissionRate": 5,
         "region": "IT",
         "sold7": null,
         "sold14": null,
         "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729739781942253735",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729739781942253735",
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729756133624486724",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729756133624486724",
         "l1Hint": "womenswear",
         "lastSeen": "2026-06-12",
         "trend": {
           "window": "d7",
-          "score": 62.3,
-          "spikePct": 166.7,
-          "euroPerSale": 3,
-          "euroPerVideo": 3,
-          "salesPerVideo": 1,
+          "score": 61.1,
+          "spikePct": 461.5,
+          "euroPerSale": 0.25,
+          "euroPerVideo": 2.43,
+          "salesPerVideo": 9.7,
           "creators": 0,
           "videos": 0,
-          "priceValue": 29.99,
-          "sold7": 8,
+          "priceValue": 4.9,
+          "sold7": 146,
           "catLabel": "Abbigliamento donna",
           "days": 1,
           "spark": [
             {
               "date": "2026-06-12",
-              "v": 8
+              "v": 146
             }
           ]
         }
@@ -850,6 +734,122 @@
             {
               "date": "2026-06-15",
               "v": 25
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
+            "date": "2026-06-12",
+            "soldDaily": 8,
+            "soldTotal": 92,
+            "incRate": 166.67
+          }
+        ],
+        "id": "1729739781942253735",
+        "title": "Popilush abito mini da cocktail con shapewear integrato, modellante, da donna, senza maniche, satin sexy, scollo quadrato, controllo dell’addome, con integrato",
+        "cover": "https://s.500fd.com/tt_product/4e2fb598dc0b4aa7a82f323ba5a5221e~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "29,99 €",
+        "currency": "EUR",
+        "cats": [
+          "Casual Dresses"
+        ],
+        "shop": "Popilush EU Shop",
+        "soldDaily": 8,
+        "soldTotal": 92,
+        "amountDaily": 239.92,
+        "incRate": 166.67,
+        "commissionRate": 10,
+        "region": "IT",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729739781942253735",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729739781942253735",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-12",
+        "trend": {
+          "window": "d7",
+          "score": 58.7,
+          "spikePct": 166.7,
+          "euroPerSale": 3,
+          "euroPerVideo": 1.6,
+          "salesPerVideo": 0.5,
+          "creators": 0,
+          "videos": 0,
+          "priceValue": 29.99,
+          "sold7": 8,
+          "catLabel": "Abbigliamento donna",
+          "days": 1,
+          "spark": [
+            {
+              "date": "2026-06-12",
+              "v": 8
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
+            "date": "2026-06-12",
+            "soldDaily": 50,
+            "soldTotal": 404,
+            "incRate": 0
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 135,
+            "soldTotal": 443,
+            "incRate": 136.84
+          }
+        ],
+        "id": "1729829597791361070",
+        "title": "Bretelle Nascoste a X da 1,5 Pollici per Indossare Sotto i Vestiti, Bretelle da Lavoro Resistenti per Uomini e Donne",
+        "cover": "https://s.500fd.com/tt_product/2630b98855d04b67ab837e0eb1f8be83~tplv-o3syd03w52-resize-webp:800:800.webp",
+        "price": "19,80 €",
+        "currency": "EUR",
+        "cats": [
+          "Ties & Bow ties"
+        ],
+        "shop": "TechChic",
+        "soldDaily": 135,
+        "soldTotal": 443,
+        "amountDaily": 2673,
+        "incRate": 136.84,
+        "commissionRate": 5,
+        "region": "IT",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729829597791361070",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829597791361070",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-15",
+        "creators": 3,
+        "videosCount": 0,
+        "trend": {
+          "window": "d7",
+          "score": 58.5,
+          "spikePct": 136.8,
+          "euroPerSale": 0.99,
+          "euroPerVideo": 11.88,
+          "salesPerVideo": 46.3,
+          "creators": 3,
+          "videos": 0,
+          "priceValue": 19.8,
+          "sold7": 185,
+          "catLabel": "Abiti donna",
+          "days": 2,
+          "spark": [
+            {
+              "date": "2026-06-12",
+              "v": 50
+            },
+            {
+              "date": "2026-06-15",
+              "v": 135
             }
           ]
         }
@@ -1193,107 +1193,63 @@
       {
         "history": [
           {
-            "date": "2026-06-05",
-            "soldDaily": 3
-          },
-          {
-            "date": "2026-06-06",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-07",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-08",
-            "soldDaily": 1
-          },
-          {
-            "date": "2026-06-09",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-10",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-11",
-            "soldDaily": 4
-          },
-          {
             "date": "2026-06-12",
-            "soldDaily": 4,
-            "soldTotal": 78,
-            "incRate": 0
+            "soldDaily": 28,
+            "soldTotal": 6702,
+            "incRate": 3.7
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 248,
+            "soldTotal": 6798,
+            "incRate": 552.63
           }
         ],
-        "id": "1729487622847699202",
-        "title": "Pantaloncini sportivi da donna in tinta unita a vita alta, Pantaloncini da ginnastica, Leggings corti con fascia larga in vita ad alta elasticità, Abbigliamento sportivo da donna per uso interno ed esterno",
-        "cover": "https://s.500fd.com/tt_product/4b0028480ca8434d92d56c1f04446833~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "7,06 - €7,88",
+        "id": "1729490967232682799",
+        "title": "Reggiseno senza ferretto e schiena scoperta in tinta unita da donna, Comodi reggiseni traspiranti multiuso per uso quotidiano, Lingerie morbida per tutte le stagioni",
+        "cover": "https://s.500fd.com/tt_product/4b4e04ea2b394fa49501d7b0949b0bc1~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "5,24 - 24,65 €",
         "currency": "EUR",
         "cats": [
-          "Sports & Outdoor",
-          "Sport & Outdoor Clothing"
+          "Women's Underwear"
         ],
-        "shop": "hearuisavy",
-        "soldDaily": 4,
-        "soldTotal": 78,
-        "amountDaily": 28.24,
-        "incRate": 0,
+        "shop": "Simply Chic Lingerie",
+        "soldDaily": 248,
+        "soldTotal": 6798,
+        "amountDaily": 1299.52,
+        "incRate": 552.63,
         "commissionRate": 5,
         "region": "IT",
-        "sold7": 8,
-        "sold14": 16,
-        "rating": 5,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729487622847699202",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729487622847699202",
-        "lastSeen": "2026-06-12",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729490967232682799",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729490967232682799",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-15",
+        "creators": 216,
+        "videosCount": 2,
         "trend": {
           "window": "d7",
-          "score": 53.6,
-          "spikePct": 601.1,
-          "euroPerSale": 0.35,
-          "euroPerVideo": 0.35,
-          "salesPerVideo": 1,
-          "creators": 0,
-          "videos": 0,
-          "priceValue": 7.06,
-          "sold7": 8,
-          "catLabel": "Pantaloni donna",
-          "days": 8,
+          "score": 53.2,
+          "spikePct": 552.6,
+          "euroPerSale": 0.26,
+          "euroPerVideo": 0.33,
+          "salesPerVideo": 1.3,
+          "creators": 216,
+          "videos": 2,
+          "priceValue": 5.24,
+          "sold7": 276,
+          "catLabel": "Abbigliamento donna",
+          "days": 2,
           "spark": [
             {
-              "date": "2026-06-05",
-              "v": 3
-            },
-            {
-              "date": "2026-06-06",
-              "v": 0
-            },
-            {
-              "date": "2026-06-07",
-              "v": 0
-            },
-            {
-              "date": "2026-06-08",
-              "v": 1
-            },
-            {
-              "date": "2026-06-09",
-              "v": 0
-            },
-            {
-              "date": "2026-06-10",
-              "v": 0
-            },
-            {
-              "date": "2026-06-11",
-              "v": 4
-            },
-            {
               "date": "2026-06-12",
-              "v": 4
+              "v": 28
+            },
+            {
+              "date": "2026-06-15",
+              "v": 248
             }
           ]
         }
@@ -2075,141 +2031,6 @@
       {
         "history": [
           {
-            "date": "2026-06-05",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-06",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-07",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-08",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-09",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-10",
-            "soldDaily": 211
-          },
-          {
-            "date": "2026-06-11",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-12",
-            "soldDaily": 250
-          },
-          {
-            "date": "2026-06-13",
-            "soldDaily": 106
-          },
-          {
-            "date": "2026-06-14",
-            "soldDaily": 78
-          },
-          {
-            "date": "2026-06-15",
-            "soldDaily": 78,
-            "soldTotal": 915,
-            "incRate": 0
-          }
-        ],
-        "id": "1729791819470838048",
-        "title": "ViviModa Completo Due Pezzi da Donna con Gilet a Righe o Monocolore, Top Senza Maniche e Pantaloni Ampi a Vita Alta, Elegante per Ufficio e Tempo Libero - Vv15023",
-        "cover": "https://s.500fd.com/tt_product/0b581499b47c4e7facc677e538a57205~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "22 €",
-        "currency": "EUR",
-        "cats": [
-          "Womenswear & Underwear",
-          "Women's Suits & Overalls"
-        ],
-        "shop": "ViviModa",
-        "soldDaily": 78,
-        "soldTotal": 915,
-        "amountDaily": 1716,
-        "incRate": 0,
-        "commissionRate": 10,
-        "region": "IT",
-        "sold7": 645,
-        "sold14": 723,
-        "rating": 4.5,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729791819470838048",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791819470838048",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-15",
-        "creators": 28,
-        "videosCount": 1,
-        "trend": {
-          "window": "h48",
-          "score": 39.3,
-          "spikePct": -56.2,
-          "euroPerSale": 2.2,
-          "euroPerVideo": 48.93,
-          "salesPerVideo": 22.2,
-          "creators": 28,
-          "videos": 1,
-          "priceValue": 22,
-          "sold7": 645,
-          "catLabel": "Abbigliamento donna",
-          "days": 11,
-          "spark": [
-            {
-              "date": "2026-06-05",
-              "v": 0
-            },
-            {
-              "date": "2026-06-06",
-              "v": 0
-            },
-            {
-              "date": "2026-06-07",
-              "v": 0
-            },
-            {
-              "date": "2026-06-08",
-              "v": 0
-            },
-            {
-              "date": "2026-06-09",
-              "v": 0
-            },
-            {
-              "date": "2026-06-10",
-              "v": 211
-            },
-            {
-              "date": "2026-06-11",
-              "v": 0
-            },
-            {
-              "date": "2026-06-12",
-              "v": 250
-            },
-            {
-              "date": "2026-06-13",
-              "v": 106
-            },
-            {
-              "date": "2026-06-14",
-              "v": 78
-            },
-            {
-              "date": "2026-06-15",
-              "v": 78
-            }
-          ]
-        }
-      },
-      {
-        "history": [
-          {
             "date": "2026-06-08",
             "soldDaily": 0
           },
@@ -2784,6 +2605,141 @@
       {
         "history": [
           {
+            "date": "2026-06-05",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-06",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-07",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-08",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-09",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-10",
+            "soldDaily": 211
+          },
+          {
+            "date": "2026-06-11",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-12",
+            "soldDaily": 250
+          },
+          {
+            "date": "2026-06-13",
+            "soldDaily": 106
+          },
+          {
+            "date": "2026-06-14",
+            "soldDaily": 78
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 78,
+            "soldTotal": 915,
+            "incRate": 0
+          }
+        ],
+        "id": "1729791819470838048",
+        "title": "ViviModa Completo Due Pezzi da Donna con Gilet a Righe o Monocolore, Top Senza Maniche e Pantaloni Ampi a Vita Alta, Elegante per Ufficio e Tempo Libero - Vv15023",
+        "cover": "https://s.500fd.com/tt_product/0b581499b47c4e7facc677e538a57205~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "22 €",
+        "currency": "EUR",
+        "cats": [
+          "Womenswear & Underwear",
+          "Women's Suits & Overalls"
+        ],
+        "shop": "ViviModa",
+        "soldDaily": 78,
+        "soldTotal": 915,
+        "amountDaily": 1716,
+        "incRate": 0,
+        "commissionRate": 10,
+        "region": "IT",
+        "sold7": 645,
+        "sold14": 723,
+        "rating": 4.5,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729791819470838048",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791819470838048",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-15",
+        "creators": 28,
+        "videosCount": 1,
+        "trend": {
+          "window": "h48",
+          "score": 34.3,
+          "spikePct": -56.2,
+          "euroPerSale": 2.2,
+          "euroPerVideo": 26.4,
+          "salesPerVideo": 22.2,
+          "creators": 28,
+          "videos": 1,
+          "priceValue": 22,
+          "sold7": 645,
+          "catLabel": "Abbigliamento donna",
+          "days": 11,
+          "spark": [
+            {
+              "date": "2026-06-05",
+              "v": 0
+            },
+            {
+              "date": "2026-06-06",
+              "v": 0
+            },
+            {
+              "date": "2026-06-07",
+              "v": 0
+            },
+            {
+              "date": "2026-06-08",
+              "v": 0
+            },
+            {
+              "date": "2026-06-09",
+              "v": 0
+            },
+            {
+              "date": "2026-06-10",
+              "v": 211
+            },
+            {
+              "date": "2026-06-11",
+              "v": 0
+            },
+            {
+              "date": "2026-06-12",
+              "v": 250
+            },
+            {
+              "date": "2026-06-13",
+              "v": 106
+            },
+            {
+              "date": "2026-06-14",
+              "v": 78
+            },
+            {
+              "date": "2026-06-15",
+              "v": 78
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
             "date": "2026-06-08",
             "soldDaily": 0
           },
@@ -3118,140 +3074,6 @@
       {
         "history": [
           {
-            "date": "2026-06-05",
-            "soldDaily": 12
-          },
-          {
-            "date": "2026-06-06",
-            "soldDaily": 15
-          },
-          {
-            "date": "2026-06-07",
-            "soldDaily": 13
-          },
-          {
-            "date": "2026-06-08",
-            "soldDaily": 16
-          },
-          {
-            "date": "2026-06-09",
-            "soldDaily": 8
-          },
-          {
-            "date": "2026-06-10",
-            "soldDaily": 16
-          },
-          {
-            "date": "2026-06-11",
-            "soldDaily": 13
-          },
-          {
-            "date": "2026-06-12",
-            "soldDaily": 4
-          },
-          {
-            "date": "2026-06-13",
-            "soldDaily": 10
-          },
-          {
-            "date": "2026-06-14",
-            "soldDaily": 7
-          },
-          {
-            "date": "2026-06-15",
-            "soldDaily": 7,
-            "soldTotal": 200,
-            "incRate": 0
-          }
-        ],
-        "id": "1729787973230697232",
-        "title": "Pantaloncini sportivi da donna ad asciugatura rapida e traspiranti, vestibilità ampia con vita elasticizzata, pantaloni casual estivi, stile Y2K a righe per uso domestico",
-        "cover": "https://s.500fd.com/tt_product/d69f7342bc4e43ba9065e09cc166b15a~tplv-t5fjg24jzw-resize-jpeg:300:300.jpeg",
-        "price": "23,11 €",
-        "currency": "EUR",
-        "cats": [
-          "Womenswear & Underwear",
-          "Women's Bottoms"
-        ],
-        "shop": "Gleamway",
-        "soldDaily": 7,
-        "soldTotal": 200,
-        "amountDaily": 161.77,
-        "incRate": 0,
-        "commissionRate": 5,
-        "region": "IT",
-        "sold7": 74,
-        "sold14": 200,
-        "rating": 5,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729787973230697232",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729787973230697232",
-        "lastSeen": "2026-06-15",
-        "creators": 3,
-        "videosCount": 0,
-        "trend": {
-          "window": "h48",
-          "score": 29.5,
-          "spikePct": 0,
-          "euroPerSale": 1.16,
-          "euroPerVideo": 21.46,
-          "salesPerVideo": 18.5,
-          "creators": 3,
-          "videos": 0,
-          "priceValue": 23.11,
-          "sold7": 74,
-          "catLabel": "Abbigliamento donna",
-          "days": 11,
-          "spark": [
-            {
-              "date": "2026-06-05",
-              "v": 12
-            },
-            {
-              "date": "2026-06-06",
-              "v": 15
-            },
-            {
-              "date": "2026-06-07",
-              "v": 13
-            },
-            {
-              "date": "2026-06-08",
-              "v": 16
-            },
-            {
-              "date": "2026-06-09",
-              "v": 8
-            },
-            {
-              "date": "2026-06-10",
-              "v": 16
-            },
-            {
-              "date": "2026-06-11",
-              "v": 13
-            },
-            {
-              "date": "2026-06-12",
-              "v": 4
-            },
-            {
-              "date": "2026-06-13",
-              "v": 10
-            },
-            {
-              "date": "2026-06-14",
-              "v": 7
-            },
-            {
-              "date": "2026-06-15",
-              "v": 7
-            }
-          ]
-        }
-      },
-      {
-        "history": [
-          {
             "date": "2026-06-08",
             "soldDaily": 18
           },
@@ -3496,20 +3318,8 @@
       {
         "history": [
           {
-            "date": "2026-06-05",
-            "soldDaily": 3
-          },
-          {
-            "date": "2026-06-06",
-            "soldDaily": 0
-          },
-          {
-            "date": "2026-06-07",
-            "soldDaily": 0
-          },
-          {
             "date": "2026-06-08",
-            "soldDaily": 1
+            "soldDaily": 0
           },
           {
             "date": "2026-06-09",
@@ -3521,66 +3331,68 @@
           },
           {
             "date": "2026-06-11",
-            "soldDaily": 4
+            "soldDaily": 0
           },
           {
             "date": "2026-06-12",
-            "soldDaily": 4,
-            "soldTotal": 78,
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-13",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-14",
+            "soldDaily": 1
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 1,
+            "soldTotal": 123,
             "incRate": 0
           }
         ],
-        "id": "1729487622847699202",
-        "title": "Pantaloncini sportivi da donna in tinta unita a vita alta, Pantaloncini da ginnastica, Leggings corti con fascia larga in vita ad alta elasticità, Abbigliamento sportivo da donna per uso interno ed esterno",
-        "cover": "https://s.500fd.com/tt_product/4b0028480ca8434d92d56c1f04446833~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "7,06 - €7,88",
+        "id": "1729480131997833686",
+        "title": "Camicetta da donna in tinta unita con volant e bottoni sul davanti, Top casual a maniche lunghe con colletto per uso quotidiano, Abbigliamento da donna per tutte le stagioni",
+        "cover": "https://s.500fd.com/tt_product/87d95efc20dc4003be69b488e57c5177~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+        "price": "6,48 - 7,13 €",
         "currency": "EUR",
         "cats": [
-          "Sports & Outdoor",
-          "Sport & Outdoor Clothing"
+          "Womenswear & Underwear",
+          "Women's Tops"
         ],
-        "shop": "hearuisavy",
-        "soldDaily": 4,
-        "soldTotal": 78,
-        "amountDaily": 28.24,
+        "shop": "Aitesi Clothing",
+        "soldDaily": 1,
+        "soldTotal": 123,
+        "amountDaily": 6.48,
         "incRate": 0,
-        "commissionRate": 5,
+        "commissionRate": 17,
         "region": "IT",
-        "sold7": 8,
-        "sold14": 16,
-        "rating": 5,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729487622847699202",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729487622847699202",
-        "lastSeen": "2026-06-12",
+        "sold7": 1,
+        "sold14": 1,
+        "rating": 4.4,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729480131997833686",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480131997833686",
+        "lastSeen": "2026-06-15",
+        "creators": 39,
+        "videosCount": 11,
         "trend": {
           "window": "h48",
-          "score": 28.6,
+          "score": 28.5,
           "spikePct": 100,
-          "euroPerSale": 0.35,
-          "euroPerVideo": 0.35,
-          "salesPerVideo": 1,
-          "creators": 0,
-          "videos": 0,
-          "priceValue": 7.06,
-          "sold7": 8,
-          "catLabel": "Pantaloni donna",
+          "euroPerSale": 1.1,
+          "euroPerVideo": 0.03,
+          "salesPerVideo": 0,
+          "creators": 39,
+          "videos": 11,
+          "priceValue": 6.48,
+          "sold7": 1,
+          "catLabel": "Abbigliamento donna",
           "days": 8,
           "spark": [
             {
-              "date": "2026-06-05",
-              "v": 3
-            },
-            {
-              "date": "2026-06-06",
-              "v": 0
-            },
-            {
-              "date": "2026-06-07",
-              "v": 0
-            },
-            {
               "date": "2026-06-08",
-              "v": 1
+              "v": 0
             },
             {
               "date": "2026-06-09",
@@ -3592,81 +3404,139 @@
             },
             {
               "date": "2026-06-11",
-              "v": 4
+              "v": 0
             },
             {
               "date": "2026-06-12",
-              "v": 4
+              "v": 0
+            },
+            {
+              "date": "2026-06-13",
+              "v": 0
+            },
+            {
+              "date": "2026-06-14",
+              "v": 1
+            },
+            {
+              "date": "2026-06-15",
+              "v": 1
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
+            "date": "2026-06-08",
+            "soldDaily": 3
+          },
+          {
+            "date": "2026-06-09",
+            "soldDaily": 1
+          },
+          {
+            "date": "2026-06-10",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-11",
+            "soldDaily": 2
+          },
+          {
+            "date": "2026-06-12",
+            "soldDaily": 1
+          },
+          {
+            "date": "2026-06-13",
+            "soldDaily": 0
+          },
+          {
+            "date": "2026-06-14",
+            "soldDaily": 1
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 1,
+            "soldTotal": 96,
+            "incRate": 0
+          }
+        ],
+        "id": "1729504011942140201",
+        "title": "Abito da donna semplice con scollo a V arricciato, abito lungo casual alla moda elegante per l'abbigliamento quotidiano all'aperto, vestito da donna per l'estate",
+        "cover": "https://s.500fd.com/tt_product/0b5d750488114d6e9fb6c25cb0b2a650~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "10,49 €",
+        "currency": "EUR",
+        "cats": [
+          "Womenswear & Underwear",
+          "Women's Dresses"
+        ],
+        "shop": "Ophelia Muse",
+        "soldDaily": 1,
+        "soldTotal": 96,
+        "amountDaily": 10.49,
+        "incRate": 0,
+        "commissionRate": 5,
+        "region": "IT",
+        "sold7": 8,
+        "sold14": 15,
+        "rating": 4.8,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729504011942140201",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729504011942140201",
+        "lastSeen": "2026-06-15",
+        "creators": 24,
+        "videosCount": 0,
+        "trend": {
+          "window": "h48",
+          "score": 27.9,
+          "spikePct": 100,
+          "euroPerSale": 0.52,
+          "euroPerVideo": 0.17,
+          "salesPerVideo": 0.3,
+          "creators": 24,
+          "videos": 0,
+          "priceValue": 10.49,
+          "sold7": 8,
+          "catLabel": "Abbigliamento donna",
+          "days": 8,
+          "spark": [
+            {
+              "date": "2026-06-08",
+              "v": 3
+            },
+            {
+              "date": "2026-06-09",
+              "v": 1
+            },
+            {
+              "date": "2026-06-10",
+              "v": 0
+            },
+            {
+              "date": "2026-06-11",
+              "v": 2
+            },
+            {
+              "date": "2026-06-12",
+              "v": 1
+            },
+            {
+              "date": "2026-06-13",
+              "v": 0
+            },
+            {
+              "date": "2026-06-14",
+              "v": 1
+            },
+            {
+              "date": "2026-06-15",
+              "v": 1
             }
           ]
         }
       }
     ],
     "h24": [
-      {
-        "history": [
-          {
-            "date": "2026-06-12",
-            "soldDaily": 50,
-            "soldTotal": 404,
-            "incRate": 0
-          },
-          {
-            "date": "2026-06-15",
-            "soldDaily": 135,
-            "soldTotal": 443,
-            "incRate": 136.84
-          }
-        ],
-        "id": "1729829597791361070",
-        "title": "Bretelle Nascoste a X da 1,5 Pollici per Indossare Sotto i Vestiti, Bretelle da Lavoro Resistenti per Uomini e Donne",
-        "cover": "https://s.500fd.com/tt_product/2630b98855d04b67ab837e0eb1f8be83~tplv-o3syd03w52-resize-webp:800:800.webp",
-        "price": "19,80 €",
-        "currency": "EUR",
-        "cats": [
-          "Ties & Bow ties"
-        ],
-        "shop": "TechChic",
-        "soldDaily": 135,
-        "soldTotal": 443,
-        "amountDaily": 2673,
-        "incRate": 136.84,
-        "commissionRate": 5,
-        "region": "IT",
-        "sold7": null,
-        "sold14": null,
-        "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729829597791361070",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829597791361070",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-15",
-        "creators": 3,
-        "videosCount": 0,
-        "trend": {
-          "window": "h24",
-          "score": 77.6,
-          "spikePct": 170,
-          "euroPerSale": 0.99,
-          "euroPerVideo": 45.79,
-          "salesPerVideo": 46.3,
-          "creators": 3,
-          "videos": 0,
-          "priceValue": 19.8,
-          "sold7": 185,
-          "catLabel": "Abiti donna",
-          "days": 2,
-          "spark": [
-            {
-              "date": "2026-06-12",
-              "v": 50
-            },
-            {
-              "date": "2026-06-15",
-              "v": 135
-            }
-          ]
-        }
-      },
       {
         "history": [
           {
@@ -3772,10 +3642,10 @@
         "videosCount": 2,
         "trend": {
           "window": "h24",
-          "score": 74,
+          "score": 70.8,
           "spikePct": 286.7,
           "euroPerSale": 0.7,
-          "euroPerVideo": 12.77,
+          "euroPerVideo": 8.4,
           "salesPerVideo": 18.3,
           "creators": 11,
           "videos": 2,
@@ -3799,62 +3669,62 @@
         "history": [
           {
             "date": "2026-06-12",
-            "soldDaily": 17,
-            "soldTotal": 153,
+            "soldDaily": 50,
+            "soldTotal": 404,
             "incRate": 0
           },
           {
             "date": "2026-06-15",
-            "soldDaily": 86,
-            "soldTotal": 153,
-            "incRate": 28.36
+            "soldDaily": 135,
+            "soldTotal": 443,
+            "incRate": 136.84
           }
         ],
-        "id": "1729833886867101827",
-        "title": "CALAMITA MULTIUSO",
-        "cover": "https://s.500fd.com/tt_product/e1457b78d9114612990d81ac74c56d14~tplv-t5fjg24jzw-crop-webp:500:500.webp",
-        "price": "€ 7,90",
+        "id": "1729829597791361070",
+        "title": "Bretelle Nascoste a X da 1,5 Pollici per Indossare Sotto i Vestiti, Bretelle da Lavoro Resistenti per Uomini e Donne",
+        "cover": "https://s.500fd.com/tt_product/2630b98855d04b67ab837e0eb1f8be83~tplv-o3syd03w52-resize-webp:800:800.webp",
+        "price": "19,80 €",
         "currency": "EUR",
         "cats": [
-          "Necklaces"
+          "Ties & Bow ties"
         ],
-        "shop": "creazionidaamare",
-        "soldDaily": 86,
-        "soldTotal": 153,
-        "amountDaily": 679.4,
-        "incRate": 28.36,
-        "commissionRate": 12.5,
+        "shop": "TechChic",
+        "soldDaily": 135,
+        "soldTotal": 443,
+        "amountDaily": 2673,
+        "incRate": 136.84,
+        "commissionRate": 5,
         "region": "IT",
         "sold7": null,
         "sold14": null,
         "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729833886867101827",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833886867101827",
-        "l1Hint": "accessories",
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729829597791361070",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829597791361070",
+        "l1Hint": "womenswear",
         "lastSeen": "2026-06-15",
-        "creators": 1,
+        "creators": 3,
         "videosCount": 0,
         "trend": {
           "window": "h24",
-          "score": 64.5,
-          "spikePct": 405.9,
+          "score": 66.8,
+          "spikePct": 170,
           "euroPerSale": 0.99,
-          "euroPerVideo": 50.99,
-          "salesPerVideo": 51.5,
-          "creators": 1,
+          "euroPerVideo": 11.88,
+          "salesPerVideo": 46.3,
+          "creators": 3,
           "videos": 0,
-          "priceValue": 7.9,
-          "sold7": 103,
-          "catLabel": "Accessori donna",
+          "priceValue": 19.8,
+          "sold7": 185,
+          "catLabel": "Abiti donna",
           "days": 2,
           "spark": [
             {
               "date": "2026-06-12",
-              "v": 17
+              "v": 50
             },
             {
               "date": "2026-06-15",
-              "v": 86
+              "v": 135
             }
           ]
         }
@@ -3991,62 +3861,62 @@
         "history": [
           {
             "date": "2026-06-12",
-            "soldDaily": 67,
-            "soldTotal": 97,
+            "soldDaily": 17,
+            "soldTotal": 153,
             "incRate": 0
           },
           {
             "date": "2026-06-15",
-            "soldDaily": 135,
-            "soldTotal": 165,
-            "incRate": 542.86
+            "soldDaily": 86,
+            "soldTotal": 153,
+            "incRate": 28.36
           }
         ],
-        "id": "1729751208647760164",
-        "title": "Shorts di jeans da donna eleganti a vita alta, linea ad A, vestibilità ampia e design valorizzante, stile boho versatile per la moda estiva",
-        "cover": "https://s.500fd.com/tt_product/ecaabedc009d42148c4bee12f6acbbb5~tplv-aphluv4xwc-resize-webp:800:800.webp",
-        "price": "18,27 €",
+        "id": "1729833886867101827",
+        "title": "CALAMITA MULTIUSO",
+        "cover": "https://s.500fd.com/tt_product/e1457b78d9114612990d81ac74c56d14~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+        "price": "€ 7,90",
         "currency": "EUR",
         "cats": [
-          "Women's Bottoms"
+          "Necklaces"
         ],
-        "shop": "Fashion forefront",
-        "soldDaily": 135,
-        "soldTotal": 165,
-        "amountDaily": 2466.45,
-        "incRate": 542.86,
-        "commissionRate": 5,
+        "shop": "creazionidaamare",
+        "soldDaily": 86,
+        "soldTotal": 153,
+        "amountDaily": 679.4,
+        "incRate": 28.36,
+        "commissionRate": 12.5,
         "region": "IT",
         "sold7": null,
         "sold14": null,
         "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729751208647760164",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729751208647760164",
-        "l1Hint": "womenswear",
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729833886867101827",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833886867101827",
+        "l1Hint": "accessories",
         "lastSeen": "2026-06-15",
-        "creators": 5,
+        "creators": 1,
         "videosCount": 0,
         "trend": {
           "window": "h24",
-          "score": 57,
-          "spikePct": 101.5,
-          "euroPerSale": 0.91,
-          "euroPerVideo": 30.64,
-          "salesPerVideo": 33.7,
-          "creators": 5,
+          "score": 55.8,
+          "spikePct": 405.9,
+          "euroPerSale": 0.99,
+          "euroPerVideo": 11.88,
+          "salesPerVideo": 51.5,
+          "creators": 1,
           "videos": 0,
-          "priceValue": 18.27,
-          "sold7": 202,
-          "catLabel": "Pantaloni donna",
+          "priceValue": 7.9,
+          "sold7": 103,
+          "catLabel": "Accessori donna",
           "days": 2,
           "spark": [
             {
               "date": "2026-06-12",
-              "v": 67
+              "v": 17
             },
             {
               "date": "2026-06-15",
-              "v": 135
+              "v": 86
             }
           ]
         }
@@ -4111,70 +3981,6 @@
             {
               "date": "2026-06-15",
               "v": 248
-            }
-          ]
-        }
-      },
-      {
-        "history": [
-          {
-            "date": "2026-06-12",
-            "soldDaily": 277,
-            "soldTotal": 881,
-            "incRate": -35.73
-          },
-          {
-            "date": "2026-06-15",
-            "soldDaily": 553,
-            "soldTotal": 1434,
-            "incRate": 99.64
-          }
-        ],
-        "id": "1729807462067771563",
-        "title": "Bermuda Miami",
-        "cover": "https://s.500fd.com/tt_product/9723ee186ea942c598bd62017bfca18a~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "7,99 €",
-        "currency": "EUR",
-        "cats": [
-          "Shorts"
-        ],
-        "shop": "abbigliamentojessica",
-        "soldDaily": 553,
-        "soldTotal": 1434,
-        "amountDaily": 4418.47,
-        "incRate": 99.64,
-        "commissionRate": 5,
-        "region": "IT",
-        "sold7": null,
-        "sold14": null,
-        "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729807462067771563",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729807462067771563",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-15",
-        "creators": 6,
-        "videosCount": 0,
-        "trend": {
-          "window": "h24",
-          "score": 53,
-          "spikePct": 99.6,
-          "euroPerSale": 0.4,
-          "euroPerVideo": 24,
-          "salesPerVideo": 118.6,
-          "creators": 6,
-          "videos": 0,
-          "priceValue": 7.99,
-          "sold7": 830,
-          "catLabel": "Pantaloni donna",
-          "days": 2,
-          "spark": [
-            {
-              "date": "2026-06-12",
-              "v": 277
-            },
-            {
-              "date": "2026-06-15",
-              "v": 553
             }
           ]
         }
@@ -4311,62 +4117,62 @@
         "history": [
           {
             "date": "2026-06-12",
-            "soldDaily": 228,
-            "soldTotal": 356,
-            "incRate": 74.05
+            "soldDaily": 67,
+            "soldTotal": 97,
+            "incRate": 0
           },
           {
             "date": "2026-06-15",
-            "soldDaily": 362,
-            "soldTotal": 718,
-            "incRate": 58.77
+            "soldDaily": 135,
+            "soldTotal": 165,
+            "incRate": 542.86
           }
         ],
-        "id": "1729835289362864433",
-        "title": "ABITO EMILY IN JERSER COTONE[Made In Italy]TAGLIA UNICA VESTE DA S FINO XL TASCHE LATERALI",
-        "cover": "https://s.500fd.com/tt_product/bab858b976d54ca489943eed74e32fd4~tplv-t5fjg24jzw-crop-webp:500:500.webp",
-        "price": "29,99 €",
+        "id": "1729751208647760164",
+        "title": "Shorts di jeans da donna eleganti a vita alta, linea ad A, vestibilità ampia e design valorizzante, stile boho versatile per la moda estiva",
+        "cover": "https://s.500fd.com/tt_product/ecaabedc009d42148c4bee12f6acbbb5~tplv-aphluv4xwc-resize-webp:800:800.webp",
+        "price": "18,27 €",
         "currency": "EUR",
         "cats": [
-          "Casual Dresses"
+          "Women's Bottoms"
         ],
-        "shop": "Minix Fashion Brand",
-        "soldDaily": 362,
-        "soldTotal": 718,
-        "amountDaily": 10856.38,
-        "incRate": 58.77,
-        "commissionRate": 3.5,
+        "shop": "Fashion forefront",
+        "soldDaily": 135,
+        "soldTotal": 165,
+        "amountDaily": 2466.45,
+        "incRate": 542.86,
+        "commissionRate": 5,
         "region": "IT",
         "sold7": null,
         "sold14": null,
         "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729835289362864433",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729835289362864433",
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729751208647760164",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729751208647760164",
         "l1Hint": "womenswear",
         "lastSeen": "2026-06-15",
-        "creators": 11,
+        "creators": 5,
         "videosCount": 0,
         "trend": {
           "window": "h24",
-          "score": 51,
-          "spikePct": 58.8,
-          "euroPerSale": 1.05,
-          "euroPerVideo": 51.63,
-          "salesPerVideo": 49.2,
-          "creators": 11,
+          "score": 48.8,
+          "spikePct": 101.5,
+          "euroPerSale": 0.91,
+          "euroPerVideo": 10.92,
+          "salesPerVideo": 33.7,
+          "creators": 5,
           "videos": 0,
-          "priceValue": 29.99,
-          "sold7": 590,
-          "catLabel": "Abiti donna",
+          "priceValue": 18.27,
+          "sold7": 202,
+          "catLabel": "Pantaloni donna",
           "days": 2,
           "spark": [
             {
               "date": "2026-06-12",
-              "v": 228
+              "v": 67
             },
             {
               "date": "2026-06-15",
-              "v": 362
+              "v": 135
             }
           ]
         }
@@ -4412,10 +4218,10 @@
         "videosCount": 1,
         "trend": {
           "window": "h24",
-          "score": 49.9,
+          "score": 47,
           "spikePct": 137.1,
           "euroPerSale": 1.42,
-          "euroPerVideo": 27.31,
+          "euroPerVideo": 17.04,
           "salesPerVideo": 19.2,
           "creators": 16,
           "videos": 1,
@@ -4631,70 +4437,6 @@
         "history": [
           {
             "date": "2026-06-12",
-            "soldDaily": 49,
-            "soldTotal": 113,
-            "incRate": 40
-          },
-          {
-            "date": "2026-06-15",
-            "soldDaily": 39,
-            "soldTotal": 204,
-            "incRate": 0
-          }
-        ],
-        "id": "1729842844070615894",
-        "title": "PANTALONE “FRESH”",
-        "cover": "https://s.500fd.com/tt_product/07dac1e63e884ccabda9e4020f0675ed~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-        "price": "20 €",
-        "currency": "EUR",
-        "cats": [
-          "Trousers"
-        ],
-        "shop": "Mesamies S.r.l.",
-        "soldDaily": 39,
-        "soldTotal": 204,
-        "amountDaily": 780,
-        "incRate": 0,
-        "commissionRate": 12.5,
-        "region": "IT",
-        "sold7": null,
-        "sold14": null,
-        "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729842844070615894",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729842844070615894",
-        "l1Hint": "womenswear",
-        "lastSeen": "2026-06-15",
-        "creators": 1,
-        "videosCount": 1,
-        "trend": {
-          "window": "h24",
-          "score": 42.5,
-          "spikePct": -20.4,
-          "euroPerSale": 2.5,
-          "euroPerVideo": 110,
-          "salesPerVideo": 44,
-          "creators": 1,
-          "videos": 1,
-          "priceValue": 20,
-          "sold7": 88,
-          "catLabel": "Pantaloni donna",
-          "days": 2,
-          "spark": [
-            {
-              "date": "2026-06-12",
-              "v": 49
-            },
-            {
-              "date": "2026-06-15",
-              "v": 39
-            }
-          ]
-        }
-      },
-      {
-        "history": [
-          {
-            "date": "2026-06-12",
             "soldDaily": 14,
             "soldTotal": 2076,
             "incRate": 100
@@ -4759,62 +4501,62 @@
         "history": [
           {
             "date": "2026-06-12",
-            "soldDaily": 110,
-            "soldTotal": 689,
-            "incRate": -62.2
+            "soldDaily": 277,
+            "soldTotal": 881,
+            "incRate": -35.73
           },
           {
             "date": "2026-06-15",
-            "soldDaily": 158,
-            "soldTotal": 847,
-            "incRate": 43.64
+            "soldDaily": 553,
+            "soldTotal": 1434,
+            "incRate": 99.64
           }
         ],
-        "id": "1729833238967589524",
-        "title": "Cuff Fantasy",
-        "cover": "https://s.500fd.com/tt_product/fcf42631ab124d0c9098f73d4ebb4964~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-        "price": "25,99 €",
+        "id": "1729807462067771563",
+        "title": "Bermuda Miami",
+        "cover": "https://s.500fd.com/tt_product/9723ee186ea942c598bd62017bfca18a~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "7,99 €",
         "currency": "EUR",
         "cats": [
-          "Earrings"
+          "Shorts"
         ],
-        "shop": "Annaira Collection s.r.l",
-        "soldDaily": 158,
-        "soldTotal": 847,
-        "amountDaily": 4106.42,
-        "incRate": 43.64,
-        "commissionRate": 11,
+        "shop": "abbigliamentojessica",
+        "soldDaily": 553,
+        "soldTotal": 1434,
+        "amountDaily": 4418.47,
+        "incRate": 99.64,
+        "commissionRate": 5,
         "region": "IT",
         "sold7": null,
         "sold14": null,
         "rating": null,
-        "tiktokUrl": "https://www.tiktok.com/view/product/1729833238967589524",
-        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833238967589524",
-        "l1Hint": "accessories",
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729807462067771563",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729807462067771563",
+        "l1Hint": "womenswear",
         "lastSeen": "2026-06-15",
-        "creators": 9,
+        "creators": 6,
         "videosCount": 0,
         "trend": {
           "window": "h24",
-          "score": 40.9,
-          "spikePct": 43.6,
-          "euroPerSale": 2.86,
-          "euroPerVideo": 76.65,
-          "salesPerVideo": 26.8,
-          "creators": 9,
+          "score": 40.8,
+          "spikePct": 99.6,
+          "euroPerSale": 0.4,
+          "euroPerVideo": 4.8,
+          "salesPerVideo": 118.6,
+          "creators": 6,
           "videos": 0,
-          "priceValue": 25.99,
-          "sold7": 268,
-          "catLabel": "Accessori donna",
+          "priceValue": 7.99,
+          "sold7": 830,
+          "catLabel": "Pantaloni donna",
           "days": 2,
           "spark": [
             {
               "date": "2026-06-12",
-              "v": 110
+              "v": 277
             },
             {
               "date": "2026-06-15",
-              "v": 158
+              "v": 553
             }
           ]
         }
@@ -4882,126 +4624,202 @@
             }
           ]
         }
+      },
+      {
+        "history": [
+          {
+            "date": "2026-06-12",
+            "soldDaily": 228,
+            "soldTotal": 356,
+            "incRate": 74.05
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 362,
+            "soldTotal": 718,
+            "incRate": 58.77
+          }
+        ],
+        "id": "1729835289362864433",
+        "title": "ABITO EMILY IN JERSER COTONE[Made In Italy]TAGLIA UNICA VESTE DA S FINO XL TASCHE LATERALI",
+        "cover": "https://s.500fd.com/tt_product/bab858b976d54ca489943eed74e32fd4~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+        "price": "29,99 €",
+        "currency": "EUR",
+        "cats": [
+          "Casual Dresses"
+        ],
+        "shop": "Minix Fashion Brand",
+        "soldDaily": 362,
+        "soldTotal": 718,
+        "amountDaily": 10856.38,
+        "incRate": 58.77,
+        "commissionRate": 3.5,
+        "region": "IT",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729835289362864433",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729835289362864433",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-15",
+        "creators": 11,
+        "videosCount": 0,
+        "trend": {
+          "window": "h24",
+          "score": 39.7,
+          "spikePct": 58.8,
+          "euroPerSale": 1.05,
+          "euroPerVideo": 12.6,
+          "salesPerVideo": 49.2,
+          "creators": 11,
+          "videos": 0,
+          "priceValue": 29.99,
+          "sold7": 590,
+          "catLabel": "Abiti donna",
+          "days": 2,
+          "spark": [
+            {
+              "date": "2026-06-12",
+              "v": 228
+            },
+            {
+              "date": "2026-06-15",
+              "v": 362
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
+            "date": "2026-06-12",
+            "soldDaily": 18,
+            "soldTotal": 3025,
+            "incRate": 260
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 72,
+            "soldTotal": 3052,
+            "incRate": 1340
+          }
+        ],
+        "id": "1729494813830322537",
+        "title": "Orecchini a cerchio con temperamento minimalista, orecchini alla moda per donne e uomini, gioielli alla moda abbinati a tutto e squisiti per il regalo di compleanno",
+        "cover": "https://s.500fd.com/tt_product/ae43c3748a154995a481bd38864eb63d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "€1,39",
+        "currency": "EUR",
+        "cats": [
+          "Costume Jewelry & Accessories"
+        ],
+        "shop": "Crazy body jewelry",
+        "soldDaily": 72,
+        "soldTotal": 3052,
+        "amountDaily": 100.08,
+        "incRate": 1340,
+        "commissionRate": 5,
+        "region": "IT",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729494813830322537",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729494813830322537",
+        "l1Hint": "accessories",
+        "lastSeen": "2026-06-15",
+        "creators": 73,
+        "videosCount": 0,
+        "trend": {
+          "window": "h24",
+          "score": 38.2,
+          "spikePct": 300,
+          "euroPerSale": 0.07,
+          "euroPerVideo": 0.09,
+          "salesPerVideo": 1.2,
+          "creators": 73,
+          "videos": 0,
+          "priceValue": 1.39,
+          "sold7": 90,
+          "catLabel": "Accessori donna",
+          "days": 2,
+          "spark": [
+            {
+              "date": "2026-06-12",
+              "v": 18
+            },
+            {
+              "date": "2026-06-15",
+              "v": 72
+            }
+          ]
+        }
+      },
+      {
+        "history": [
+          {
+            "date": "2026-06-12",
+            "soldDaily": 111,
+            "soldTotal": 240,
+            "incRate": 184.62
+          },
+          {
+            "date": "2026-06-15",
+            "soldDaily": 38,
+            "soldTotal": 394,
+            "incRate": 0
+          }
+        ],
+        "id": "1729559537142175752",
+        "title": "Abito Desy",
+        "cover": "https://s.500fd.com/tt_product/c8100f4dba104c2cb69ffe5248871676~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+        "price": "22 €",
+        "currency": "EUR",
+        "cats": [
+          "Casual Dresses"
+        ],
+        "shop": "Normaleclothing",
+        "soldDaily": 38,
+        "soldTotal": 394,
+        "amountDaily": 836,
+        "incRate": 0,
+        "commissionRate": 17.5,
+        "region": "IT",
+        "sold7": null,
+        "sold14": null,
+        "rating": null,
+        "tiktokUrl": "https://www.tiktok.com/view/product/1729559537142175752",
+        "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729559537142175752",
+        "l1Hint": "womenswear",
+        "lastSeen": "2026-06-15",
+        "creators": 24,
+        "videosCount": 0,
+        "trend": {
+          "window": "h24",
+          "score": 38.1,
+          "spikePct": -65.8,
+          "euroPerSale": 3.85,
+          "euroPerVideo": 22.95,
+          "salesPerVideo": 6,
+          "creators": 24,
+          "videos": 0,
+          "priceValue": 22,
+          "sold7": 149,
+          "catLabel": "Abiti donna",
+          "days": 2,
+          "spark": [
+            {
+              "date": "2026-06-12",
+              "v": 111
+            },
+            {
+              "date": "2026-06-15",
+              "v": 38
+            }
+          ]
+        }
       }
     ]
   },
   "top": [
-    {
-      "history": [
-        {
-          "date": "2026-06-12",
-          "soldDaily": 120,
-          "soldTotal": 177,
-          "incRate": 242.86
-        }
-      ],
-      "id": "1729823804713375752",
-      "title": "Pantalone Satin",
-      "cover": "https://s.500fd.com/tt_product/ba3b355eb4894922b5441742e368ef09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "17,99 €",
-      "currency": "EUR",
-      "cats": [
-        "Trousers"
-      ],
-      "shop": "Normaleclothing",
-      "soldDaily": 120,
-      "soldTotal": 177,
-      "amountDaily": 2158.8,
-      "incRate": 242.86,
-      "commissionRate": 12.5,
-      "region": "IT",
-      "sold7": null,
-      "sold14": null,
-      "rating": null,
-      "tiktokUrl": "https://www.tiktok.com/view/product/1729823804713375752",
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823804713375752",
-      "l1Hint": "womenswear",
-      "lastSeen": "2026-06-12",
-      "trend": {
-        "window": "d7",
-        "score": 86.4,
-        "spikePct": 242.9,
-        "euroPerSale": 2.25,
-        "euroPerVideo": 33.75,
-        "salesPerVideo": 15,
-        "creators": 0,
-        "videos": 0,
-        "priceValue": 17.99,
-        "sold7": 120,
-        "catLabel": "Pantaloni donna",
-        "days": 1,
-        "spark": [
-          {
-            "date": "2026-06-12",
-            "v": 120
-          }
-        ]
-      }
-    },
-    {
-      "history": [
-        {
-          "date": "2026-06-12",
-          "soldDaily": 67,
-          "soldTotal": 97,
-          "incRate": 0
-        },
-        {
-          "date": "2026-06-15",
-          "soldDaily": 135,
-          "soldTotal": 165,
-          "incRate": 542.86
-        }
-      ],
-      "id": "1729751208647760164",
-      "title": "Shorts di jeans da donna eleganti a vita alta, linea ad A, vestibilità ampia e design valorizzante, stile boho versatile per la moda estiva",
-      "cover": "https://s.500fd.com/tt_product/ecaabedc009d42148c4bee12f6acbbb5~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "price": "18,27 €",
-      "currency": "EUR",
-      "cats": [
-        "Women's Bottoms"
-      ],
-      "shop": "Fashion forefront",
-      "soldDaily": 135,
-      "soldTotal": 165,
-      "amountDaily": 2466.45,
-      "incRate": 542.86,
-      "commissionRate": 5,
-      "region": "IT",
-      "sold7": null,
-      "sold14": null,
-      "rating": null,
-      "tiktokUrl": "https://www.tiktok.com/view/product/1729751208647760164",
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729751208647760164",
-      "l1Hint": "womenswear",
-      "lastSeen": "2026-06-15",
-      "creators": 5,
-      "videosCount": 0,
-      "trend": {
-        "window": "d7",
-        "score": 81.6,
-        "spikePct": 542.9,
-        "euroPerSale": 0.91,
-        "euroPerVideo": 30.64,
-        "salesPerVideo": 33.7,
-        "creators": 5,
-        "videos": 0,
-        "priceValue": 18.27,
-        "sold7": 202,
-        "catLabel": "Pantaloni donna",
-        "days": 2,
-        "spark": [
-          {
-            "date": "2026-06-12",
-            "v": 67
-          },
-          {
-            "date": "2026-06-15",
-            "v": 135
-          }
-        ]
-      }
-    },
     {
       "history": [
         {
@@ -5062,6 +4880,58 @@
           {
             "date": "2026-06-15",
             "v": 127
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 120,
+          "soldTotal": 177,
+          "incRate": 242.86
+        }
+      ],
+      "id": "1729823804713375752",
+      "title": "Pantalone Satin",
+      "cover": "https://s.500fd.com/tt_product/ba3b355eb4894922b5441742e368ef09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "17,99 €",
+      "currency": "EUR",
+      "cats": [
+        "Trousers"
+      ],
+      "shop": "Normaleclothing",
+      "soldDaily": 120,
+      "soldTotal": 177,
+      "amountDaily": 2158.8,
+      "incRate": 242.86,
+      "commissionRate": 12.5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729823804713375752",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823804713375752",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "window": "d7",
+        "score": 81.4,
+        "spikePct": 242.9,
+        "euroPerSale": 2.25,
+        "euroPerVideo": 18,
+        "salesPerVideo": 8,
+        "creators": 0,
+        "videos": 0,
+        "priceValue": 17.99,
+        "sold7": 120,
+        "catLabel": "Pantaloni donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 120
           }
         ]
       }
@@ -5234,50 +5104,62 @@
       "history": [
         {
           "date": "2026-06-12",
-          "soldDaily": 169,
-          "soldTotal": 549,
-          "incRate": 2716.67
+          "soldDaily": 67,
+          "soldTotal": 97,
+          "incRate": 0
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 135,
+          "soldTotal": 165,
+          "incRate": 542.86
         }
       ],
-      "id": "1729468100859563516",
-      "title": "Anello da Donna in Argento Sterling 925 - A Mia Figlia",
-      "cover": "https://s.500fd.com/tt_product/38f16fec106742c690b1544c7f248179~tplv-tulkllf4y5-resize-jpeg:800:800.jpeg",
-      "price": "28,44 €",
+      "id": "1729751208647760164",
+      "title": "Shorts di jeans da donna eleganti a vita alta, linea ad A, vestibilità ampia e design valorizzante, stile boho versatile per la moda estiva",
+      "cover": "https://s.500fd.com/tt_product/ecaabedc009d42148c4bee12f6acbbb5~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "price": "18,27 €",
       "currency": "EUR",
       "cats": [
-        "Silver Rings"
+        "Women's Bottoms"
       ],
-      "shop": "Bramart",
-      "soldDaily": 169,
-      "soldTotal": 549,
-      "amountDaily": 4806.36,
-      "incRate": 2716.67,
-      "commissionRate": 15,
+      "shop": "Fashion forefront",
+      "soldDaily": 135,
+      "soldTotal": 165,
+      "amountDaily": 2466.45,
+      "incRate": 542.86,
+      "commissionRate": 5,
       "region": "IT",
       "sold7": null,
       "sold14": null,
       "rating": null,
-      "tiktokUrl": "https://www.tiktok.com/view/product/1729468100859563516",
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729468100859563516",
-      "l1Hint": "accessories",
-      "lastSeen": "2026-06-12",
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729751208647760164",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729751208647760164",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "creators": 5,
+      "videosCount": 0,
       "trend": {
         "window": "d7",
         "score": 73.4,
-        "spikePct": 2716.7,
-        "euroPerSale": 4.27,
-        "euroPerVideo": 90.2,
-        "salesPerVideo": 21.1,
-        "creators": 0,
+        "spikePct": 542.9,
+        "euroPerSale": 0.91,
+        "euroPerVideo": 10.92,
+        "salesPerVideo": 33.7,
+        "creators": 5,
         "videos": 0,
-        "priceValue": 28.44,
-        "sold7": 169,
-        "catLabel": "Accessori donna",
-        "days": 1,
+        "priceValue": 18.27,
+        "sold7": 202,
+        "catLabel": "Pantaloni donna",
+        "days": 2,
         "spark": [
           {
             "date": "2026-06-12",
-            "v": 169
+            "v": 67
+          },
+          {
+            "date": "2026-06-15",
+            "v": 135
           }
         ]
       }
@@ -5339,6 +5221,58 @@
     {
       "history": [
         {
+          "date": "2026-06-12",
+          "soldDaily": 169,
+          "soldTotal": 549,
+          "incRate": 2716.67
+        }
+      ],
+      "id": "1729468100859563516",
+      "title": "Anello da Donna in Argento Sterling 925 - A Mia Figlia",
+      "cover": "https://s.500fd.com/tt_product/38f16fec106742c690b1544c7f248179~tplv-tulkllf4y5-resize-jpeg:800:800.jpeg",
+      "price": "28,44 €",
+      "currency": "EUR",
+      "cats": [
+        "Silver Rings"
+      ],
+      "shop": "Bramart",
+      "soldDaily": 169,
+      "soldTotal": 549,
+      "amountDaily": 4806.36,
+      "incRate": 2716.67,
+      "commissionRate": 15,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729468100859563516",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729468100859563516",
+      "l1Hint": "accessories",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "window": "d7",
+        "score": 71.5,
+        "spikePct": 2716.7,
+        "euroPerSale": 4.27,
+        "euroPerVideo": 48.11,
+        "salesPerVideo": 11.3,
+        "creators": 0,
+        "videos": 0,
+        "priceValue": 28.44,
+        "sold7": 169,
+        "catLabel": "Accessori donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 169
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
           "date": "2026-06-15",
           "soldDaily": 314,
           "soldTotal": 2201,
@@ -5371,10 +5305,10 @@
       "videosCount": 0,
       "trend": {
         "window": "d7",
-        "score": 70.1,
+        "score": 66.1,
         "spikePct": 4385.7,
         "euroPerSale": 2.81,
-        "euroPerVideo": 168.6,
+        "euroPerVideo": 33.72,
         "salesPerVideo": 78.5,
         "creators": 3,
         "videos": 0,
@@ -5386,70 +5320,6 @@
           {
             "date": "2026-06-15",
             "v": 314
-          }
-        ]
-      }
-    },
-    {
-      "history": [
-        {
-          "date": "2026-06-12",
-          "soldDaily": 50,
-          "soldTotal": 404,
-          "incRate": 0
-        },
-        {
-          "date": "2026-06-15",
-          "soldDaily": 135,
-          "soldTotal": 443,
-          "incRate": 136.84
-        }
-      ],
-      "id": "1729829597791361070",
-      "title": "Bretelle Nascoste a X da 1,5 Pollici per Indossare Sotto i Vestiti, Bretelle da Lavoro Resistenti per Uomini e Donne",
-      "cover": "https://s.500fd.com/tt_product/2630b98855d04b67ab837e0eb1f8be83~tplv-o3syd03w52-resize-webp:800:800.webp",
-      "price": "19,80 €",
-      "currency": "EUR",
-      "cats": [
-        "Ties & Bow ties"
-      ],
-      "shop": "TechChic",
-      "soldDaily": 135,
-      "soldTotal": 443,
-      "amountDaily": 2673,
-      "incRate": 136.84,
-      "commissionRate": 5,
-      "region": "IT",
-      "sold7": null,
-      "sold14": null,
-      "rating": null,
-      "tiktokUrl": "https://www.tiktok.com/view/product/1729829597791361070",
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829597791361070",
-      "l1Hint": "womenswear",
-      "lastSeen": "2026-06-15",
-      "creators": 3,
-      "videosCount": 0,
-      "trend": {
-        "window": "d7",
-        "score": 69.3,
-        "spikePct": 136.8,
-        "euroPerSale": 0.99,
-        "euroPerVideo": 45.79,
-        "salesPerVideo": 46.3,
-        "creators": 3,
-        "videos": 0,
-        "priceValue": 19.8,
-        "sold7": 185,
-        "catLabel": "Abiti donna",
-        "days": 2,
-        "spark": [
-          {
-            "date": "2026-06-12",
-            "v": 50
-          },
-          {
-            "date": "2026-06-15",
-            "v": 135
           }
         ]
       }
@@ -5487,11 +5357,11 @@
       "lastSeen": "2026-06-12",
       "trend": {
         "window": "d7",
-        "score": 69.2,
+        "score": 64.8,
         "spikePct": 395.2,
         "euroPerSale": 0.55,
-        "euroPerVideo": 7.15,
-        "salesPerVideo": 13,
+        "euroPerVideo": 3.81,
+        "salesPerVideo": 6.9,
         "creators": 0,
         "videos": 0,
         "priceValue": 10.99,
@@ -5502,58 +5372,6 @@
           {
             "date": "2026-06-12",
             "v": 104
-          }
-        ]
-      }
-    },
-    {
-      "history": [
-        {
-          "date": "2026-06-12",
-          "soldDaily": 146,
-          "soldTotal": 2410,
-          "incRate": 461.54
-        }
-      ],
-      "id": "1729756133624486724",
-      "title": "Body modellante da donna con profondo scollo a V e schiena scoperta, taglie XS–XXL, design semplice, spalline regolabili, stile casual, adatto a tutte le stagioni",
-      "cover": "https://s.500fd.com/tt_product/32a6d83212894fbfa537bdc102566c93~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "€4,90",
-      "currency": "EUR",
-      "cats": [
-        "Women's Underwear"
-      ],
-      "shop": "Jiaxiya Store",
-      "soldDaily": 146,
-      "soldTotal": 2410,
-      "amountDaily": 715.4,
-      "incRate": 461.54,
-      "commissionRate": 5,
-      "region": "IT",
-      "sold7": null,
-      "sold14": null,
-      "rating": null,
-      "tiktokUrl": "https://www.tiktok.com/view/product/1729756133624486724",
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729756133624486724",
-      "l1Hint": "womenswear",
-      "lastSeen": "2026-06-12",
-      "trend": {
-        "window": "d7",
-        "score": 65.1,
-        "spikePct": 461.5,
-        "euroPerSale": 0.25,
-        "euroPerVideo": 4.56,
-        "salesPerVideo": 18.3,
-        "creators": 0,
-        "videos": 0,
-        "priceValue": 4.9,
-        "sold7": 146,
-        "catLabel": "Abbigliamento donna",
-        "days": 1,
-        "spark": [
-          {
-            "date": "2026-06-12",
-            "v": 146
           }
         ]
       }
@@ -5626,50 +5444,50 @@
       "history": [
         {
           "date": "2026-06-12",
-          "soldDaily": 8,
-          "soldTotal": 92,
-          "incRate": 166.67
+          "soldDaily": 146,
+          "soldTotal": 2410,
+          "incRate": 461.54
         }
       ],
-      "id": "1729739781942253735",
-      "title": "Popilush abito mini da cocktail con shapewear integrato, modellante, da donna, senza maniche, satin sexy, scollo quadrato, controllo dell’addome, con integrato",
-      "cover": "https://s.500fd.com/tt_product/4e2fb598dc0b4aa7a82f323ba5a5221e~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "29,99 €",
+      "id": "1729756133624486724",
+      "title": "Body modellante da donna con profondo scollo a V e schiena scoperta, taglie XS–XXL, design semplice, spalline regolabili, stile casual, adatto a tutte le stagioni",
+      "cover": "https://s.500fd.com/tt_product/32a6d83212894fbfa537bdc102566c93~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "€4,90",
       "currency": "EUR",
       "cats": [
-        "Casual Dresses"
+        "Women's Underwear"
       ],
-      "shop": "Popilush EU Shop",
-      "soldDaily": 8,
-      "soldTotal": 92,
-      "amountDaily": 239.92,
-      "incRate": 166.67,
-      "commissionRate": 10,
+      "shop": "Jiaxiya Store",
+      "soldDaily": 146,
+      "soldTotal": 2410,
+      "amountDaily": 715.4,
+      "incRate": 461.54,
+      "commissionRate": 5,
       "region": "IT",
       "sold7": null,
       "sold14": null,
       "rating": null,
-      "tiktokUrl": "https://www.tiktok.com/view/product/1729739781942253735",
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729739781942253735",
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729756133624486724",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729756133624486724",
       "l1Hint": "womenswear",
       "lastSeen": "2026-06-12",
       "trend": {
         "window": "d7",
-        "score": 62.3,
-        "spikePct": 166.7,
-        "euroPerSale": 3,
-        "euroPerVideo": 3,
-        "salesPerVideo": 1,
+        "score": 61.1,
+        "spikePct": 461.5,
+        "euroPerSale": 0.25,
+        "euroPerVideo": 2.43,
+        "salesPerVideo": 9.7,
         "creators": 0,
         "videos": 0,
-        "priceValue": 29.99,
-        "sold7": 8,
+        "priceValue": 4.9,
+        "sold7": 146,
         "catLabel": "Abbigliamento donna",
         "days": 1,
         "spark": [
           {
             "date": "2026-06-12",
-            "v": 8
+            "v": 146
           }
         ]
       }
@@ -5724,6 +5542,122 @@
           {
             "date": "2026-06-15",
             "v": 25
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 8,
+          "soldTotal": 92,
+          "incRate": 166.67
+        }
+      ],
+      "id": "1729739781942253735",
+      "title": "Popilush abito mini da cocktail con shapewear integrato, modellante, da donna, senza maniche, satin sexy, scollo quadrato, controllo dell’addome, con integrato",
+      "cover": "https://s.500fd.com/tt_product/4e2fb598dc0b4aa7a82f323ba5a5221e~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "29,99 €",
+      "currency": "EUR",
+      "cats": [
+        "Casual Dresses"
+      ],
+      "shop": "Popilush EU Shop",
+      "soldDaily": 8,
+      "soldTotal": 92,
+      "amountDaily": 239.92,
+      "incRate": 166.67,
+      "commissionRate": 10,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729739781942253735",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729739781942253735",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-12",
+      "trend": {
+        "window": "d7",
+        "score": 58.7,
+        "spikePct": 166.7,
+        "euroPerSale": 3,
+        "euroPerVideo": 1.6,
+        "salesPerVideo": 0.5,
+        "creators": 0,
+        "videos": 0,
+        "priceValue": 29.99,
+        "sold7": 8,
+        "catLabel": "Abbigliamento donna",
+        "days": 1,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 8
+          }
+        ]
+      }
+    },
+    {
+      "history": [
+        {
+          "date": "2026-06-12",
+          "soldDaily": 50,
+          "soldTotal": 404,
+          "incRate": 0
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 135,
+          "soldTotal": 443,
+          "incRate": 136.84
+        }
+      ],
+      "id": "1729829597791361070",
+      "title": "Bretelle Nascoste a X da 1,5 Pollici per Indossare Sotto i Vestiti, Bretelle da Lavoro Resistenti per Uomini e Donne",
+      "cover": "https://s.500fd.com/tt_product/2630b98855d04b67ab837e0eb1f8be83~tplv-o3syd03w52-resize-webp:800:800.webp",
+      "price": "19,80 €",
+      "currency": "EUR",
+      "cats": [
+        "Ties & Bow ties"
+      ],
+      "shop": "TechChic",
+      "soldDaily": 135,
+      "soldTotal": 443,
+      "amountDaily": 2673,
+      "incRate": 136.84,
+      "commissionRate": 5,
+      "region": "IT",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729829597791361070",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829597791361070",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "creators": 3,
+      "videosCount": 0,
+      "trend": {
+        "window": "d7",
+        "score": 58.5,
+        "spikePct": 136.8,
+        "euroPerSale": 0.99,
+        "euroPerVideo": 11.88,
+        "salesPerVideo": 46.3,
+        "creators": 3,
+        "videos": 0,
+        "priceValue": 19.8,
+        "sold7": 185,
+        "catLabel": "Abiti donna",
+        "days": 2,
+        "spark": [
+          {
+            "date": "2026-06-12",
+            "v": 50
+          },
+          {
+            "date": "2026-06-15",
+            "v": 135
           }
         ]
       }
@@ -6067,111 +6001,67 @@
     {
       "history": [
         {
-          "date": "2026-06-05",
-          "soldDaily": 3
-        },
-        {
-          "date": "2026-06-06",
-          "soldDaily": 0
-        },
-        {
-          "date": "2026-06-07",
-          "soldDaily": 0
-        },
-        {
-          "date": "2026-06-08",
-          "soldDaily": 1
-        },
-        {
-          "date": "2026-06-09",
-          "soldDaily": 0
-        },
-        {
-          "date": "2026-06-10",
-          "soldDaily": 0
-        },
-        {
-          "date": "2026-06-11",
-          "soldDaily": 4
-        },
-        {
           "date": "2026-06-12",
-          "soldDaily": 4,
-          "soldTotal": 78,
-          "incRate": 0
+          "soldDaily": 28,
+          "soldTotal": 6702,
+          "incRate": 3.7
+        },
+        {
+          "date": "2026-06-15",
+          "soldDaily": 248,
+          "soldTotal": 6798,
+          "incRate": 552.63
         }
       ],
-      "id": "1729487622847699202",
-      "title": "Pantaloncini sportivi da donna in tinta unita a vita alta, Pantaloncini da ginnastica, Leggings corti con fascia larga in vita ad alta elasticità, Abbigliamento sportivo da donna per uso interno ed esterno",
-      "cover": "https://s.500fd.com/tt_product/4b0028480ca8434d92d56c1f04446833~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "7,06 - €7,88",
+      "id": "1729490967232682799",
+      "title": "Reggiseno senza ferretto e schiena scoperta in tinta unita da donna, Comodi reggiseni traspiranti multiuso per uso quotidiano, Lingerie morbida per tutte le stagioni",
+      "cover": "https://s.500fd.com/tt_product/4b4e04ea2b394fa49501d7b0949b0bc1~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "5,24 - 24,65 €",
       "currency": "EUR",
       "cats": [
-        "Sports & Outdoor",
-        "Sport & Outdoor Clothing"
+        "Women's Underwear"
       ],
-      "shop": "hearuisavy",
-      "soldDaily": 4,
-      "soldTotal": 78,
-      "amountDaily": 28.24,
-      "incRate": 0,
+      "shop": "Simply Chic Lingerie",
+      "soldDaily": 248,
+      "soldTotal": 6798,
+      "amountDaily": 1299.52,
+      "incRate": 552.63,
       "commissionRate": 5,
       "region": "IT",
-      "sold7": 8,
-      "sold14": 16,
-      "rating": 5,
-      "tiktokUrl": "https://www.tiktok.com/view/product/1729487622847699202",
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729487622847699202",
-      "lastSeen": "2026-06-12",
+      "sold7": null,
+      "sold14": null,
+      "rating": null,
+      "tiktokUrl": "https://www.tiktok.com/view/product/1729490967232682799",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729490967232682799",
+      "l1Hint": "womenswear",
+      "lastSeen": "2026-06-15",
+      "creators": 216,
+      "videosCount": 2,
       "trend": {
         "window": "d7",
-        "score": 53.6,
-        "spikePct": 601.1,
-        "euroPerSale": 0.35,
-        "euroPerVideo": 0.35,
-        "salesPerVideo": 1,
-        "creators": 0,
-        "videos": 0,
-        "priceValue": 7.06,
-        "sold7": 8,
-        "catLabel": "Pantaloni donna",
-        "days": 8,
+        "score": 53.2,
+        "spikePct": 552.6,
+        "euroPerSale": 0.26,
+        "euroPerVideo": 0.33,
+        "salesPerVideo": 1.3,
+        "creators": 216,
+        "videos": 2,
+        "priceValue": 5.24,
+        "sold7": 276,
+        "catLabel": "Abbigliamento donna",
+        "days": 2,
         "spark": [
           {
-            "date": "2026-06-05",
-            "v": 3
-          },
-          {
-            "date": "2026-06-06",
-            "v": 0
-          },
-          {
-            "date": "2026-06-07",
-            "v": 0
-          },
-          {
-            "date": "2026-06-08",
-            "v": 1
-          },
-          {
-            "date": "2026-06-09",
-            "v": 0
-          },
-          {
-            "date": "2026-06-10",
-            "v": 0
-          },
-          {
-            "date": "2026-06-11",
-            "v": 4
-          },
-          {
             "date": "2026-06-12",
-            "v": 4
+            "v": 28
+          },
+          {
+            "date": "2026-06-15",
+            "v": 248
           }
         ]
       }
     }
   ],
-  "generatedAt": "2026-06-15T11:10:37.818Z"
+  "generatedAt": "2026-06-15T15:36:44.778Z"
 }
