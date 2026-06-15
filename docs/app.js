@@ -82,6 +82,16 @@ function getProfile() {
   } catch { return null; }
 }
 
+// Le pagine prodotto di TikTok Shop sono deep-link per l'app e bloccate per regione sul web (502).
+// La ricerca per nome è affidabile (da loggati) e mostra i video già fatti sul capo: utile per i contenuti.
+function tiktokSearchUrl(title) {
+  const q = (title || '')
+    .replace(/\[[^\]]*\]/g, ' ')        // togli i tag tra parentesi quadre [BRAND]
+    .replace(/[^\p{L}\p{N} ]+/gu, ' ')  // togli punteggiatura/simboli
+    .trim().split(/\s+/).slice(0, 6).join(' ');
+  return 'https://www.tiktok.com/search?q=' + encodeURIComponent(q);
+}
+
 function cardHTML(p, i, winLabel, match) {
   const t = p.trend;
   const g = t.spikePct, up = g >= 0;
@@ -113,8 +123,8 @@ function cardHTML(p, i, winLabel, match) {
       ${sparkline(t.spark, 90, 30)}
     </div>
     <div class="pcard-actions">
-      <a class="btn btn-primary btn-sm" href="${esc(p.tiktokUrl)}" target="_blank">Vedi su TikTok ↗</a>
-      <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank">Dettagli ↗</a>
+      <a class="btn btn-primary btn-sm" href="${esc(tiktokSearchUrl(p.title))}" target="_blank" rel="noopener">🔍 Cerca su TikTok</a>
+      <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank" rel="noopener">Dettagli ↗</a>
     </div>
   </div>`;
 }
