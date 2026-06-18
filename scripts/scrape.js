@@ -24,14 +24,15 @@ const scraper = require('../lib/scraper');
     process.exit(1);
   }
 
-  const rankings = scraper.computeAllRankings(20);
+  const rankings = scraper.computeAllRankings(20); // { sofia:{d7,h48,h24}, emma:{...}, marco:{...}, luca:{...} }
   writeJSON(path.join(process.env.DATA_DIR, 'trends.json'), {
     status,
     rankings,
-    top: rankings.d7, // compat: cross-match affiliate usa la classifica 7 giorni
+    top: scraper.computeTrends(40), // unione di tutti i modelli: per il cross-match affiliate
     generatedAt: new Date().toISOString(),
   });
-  console.log(`Classifiche: 7gg=${rankings.d7.length} · 48h=${rankings.h48.length} · 24h=${rankings.h24.length}`);
+  const summary = Object.entries(rankings).map(([m, r]) => `${m}=${r.d7.length}`).join(' · ');
+  console.log(`Classifiche per modello (7gg): ${summary}`);
 })().catch((e) => {
   console.error('Scrape fallito:', e);
   process.exit(1);

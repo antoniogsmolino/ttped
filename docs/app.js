@@ -7,10 +7,12 @@ const fmtN = (n) => (n ?? 0).toLocaleString('it-IT');
 const fmtEur = (n) => '€' + (n ?? 0).toLocaleString('it-IT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const STORAGE_KEY = 'ttped_affiliate_orders';
 
-let trendsTop = []; // cache della classifica 7gg per il cross-match affiliate
-let trendsRankings = { d7: [], h48: [], h24: [] };
+let trendsTop = []; // unione di tutti i modelli: per il cross-match affiliate
+let trendsRankings = {}; // { sofia:{d7,h48,h24}, emma:{...}, marco:{...}, luca:{...} }
+const MODELS = (window.Models && Models.MODELS) || [];
+let currentModel = MODELS.length ? MODELS[0].id : 'sofia';
 let currentWindow = 'd7';
-const WINDOW_LABELS = { d7: '7 giorni', h48: '48 ore', h24: '24 ore' };
+const WINDOW_LABELS = { d7: '7 giorni', h48: '48 ore', h24: '24 ore', foryou: 'Per te' };
 
 function toast(msg, type = '') {
   const el = document.createElement('div');
@@ -20,15 +22,38 @@ function toast(msg, type = '') {
   setTimeout(() => el.remove(), 5500);
 }
 
-/* ---------- tabs ---------- */
-const loaders = { trends: loadTrends, affiliate: loadAffiliate };
+/* ---------- tabs (4 modelli + Affiliate) ---------- */
+function buildNav() {
+  const tabs = $('#tabs');
+  const modelBtns = MODELS.map((m, i) => `<button class="tab${i === 0 ? ' active' : ''}" data-model="${m.id}">${m.emoji} ${esc(m.name)}</button>`).join('');
+  tabs.innerHTML = modelBtns + '<button class="tab" data-tab="affiliate">💰 Affiliate</button>';
+}
+
+function showPanel(name) {
+  document.querySelectorAll('.panel').forEach((p) => p.classList.toggle('active', p.id === `tab-${name}`));
+}
+
 $('#tabs').addEventListener('click', (e) => {
   const btn = e.target.closest('.tab');
   if (!btn) return;
-  document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('active', t === btn));
-  document.querySelectorAll('.panel').forEach((p) => p.classList.toggle('active', p.id === `tab-${btn.dataset.tab}`));
-  loaders[btn.dataset.tab]();
+  document.querySelectorAll('#tabs .tab').forEach((t) => t.classList.toggle('active', t === btn));
+  if (btn.dataset.model) {
+    currentModel = btn.dataset.model;
+    showPanel('trends');
+    renderModelHeader();
+    renderRanking();
+  } else {
+    showPanel('affiliate');
+    loadAffiliate();
+  }
 });
+
+function renderModelHeader() {
+  const m = MODELS.find((x) => x.id === currentModel);
+  if (!m) return;
+  $('#modelTitle').innerHTML = `${m.emoji} ${esc(m.name)} — <span class="accent">${esc(m.tag)}</span>`;
+  $('#modelDesc').textContent = m.desc;
+}
 
 /* =================== TREND =================== */
 
@@ -52,22 +77,22 @@ async function loadTrends() {
     if (!res.ok) throw new Error('Dati trend non ancora disponibili');
     const data = await res.json();
     const status = data.status;
-    // Compat: vecchio formato aveva solo `top` (classifica 7gg).
-    trendsRankings = data.rankings || { d7: data.top || [], h48: [], h24: [] };
-    trendsTop = trendsRankings.d7 || data.top || [];
+    trendsRankings = data.rankings || {};
+    trendsTop = data.top || [];
 
     const meta = [];
     const when = data.generatedAt || status?.lastRun;
     if (when) meta.push(`Aggiornato: ${new Date(when).toLocaleString('it-IT')}`);
-    meta.push(`Fonte: FastMoss · Regione ${status?.region || 'IT'} · ${status?.matched ?? status?.count ?? 0} prodotti moda donna`);
-    meta.push('Aggiornamento automatico ogni mattina');
+    meta.push(`Fonte: FastMoss · ${status?.region || 'IT'} · ${status?.matched ?? status?.count ?? 0} prodotti classificati`);
+    meta.push('aggiornamento automatico ogni mattina');
     $('#trendsMeta').textContent = meta.join('  ·  ');
 
     let banner = '';
     if (status?.error) banner = `<div class="banner err">⚠️ Ultimo aggiornamento fallito: ${esc(status.error)}</div>`;
-    else if (status?.limited && trendsTop.length < 20) banner = `<div class="banner">🔒 Cookie FastMoss assente o scaduto: classifica parziale. Aggiorna il Secret FASTMOSS_COOKIE su GitHub.</div>`;
+    else if (status?.limited) banner = `<div class="banner">🔒 Cookie FastMoss assente o scaduto: classifica parziale. Aggiorna il Secret FASTMOSS_COOKIE su GitHub.</div>`;
     $('#trendsBanner').innerHTML = banner;
 
+    renderModelHeader();
     renderRanking();
   } catch (e) {
     $('#trendsBanner').innerHTML = `<div class="banner err">${esc(e.message)}</div>`;
@@ -75,10 +100,14 @@ async function loadTrends() {
   }
 }
 
-function getProfile() {
+// Profilo storico del SINGOLO modello: classifica i tuoi ordini per nome prodotto e
+// costruisce il profilo solo con quelli che appartengono a quel modello.
+function getProfile(modelId) {
   try {
     const orders = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
-    return orders.length ? Affiliate.profile(orders) : null;
+    if (!orders.length || !window.Models) return null;
+    const sub = orders.filter((o) => Models.classify(o.productName, [], o.amount || 0, null).model === modelId);
+    return sub.length ? Affiliate.profile(sub) : null;
   } catch { return null; }
 }
 
@@ -106,7 +135,7 @@ function cardHTML(p, i, winLabel, match) {
       <div>
         <div class="title">${esc(p.title)}</div>
         <div class="chips">
-          ${t.catLabel ? `<span class="chip cat">👗 ${esc(t.catLabel)}</span>` : ''}
+          ${t.catLabel ? `<span class="chip cat">🏷 ${esc(t.catLabel)}</span>` : ''}
           ${p.price ? `<span class="chip price">${esc(p.price)}</span>` : ''}
         </div>
       </div>
@@ -131,31 +160,32 @@ function cardHTML(p, i, winLabel, match) {
 
 function renderRanking() {
   const winLabel = WINDOW_LABELS[currentWindow] || '';
-  const profile = getProfile();
+  const modelR = trendsRankings[currentModel] || { d7: [], h48: [], h24: [] };
+  const profile = getProfile(currentModel);
 
-  // Vista "Per te": incrocia tutte le finestre con il tuo storico di conversione.
+  // Vista "Per te": incrocia le finestre del modello con il tuo storico di conversione di QUEL modello.
   if (currentWindow === 'foryou') {
     if (!profile) {
-      $('#trendsGrid').innerHTML = '<div class="empty">🎯 <b>Per te</b> incrocia la classifica con il tuo storico di vendite.<br/>Importa il CSV ordini nel tab <b>💰 Affiliate</b> per attivarla — più ordini importi, più diventa precisa.</div>';
+      $('#trendsGrid').innerHTML = '<div class="empty">🎯 <b>Per te</b> incrocia questa nicchia col tuo storico di vendite.<br/>Importa gli ordini nel tab <b>💰 Affiliate</b>: il sistema riconosce dai nomi prodotto quali vendite sono di questo modello.</div>';
       return;
     }
     const seen = new Map();
-    for (const w of ['d7', 'h48', 'h24']) for (const p of (trendsRankings[w] || [])) if (!seen.has(p.id)) seen.set(p.id, p);
+    for (const w of ['d7', 'h48', 'h24']) for (const p of (modelR[w] || [])) if (!seen.has(p.id)) seen.set(p.id, p);
     const pool = [...seen.values()]
       .map((p) => ({ p, m: Affiliate.personalMatch(p.title, p.trend.priceValue, profile) }))
       .filter((x) => x.m && x.m.score > 0.15)
       .sort((a, b) => (b.m.score - a.m.score) || (b.p.trend.euroPerVideo - a.p.trend.euroPerVideo));
     if (!pool.length) {
-      $('#trendsGrid').innerHTML = '<div class="empty">Nessun prodotto in trend somiglia ancora ai tuoi vincenti. Importa più ordini o riprova domani.</div>';
+      $('#trendsGrid').innerHTML = '<div class="empty">Nessun prodotto in trend somiglia ancora ai tuoi vincenti di questa nicchia. Importa più ordini o riprova domani.</div>';
       return;
     }
     $('#trendsGrid').innerHTML = pool.slice(0, 20).map((x, i) => cardHTML(x.p, i, WINDOW_LABELS.d7, x.m)).join('');
     return;
   }
 
-  const list = trendsRankings[currentWindow] || [];
+  const list = modelR[currentWindow] || [];
   if (!list.length) {
-    $('#trendsGrid').innerHTML = `<div class="empty">Nessun prodotto con dati sufficienti per la finestra ${winLabel}. Lo storico si arricchisce ogni giorno.</div>`;
+    $('#trendsGrid').innerHTML = `<div class="empty">Nessun prodotto con dati sufficienti per la finestra ${winLabel} in questa nicchia. Lo storico si arricchisce ogni giorno.</div>`;
     return;
   }
   $('#trendsGrid').innerHTML = list.map((p, i) => {
@@ -199,6 +229,29 @@ function lineChart(series, key, color) {
 
 const md = (line) => esc(line).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 
+// Ripartizione commissioni per modello: classifica ogni ordine dal nome prodotto.
+function modelBreakdownHTML(orders) {
+  if (!window.Models) return '';
+  const byModel = {};
+  for (const m of MODELS) byModel[m.id] = { orders: 0, commission: 0 };
+  let other = { orders: 0, commission: 0 };
+  for (const o of orders) {
+    if (/cancel|annull|refund|rimbors|reso|return/i.test(o.status || '')) continue;
+    const c = o.actualCommission || o.estCommission || 0;
+    const r = Models.classify(o.productName, [], o.amount || 0, null);
+    const bucket = r.model ? byModel[r.model] : other;
+    bucket.orders++; bucket.commission += c;
+  }
+  const cards = MODELS.map((m) => {
+    const b = byModel[m.id];
+    return `<div class="kpi"><div class="v" style="font-size:20px">${m.emoji} ${fmtEur(b.commission)}</div>
+      <div class="l">${esc(m.name)} · ${b.orders} ordini</div></div>`;
+  }).join('');
+  const otherCard = other.orders ? `<div class="kpi"><div class="v" style="font-size:20px;color:var(--muted)">${fmtEur(other.commission)}</div><div class="l">non classificati · ${other.orders}</div></div>` : '';
+  return `<div class="card" style="margin-bottom:16px"><h3>👥 Commissioni per modello</h3>
+    <div class="kpi-row" style="margin:0">${cards}${otherCard}</div></div>`;
+}
+
 function loadAffiliate() {
   const orders = getOrders();
   if (!orders.length) {
@@ -221,6 +274,7 @@ function loadAffiliate() {
       <div class="kpi"><div class="v">${a.totals.avgRate ?? '–'}%</div><div class="l">commissione media</div></div>
       <div class="kpi"><div class="v">${fmtN(a.totals.cancelled)}</div><div class="l">annullati / resi</div></div>
     </div>
+    ${modelBreakdownHTML(orders)}
     <div class="card" style="margin-bottom:16px"><h3>📈 Commissioni per giorno</h3>${lineChart(a.series, 'commission', '#25f4ee')}</div>
     <div class="aff-grid">
       <div class="card">
@@ -323,5 +377,6 @@ async function refreshTopStatus() {
   }
 }
 
+buildNav();
 loadTrends();
 refreshTopStatus();

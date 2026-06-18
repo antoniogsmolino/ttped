@@ -1,6 +1,7 @@
 # 📘 TTPED Studio — Documentazione tecnica
 
-**TikTok Shop Trend Radar + Affiliate Intelligence** per la nicchia **moda donna** (mercato Italia).
+**TikTok Shop Trend Radar + Affiliate Intelligence** per un profilo con **4 modelli/sotto-nicchie** (mercato Italia).
+La dashboard ha un tab per ogni modello (Sofia, Emma, Marco, Luca); ogni tab mostra i prodotti in trend filtrati per la sua nicchia, con le viste 7 giorni / 48 ore / 24 ore / Per te.
 Resoconto completo di funzionalità, fonti dati e formule.
 
 - **Dashboard live:** https://antoniogsmolino.github.io/ttped/
@@ -114,25 +115,37 @@ File: [`lib/scraper.js`](lib/scraper.js), entry point [`scripts/scrape.js`](scri
 
 ---
 
-## 4. Classificazione categorie moda donna
+## 4. Classificazione nelle 4 sotto-nicchie (modelli)
 
-Funzione `categoryMatch(p)`. Obiettivo: tenere **solo moda donna** ed etichettare la sotto-categoria.
+File: [`docs/models.js`](docs/models.js) — modulo **condiviso** tra scraper (Node, per i prodotti in trend) e browser (affiliate, per i prodotti venduti), così la stessa logica assegna sia i trend sia le vendite.
+
+Funzione `classify(title, cats, price, l1Hint)` → `{ model, fit }` con `fit` 0–1; `model` è `null` se il prodotto non rientra in nessuna nicchia.
 
 ### Logica
-1. **Esclusioni** — scarta se il titolo/categoria contiene segnali uomo/bambino (`MALE_OR_KIDS`) o non-moda (`NON_FASHION`: beauty, integratori, casa, cucina, ecc.).
-2. **Indizio femminile** — `female` = titolo contiene `donna/women/lady/…` **oppure** il prodotto proviene dalla categoria TikTok Womenswear (`l1Hint='womenswear'`).
-3. **Regole in ordine di specificità** — ogni regola ha termini `inherent` (intrinsecamente femminili → bastano da soli) e `generic` (validi solo se c'è l'indizio femminile):
+1. **Esclusione** (`EXCLUDE`): scarta non-moda (power tools, personal care, elettronica, casa, beauty, integratori, rasoi…), bambino e calzature speciali (safety).
+2. **Genere** (`genderOf`): `w` se titolo/categoria contiene `donna/women/lady/…`, `m` se `uomo/men/…`, altrimenti l'hint della categoria TikTok (`womenswear`/`menswear`), altrimenti `u` (unisex, es. accessori).
+3. **Fit per modello**: per ognuno dei 4 modelli, gate di genere + conteggio keyword pro/contro + affinità di prezzo. Si assegna il modello con fit più alto (≥ 0.20).
 
-| Categoria | Peso | Esempi |
-|---|---|---|
-| Abbigliamento donna (intimo/notte) | **1.0** | lingerie, pigiama, reggiseno, shapewear |
-| Pantaloni donna | **1.0** | pantaloni, jeans, shorts, leggings, palazzo |
-| Abiti donna | **1.0** | abito, vestito, gonna, tubino |
-| Abbigliamento donna (generico) | **1.0** | giacca, cappotto, tuta, completo |
-| Top donna | **0.95** | top, t-shirt, maglia, camicia, body, canotta |
-| Accessori donna | **0.75** | borse, cinture, cappelli, occhiali, gioielli |
+| Modello | Genere | Prezzo ideale | Keyword pro (estratto) |
+|---|---|---|---|
+| **Sofia** (Streetwear/Y2K) | donna | €0–30 | baggy, crop, oversize, denim, felpa, sneakers chunky, mini-bag, occhiali, cerchietti, body |
+| **Emma** (Minimal/Clean girl) | donna | €20–90 | blazer, abito, tubino, bustino, sartoriale, jeans dritti, maglieria, mocassini, camicia, raso |
+| **Marco** (Uomo elegante) | uomo | €35–250 | maglione, camicia oxford, chino, cappotto/trench, blazer, polo, mocassini, lino, cashmere |
+| **Luca** (Uomo sport) | uomo | €0–45 | tuta, felpa, hoodie, jogger, t-shirt tecnica, sneakers sportive, cappellino, shorts |
 
-Il **peso categoria** moltiplica lo score finale: dà priorità ad abbigliamento e pantaloni rispetto agli accessori.
+### Calcolo del fit
+```
+gate genere: se il genere del prodotto ≠ genere del modello (e non è unisex) → fit 0
+pos = nº keyword positive trovate (deve essere ≥ 1)
+neg = nº keyword negative trovate
+net = pos − 0.8 × neg            (se ≤ 0 → fit 0)
+base = min(net / 2, 1)           (2+ segnali = pieno)
+fit  = 0.75 × base + 0.25 × priceFit(prezzo, fascia)
+       × 1.1 se il genere combacia esplicitamente
+```
+Nel ranking, `fit` diventa il **peso categoria**: `weight = 0.5 + 0.5 × fit` (i capi più aderenti alla nicchia salgono). Dettagli tecnici importanti: i match usano i **word-boundary** (`\b`) per evitare falsi positivi da sottostringa (es. "orec**chino**" ≠ pantaloni "chino").
+
+> La classificazione è euristica (titolo + categoria + prezzo): i casi ambigui (es. un denim maxi-dress tra Sofia ed Emma) sono inevitabili. Le keyword sono in `docs/models.js` (`CFG`) e si possono affinare.
 
 ---
 
@@ -241,6 +254,8 @@ La dashboard mostra **tre classifiche selezionabili**, stessa formula ma con imp
 ## 8. Vista "Per te" (personalizzazione)
 
 Incrocia la classifica trend con il **tuo storico di conversione** (gli ordini affiliate importati). Tutto **client-side** ([`docs/affiliate.js`](docs/affiliate.js) + [`docs/app.js`](docs/app.js)).
+
+**Per modello:** la vista "Per te" di ogni tab usa solo gli ordini che `Models.classify` assegna a quel modello (dal nome prodotto), così Sofia consiglia sui vincenti di Sofia, Emma sui suoi, ecc. Il tab Affiliate mostra anche la **ripartizione commissioni per modello**.
 
 ### Profilo personale (`profile(orders)`)
 Dai tuoi ordini validi (non annullati), pesati per commissione incassata:
@@ -357,14 +372,16 @@ TTPED/
 {
   "status": { "lastRun", "ok", "count", "matched", "limited", "region", "focus", "error" },
   "generatedAt": "ISO",
-  "top": [ /* = rankings.d7, per compatibilità / cross-match affiliate */ ],
+  "top": [ /* unione di tutti i modelli (d7): per il cross-match affiliate */ ],
   "rankings": {
-    "d7":  [ /* top 20 */ ],
-    "h48": [ /* top 20 */ ],
-    "h24": [ /* top 20 */ ]
+    "sofia": { "d7": [ /*top 20*/ ], "h48": [ /*…*/ ], "h24": [ /*…*/ ] },
+    "emma":  { "d7": [ … ], "h48": [ … ], "h24": [ … ] },
+    "marco": { "d7": [ … ], "h48": [ … ], "h24": [ … ] },
+    "luca":  { "d7": [ … ], "h48": [ … ], "h24": [ … ] }
   }
 }
 ```
+Ogni elemento `trend` include anche `model` (id nicchia) e `fit` (0–1).
 Ogni elemento ha il prodotto + un oggetto `trend`:
 ```jsonc
 "trend": {

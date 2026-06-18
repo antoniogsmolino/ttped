@@ -16,10 +16,7 @@
       <span class="logo-mark">▶</span>
       <span class="logo-text">TTPED<em>Studio</em></span>
     </div>
-    <nav class="tabs" id="tabs">
-      <button class="tab active" data-tab="trends">🔥 Trend</button>
-      <button class="tab" data-tab="affiliate">💰 Affiliate</button>
-    </nav>
+    <nav class="tabs" id="tabs"></nav>
     <div class="top-status" id="topStatus"></div>
   </header>
 
@@ -28,9 +25,10 @@
     <section id="tab-trends" class="panel active">
       <div class="panel-head">
         <div>
-          <h1>Top 20 moda donna in impennata <span class="accent">su TikTok Shop</span></h1>
-          <p class="sub" id="trendsMeta">Caricamento…</p>
-          <p class="sub">Ranking = impennata vendite (55%) + guadagno €/vendita (30%) + volume (15%) · a parità di trend vince chi rende di più in euro · priorità ad abbigliamento e pantaloni donna</p>
+          <h1 id="modelTitle">Caricamento…</h1>
+          <p class="sub" id="modelDesc"></p>
+          <p class="sub" id="trendsMeta"></p>
+          <p class="sub">Ranking = impennata vendite (50%) + guadagno atteso €/video (35%) + €/vendita (15%) · a parità di trend vince chi rende di più</p>
         </div>
         <button class="btn btn-primary" id="btnReload">↻ Ricarica</button>
       </div>
@@ -60,6 +58,7 @@
   </main>
 
   <div class="toasts" id="toasts"></div>
+  <script src="models.js"></script>
   <script src="affiliate.js"></script>
   <script src="app.js"></script>
 </body>
