@@ -125,35 +125,37 @@ function cardHTML(p, i, winLabel, match) {
   const t = p.trend;
   const g = t.spikePct, up = g >= 0;
   const sat = [];
-  if (t.creators) sat.push(`👤 ${fmtN(t.creators)} affiliate`);
-  if (t.videos) sat.push(`🎬 ${fmtN(t.videos)} video`);
-  const badge = match ? `<div class="match-badge">🎯 ${esc(match.reasons[0] || 'in linea col tuo storico')}</div>` : '';
+  if (t.creators) sat.push(`👤 ${fmtN(t.creators)}`);
+  if (t.videos) sat.push(`🎬 ${fmtN(t.videos)}`);
+  const matchPill = match ? `<div class="match-pill">🎯 ${esc(match.reasons[0] || 'in linea col tuo storico')}</div>` : '';
   return `<div class="pcard" style="animation-delay:${i * 35}ms">
-    <div class="rank r${i + 1}">${i + 1}</div>
-    <div class="pcard-top">
-      <img class="cover" src="${esc(p.cover)}" loading="lazy" onerror="this.style.visibility='hidden'"/>
-      <div>
-        <div class="title">${esc(p.title)}</div>
-        <div class="chips">
-          ${t.catLabel ? `<span class="chip cat">🏷 ${esc(t.catLabel)}</span>` : ''}
-          ${p.price ? `<span class="chip price">${esc(p.price)}</span>` : ''}
-        </div>
+    <div class="pcard-media">
+      <img class="cover" src="${esc(p.cover)}" loading="lazy" alt="${esc(p.title)}" onerror="this.style.opacity=0"/>
+      <div class="media-scrim"></div>
+      <div class="rank r${i + 1}">${i + 1}</div>
+      <div class="spike-pill ${up ? 'up' : 'down'}" title="impennata ${winLabel}">${up ? '▲' : '▼'} ${Math.abs(g)}%</div>
+      ${matchPill}
+    </div>
+    <div class="pcard-body">
+      <div class="title">${esc(p.title)}</div>
+      <div class="chips">
+        ${t.catLabel ? `<span class="chip cat">🏷 ${esc(t.catLabel)}</span>` : ''}
+        ${p.price ? `<span class="chip price">${esc(p.price)}</span>` : ''}
+        ${p.commissionRate ? `<span class="chip comm">${p.commissionRate}% comm.</span>` : ''}
       </div>
-    </div>
-    ${badge}
-    <div class="pstats">
-      <div class="pstat"><div class="v growth ${up ? 'up' : 'down'}">${up ? '▲' : '▼'} ${Math.abs(g)}%</div><div class="l">impennata ${winLabel}</div></div>
-      <div class="pstat"><div class="v earn">${t.euroPerVideo ? fmtEur(t.euroPerVideo) : '–'}</div><div class="l">€/video atteso</div></div>
-      <div class="pstat"><div class="v">${t.euroPerSale ? fmtEur(t.euroPerSale) : '–'}</div><div class="l">€/vendita</div></div>
-      <div class="pstat"><div class="v" style="color:var(--cyan)">${p.commissionRate ? p.commissionRate + '%' : '–'}</div><div class="l">commissione</div></div>
-    </div>
-    <div class="pmeta">
-      <span class="sat">${sat.join(' · ') || 'saturazione n/d'}</span>
-      ${sparkline(t.spark, 90, 30)}
-    </div>
-    <div class="pcard-actions">
-      <a class="btn btn-primary btn-sm" href="${esc(tiktokSearchUrl(p.title))}" target="_blank" rel="noopener">🔍 Cerca su TikTok</a>
-      <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank" rel="noopener">Dettagli ↗</a>
+      <div class="pstats">
+        <div class="pstat"><div class="v earn">${t.euroPerVideo ? fmtEur(t.euroPerVideo) : '–'}</div><div class="l">€/video atteso</div></div>
+        <div class="pstat"><div class="v">${t.euroPerSale ? fmtEur(t.euroPerSale) : '–'}</div><div class="l">€/vendita</div></div>
+        <div class="pstat"><div class="v">${fmtN(t.sold7)}</div><div class="l">vendite 7gg</div></div>
+      </div>
+      <div class="pmeta">
+        <span class="sat">${sat.length ? sat.join(' · ') + ' lo spingono' : 'saturazione n/d'}</span>
+        ${sparkline(t.spark, 84, 28)}
+      </div>
+      <div class="pcard-actions">
+        <a class="btn btn-primary btn-sm" href="${esc(tiktokSearchUrl(p.title))}" target="_blank" rel="noopener">🔍 Cerca su TikTok</a>
+        <a class="btn btn-ghost btn-sm" href="${esc(p.fastmossUrl)}" target="_blank" rel="noopener">Dettagli ↗</a>
+      </div>
     </div>
   </div>`;
 }
