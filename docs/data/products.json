@@ -282,6 +282,12 @@
         "soldDaily": 560,
         "soldTotal": 2503,
         "incRate": 76.1
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 309,
+        "soldTotal": 2762,
+        "incRate": -44.82
       }
     ],
     "id": "1729575730559949444",
@@ -293,10 +299,10 @@
       "Skirt Pants & Skorts"
     ],
     "shop": "B13.store",
-    "soldDaily": 560,
-    "soldTotal": 2503,
-    "amountDaily": 11060,
-    "incRate": 76.1,
+    "soldDaily": 309,
+    "soldTotal": 2762,
+    "amountDaily": 6102.75,
+    "incRate": -44.82,
     "commissionRate": 0,
     "region": "IT",
     "sold7": null,
@@ -304,10 +310,10 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729575730559949444",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729575730559949444",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "l1Hint": "womenswear",
     "creators": 1,
-    "videosCount": 0
+    "videosCount": 1
   },
   "1729795952136395742": {
     "history": [
@@ -1629,6 +1635,12 @@
         "soldDaily": 152,
         "soldTotal": 455,
         "incRate": 31.03
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 39,
+        "soldTotal": 570,
+        "incRate": 0
       }
     ],
     "id": "1729827392154803088",
@@ -1640,10 +1652,10 @@
       "Jeans"
     ],
     "shop": "Jioboutique",
-    "soldDaily": 152,
-    "soldTotal": 455,
-    "amountDaily": 4020.4,
-    "incRate": 31.03,
+    "soldDaily": 39,
+    "soldTotal": 570,
+    "amountDaily": 1031.55,
+    "incRate": 0,
     "commissionRate": 0,
     "region": "IT",
     "sold7": null,
@@ -1652,7 +1664,7 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729827392154803088",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729827392154803088",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "creators": 1,
     "videosCount": 0
   },
@@ -1738,21 +1750,27 @@
         "soldDaily": 94,
         "soldTotal": 2786,
         "incRate": -4.08
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 60,
+        "soldTotal": 3126,
+        "incRate": -33.33
       }
     ],
     "id": "1729806063335414383",
     "title": "[MIXMUSE] Riviera, Cardigan In Maglia",
-    "cover": "https://s.500fd.com/tt_product/00a925e2e06c45b9b1788ac4dc06f30e~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/85f976f544e54e61b9abdb95bc5b1b10~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "14,90 €",
     "currency": "EUR",
     "cats": [
       "Women's Tops"
     ],
     "shop": "MixMUSE",
-    "soldDaily": 94,
-    "soldTotal": 2786,
-    "amountDaily": 1400.6,
-    "incRate": -4.08,
+    "soldDaily": 60,
+    "soldTotal": 3126,
+    "amountDaily": 894,
+    "incRate": -33.33,
     "commissionRate": 10,
     "region": "IT",
     "sold7": null,
@@ -1761,8 +1779,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729806063335414383",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729806063335414383",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 83,
+    "lastSeen": "2026-06-22",
+    "creators": 86,
     "videosCount": 3
   },
   "1729814604394306247": {
@@ -1848,21 +1866,27 @@
         "soldDaily": 63,
         "soldTotal": 3689,
         "incRate": -5.97
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 311,
+        "soldTotal": 3813,
+        "incRate": -17.29
       }
     ],
     "id": "1729493676284352672",
     "title": "Reggiseno wireless solido in fascia, Reggiseno senza tracolla senza cuciture con fibbia frontale, Lingerie e biancheria intima da donna, Lingerie casual e comoda per tutte le stagioni",
-    "cover": "https://s.500fd.com/tt_product/d5fca8f94151426aa70a1b83a7542ed7~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/f096ddf56c12435ebf094b1b0126ba11~tplv-aphluv4xwc-resize-webp:800:800.webp",
     "price": "4,44 - 12,93 €",
     "currency": "EUR",
     "cats": [
       "Women's Underwear"
     ],
     "shop": "YOUTH.",
-    "soldDaily": 63,
-    "soldTotal": 3689,
-    "amountDaily": 279.72,
-    "incRate": -5.97,
+    "soldDaily": 311,
+    "soldTotal": 3813,
+    "amountDaily": 1380.84,
+    "incRate": -17.29,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -1871,8 +1895,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729493676284352672",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729493676284352672",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 182,
+    "lastSeen": "2026-06-22",
+    "creators": 189,
     "videosCount": 2
   },
   "1729829597791361070": {
@@ -1986,21 +2010,27 @@
         "soldDaily": 67,
         "soldTotal": 1531,
         "incRate": 63.41
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 376,
+        "soldTotal": 1748,
+        "incRate": 295.79
       }
     ],
     "id": "1729771224087960499",
     "title": "Shapellx pantaloncini modellanti da donna senza cuciture a vita alta, modellazione del corpo e snellimento delle cosce, intimo",
-    "cover": "https://s.500fd.com/tt_product/5909d87268cd4135b5d57bbca998d90f~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/5909d87268cd4135b5d57bbca998d90f~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "35,27 €",
     "currency": "EUR",
     "cats": [
       "Women's Underwear"
     ],
     "shop": "Shapellxshop",
-    "soldDaily": 67,
-    "soldTotal": 1531,
-    "amountDaily": 2363.09,
-    "incRate": 63.41,
+    "soldDaily": 376,
+    "soldTotal": 1748,
+    "amountDaily": 13261.52,
+    "incRate": 295.79,
     "commissionRate": 10,
     "region": "IT",
     "sold7": null,
@@ -2009,9 +2039,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729771224087960499",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771224087960499",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 131,
-    "videosCount": 1
+    "lastSeen": "2026-06-22",
+    "creators": 140,
+    "videosCount": 3
   },
   "1729829039563119236": {
     "history": [
@@ -2064,6 +2094,12 @@
         "soldDaily": 174,
         "soldTotal": 537,
         "incRate": 23.4
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 557,
+        "incRate": -80
       }
     ],
     "id": "1729810789564914346",
@@ -2075,10 +2111,10 @@
       "Women's Sleepwear & Loungewear"
     ],
     "shop": "Her TopBottom Go",
-    "soldDaily": 174,
-    "soldTotal": 537,
-    "amountDaily": 2434.26,
-    "incRate": 23.4,
+    "soldDaily": 1,
+    "soldTotal": 557,
+    "amountDaily": 13.99,
+    "incRate": -80,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -2087,9 +2123,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729810789564914346",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729810789564914346",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 11,
-    "videosCount": 2
+    "lastSeen": "2026-06-22",
+    "creators": 25,
+    "videosCount": 4
   },
   "1729811384902589328": {
     "history": [
@@ -2498,6 +2534,12 @@
         "soldDaily": 44,
         "soldTotal": 639,
         "incRate": 7.32
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 9,
+        "soldTotal": 739,
+        "incRate": -73.53
       }
     ],
     "id": "1729480028427950943",
@@ -2509,10 +2551,10 @@
       "Women's Bottoms"
     ],
     "shop": "SaltWhite",
-    "soldDaily": 44,
-    "soldTotal": 639,
-    "amountDaily": 201.96,
-    "incRate": 7.32,
+    "soldDaily": 9,
+    "soldTotal": 739,
+    "amountDaily": 41.31,
+    "incRate": -73.53,
     "commissionRate": 17,
     "region": "IT",
     "sold7": null,
@@ -2521,8 +2563,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729480028427950943",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480028427950943",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 37,
+    "lastSeen": "2026-06-22",
+    "creators": 48,
     "videosCount": 3
   },
   "1729741285332327157": {
@@ -2608,21 +2650,27 @@
         "soldDaily": 248,
         "soldTotal": 6798,
         "incRate": 552.63
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 163,
+        "soldTotal": 6961,
+        "incRate": -34.27
       }
     ],
     "id": "1729490967232682799",
     "title": "Reggiseno senza ferretto e schiena scoperta in tinta unita da donna, Comodi reggiseni traspiranti multiuso per uso quotidiano, Lingerie morbida per tutte le stagioni",
-    "cover": "https://s.500fd.com/tt_product/4b4e04ea2b394fa49501d7b0949b0bc1~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/4b4e04ea2b394fa49501d7b0949b0bc1~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "5,24 - 24,65 €",
     "currency": "EUR",
     "cats": [
       "Women's Underwear"
     ],
     "shop": "Simply Chic Lingerie",
-    "soldDaily": 248,
-    "soldTotal": 6798,
-    "amountDaily": 1299.52,
-    "incRate": 552.63,
+    "soldDaily": 163,
+    "soldTotal": 6961,
+    "amountDaily": 854.12,
+    "incRate": -34.27,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -2631,8 +2679,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729490967232682799",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729490967232682799",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 225,
+    "lastSeen": "2026-06-22",
+    "creators": 234,
     "videosCount": 2
   },
   "1729782932967103087": {
@@ -2654,21 +2702,27 @@
         "soldDaily": 238,
         "soldTotal": 2341,
         "incRate": 183.33
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 120,
+        "soldTotal": 2461,
+        "incRate": -38.78
       }
     ],
     "id": "1729782932967103087",
     "title": "[MIXMUSE] Butterfly, Maglia Basic in Misto Seta",
-    "cover": "https://s.500fd.com/tt_product/844a899aca5c4f94accd9e164ea2d76d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/15e68394145847e181b204e44caac0a9~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "17,90 €",
     "currency": "EUR",
     "cats": [
       "Women's Tops"
     ],
     "shop": "MixMUSE",
-    "soldDaily": 238,
-    "soldTotal": 2341,
-    "amountDaily": 4260.2,
-    "incRate": 183.33,
+    "soldDaily": 120,
+    "soldTotal": 2461,
+    "amountDaily": 2148,
+    "incRate": -38.78,
     "commissionRate": 10,
     "region": "IT",
     "sold7": null,
@@ -2677,9 +2731,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729782932967103087",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729782932967103087",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 119,
-    "videosCount": 2
+    "lastSeen": "2026-06-22",
+    "creators": 128,
+    "videosCount": 5
   },
   "1729812515460717188": {
     "history": [
@@ -3022,21 +3076,27 @@
         "soldDaily": 54,
         "soldTotal": 900,
         "incRate": 20
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 44,
+        "soldTotal": 1080,
+        "incRate": 15.79
       }
     ],
     "id": "1729525760312122284",
     "title": "Reggiseno senza spalline laterale con fibbia rimovibile in tinta unita da donna, reggiseno push up wireless alla moda per l'uso quotidiano, lingerie per tutte le stagioni",
-    "cover": "https://s.500fd.com/tt_product/6536278ebf0343c798ce7605a71c4612~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/6536278ebf0343c798ce7605a71c4612~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "3,39 - 10,33 €",
     "currency": "EUR",
     "cats": [
       "Women's Underwear"
     ],
     "shop": "blaskibro",
-    "soldDaily": 54,
-    "soldTotal": 900,
-    "amountDaily": 183.06,
-    "incRate": 20,
+    "soldDaily": 44,
+    "soldTotal": 1080,
+    "amountDaily": 149.16,
+    "incRate": 15.79,
     "commissionRate": 12,
     "region": "IT",
     "sold7": null,
@@ -3045,8 +3105,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729525760312122284",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729525760312122284",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 52,
+    "lastSeen": "2026-06-22",
+    "creators": 56,
     "videosCount": 4
   },
   "1729586782482897586": {
@@ -3325,21 +3385,27 @@
         "soldDaily": 46,
         "soldTotal": 1597,
         "incRate": -25.81
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 118,
+        "soldTotal": 1811,
+        "incRate": 0
       }
     ],
     "id": "1729807462067771563",
     "title": "Bermuda Miami",
-    "cover": "https://s.500fd.com/tt_product/9723ee186ea942c598bd62017bfca18a~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/9723ee186ea942c598bd62017bfca18a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "7,99 €",
     "currency": "EUR",
     "cats": [
       "Shorts"
     ],
     "shop": "abbigliamentojessica",
-    "soldDaily": 46,
-    "soldTotal": 1597,
-    "amountDaily": 367.54,
-    "incRate": -25.81,
+    "soldDaily": 118,
+    "soldTotal": 1811,
+    "amountDaily": 942.82,
+    "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -3348,8 +3414,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729807462067771563",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729807462067771563",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 7,
+    "lastSeen": "2026-06-22",
+    "creators": 9,
     "videosCount": 0
   },
   "1729835289362864433": {
@@ -3371,20 +3437,26 @@
         "soldDaily": 38,
         "soldTotal": 846,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 148,
+        "soldTotal": 994,
+        "incRate": 0
       }
     ],
     "id": "1729835289362864433",
     "title": "ABITO EMILY IN JERSER COTONE[Made In Italy]TAGLIA UNICA VESTE DA S FINO XL TASCHE LATERALI",
-    "cover": "https://s.500fd.com/tt_product/bab858b976d54ca489943eed74e32fd4~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+    "cover": "https://s.500fd.com/tt_product/bab858b976d54ca489943eed74e32fd4~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "29,99 €",
     "currency": "EUR",
     "cats": [
       "Casual Dresses"
     ],
     "shop": "Minix Fashion Brand",
-    "soldDaily": 38,
-    "soldTotal": 846,
-    "amountDaily": 1139.62,
+    "soldDaily": 148,
+    "soldTotal": 994,
+    "amountDaily": 4438.52,
     "incRate": 0,
     "commissionRate": 3.5,
     "region": "IT",
@@ -3394,8 +3466,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729835289362864433",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729835289362864433",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 15,
+    "lastSeen": "2026-06-22",
+    "creators": 16,
     "videosCount": 0
   },
   "1729782768461257327": {
@@ -3463,6 +3535,12 @@
         "soldDaily": 20,
         "soldTotal": 628,
         "incRate": 81.82
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 109,
+        "soldTotal": 673,
+        "incRate": 0
       }
     ],
     "id": "1729829077431392879",
@@ -3474,10 +3552,10 @@
       "Women's Suits & Overalls"
     ],
     "shop": "MixMUSE",
-    "soldDaily": 20,
-    "soldTotal": 628,
-    "amountDaily": 698,
-    "incRate": 81.82,
+    "soldDaily": 109,
+    "soldTotal": 673,
+    "amountDaily": 3804.1,
+    "incRate": 0,
     "commissionRate": 10,
     "region": "IT",
     "sold7": null,
@@ -3486,9 +3564,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729829077431392879",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829077431392879",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 68,
-    "videosCount": 1
+    "lastSeen": "2026-06-22",
+    "creators": 79,
+    "videosCount": 3
   },
   "1729483752588417574": {
     "history": [
@@ -4086,6 +4164,12 @@
         "soldDaily": 119,
         "soldTotal": 7364,
         "incRate": 32.22
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 33,
+        "soldTotal": 7397,
+        "incRate": -72.27
       }
     ],
     "id": "1729584712875612996",
@@ -4097,10 +4181,10 @@
       "Women's Underwear"
     ],
     "shop": "Jiaxiya Store",
-    "soldDaily": 119,
-    "soldTotal": 7364,
-    "amountDaily": 913.92,
-    "incRate": 32.22,
+    "soldDaily": 33,
+    "soldTotal": 7397,
+    "amountDaily": 253.44,
+    "incRate": -72.27,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -4109,8 +4193,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729584712875612996",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729584712875612996",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 362,
+    "lastSeen": "2026-06-22",
+    "creators": 377,
     "videosCount": 89
   },
   "1729490117497232110": {
@@ -4456,32 +4540,37 @@
         "soldDaily": 18,
         "soldTotal": 321,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 32,
+        "soldTotal": 439,
+        "incRate": -23.81
       }
     ],
     "id": "1729485670245701937",
     "title": "Semplice Abito Cami in Pizzo Floreale senza Schienale con Orlo Split da Donna, Elegante Abito lungo senza Maniche con Cinturino Regolabile per Abbigliamento da Incontri Party Club, Abbigliamento Estivo da Donna",
-    "cover": "https://s.500fd.com/tt_product/2ddb70066cfe43ad85d84926c2bc1da0~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/2ddb70066cfe43ad85d84926c2bc1da0~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "15,11 €",
     "currency": "EUR",
     "cats": [
-      "Womenswear & Underwear",
       "Women's Dresses"
     ],
     "shop": "Hawthaw Women Apparel",
-    "soldDaily": 18,
-    "soldTotal": 321,
-    "amountDaily": 271.98,
-    "incRate": 0,
+    "soldDaily": 32,
+    "soldTotal": 439,
+    "amountDaily": 483.52,
+    "incRate": -23.81,
     "commissionRate": 12,
     "region": "IT",
-    "sold7": 108,
-    "sold14": 151,
-    "rating": 4.7,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729485670245701937",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729485670245701937",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 58,
+    "lastSeen": "2026-06-22",
+    "creators": 63,
     "videosCount": 4
   },
   "1729502054411901315": {
@@ -4543,21 +4632,27 @@
         "soldDaily": 79,
         "soldTotal": 326,
         "incRate": 68.09
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 3,
+        "soldTotal": 380,
+        "incRate": -62.5
       }
     ],
     "id": "1729801304060107451",
     "title": "Abito estivo in raso a maglia, colore champagne, scollo all’americana, senza maniche, vita segnata, lunghezza midi, design plissé, dettaglio con bottoni, abito da sera, Ffsp2640",
-    "cover": "https://s.500fd.com/tt_product/3114f260679343fb87d1f9b16dfeb5e4~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/3114f260679343fb87d1f9b16dfeb5e4~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "14,02 €",
     "currency": "EUR",
     "cats": [
       "Women's Dresses"
     ],
     "shop": "FormeFemme fashion",
-    "soldDaily": 79,
-    "soldTotal": 326,
-    "amountDaily": 1107.58,
-    "incRate": 68.09,
+    "soldDaily": 3,
+    "soldTotal": 380,
+    "amountDaily": 42.06,
+    "incRate": -62.5,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -4566,8 +4661,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729801304060107451",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729801304060107451",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 31,
+    "lastSeen": "2026-06-22",
+    "creators": 52,
     "videosCount": 3
   },
   "1729771239702895539": {
@@ -5162,32 +5257,37 @@
         "soldDaily": 5,
         "soldTotal": 416,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 2,
+        "soldTotal": 440,
+        "incRate": -50
       }
     ],
     "id": "1729483755277163030",
     "title": "Abito da donna con stampa floreale integrale, spacco sulla coscia e laccetto posteriore, abito lungo in stile casual alla moda con scollo all'americana per vacanze al mare, abbigliamento estivo da donna",
-    "cover": "https://s.500fd.com/tt_product/530924ce26c640e5bb6dee14f37764c8~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/353e538d3d164e059d3f3eb901301bf0~tplv-aphluv4xwc-resize-webp:800:800.webp",
     "price": "5,30 €",
     "currency": "EUR",
     "cats": [
-      "Womenswear & Underwear",
       "Women's Dresses"
     ],
     "shop": "AORUNOVA",
-    "soldDaily": 5,
-    "soldTotal": 416,
-    "amountDaily": 26.5,
-    "incRate": 0,
+    "soldDaily": 2,
+    "soldTotal": 440,
+    "amountDaily": 10.6,
+    "incRate": -50,
     "commissionRate": 12,
     "region": "IT",
-    "sold7": 82,
-    "sold14": 142,
-    "rating": 4.9,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729483755277163030",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729483755277163030",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 65,
+    "lastSeen": "2026-06-22",
+    "creators": 70,
     "videosCount": 11
   },
   "1729762846717549355": {
@@ -5627,21 +5727,27 @@
         "soldDaily": 2,
         "soldTotal": 402,
         "incRate": -33.33
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 423,
+        "incRate": -66.67
       }
     ],
     "id": "1729504753077360714",
     "title": "Camicia da notte da donna con stampa integrale, camicia da notte casual, morbida e confortevole con spalline sottili per tutte le stagioni, pigiama da donna per uso in ambiente interno, vestaglia da notte traspirante",
-    "cover": "https://s.500fd.com/tt_product/47ca8505c9e544cfa7b86bbd43c1ff8d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/47ca8505c9e544cfa7b86bbd43c1ff8d~tplv-o3syd03w52-resize-webp:800:800.webp",
     "price": "5,38 - 6,13 €",
     "currency": "EUR",
     "cats": [
       "Women's Sleepwear & Loungewear"
     ],
     "shop": "Khakimei",
-    "soldDaily": 2,
-    "soldTotal": 402,
-    "amountDaily": 10.76,
-    "incRate": -33.33,
+    "soldDaily": 1,
+    "soldTotal": 423,
+    "amountDaily": 5.38,
+    "incRate": -66.67,
     "commissionRate": 17,
     "region": "IT",
     "sold7": null,
@@ -5650,8 +5756,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729504753077360714",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729504753077360714",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-15",
-    "creators": 103,
+    "lastSeen": "2026-06-22",
+    "creators": 110,
     "videosCount": 0
   },
   "1729739781942253735": {
@@ -5785,21 +5891,27 @@
         "soldDaily": 45,
         "soldTotal": 1378,
         "incRate": -34.78
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 38,
+        "soldTotal": 1416,
+        "incRate": 123.53
       }
     ],
     "id": "1729481329781218039",
-    "title": "Women's Solid Button Front Shirt & Tie Front Wide Leg Pants Two-piece Set, Casual Drop Shoulder Long Sleeve Blouse Top & Trousers 2 Piece Set for Spring & Fall, Women's Clothes for Daily Wear, Casual Matching Set",
-    "cover": "https://s.500fd.com/tt_product/9f532980c4074c538dd16c244ff1c01d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "title": "Set due pezzi da donna con camicia con bottoni sul davanti e pantaloni a vita larga con cravatta, Blusa casual a spalla scesa a maniche lunghe e pantaloni, Set 2pz per la primavera e l'autunno, Abbigliamento da donna per uso quotidiano",
+    "cover": "https://s.500fd.com/tt_product/a0b2114634c34e57b15e5025d6d35368~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "6,85 - 8,08 €",
     "currency": "EUR",
     "cats": [
       "Women's Suits & Overalls"
     ],
     "shop": "FlaireX",
-    "soldDaily": 45,
-    "soldTotal": 1378,
-    "amountDaily": 308.25,
-    "incRate": -34.78,
+    "soldDaily": 38,
+    "soldTotal": 1416,
+    "amountDaily": 260.3,
+    "incRate": 123.53,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -5808,8 +5920,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729481329781218039",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729481329781218039",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 301,
+    "lastSeen": "2026-06-22",
+    "creators": 318,
     "videosCount": 141
   },
   "1729731821363698423": {
@@ -6029,6 +6141,12 @@
         "soldDaily": 31,
         "soldTotal": 161,
         "incRate": -43.64
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 9,
+        "soldTotal": 220,
+        "incRate": -25
       }
     ],
     "id": "1729822907743509103",
@@ -6040,10 +6158,10 @@
       "Casual Dresses"
     ],
     "shop": "MixMUSE",
-    "soldDaily": 31,
-    "soldTotal": 161,
-    "amountDaily": 926.9,
-    "incRate": -43.64,
+    "soldDaily": 9,
+    "soldTotal": 220,
+    "amountDaily": 269.1,
+    "incRate": -25,
     "commissionRate": 0,
     "region": "IT",
     "sold7": null,
@@ -6052,9 +6170,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729822907743509103",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729822907743509103",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 22,
-    "videosCount": 0
+    "lastSeen": "2026-06-22",
+    "creators": 38,
+    "videosCount": 1
   },
   "1729498364870170793": {
     "history": [
@@ -6144,8 +6262,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 81,
-        "soldTotal": 1134,
+        "soldDaily": 102
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 66
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 41
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 9
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 9,
+        "soldTotal": 1352,
         "incRate": 0
       }
     ],
@@ -6159,21 +6293,21 @@
       "Women's Suits & Overalls"
     ],
     "shop": "ViviModa",
-    "soldDaily": 81,
-    "soldTotal": 1134,
-    "amountDaily": 1782,
+    "soldDaily": 9,
+    "soldTotal": 1352,
+    "amountDaily": 198,
     "incRate": 0,
     "commissionRate": 10,
     "region": "IT",
-    "sold7": 653,
-    "sold14": 879,
+    "sold7": 437,
+    "sold14": 1082,
     "rating": 4.6,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729791819470838048",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791819470838048",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 33,
-    "videosCount": 1
+    "lastSeen": "2026-06-22",
+    "creators": 43,
+    "videosCount": 2
   },
   "1729480026032937112": {
     "history": [
@@ -6632,21 +6766,27 @@
         "soldDaily": 38,
         "soldTotal": 2141,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 25,
+        "soldTotal": 2257,
+        "incRate": -50.98
       }
     ],
     "id": "1729747781651503146",
     "title": "Collier Kim Love",
-    "cover": "https://s.500fd.com/tt_product/4fbf477aa5c44b0dadaf0b4c67957d8d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/dfb4db6e1c544c50ae3646d284244497~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "24,69 - 30 €",
     "currency": "EUR",
     "cats": [
       "Necklaces"
     ],
     "shop": "nelmondodialicesrl",
-    "soldDaily": 38,
-    "soldTotal": 2141,
-    "amountDaily": 938.22,
-    "incRate": 0,
+    "soldDaily": 25,
+    "soldTotal": 2257,
+    "amountDaily": 617.25,
+    "incRate": -50.98,
     "commissionRate": 7,
     "region": "IT",
     "sold7": null,
@@ -6654,9 +6794,9 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729747781651503146",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729747781651503146",
-    "lastSeen": "2026-06-18",
-    "creators": 19,
-    "videosCount": 0
+    "lastSeen": "2026-06-22",
+    "creators": 28,
+    "videosCount": 1
   },
   "1729832288645913328": {
     "history": [
@@ -6723,21 +6863,27 @@
         "soldDaily": 40,
         "soldTotal": 5470,
         "incRate": -9.09
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 231,
+        "soldTotal": 5581,
+        "incRate": -27.13
       }
     ],
     "id": "1729609450760345609",
     "title": "Confezione da 3 occhiali da sole quadrati stile YK2 con protezione UV per coppie, perfetti per guida, pesca e trekking, adatti a uomini e donne",
-    "cover": "https://s.500fd.com/tt_product/4a917bd0745e4857b353a2a5026c2a62~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/4a917bd0745e4857b353a2a5026c2a62~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "2,59 €",
     "currency": "EUR",
     "cats": [
       "Eyewear"
     ],
     "shop": "BI LING GLASSES",
-    "soldDaily": 40,
-    "soldTotal": 5470,
-    "amountDaily": 103.6,
-    "incRate": -9.09,
+    "soldDaily": 231,
+    "soldTotal": 5581,
+    "amountDaily": 598.29,
+    "incRate": -27.13,
     "commissionRate": 12,
     "region": "IT",
     "sold7": null,
@@ -6745,8 +6891,8 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729609450760345609",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729609450760345609",
-    "lastSeen": "2026-06-18",
-    "creators": 74,
+    "lastSeen": "2026-06-22",
+    "creators": 75,
     "videosCount": 2
   },
   "1729511366700472898": {
@@ -7209,31 +7355,36 @@
         "soldDaily": 18,
         "soldTotal": 2238,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 11,
+        "soldTotal": 2290,
+        "incRate": 10
       }
     ],
     "id": "1729480577050319004",
     "title": "Fascia per capelli decorativa con graziose mollette, Cerchietto per capelli multiuso con mollette, Accessori per capelli alla moda da donna, Cerchietto minimalista, Cerchietto alla moda",
-    "cover": "https://s.500fd.com/tt_product/aef01f88f493468e8032beed59f6b768~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/aef01f88f493468e8032beed59f6b768~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "€0,54",
     "currency": "EUR",
     "cats": [
-      "Fashion Accessories",
       "Hair Accessories"
     ],
     "shop": "Chic Pendants",
-    "soldDaily": 18,
-    "soldTotal": 2238,
-    "amountDaily": 9.72,
-    "incRate": 0,
+    "soldDaily": 11,
+    "soldTotal": 2290,
+    "amountDaily": 5.94,
+    "incRate": 10,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 166,
-    "sold14": 339,
-    "rating": 4.6,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729480577050319004",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480577050319004",
-    "lastSeen": "2026-06-18",
-    "creators": 55,
+    "lastSeen": "2026-06-22",
+    "creators": 59,
     "videosCount": 4
   },
   "1729838247911200810": {
@@ -8175,21 +8326,27 @@
         "soldDaily": 312,
         "soldTotal": 3044,
         "incRate": 48.57
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 30,
+        "soldTotal": 3271,
+        "incRate": -40
       }
     ],
     "id": "1729791843007503314",
     "title": "Collana Magnetica Color",
-    "cover": "https://s.500fd.com/tt_product/0537c506b2d94e589118ddd8b18140aa~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/0537c506b2d94e589118ddd8b18140aa~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "12 €",
     "currency": "EUR",
     "cats": [
       "Necklaces"
     ],
     "shop": "rosy.shop1",
-    "soldDaily": 312,
-    "soldTotal": 3044,
-    "amountDaily": 3744,
-    "incRate": 48.57,
+    "soldDaily": 30,
+    "soldTotal": 3271,
+    "amountDaily": 360,
+    "incRate": -40,
     "commissionRate": 15,
     "region": "IT",
     "sold7": null,
@@ -8197,9 +8354,9 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729791843007503314",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791843007503314",
-    "lastSeen": "2026-06-18",
-    "creators": 76,
-    "videosCount": 0
+    "lastSeen": "2026-06-22",
+    "creators": 84,
+    "videosCount": 2
   },
   "1729468100859563516": {
     "history": [
@@ -8252,6 +8409,12 @@
         "soldDaily": 158,
         "soldTotal": 847,
         "incRate": 43.64
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 42,
+        "soldTotal": 872,
+        "incRate": -73.42
       }
     ],
     "id": "1729833238967589524",
@@ -8263,10 +8426,10 @@
       "Earrings"
     ],
     "shop": "Annaira Collection s.r.l",
-    "soldDaily": 158,
-    "soldTotal": 847,
-    "amountDaily": 4106.42,
-    "incRate": 43.64,
+    "soldDaily": 42,
+    "soldTotal": 872,
+    "amountDaily": 1091.58,
+    "incRate": -73.42,
     "commissionRate": 11,
     "region": "IT",
     "sold7": null,
@@ -8274,9 +8437,9 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729833238967589524",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833238967589524",
-    "lastSeen": "2026-06-18",
-    "creators": 9,
-    "videosCount": 0
+    "lastSeen": "2026-06-22",
+    "creators": 16,
+    "videosCount": 1
   },
   "1729626717445200619": {
     "history": [
@@ -8329,21 +8492,27 @@
         "soldDaily": 17,
         "soldTotal": 1413,
         "incRate": -19.05
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 134,
+        "soldTotal": 1505,
+        "incRate": -41.74
       }
     ],
     "id": "1729816791799732884",
     "title": "Charm Annaira Personalizzabile con incisione",
-    "cover": "https://s.500fd.com/tt_product/e7863f12666045bf95741251d4661baf~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/33241d3f878b402ab6e918a9f9f6d9f0~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "12,88 €",
     "currency": "EUR",
     "cats": [
       "Charms & Pendants"
     ],
     "shop": "Annaira Collection s.r.l",
-    "soldDaily": 17,
-    "soldTotal": 1413,
-    "amountDaily": 218.96,
-    "incRate": -19.05,
+    "soldDaily": 134,
+    "soldTotal": 1505,
+    "amountDaily": 1725.92,
+    "incRate": -41.74,
     "commissionRate": 11,
     "region": "IT",
     "sold7": null,
@@ -8351,8 +8520,8 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729816791799732884",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729816791799732884",
-    "lastSeen": "2026-06-18",
-    "creators": 17,
+    "lastSeen": "2026-06-22",
+    "creators": 18,
     "videosCount": 1
   },
   "1729613667767524066": {
@@ -8406,21 +8575,27 @@
         "soldDaily": 21,
         "soldTotal": 1551,
         "incRate": -25
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 139,
+        "soldTotal": 1634,
+        "incRate": -9.74
       }
     ],
     "id": "1729500890267032212",
     "title": "Set 5 Fedine Gold",
-    "cover": "https://s.500fd.com/tt_product/41fca7e5b8204ec7adf73cb506a77331~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/41fca7e5b8204ec7adf73cb506a77331~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "€12,90",
     "currency": "EUR",
     "cats": [
       "Rings"
     ],
     "shop": "Annaira Collection s.r.l",
-    "soldDaily": 21,
-    "soldTotal": 1551,
-    "amountDaily": 270.9,
-    "incRate": -25,
+    "soldDaily": 139,
+    "soldTotal": 1634,
+    "amountDaily": 1793.1,
+    "incRate": -9.74,
     "commissionRate": 10,
     "region": "IT",
     "sold7": null,
@@ -8428,9 +8603,9 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729500890267032212",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729500890267032212",
-    "lastSeen": "2026-06-18",
-    "creators": 50,
-    "videosCount": 1
+    "lastSeen": "2026-06-22",
+    "creators": 53,
+    "videosCount": 3
   },
   "1729815908730378492": {
     "history": [
@@ -8593,6 +8768,12 @@
         "soldDaily": 66,
         "soldTotal": 1561,
         "incRate": -25
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 29,
+        "soldTotal": 1666,
+        "incRate": 0
       }
     ],
     "id": "1729538572779624545",
@@ -8604,10 +8785,10 @@
       "Velvet, Silk & Satin"
     ],
     "shop": "Merceria & Tendenze",
-    "soldDaily": 66,
-    "soldTotal": 1561,
-    "amountDaily": 94.38,
-    "incRate": -25,
+    "soldDaily": 29,
+    "soldTotal": 1666,
+    "amountDaily": 41.47,
+    "incRate": 0,
     "commissionRate": 7,
     "region": "IT",
     "sold7": null,
@@ -8616,7 +8797,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729538572779624545",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729538572779624545",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-12"
+    "lastSeen": "2026-06-22",
+    "creators": 16,
+    "videosCount": 0
   },
   "1729536029937932814": {
     "history": [
@@ -8919,6 +9102,12 @@
         "soldDaily": 22,
         "soldTotal": 604,
         "incRate": 214.29
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 2,
+        "soldTotal": 628,
+        "incRate": -33.33
       }
     ],
     "id": "1729483397192456841",
@@ -8930,10 +9119,10 @@
       "Costume Jewelry & Accessories"
     ],
     "shop": "Vip New Jewelry",
-    "soldDaily": 22,
-    "soldTotal": 604,
-    "amountDaily": 10.34,
-    "incRate": 214.29,
+    "soldDaily": 2,
+    "soldTotal": 628,
+    "amountDaily": 0.94,
+    "incRate": -33.33,
     "commissionRate": 17,
     "region": "IT",
     "sold7": null,
@@ -8942,7 +9131,7 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729483397192456841",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729483397192456841",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "creators": 2,
     "videosCount": 0
   },
@@ -9192,6 +9381,12 @@
         "soldDaily": 8,
         "soldTotal": 553,
         "incRate": 33.33
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 35,
+        "soldTotal": 569,
+        "incRate": 34.62
       }
     ],
     "id": "1729608465877145849",
@@ -9203,10 +9398,10 @@
       "Eyewear"
     ],
     "shop": "YZZ SUNGLASSES",
-    "soldDaily": 8,
-    "soldTotal": 553,
-    "amountDaily": 19.36,
-    "incRate": 33.33,
+    "soldDaily": 35,
+    "soldTotal": 569,
+    "amountDaily": 84.7,
+    "incRate": 34.62,
     "commissionRate": 12,
     "region": "IT",
     "sold7": null,
@@ -9214,8 +9409,8 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729608465877145849",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729608465877145849",
-    "lastSeen": "2026-06-18",
-    "creators": 34,
+    "lastSeen": "2026-06-22",
+    "creators": 38,
     "videosCount": 0
   },
   "1729611357999635081": {
@@ -9375,21 +9570,27 @@
         "soldDaily": 26,
         "soldTotal": 1057,
         "incRate": 4
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 4,
+        "soldTotal": 1080,
+        "incRate": 100
       }
     ],
     "id": "1729480023918614528",
     "title": "Parrucche con Capelli Lisci e Fronte in Renda Lunghe 38 inch per Donne, Bellissime Parrucche Morbide senza Frangia, Parrucche con Capelli Prearricciati in Fibra Resistente al Calore Sintetica per Festa, Uso Quotidiano",
-    "cover": "https://s.500fd.com/tt_product/c818496a770041d496696e8034dd9bc0~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/ed0ccc63b76c4aaab11fc4044e0dae6c~tplv-aphluv4xwc-resize-webp:800:800.webp",
     "price": "38,11 €",
     "currency": "EUR",
     "cats": [
       "Hair Extensions & Wigs"
     ],
     "shop": "Rebeccahair",
-    "soldDaily": 26,
-    "soldTotal": 1057,
-    "amountDaily": 990.86,
-    "incRate": 4,
+    "soldDaily": 4,
+    "soldTotal": 1080,
+    "amountDaily": 152.44,
+    "incRate": 100,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -9398,8 +9599,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729480023918614528",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480023918614528",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-18",
-    "creators": 161,
+    "lastSeen": "2026-06-22",
+    "creators": 164,
     "videosCount": 0
   },
   "1729449671003379934": {
@@ -9739,6 +9940,12 @@
         "soldDaily": 3,
         "soldTotal": 1142,
         "incRate": -50
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 1161,
+        "incRate": -66.67
       }
     ],
     "id": "1729536945780201876",
@@ -9750,10 +9957,10 @@
       "Hair Extensions & Wigs"
     ],
     "shop": "SALLYWELL HAIR",
-    "soldDaily": 3,
-    "soldTotal": 1142,
-    "amountDaily": 45.96,
-    "incRate": -50,
+    "soldDaily": 1,
+    "soldTotal": 1161,
+    "amountDaily": 15.32,
+    "incRate": -66.67,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -9762,7 +9969,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729536945780201876",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729536945780201876",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-12"
+    "lastSeen": "2026-06-22",
+    "creators": 138,
+    "videosCount": 0
   },
   "1729643818094270799": {
     "history": [
@@ -10446,6 +10655,12 @@
         "soldDaily": 2,
         "soldTotal": 170,
         "incRate": -33.33
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 11,
+        "soldTotal": 173,
+        "incRate": -15.38
       }
     ],
     "id": "1729782782240529020",
@@ -10457,10 +10672,10 @@
       "Clothes Accessories"
     ],
     "shop": "Over Cap",
-    "soldDaily": 2,
-    "soldTotal": 170,
-    "amountDaily": 10.64,
-    "incRate": -33.33,
+    "soldDaily": 11,
+    "soldTotal": 173,
+    "amountDaily": 58.52,
+    "incRate": -15.38,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -10469,8 +10684,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729782782240529020",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729782782240529020",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-18",
-    "creators": 7,
+    "lastSeen": "2026-06-22",
+    "creators": 12,
     "videosCount": 0
   },
   "1729806584335800542": {
@@ -14428,8 +14643,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 4,
-        "soldTotal": 152,
+        "soldDaily": 14
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 18
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 3
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 6
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 6,
+        "soldTotal": 193,
         "incRate": 0
       }
     ],
@@ -14443,20 +14674,21 @@
       "Women's Suits & Overalls"
     ],
     "shop": "nice clothes",
-    "soldDaily": 4,
-    "soldTotal": 152,
-    "amountDaily": 64.64,
+    "soldDaily": 6,
+    "soldTotal": 193,
+    "amountDaily": 96.96,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 61,
-    "sold14": 137,
-    "rating": null,
+    "sold7": 80,
+    "sold14": 121,
+    "rating": 4.7,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729800711205198117",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729800711205198117",
-    "lastSeen": "2026-06-18",
-    "creators": 9,
-    "videosCount": 0
+    "lastSeen": "2026-06-22",
+    "creators": 13,
+    "videosCount": 0,
+    "l1Hint": "womenswear"
   },
   "1729727454258239885": {
     "history": [
@@ -14514,14 +14746,30 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 4,
-        "soldTotal": 3267,
+        "soldDaily": 8
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 5
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 8
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 12
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 12,
+        "soldTotal": 3300,
         "incRate": 0
       }
     ],
     "id": "1729727454258239885",
     "title": "Set da donna con maglietta sportiva casual e pantaloni lunghi, set a due pezzi con pantaloni a gamba larga e top a bottoni, comodo e alla moda",
-    "cover": "https://s.500fd.com/tt_product/dfa9b81c868143e09f7ccaceb029a8e1~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/51055d79467e4c7e988128bed0707270~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "10,39 - 10,58 €",
     "currency": "EUR",
     "cats": [
@@ -14529,19 +14777,19 @@
       "Sport & Outdoor Clothing"
     ],
     "shop": "Sleek Luxe Sport",
-    "soldDaily": 4,
-    "soldTotal": 3267,
-    "amountDaily": 41.56,
+    "soldDaily": 12,
+    "soldTotal": 3300,
+    "amountDaily": 124.68,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 52,
-    "sold14": 136,
+    "sold7": 47,
+    "sold14": 122,
     "rating": 4.5,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729727454258239885",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729727454258239885",
-    "lastSeen": "2026-06-18",
-    "creators": 248,
+    "lastSeen": "2026-06-22",
+    "creators": 261,
     "videosCount": 2
   },
   "1729772647937252240": {
@@ -14600,8 +14848,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 25,
-        "soldTotal": 418,
+        "soldDaily": 20
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 21
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 12
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 8
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 8,
+        "soldTotal": 479,
         "incRate": 0
       }
     ],
@@ -14615,19 +14879,19 @@
       "Swimwear, Surfwear & Wetsuits"
     ],
     "shop": "YHBIKINI",
-    "soldDaily": 25,
-    "soldTotal": 418,
-    "amountDaily": 252,
+    "soldDaily": 8,
+    "soldTotal": 479,
+    "amountDaily": 80.64,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 123,
-    "sold14": 197,
-    "rating": 4.6,
+    "sold7": 130,
+    "sold14": 217,
+    "rating": 4.7,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729772647937252240",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729772647937252240",
-    "lastSeen": "2026-06-18",
-    "creators": 23,
+    "lastSeen": "2026-06-22",
+    "creators": 29,
     "videosCount": 1
   },
   "1729819559953930847": {
@@ -15043,8 +15307,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 7,
-        "soldTotal": 146,
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 148,
         "incRate": 0
       }
     ],
@@ -15058,18 +15338,18 @@
       "Sport & Outdoor Clothing"
     ],
     "shop": "Hongbo Clothing",
-    "soldDaily": 7,
-    "soldTotal": 146,
-    "amountDaily": 16.03,
+    "soldDaily": 1,
+    "soldTotal": 148,
+    "amountDaily": 2.29,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 10,
-    "sold14": 21,
+    "sold7": 9,
+    "sold14": 17,
     "rating": 4.9,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729481748433443363",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729481748433443363",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "creators": 4,
     "videosCount": 0
   },
@@ -16411,6 +16691,12 @@
         "soldDaily": 121,
         "soldTotal": 244,
         "incRate": 384
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 403,
+        "soldTotal": 612,
+        "incRate": 233.06
       }
     ],
     "id": "1729833811348986479",
@@ -16422,11 +16708,11 @@
       "Knitwear"
     ],
     "shop": "MixMUSE",
-    "soldDaily": 121,
-    "soldTotal": 244,
-    "amountDaily": 1802.9,
-    "incRate": 384,
-    "commissionRate": 0,
+    "soldDaily": 403,
+    "soldTotal": 612,
+    "amountDaily": 6004.7,
+    "incRate": 233.06,
+    "commissionRate": 10,
     "region": "IT",
     "sold7": null,
     "sold14": null,
@@ -16434,8 +16720,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729833811348986479",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833811348986479",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 16,
+    "lastSeen": "2026-06-22",
+    "creators": 37,
     "videosCount": 5
   },
   "1729805240494168725": {
@@ -17001,6 +17287,12 @@
         "soldDaily": 4,
         "soldTotal": 109,
         "incRate": -42.86
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 8,
+        "soldTotal": 178,
+        "incRate": -27.27
       }
     ],
     "id": "1729833814759676527",
@@ -17012,11 +17304,11 @@
       "Casual Dresses"
     ],
     "shop": "MixMUSE",
-    "soldDaily": 4,
-    "soldTotal": 109,
-    "amountDaily": 59.6,
-    "incRate": -42.86,
-    "commissionRate": 0,
+    "soldDaily": 8,
+    "soldTotal": 178,
+    "amountDaily": 119.2,
+    "incRate": -27.27,
+    "commissionRate": 10,
     "region": "IT",
     "sold7": null,
     "sold14": null,
@@ -17024,8 +17316,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729833814759676527",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833814759676527",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-15",
-    "creators": 6,
+    "lastSeen": "2026-06-22",
+    "creators": 16,
     "videosCount": 0
   },
   "1729759464676497473": {
@@ -17157,8 +17449,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 25,
-        "soldTotal": 1084,
+        "soldDaily": 16
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 6
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 7
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 2
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 2,
+        "soldTotal": 1115,
         "incRate": 0
       }
     ],
@@ -17172,20 +17480,20 @@
       "Women's Suits & Overalls"
     ],
     "shop": "flux hoodies",
-    "soldDaily": 25,
-    "soldTotal": 1084,
-    "amountDaily": 213.5,
+    "soldDaily": 2,
+    "soldTotal": 1115,
+    "amountDaily": 17.08,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 80,
-    "sold14": 91,
+    "sold7": 82,
+    "sold14": 111,
     "rating": 4.6,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729741137348696796",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729741137348696796",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18",
-    "creators": 155,
+    "lastSeen": "2026-06-22",
+    "creators": 162,
     "videosCount": 0
   },
   "1729778606860900975": {
@@ -17441,6 +17749,12 @@
         "soldDaily": 18,
         "soldTotal": 571,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 183,
+        "soldTotal": 729,
+        "incRate": -66.48
       }
     ],
     "id": "1729845774158567466",
@@ -17452,10 +17766,10 @@
       "Necklaces"
     ],
     "shop": "nelmondodialicesrl",
-    "soldDaily": 18,
-    "soldTotal": 571,
-    "amountDaily": 485.82,
-    "incRate": 0,
+    "soldDaily": 183,
+    "soldTotal": 729,
+    "amountDaily": 4939.17,
+    "incRate": -66.48,
     "commissionRate": 0,
     "region": "IT",
     "sold7": null,
@@ -17464,7 +17778,7 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729845774158567466",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729845774158567466",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "creators": 1,
     "videosCount": 0
   },
@@ -17719,10 +18033,16 @@
         "soldDaily": 19,
         "soldTotal": 249,
         "incRate": 26.67
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 119,
+        "soldTotal": 368,
+        "incRate": 250
       }
     ],
     "id": "1729836306792814634",
-    "title": "Collier “Marea” (anche a choker)",
+    "title": "Collier “Marea” (anche a choker) DoubleFace",
     "cover": "https://s.500fd.com/tt_product/2325c06708794a49baf190f0f4990a73~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "27,50 €",
     "currency": "EUR",
@@ -17730,10 +18050,10 @@
       "Necklaces"
     ],
     "shop": "nelmondodialicesrl",
-    "soldDaily": 19,
-    "soldTotal": 249,
-    "amountDaily": 522.5,
-    "incRate": 26.67,
+    "soldDaily": 119,
+    "soldTotal": 368,
+    "amountDaily": 3272.5,
+    "incRate": 250,
     "commissionRate": 0,
     "region": "IT",
     "sold7": null,
@@ -17742,9 +18062,9 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729836306792814634",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729836306792814634",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-15",
+    "lastSeen": "2026-06-22",
     "creators": 1,
-    "videosCount": 0
+    "videosCount": 1
   },
   "1729758500846803217": {
     "history": [
@@ -17867,6 +18187,12 @@
         "soldDaily": 23,
         "soldTotal": 146,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 22,
+        "soldTotal": 181,
+        "incRate": 0
       }
     ],
     "id": "1729828567188543617",
@@ -17878,9 +18204,9 @@
       "Necklaces"
     ],
     "shop": "Envytorredelgreco",
-    "soldDaily": 23,
-    "soldTotal": 146,
-    "amountDaily": 121.9,
+    "soldDaily": 22,
+    "soldTotal": 181,
+    "amountDaily": 116.6,
     "incRate": 0,
     "commissionRate": 8,
     "region": "IT",
@@ -17889,7 +18215,7 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729828567188543617",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729828567188543617",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "creators": 2,
     "videosCount": 0
   },
@@ -18359,21 +18685,27 @@
         "soldDaily": 314,
         "soldTotal": 2201,
         "incRate": 4385.71
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 231,
+        "soldTotal": 2432,
+        "incRate": -26.43
       }
     ],
     "id": "1729727105459395220",
     "title": "1 Omaggio Gioiello tra anelli collane orecchini o bracciali",
-    "cover": "https://s.500fd.com/tt_product/c219a175f4c44bc58248e93daca96492~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "cover": "https://s.500fd.com/tt_product/075942dd61e240d89ac3ffba847ab5ed~tplv-t5fjg24jzw-resize-webp:800:800.webp",
     "price": "25,52 €",
     "currency": "EUR",
     "cats": [
       "Jewelry Sets"
     ],
     "shop": "Annaira Collection s.r.l",
-    "soldDaily": 314,
-    "soldTotal": 2201,
-    "amountDaily": 8013.28,
-    "incRate": 4385.71,
+    "soldDaily": 231,
+    "soldTotal": 2432,
+    "amountDaily": 5895.12,
+    "incRate": -26.43,
     "commissionRate": 11,
     "region": "IT",
     "sold7": null,
@@ -18382,7 +18714,7 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729727105459395220",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729727105459395220",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "creators": 3,
     "videosCount": 0
   },
@@ -18678,6 +19010,12 @@
         "soldDaily": 61,
         "soldTotal": 738,
         "incRate": 771.43
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 4,
+        "soldTotal": 784,
+        "incRate": -42.86
       }
     ],
     "id": "1729482635645918070",
@@ -18689,10 +19027,10 @@
       "Clothes Accessories"
     ],
     "shop": "Beaytar brand store",
-    "soldDaily": 61,
-    "soldTotal": 738,
-    "amountDaily": 320.86,
-    "incRate": 771.43,
+    "soldDaily": 4,
+    "soldTotal": 784,
+    "amountDaily": 21.04,
+    "incRate": -42.86,
     "commissionRate": 5,
     "region": "IT",
     "sold7": null,
@@ -18701,8 +19039,8 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729482635645918070",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729482635645918070",
     "l1Hint": "accessories",
-    "lastSeen": "2026-06-18",
-    "creators": 24,
+    "lastSeen": "2026-06-22",
+    "creators": 25,
     "videosCount": 0
   },
   "1729537525493963004": {
@@ -19672,6 +20010,12 @@
         "soldDaily": 0,
         "soldTotal": 27,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 4,
+        "soldTotal": 31,
+        "incRate": -69.23
       }
     ],
     "id": "1729831124243749562",
@@ -19680,24 +20024,22 @@
     "price": "12,99 €  -  19,90 €",
     "currency": "EUR",
     "cats": [
-      "Fashion Accessories",
-      "Costume Jewelry & Accessories",
       "Necklaces"
     ],
     "shop": "PoshPocket-EU",
-    "soldDaily": 0,
-    "soldTotal": 27,
-    "amountDaily": 0,
-    "incRate": 0,
+    "soldDaily": 4,
+    "soldTotal": 31,
+    "amountDaily": 51.96,
+    "incRate": -69.23,
     "commissionRate": 12,
     "region": "IT",
-    "sold7": 13,
-    "sold14": 14,
+    "sold7": null,
+    "sold14": null,
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729831124243749562",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729831124243749562",
-    "lastSeen": "2026-06-18",
-    "creators": 5,
+    "lastSeen": "2026-06-22",
+    "creators": 13,
     "videosCount": 0
   },
   "1729510953274611836": {
@@ -22273,8 +22615,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 3,
-        "soldTotal": 135,
+        "soldDaily": 4
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 141,
         "incRate": 0
       }
     ],
@@ -22288,19 +22646,19 @@
       "Women's Sleepwear & Loungewear"
     ],
     "shop": "Slim Perform Elite",
-    "soldDaily": 3,
-    "soldTotal": 135,
-    "amountDaily": 29.97,
+    "soldDaily": 1,
+    "soldTotal": 141,
+    "amountDaily": 9.99,
     "incRate": 0,
     "commissionRate": 0,
     "region": "IT",
-    "sold7": 91,
-    "sold14": 135,
-    "rating": null,
+    "sold7": 17,
+    "sold14": 97,
+    "rating": 3.7,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729640679645681958",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729640679645681958",
-    "lastSeen": "2026-06-18",
-    "creators": 1,
+    "lastSeen": "2026-06-22",
+    "creators": 3,
     "videosCount": 0,
     "l1Hint": "womenswear"
   },
@@ -22348,8 +22706,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 3,
-        "soldTotal": 205,
+        "soldDaily": 8
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 2
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 217,
         "incRate": 0
       }
     ],
@@ -22363,19 +22737,19 @@
       "Sport & Outdoor Clothing"
     ],
     "shop": "NEWB SPORTS",
-    "soldDaily": 3,
-    "soldTotal": 205,
-    "amountDaily": 10.86,
+    "soldDaily": 1,
+    "soldTotal": 217,
+    "amountDaily": 3.62,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 32,
-    "sold14": 37,
+    "sold7": 22,
+    "sold14": 47,
     "rating": 3.4,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729480017157200877",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480017157200877",
-    "lastSeen": "2026-06-18",
-    "creators": 20,
+    "lastSeen": "2026-06-22",
+    "creators": 21,
     "videosCount": 8
   },
   "1729487521562729345": {
@@ -22422,8 +22796,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 1,
-        "soldTotal": 391,
+        "soldDaily": 2
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 2
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 0,
+        "soldTotal": 395,
         "incRate": 0
       }
     ],
@@ -22437,18 +22827,18 @@
       "Sport & Outdoor Clothing"
     ],
     "shop": "Sijin yoga",
-    "soldDaily": 1,
-    "soldTotal": 391,
-    "amountDaily": 15.44,
+    "soldDaily": 0,
+    "soldTotal": 395,
+    "amountDaily": 0,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "sold7": 7,
-    "sold14": 9,
-    "rating": 4.7,
+    "sold7": 6,
+    "sold14": 12,
+    "rating": 4.6,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729487521562729345",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729487521562729345",
-    "lastSeen": "2026-06-18",
+    "lastSeen": "2026-06-22",
     "creators": 109,
     "videosCount": 23
   },
@@ -28162,6 +28552,12 @@
         "soldDaily": 57,
         "soldTotal": 351,
         "incRate": 23.91
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 91,
+        "soldTotal": 527,
+        "incRate": 0
       }
     ],
     "id": "1729833430928955563",
@@ -28173,13 +28569,13 @@
       "Sets"
     ],
     "shop": "abbigliamentojessica",
-    "soldDaily": 57,
-    "soldTotal": 351,
-    "amountDaily": 911.43,
-    "incRate": 23.91,
+    "soldDaily": 91,
+    "soldTotal": 527,
+    "amountDaily": 1455.09,
+    "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "creators": 3,
+    "creators": 7,
     "videosCount": 1,
     "sold7": null,
     "sold14": null,
@@ -28187,7 +28583,7 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729833430928955563",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833430928955563",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729480607560604478": {
     "history": [
@@ -28877,32 +29273,38 @@
         "soldDaily": 2,
         "soldTotal": 499,
         "incRate": 100
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 18,
+        "soldTotal": 514,
+        "incRate": 20
       }
     ],
     "id": "1729481971650107779",
-    "title": "Calzini alla caviglia da donna con stampa di cuori, righe e fiocco, calzini casual comodi e traspiranti per uso quotidiano, calzini da donna per tutte le stagioni",
-    "cover": "https://s.500fd.com/tt_product/30baeb977a9740bc8bfce5834de28e64~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "title": "Calzini da donna a quadri con fiocco stampato, Calzini casual comodi e traspiranti per uso quotidiano, Calzini da donna per tutte le stagioni",
+    "cover": "https://s.500fd.com/tt_product/dd1f3dded4db4b9c98aaef512deef3f0~tplv-aphluv4xwc-resize-webp:800:800.webp",
     "price": "€4,52",
     "currency": "EUR",
     "cats": [
       "Women's Underwear"
     ],
     "shop": "Yimo Knit",
-    "soldDaily": 2,
-    "soldTotal": 499,
-    "amountDaily": 9.04,
-    "incRate": 100,
+    "soldDaily": 18,
+    "soldTotal": 514,
+    "amountDaily": 81.36,
+    "incRate": 20,
     "commissionRate": 5,
     "region": "IT",
-    "creators": 154,
-    "videosCount": 0,
+    "creators": 159,
+    "videosCount": 3,
     "sold7": null,
     "sold14": null,
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729481971650107779",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729481971650107779",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729506126783617774": {
     "history": [
@@ -28941,36 +29343,65 @@
   "1729790403527022708": {
     "history": [
       {
+        "date": "2026-06-15",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-16",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-17",
+        "soldDaily": 10
+      },
+      {
         "date": "2026-06-18",
-        "soldDaily": 10,
-        "soldTotal": 180,
-        "incRate": 900
+        "soldDaily": 7
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 17
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 27
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 27,
+        "soldTotal": 231,
+        "incRate": 0
       }
     ],
     "id": "1729790403527022708",
-    "title": "URBANREVERSE Boho Kimono Set, Kimono Jacket and Wide Leg Pants, Two-Piece Coordinated Set, Women's Boho Resort Chic, Summer Holiday, Elegant Casual Luxury, Italian Style, Relaxed Fit, Made in Italy",
+    "title": "URBANREVERSE set kimono boho: giacca kimono e pantaloni a gamba larga, completo da donna in 2 pezzi. Stile resort chic estivo, look premium, vestibilità rilassata, prodotto in Italia.",
     "cover": "https://s.500fd.com/tt_product/a519542ece3a4cfcb154678738103629~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
     "price": "26,77 €",
     "currency": "EUR",
     "cats": [
+      "Womenswear & Underwear",
       "Women's Suits & Overalls"
     ],
     "shop": "urbanreverse",
-    "soldDaily": 10,
-    "soldTotal": 180,
-    "amountDaily": 267.7,
-    "incRate": 900,
+    "soldDaily": 27,
+    "soldTotal": 231,
+    "amountDaily": 722.79,
+    "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "creators": 36,
+    "creators": 38,
     "videosCount": 0,
-    "sold7": null,
-    "sold14": null,
-    "rating": null,
+    "sold7": 62,
+    "sold14": 69,
+    "rating": 4.3,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729790403527022708",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729790403527022708",
     "l1Hint": "womenswear",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729480272699496834": {
     "history": [
@@ -33058,6 +33489,12 @@
         "soldDaily": 75,
         "soldTotal": 75,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 33,
+        "soldTotal": 150,
+        "incRate": 0
       }
     ],
     "id": "1729844268410771585",
@@ -33069,9 +33506,9 @@
       "Charms & Pendants"
     ],
     "shop": "Envytorredelgreco",
-    "soldDaily": 75,
-    "soldTotal": 75,
-    "amountDaily": 247.5,
+    "soldDaily": 33,
+    "soldTotal": 150,
+    "amountDaily": 108.9,
     "incRate": 0,
     "commissionRate": 8,
     "region": "IT",
@@ -33082,7 +33519,7 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729844268410771585",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729844268410771585",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729836593491122307": {
     "history": [
@@ -33751,6 +34188,12 @@
         "soldDaily": 17,
         "soldTotal": 40,
         "incRate": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 17,
+        "soldTotal": 40,
+        "incRate": -10.53
       }
     ],
     "id": "1729818707093068759",
@@ -33765,7 +34208,7 @@
     "soldDaily": 17,
     "soldTotal": 40,
     "amountDaily": 338.3,
-    "incRate": 0,
+    "incRate": -10.53,
     "commissionRate": 10,
     "region": "IT",
     "creators": 74,
@@ -33775,7 +34218,7 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729818707093068759",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729818707093068759",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729842781799881364": {
     "history": [
@@ -33982,6 +34425,12 @@
         "soldDaily": 7,
         "soldTotal": 607,
         "incRate": 250
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 3,
+        "soldTotal": 625,
+        "incRate": -40
       }
     ],
     "id": "1729487512579971764",
@@ -33993,20 +34442,20 @@
       "Costume Jewelry & Accessories"
     ],
     "shop": "Allover Jewelry",
-    "soldDaily": 7,
-    "soldTotal": 607,
-    "amountDaily": 32.9,
-    "incRate": 250,
+    "soldDaily": 3,
+    "soldTotal": 625,
+    "amountDaily": 14.1,
+    "incRate": -40,
     "commissionRate": 5,
     "region": "IT",
-    "creators": 15,
+    "creators": 16,
     "videosCount": 0,
     "sold7": null,
     "sold14": null,
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729487512579971764",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729487512579971764",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729799042585500308": {
     "history": [
@@ -40958,8 +41407,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 2,
-        "soldTotal": 107,
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 0,
+        "soldTotal": 108,
         "incRate": 0
       }
     ],
@@ -40973,20 +41438,20 @@
       "Women's Sleepwear & Loungewear"
     ],
     "shop": "TSmist",
-    "soldDaily": 2,
-    "soldTotal": 107,
-    "amountDaily": 31.1,
+    "soldDaily": 0,
+    "soldTotal": 108,
+    "amountDaily": 0,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "creators": 4,
+    "creators": 5,
     "videosCount": 0,
-    "sold7": 77,
-    "sold14": 77,
-    "rating": 4.5,
+    "sold7": 78,
+    "sold14": 78,
+    "rating": 4.6,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729823450265394113",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823450265394113",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729645508698020795": {
     "history": [
@@ -41020,8 +41485,24 @@
       },
       {
         "date": "2026-06-18",
+        "soldDaily": 3
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 3
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-22",
         "soldDaily": 1,
-        "soldTotal": 169,
+        "soldTotal": 176,
         "incRate": 0
       }
     ],
@@ -41036,19 +41517,19 @@
     ],
     "shop": "Juliet's Balcony",
     "soldDaily": 1,
-    "soldTotal": 169,
+    "soldTotal": 176,
     "amountDaily": 8.39,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
-    "creators": 0,
+    "creators": 5,
     "videosCount": 0,
-    "sold7": 36,
-    "sold14": 120,
+    "sold7": 18,
+    "sold14": 87,
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729645508698020795",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729645508698020795",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729758897035843804": {
     "history": [
@@ -41082,8 +41563,24 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 3,
-        "soldTotal": 56,
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 2
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 0,
+        "soldTotal": 59,
         "incRate": 0
       }
     ],
@@ -41097,20 +41594,20 @@
       "Sport & Outdoor Clothing"
     ],
     "shop": "Bbfira",
-    "soldDaily": 3,
-    "soldTotal": 56,
-    "amountDaily": 19.77,
+    "soldDaily": 0,
+    "soldTotal": 59,
+    "amountDaily": 0,
     "incRate": 0,
     "commissionRate": 5,
     "region": "IT",
     "creators": 3,
     "videosCount": 0,
     "sold7": 11,
-    "sold14": 15,
+    "sold14": 14,
     "rating": 4.8,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729758897035843804",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729758897035843804",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729701613641177131": {
     "history": [
@@ -41144,8 +41641,24 @@
       },
       {
         "date": "2026-06-18",
+        "soldDaily": 3
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 3
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 3
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
         "soldDaily": 0,
-        "soldTotal": 1129,
+        "soldTotal": 1135,
         "incRate": 0
       }
     ],
@@ -41161,19 +41674,19 @@
     ],
     "shop": "FGM04 S.p.A.",
     "soldDaily": 0,
-    "soldTotal": 1129,
+    "soldTotal": 1135,
     "amountDaily": 0,
     "incRate": 0,
     "commissionRate": 7,
     "region": "IT",
-    "creators": 51,
+    "creators": 52,
     "videosCount": 0,
-    "sold7": 9,
-    "sold14": 9,
-    "rating": 4.5,
+    "sold7": 18,
+    "sold14": 18,
+    "rating": 4.6,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729701613641177131",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729701613641177131",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729801336261352135": {
     "history": [
@@ -41191,6 +41704,22 @@
       },
       {
         "date": "2026-06-18",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
         "soldDaily": 0,
         "soldTotal": 7,
         "incRate": 0
@@ -41219,7 +41748,7 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729801336261352135",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729801336261352135",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729781583560153924": {
     "history": [
@@ -41253,7 +41782,23 @@
       },
       {
         "date": "2026-06-18",
-        "soldDaily": 6,
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 0,
         "soldTotal": 10,
         "incRate": 0
       }
@@ -41269,9 +41814,9 @@
       "Sports Shorts"
     ],
     "shop": "ViralNest",
-    "soldDaily": 6,
+    "soldDaily": 0,
     "soldTotal": 10,
-    "amountDaily": 30,
+    "amountDaily": 0,
     "incRate": 0,
     "commissionRate": 10,
     "region": "IT",
@@ -41282,7 +41827,7 @@
     "rating": null,
     "tiktokUrl": "https://www.tiktok.com/view/product/1729781583560153924",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729781583560153924",
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-22"
   },
   "1729754516352768970": {
     "history": [
@@ -42118,5 +42663,707 @@
     "tiktokUrl": "https://www.tiktok.com/view/product/1729749014163003839",
     "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729749014163003839",
     "lastSeen": "2026-06-18"
+  },
+  "1729851121461663915": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 61,
+        "soldTotal": 78,
+        "incRate": 0
+      }
+    ],
+    "id": "1729851121461663915",
+    "title": "Set Jessica",
+    "cover": "https://s.500fd.com/tt_product/047872a7909e43c3b8514f6d25c8d1a4~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "price": "30,99 €",
+    "currency": "EUR",
+    "cats": [
+      "Sets"
+    ],
+    "shop": "abbigliamentojessica",
+    "soldDaily": 61,
+    "soldTotal": 78,
+    "amountDaily": 1890.39,
+    "incRate": 0,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 2,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729851121461663915",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729851121461663915",
+    "l1Hint": "womenswear",
+    "lastSeen": "2026-06-22"
+  },
+  "1729845908674091684": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 55,
+        "soldTotal": 55,
+        "incRate": 0
+      }
+    ],
+    "id": "1729845908674091684",
+    "title": "Set Afrodite",
+    "cover": "https://s.500fd.com/tt_product/4d6cc2fd0b914dd6b2009c0877700441~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+    "price": "35 €",
+    "currency": "EUR",
+    "cats": [
+      "Sets"
+    ],
+    "shop": "Sisters Mood S.r.l.",
+    "soldDaily": 55,
+    "soldTotal": 55,
+    "amountDaily": 1925,
+    "incRate": 0,
+    "commissionRate": 0,
+    "region": "IT",
+    "creators": 1,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729845908674091684",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729845908674091684",
+    "l1Hint": "womenswear",
+    "lastSeen": "2026-06-22"
+  },
+  "1729846039986542763": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 31,
+        "soldTotal": 98,
+        "incRate": 0
+      }
+    ],
+    "id": "1729846039986542763",
+    "title": "Bermuda Comfy",
+    "cover": "https://s.500fd.com/tt_product/a3b2479c897d470a882d96ce36e84788~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+    "price": "7,99 €",
+    "currency": "EUR",
+    "cats": [
+      "Trousers"
+    ],
+    "shop": "abbigliamentojessica",
+    "soldDaily": 31,
+    "soldTotal": 98,
+    "amountDaily": 247.69,
+    "incRate": 0,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 2,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729846039986542763",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729846039986542763",
+    "l1Hint": "womenswear",
+    "lastSeen": "2026-06-22"
+  },
+  "1729663690747124027": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 94,
+        "soldTotal": 94,
+        "incRate": 0
+      }
+    ],
+    "id": "1729663690747124027",
+    "title": "Anello da donna classico a quattro punte, design aperto, con zircone quadrato, gioiello per promessa eterna",
+    "cover": "https://s.500fd.com/tt_product/72537786981945769ce439308d820360~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+    "price": "6 €",
+    "currency": "EUR",
+    "cats": [
+      "Rings"
+    ],
+    "shop": "fion65",
+    "soldDaily": 94,
+    "soldTotal": 94,
+    "amountDaily": 564,
+    "incRate": 0,
+    "commissionRate": 0,
+    "region": "IT",
+    "creators": 1,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729663690747124027",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729663690747124027",
+    "lastSeen": "2026-06-22"
+  },
+  "1729708591277579110": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 57,
+        "soldTotal": 57,
+        "incRate": 0
+      }
+    ],
+    "id": "1729708591277579110",
+    "title": "Men's Polarized Photochromic Sunglasses, UV Protection Driving Outdoor Eyewear, Casual Metal Frame, All Seasons Use",
+    "cover": "https://s.500fd.com/tt_product/ced6e28d4c8f40239e88010293cacd7b~tplv-aphluv4xwc-resize-webp:800:800.webp",
+    "price": "7,64 €",
+    "currency": "EUR",
+    "cats": [
+      "Sunglasses"
+    ],
+    "shop": "Vision Enhance",
+    "soldDaily": 57,
+    "soldTotal": 57,
+    "amountDaily": 435.48,
+    "incRate": 0,
+    "commissionRate": 0,
+    "region": "IT",
+    "creators": 1,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729708591277579110",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729708591277579110",
+    "lastSeen": "2026-06-22"
+  },
+  "1729698687366503206": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 57,
+        "soldTotal": 58,
+        "incRate": 0
+      }
+    ],
+    "id": "1729698687366503206",
+    "title": "Masofe' Asta Live di Vari Gioielli Prezzi Imbattibili Pezzi Unici Occasioni da Non Perdere",
+    "cover": "https://s.500fd.com/tt_product/2f29af6c6aae44e486edb79ff0114665~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "price": "23,99 €",
+    "currency": "EUR",
+    "cats": [
+      "Jewelry Sets"
+    ],
+    "shop": "Masofe’",
+    "soldDaily": 57,
+    "soldTotal": 58,
+    "amountDaily": 1367.43,
+    "incRate": 0,
+    "commissionRate": 3,
+    "region": "IT",
+    "creators": 1,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729698687366503206",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729698687366503206",
+    "lastSeen": "2026-06-22"
+  },
+  "1729815094739965994": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 37,
+        "soldTotal": 37,
+        "incRate": 0
+      }
+    ],
+    "id": "1729815094739965994",
+    "title": "Collier Tennis Alice 4mm Acquamarina",
+    "cover": "https://s.500fd.com/tt_product/c1b91fe658c64f68b57bbad18e51a858~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+    "price": "€ 63,70",
+    "currency": "EUR",
+    "cats": [
+      "Non-natural Crystal Necklaces & Pendants"
+    ],
+    "shop": "nelmondodialicesrl",
+    "soldDaily": 37,
+    "soldTotal": 37,
+    "amountDaily": 2356.9,
+    "incRate": 0,
+    "commissionRate": 0,
+    "region": "IT",
+    "creators": 1,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729815094739965994",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729815094739965994",
+    "lastSeen": "2026-06-22"
+  },
+  "1729663024462338863": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 27,
+        "soldTotal": 43,
+        "incRate": 0
+      }
+    ],
+    "id": "1729663024462338863",
+    "title": "Coda nera 70 cm",
+    "cover": "https://s.500fd.com/tt_product/7cc816e93dda4aee88bfb6723464e528~tplv-t5fjg24jzw-origin-jpeg.jpeg",
+    "price": "23,53 €",
+    "currency": "EUR",
+    "cats": [
+      "Human Hair Extensions & Pieces"
+    ],
+    "shop": "studiodonna",
+    "soldDaily": 27,
+    "soldTotal": 43,
+    "amountDaily": 635.31,
+    "incRate": 0,
+    "commissionRate": 0,
+    "region": "IT",
+    "creators": 1,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729663024462338863",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729663024462338863",
+    "lastSeen": "2026-06-22"
+  },
+  "1729755464839502785": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 154,
+        "soldTotal": 1028,
+        "incRate": 1440
+      }
+    ],
+    "id": "1729755464839502785",
+    "title": "Collana per mamma collana Abbraccia la famiglia con ciondolo a forma di abbraccio gioielli alla moda per la Festa della Mamma e gli anniversari accessori regalo",
+    "cover": "https://s.500fd.com/tt_product/0421cd76695f42568c6eedd057e5c0c3~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "price": "10,65 €",
+    "currency": "EUR",
+    "cats": [
+      "Necklaces"
+    ],
+    "shop": "SolDeity Jewelry",
+    "soldDaily": 154,
+    "soldTotal": 1028,
+    "amountDaily": 1640.1,
+    "incRate": 1440,
+    "commissionRate": 10,
+    "region": "IT",
+    "creators": 47,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729755464839502785",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729755464839502785",
+    "lastSeen": "2026-06-22"
+  },
+  "1729834277729311343": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 139,
+        "soldTotal": 158,
+        "incRate": 631.58
+      }
+    ],
+    "id": "1729834277729311343",
+    "title": "[MIXMUSE.COUTURE] Ermione, Cintura In Vera Pelle",
+    "cover": "https://s.500fd.com/tt_product/78b5c0e43fba4401af1a9d8d3f2438db~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+    "price": "19,90 €",
+    "currency": "EUR",
+    "cats": [
+      "Belts"
+    ],
+    "shop": "MixMUSE",
+    "soldDaily": 139,
+    "soldTotal": 158,
+    "amountDaily": 2766.1,
+    "incRate": 631.58,
+    "commissionRate": 10,
+    "region": "IT",
+    "creators": 9,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729834277729311343",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729834277729311343",
+    "lastSeen": "2026-06-22"
+  },
+  "1729609918972926970": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 4,
+        "soldTotal": 557,
+        "incRate": 300
+      }
+    ],
+    "id": "1729609918972926970",
+    "title": "Collana Uomo Acciaio Inossidabile Ciondolo Quadrato Lettera Iniziale Personalizzabile A-Z Design, Gioiello Catena Corda, Accessorio Moda",
+    "cover": "https://s.500fd.com/tt_product/e7671ef3ab9848cfae8afa3baaba2285~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "price": "2,01 - 2,08 €",
+    "currency": "EUR",
+    "cats": [
+      "Costume Jewelry & Accessories"
+    ],
+    "shop": "YSJ Jewelry",
+    "soldDaily": 4,
+    "soldTotal": 557,
+    "amountDaily": 8.04,
+    "incRate": 300,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 61,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729609918972926970",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729609918972926970",
+    "lastSeen": "2026-06-22"
+  },
+  "1729481914359716382": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 357,
+        "incRate": -50
+      }
+    ],
+    "id": "1729481914359716382",
+    "title": "Occhiali da sole unisex alla moda e versatili con lenti colorate, Occhiali da sole casual alla moda per uso quotidiano, Accessori di moda e tendenze per attività all'aperto",
+    "cover": "https://s.500fd.com/tt_product/8d6982ba5d8144efb53576537ddadea2~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+    "price": "5,59 €",
+    "currency": "EUR",
+    "cats": [
+      "Eyewear"
+    ],
+    "shop": "LINFEMAND",
+    "soldDaily": 1,
+    "soldTotal": 357,
+    "amountDaily": 5.59,
+    "incRate": -50,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 74,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729481914359716382",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729481914359716382",
+    "lastSeen": "2026-06-22"
+  },
+  "1729480033890900437": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 17,
+        "soldTotal": 285,
+        "incRate": -29.17
+      }
+    ],
+    "id": "1729480033890900437",
+    "title": "Fascia per capelli con stampa leopardata e paisley in stile boho, Abbigliamento estivo 2024, Fascia elastica larga antiscivolo per capelli, Accessori per capelli alla moda per donne e ragazze, Regalo di San Valentino",
+    "cover": "https://s.500fd.com/tt_product/caeafe015a9f49dc9486c41fa96db2bb~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "price": "€5,97",
+    "currency": "EUR",
+    "cats": [
+      "Hair Accessories"
+    ],
+    "shop": "DrawBridge",
+    "soldDaily": 17,
+    "soldTotal": 285,
+    "amountDaily": 101.49,
+    "incRate": -29.17,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 101,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729480033890900437",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480033890900437",
+    "lastSeen": "2026-06-22"
+  },
+  "1729517046377257782": {
+    "history": [
+      {
+        "date": "2026-06-22",
+        "soldDaily": 6,
+        "soldTotal": 372,
+        "incRate": 20
+      }
+    ],
+    "id": "1729517046377257782",
+    "title": "Extension Coda Di Cavallo JACY Capelli Ricci 70 cm",
+    "cover": "https://s.500fd.com/tt_product/e113976fb0104595a3cbf05f17c9cd03~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "price": "32,30 €",
+    "currency": "EUR",
+    "cats": [
+      "Synthetic Extensions & Pieces"
+    ],
+    "shop": "SerMulherEurope",
+    "soldDaily": 6,
+    "soldTotal": 372,
+    "amountDaily": 193.8,
+    "incRate": 20,
+    "commissionRate": 30,
+    "region": "IT",
+    "creators": 16,
+    "videosCount": 0,
+    "sold7": null,
+    "sold14": null,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729517046377257782",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729517046377257782",
+    "lastSeen": "2026-06-22"
+  },
+  "1729824277869402632": {
+    "history": [
+      {
+        "date": "2026-06-15",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-16",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-17",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-18",
+        "soldDaily": 57
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 63,
+        "incRate": 0
+      }
+    ],
+    "id": "1729824277869402632",
+    "title": "Pantaloni da donna bianchi con effetto arricciato, vita elastica, gamba larga, casual con coulisse, per l’estate",
+    "cover": "https://s.500fd.com/tt_product/7fb90add629a4a209a4322cbfa1a9ad0~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+    "price": "8,67 €",
+    "currency": "EUR",
+    "cats": [
+      "Womenswear & Underwear",
+      "Women's Sleepwear & Loungewear"
+    ],
+    "shop": "Dream Nap",
+    "soldDaily": 1,
+    "soldTotal": 63,
+    "amountDaily": 8.67,
+    "incRate": 0,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 0,
+    "videosCount": 0,
+    "sold7": 59,
+    "sold14": 59,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729824277869402632",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729824277869402632",
+    "lastSeen": "2026-06-22"
+  },
+  "1729832767401859710": {
+    "history": [
+      {
+        "date": "2026-06-18",
+        "soldDaily": 58
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 0,
+        "soldTotal": 58,
+        "incRate": 0
+      }
+    ],
+    "id": "1729832767401859710",
+    "title": "Novità 2026 stile europeo e americano: completo in chiffon grigio con spalline scoperte e pantaloni ampi da donna, alla moda e asimmetrico",
+    "cover": "https://s.500fd.com/default/product_default.png",
+    "price": "€ 28,50",
+    "currency": "EUR",
+    "cats": [
+      "Womenswear & Underwear",
+      "Women's Suits & Overalls",
+      "Sets"
+    ],
+    "shop": "DIYASHOP",
+    "soldDaily": 0,
+    "soldTotal": 58,
+    "amountDaily": 0,
+    "incRate": 0,
+    "commissionRate": 0,
+    "region": "IT",
+    "creators": 7,
+    "videosCount": 0,
+    "sold7": 58,
+    "sold14": 58,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729832767401859710",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729832767401859710",
+    "lastSeen": "2026-06-22"
+  },
+  "1729821136477984953": {
+    "history": [
+      {
+        "date": "2026-06-15",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-16",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-17",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-18",
+        "soldDaily": 21
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 9
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 14
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 1,
+        "soldTotal": 68,
+        "incRate": 0
+      }
+    ],
+    "id": "1729821136477984953",
+    "title": "Nuovo set da donna con camicia semplice a vestibilità ampia e pantaloni a gamba larga, casual e confortevole, perfetto per l’uso quotidiano, elegante e alla moda",
+    "cover": "https://s.500fd.com/tt_product/14a6633d7c6a4e71b979487a59a4731c~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+    "price": "17,81 €",
+    "currency": "EUR",
+    "cats": [
+      "Womenswear & Underwear",
+      "Women's Suits & Overalls"
+    ],
+    "shop": "Qianyun Clothing",
+    "soldDaily": 1,
+    "soldTotal": 68,
+    "amountDaily": 17.81,
+    "incRate": 0,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 6,
+    "videosCount": 0,
+    "sold7": 45,
+    "sold14": 73,
+    "rating": 1,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729821136477984953",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729821136477984953",
+    "lastSeen": "2026-06-22"
+  },
+  "1729825918154218106": {
+    "history": [
+      {
+        "date": "2026-06-15",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-16",
+        "soldDaily": 1
+      },
+      {
+        "date": "2026-06-17",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-18",
+        "soldDaily": 3
+      },
+      {
+        "date": "2026-06-19",
+        "soldDaily": 2
+      },
+      {
+        "date": "2026-06-20",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-21",
+        "soldDaily": 0
+      },
+      {
+        "date": "2026-06-22",
+        "soldDaily": 0,
+        "soldTotal": 7,
+        "incRate": 0
+      }
+    ],
+    "id": "1729825918154218106",
+    "title": "Leggings Capri marroni a vita alta, elasticizzati e cropped da donna per yoga; vestibilità slim, tights sportivi per allenamento, abbigliamento attivo casual, aderenti fino al ginocchio, morbidi e traspiranti, leggings modellanti per fitness",
+    "cover": "https://s.500fd.com/tt_product/b75281b49a9f4ac49f0f2d9f7e073501~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg",
+    "price": "7,01 €",
+    "currency": "EUR",
+    "cats": [
+      "Womenswear & Underwear",
+      "Women's Bottoms"
+    ],
+    "shop": "ZENOVRA",
+    "soldDaily": 0,
+    "soldTotal": 7,
+    "amountDaily": 0,
+    "incRate": 0,
+    "commissionRate": 5,
+    "region": "IT",
+    "creators": 0,
+    "videosCount": 0,
+    "sold7": 6,
+    "sold14": 7,
+    "rating": null,
+    "tiktokUrl": "https://www.tiktok.com/view/product/1729825918154218106",
+    "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729825918154218106",
+    "lastSeen": "2026-06-22"
   }
 }
