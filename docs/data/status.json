@@ -1,11 +1,11 @@
 {
-  "lastRun": "2026-06-19T09:59:32.610Z",
-  "ok": true,
-  "count": 469,
-  "matched": 231,
+  "lastRun": "2026-06-22T15:17:59.363Z",
+  "ok": false,
+  "count": 0,
+  "matched": 0,
   "limited": false,
   "source": "fastmoss",
   "region": "IT",
   "focus": true,
-  "error": null
+  "error": "Nessun prodotto ricevuto"
 }

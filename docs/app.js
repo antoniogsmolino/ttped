@@ -10,9 +10,9 @@ const STORAGE_KEY = 'ttped_affiliate_orders';
 let trendsTop = []; // unione di tutti i modelli: per il cross-match affiliate
 let trendsRankings = {}; // { sofia:{d7,h48,h24}, emma:{...}, marco:{...}, luca:{...} }
 const MODELS = (window.Models && Models.MODELS) || [];
-let currentModel = MODELS.length ? MODELS[0].id : 'sofia';
-let currentWindow = 'd7';
-const WINDOW_LABELS = { d7: '7 giorni', h48: '48 ore', h24: '24 ore', foryou: 'Per te' };
+let currentModel = MODELS.length ? MODELS[0].id : 'abbigliamento';
+let currentWindow = 'migliori';
+const WINDOW_LABELS = { migliori: 'Migliori', emergenti: 'Emergenti', foryou: 'Per te' };
 
 function toast(msg, type = '') {
   const el = document.createElement('div');
@@ -144,12 +144,12 @@ function cardHTML(p, i, winLabel, match) {
         ${p.commissionRate ? `<span class="chip comm">${p.commissionRate}% comm.</span>` : ''}
       </div>
       <div class="pstats">
-        <div class="pstat"><div class="v earn">${t.euroPerVideo ? fmtEur(t.euroPerVideo) : '–'}</div><div class="l">€/video atteso</div></div>
-        <div class="pstat"><div class="v">${t.euroPerSale ? fmtEur(t.euroPerSale) : '–'}</div><div class="l">€/vendita</div></div>
         <div class="pstat"><div class="v">${fmtN(t.sold7)}</div><div class="l">vendite 7gg</div></div>
+        <div class="pstat"><div class="v earn">${t.euroPerSale ? fmtEur(t.euroPerSale) : '–'}</div><div class="l">€/vendita</div></div>
+        <div class="pstat"><div class="v">${t.marketComm ? '€' + fmtN(t.marketComm) : '–'}</div><div class="l">comm./sett mercato</div></div>
       </div>
       <div class="pmeta">
-        <span class="sat">${sat.length ? sat.join(' · ') + ' lo spingono' : 'saturazione n/d'}</span>
+        <span class="sat">${sat.length ? sat.join(' · ') + ' lo vendono' : 'concorrenza n/d'}</span>
         ${sparkline(t.spark, 84, 28)}
       </div>
       <div class="pcard-actions">
@@ -162,26 +162,26 @@ function cardHTML(p, i, winLabel, match) {
 
 function renderRanking() {
   const winLabel = WINDOW_LABELS[currentWindow] || '';
-  const modelR = trendsRankings[currentModel] || { d7: [], h48: [], h24: [] };
+  const modelR = trendsRankings[currentModel] || { migliori: [], emergenti: [] };
   const profile = getProfile(currentModel);
 
-  // Vista "Per te": incrocia le finestre del modello con il tuo storico di conversione di QUEL modello.
+  // Vista "Per te": incrocia le classifiche della sezione col tuo storico di vendite di QUELLA sezione.
   if (currentWindow === 'foryou') {
     if (!profile) {
-      $('#trendsGrid').innerHTML = '<div class="empty">🎯 <b>Per te</b> incrocia questa nicchia col tuo storico di vendite.<br/>Importa gli ordini nel tab <b>💰 Affiliate</b>: il sistema riconosce dai nomi prodotto quali vendite sono di questo modello.</div>';
+      $('#trendsGrid').innerHTML = '<div class="empty">🎯 <b>Per te</b> incrocia questa sezione col tuo storico di vendite.<br/>Importa gli ordini nel tab <b>💰 Affiliate</b>: il sistema riconosce dai nomi prodotto quali vendite appartengono a questa sezione.</div>';
       return;
     }
     const seen = new Map();
-    for (const w of ['d7', 'h48', 'h24']) for (const p of (modelR[w] || [])) if (!seen.has(p.id)) seen.set(p.id, p);
+    for (const w of ['migliori', 'emergenti']) for (const p of (modelR[w] || [])) if (!seen.has(p.id)) seen.set(p.id, p);
     const pool = [...seen.values()]
       .map((p) => ({ p, m: Affiliate.personalMatch(p.title, p.trend.priceValue, profile) }))
       .filter((x) => x.m && x.m.score > 0.15)
-      .sort((a, b) => (b.m.score - a.m.score) || (b.p.trend.euroPerVideo - a.p.trend.euroPerVideo));
+      .sort((a, b) => (b.m.score - a.m.score) || (b.p.trend.marketComm - a.p.trend.marketComm));
     if (!pool.length) {
       $('#trendsGrid').innerHTML = '<div class="empty">Nessun prodotto in trend somiglia ancora ai tuoi vincenti di questa nicchia. Importa più ordini o riprova domani.</div>';
       return;
     }
-    $('#trendsGrid').innerHTML = pool.slice(0, 20).map((x, i) => cardHTML(x.p, i, WINDOW_LABELS.d7, x.m)).join('');
+    $('#trendsGrid').innerHTML = pool.slice(0, 20).map((x, i) => cardHTML(x.p, i, WINDOW_LABELS.migliori, x.m)).join('');
     return;
   }
 
@@ -250,7 +250,7 @@ function modelBreakdownHTML(orders) {
       <div class="l">${esc(m.name)} · ${b.orders} ordini</div></div>`;
   }).join('');
   const otherCard = other.orders ? `<div class="kpi"><div class="v" style="font-size:20px;color:var(--muted)">${fmtEur(other.commission)}</div><div class="l">non classificati · ${other.orders}</div></div>` : '';
-  return `<div class="card" style="margin-bottom:16px"><h3>👥 Commissioni per modello</h3>
+  return `<div class="card" style="margin-bottom:16px"><h3>👗 Commissioni per sezione</h3>
     <div class="kpi-row" style="margin:0">${cards}${otherCard}</div></div>`;
 }
 

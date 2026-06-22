@@ -31,8 +31,8 @@ const scraper = require('../lib/scraper');
     top: scraper.computeTrends(40), // unione di tutti i modelli: per il cross-match affiliate
     generatedAt: new Date().toISOString(),
   });
-  const summary = Object.entries(rankings).map(([m, r]) => `${m}=${r.d7.length}`).join(' · ');
-  console.log(`Classifiche per modello (7gg): ${summary}`);
+  const summary = Object.entries(rankings).map(([m, r]) => `${m}=${r.migliori.length}`).join(' · ');
+  console.log(`Classifiche per sezione (migliori): ${summary}`);
 })().catch((e) => {
   console.error('Scrape fallito:', e);
   process.exit(1);

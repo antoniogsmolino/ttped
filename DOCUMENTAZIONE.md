@@ -1,7 +1,7 @@
 # 📘 TTPED Studio — Documentazione tecnica
 
-**TikTok Shop Trend Radar + Affiliate Intelligence** per un profilo con **4 modelli/sotto-nicchie** (mercato Italia).
-La dashboard ha un tab per ogni modello (Sofia, Emma, Marco, Luca); ogni tab mostra i prodotti in trend filtrati per la sua nicchia, con le viste 7 giorni / 48 ore / 24 ore / Per te.
+**TikTok Shop Trend Radar + Affiliate Intelligence** per il profilo **Sharon Rapisarda** (moda donna, mercato Italia).
+La dashboard ha **3 sezioni** (tab): **Abbigliamento** (abiti, bottom, top), **Accessori**, **Intimo**. Ogni sezione ha tre viste: **🏆 Migliori** (massimo potenziale di vendita), **🚀 Emergenti** (in forte crescita), **🎯 Per te** (simili ai tuoi vincenti).
 Resoconto completo di funzionalità, fonti dati e formule.
 
 - **Dashboard live:** https://antoniogsmolino.github.io/ttped/
@@ -14,7 +14,7 @@ Resoconto completo di funzionalità, fonti dati e formule.
 1. [Panoramica e architettura](#1-panoramica-e-architettura)
 2. [Fonte dati: FastMoss](#2-fonte-dati-fastmoss)
 3. [Pipeline di scraping](#3-pipeline-di-scraping)
-4. [Classificazione categorie moda donna](#4-classificazione-categorie-moda-donna)
+4. [Classificazione nelle 3 sezioni](#4-classificazione-nelle-3-sezioni)
 5. [Metriche e formule](#5-metriche-e-formule)
 6. [Formula di ranking completa](#6-formula-di-ranking-completa)
 7. [Le tre finestre temporali](#7-le-tre-finestre-temporali)
@@ -100,12 +100,12 @@ Codici risposta: `200` e `MAG_AUTH_3004` = dati validi; `MAG_AUTH_3006/3011` = l
 File: [`lib/scraper.js`](lib/scraper.js), entry point [`scripts/scrape.js`](scripts/scrape.js).
 
 ### Sequenza (funzione `runScrape()`)
-1. **Classifiche** — per ogni categoria (`l1_cid=2`, `l1_cid=8`, e senza filtro), per ogni tipo (`saleRank`, `popRank`), per ogni periodo (`date_type=1` e `2`), fino a 4 pagine:
+1. **Classifiche** — per le categorie donna (`l1_cid=2` Womenswear & Underwear, `l1_cid=8` Accessori), per ogni tipo (`saleRank`, `popRank`), per ogni periodo (`date_type=1` e `2`), fino a 4 pagine:
    `GET /api/goods/{kind}?region=IT&pagesize=10&date_type={1|2}&l1_cid={2|8}`
-2. **Ricerca keyword** — 14 keyword moda donna (`pantaloni donna`, `abito donna`, `top donna`, `accessori donna`, …) via `GET /api/goods/V2/search?words=…`, che fornisce per ogni prodotto l'array `trend` con le **vendite giornaliere degli ultimi 7 giorni** e la commissione.
+2. **Ricerca keyword** — keyword moda donna (`pantaloni donna`, `abito donna`, `top donna`, `accessori donna`, …) via `GET /api/goods/V2/search?words=…`, che fornisce per ogni prodotto l'array `trend` con le **vendite giornaliere degli ultimi 7 giorni** e la commissione.
 3. **Dedup e merge** (`collect()`): a parità di prodotto su più fonti, tiene i dati migliori — descrizione/categorie dalla ricerca (più ricca), e il **massimo** per i campi numerici (commissione, saturazione, volume).
 4. **Storico** (`mergeHistory()`): aggiorna `products.json`. Lo storico 7gg di FastMoss è autoritativo e sovrascrive le date che copre. Saturazione e commissione vengono mantenute al massimo tra giorni (un valore 0 transitorio non cancella un dato già noto). I prodotti spariti da > 30 giorni vengono rimossi.
-5. **Pubblicazione** (`computeAllRankings()`): calcola le 3 classifiche e scrive `trends.json`.
+5. **Pubblicazione** (`computeAllRankings()`): calcola le classifiche per sezione/vista e scrive `trends.json`.
 
 ### Campi normalizzati per prodotto
 `id, title, cover, price, currency, cats[], shop, soldDaily, soldTotal, amountDaily, incRate, commissionRate, creators (total_author_count), videosCount, sold7, sold14, rating, region, tiktokUrl, fastmossUrl`.
@@ -115,139 +115,79 @@ File: [`lib/scraper.js`](lib/scraper.js), entry point [`scripts/scrape.js`](scri
 
 ---
 
-## 4. Classificazione nelle 4 sotto-nicchie (modelli)
+## 4. Classificazione nelle 3 sezioni
 
-File: [`docs/models.js`](docs/models.js) — modulo **condiviso** tra scraper (Node, per i prodotti in trend) e browser (affiliate, per i prodotti venduti), così la stessa logica assegna sia i trend sia le vendite.
+File: [`docs/models.js`](docs/models.js) — modulo **condiviso** tra scraper (Node, prodotti in trend) e browser (affiliate, prodotti venduti).
 
-Funzione `classify(title, cats, price, l1Hint)` → `{ model, fit }` con `fit` 0–1; `model` è `null` se il prodotto non rientra in nessuna nicchia.
+Funzione `classify(title, cats, price, l1Hint)` → `{ model, fit }` (`model` = id sezione o `null`). Profilo **solo donna**: i prodotti uomo vengono esclusi dal gate di genere.
 
-### Logica
-1. **Esclusione** (`EXCLUDE`): scarta non-moda (power tools, personal care, elettronica, casa, beauty, integratori, rasoi…), bambino e calzature speciali (safety).
-2. **Genere** (`genderOf`): `w` se titolo/categoria contiene `donna/women/lady/…`, `m` se `uomo/men/…`, altrimenti l'hint della categoria TikTok (`womenswear`/`menswear`), altrimenti `u` (unisex, es. accessori).
-3. **Fit per modello**: per ognuno dei 4 modelli, gate di genere + conteggio keyword pro/contro + affinità di prezzo. Si assegna il modello con fit più alto (≥ 0.20).
+### Logica (in ordine)
+1. **Esclusione** (`EXCLUDE`): non-moda (elettronica, casa, beauty, hair care, smartwatch, integratori…) e bambino.
+2. **Genere**: `m` (uomo) → escluso. `w`/`u` (donna o unisex) → ammesso.
+3. **Sezione** (ordine di match per evitare collisioni): **Intimo** → **Accessori "forti"** → **Abbigliamento** → **Accessori "deboli"**.
 
-| Modello | Genere | Prezzo ideale | Keyword pro (estratto) |
-|---|---|---|---|
-| **Sofia** (Streetwear/Y2K) | donna | €0–30 | baggy, crop, oversize, denim, felpa, sneakers chunky, mini-bag, occhiali, cerchietti, body |
-| **Emma** (Minimal/Clean girl) | donna | €20–90 | blazer, abito, tubino, bustino, sartoriale, jeans dritti, maglieria, mocassini, camicia, raso |
-| **Marco** (Uomo elegante) | uomo | €35–250 | maglione, camicia oxford, chino, cappotto/trench, blazer, polo, mocassini, lino, cashmere |
-| **Luca** (Uomo sport) | uomo | €0–45 | tuta, felpa, hoodie, jogger, t-shirt tecnica, sneakers sportive, cappellino, shorts |
+| Sezione | Match (estratto) |
+|---|---|
+| **Intimo** | reggiseno, lingerie, slip, shapewear/shaper/modellante, pigiama, calze, collant, costume/bikini |
+| **Accessori** | borse, occhiali/eyewear, gioielli/collane/orecchini/anelli, cappelli, sciarpe, orologi (forti); cinture, guanti (deboli, controllati dopo l'abbigliamento) |
+| **Abbigliamento** | abiti, gonne, pantaloni/jeans/shorts/bermuda/leggings, top/maglie/camicie/felpe/giacche, completi/set, tute, body |
 
-### Calcolo del fit
-```
-gate genere: se il genere del prodotto ≠ genere del modello (e non è unisex) → fit 0
-pos = nº keyword positive trovate (deve essere ≥ 1)
-neg = nº keyword negative trovate
-net = pos − 0.8 × neg            (se ≤ 0 → fit 0)
-base = min(net / 2, 1)           (2+ segnali = pieno)
-fit  = 0.75 × base + 0.25 × priceFit(prezzo, fascia)
-       × 1.1 se il genere combacia esplicitamente
-```
-Nel ranking, `fit` diventa il **peso categoria**: `weight = 0.5 + 0.5 × fit` (i capi più aderenti alla nicchia salgono). Dettagli tecnici importanti: i match usano i **word-boundary** (`\b`) per evitare falsi positivi da sottostringa (es. "orec**chino**" ≠ pantaloni "chino").
-
-> La classificazione è euristica (titolo + categoria + prezzo): i casi ambigui (es. un denim maxi-dress tra Sofia ed Emma) sono inevitabili. Le keyword sono in `docs/models.js` (`CFG`) e si possono affinare.
+L'ordine evita errori come "pantaloni **con cintura**" → Abbigliamento (non Accessori) e "Body **Shaper**" → Intimo. I match usano word-boundary (``) per evitare falsi positivi da sottostringa (es. "orec**chino**" ≠ "chino").
 
 ---
 
 ## 5. Metriche e formule
 
-Tutte le metriche sono calcolate in `computeRanking()` ([`lib/scraper.js`](lib/scraper.js)).
+Calcolate in `computeRanking()` ([`lib/scraper.js`](lib/scraper.js)).
 
-### 5.1 Impennata (spike)
-Quanto stanno accelerando le vendite. Tre varianti (vedi §7). Usano lo storico vendite giornaliero.
-
-**Pendenza** (`slopeScore`): regressione lineare sui (max) 7 punti giornalieri, normalizzata sulla media → % di crescita media al giorno.
-
-**Impennata 7 giorni** (`spike7d`), con ≥ 4 giorni di storico:
-```
-k       = min(3, floor(n/2))           // n = giorni disponibili
-accel   = (media(ultimi k gg) / media(gg precedenti) − 1) × 100
-spike7d = 0.6 × accel + 0.4 × pendenza
-```
-Fallback con storico scarso: `(sold7 / (sold14 − sold7) − 1) × 100`, altrimenti `incRate` di FastMoss.
-
-**Impennata finestra** (`windowSpike(recentDays, baselineDays)`):
-```
-windowSpike = (media(giorni recenti) / media(giorni baseline) − 1) × 100
-```
-Restituisce `null` se lo storico è insufficiente (il prodotto viene escluso da quella classifica).
-
-### 5.2 Guadagno per vendita (€/vendita)
-Il numero che conta davvero, non la percentuale:
+### 5.1 €/vendita (la metrica che fa i soldi)
 ```
 €/vendita = prezzo × (%commissione / 100)
 ```
-Es.: capo da €27 al 10% = **€2,70**, batte un €15 al 12% = €1,80.
-Il prezzo è estratto da stringhe miste ("€7,80", "19,92 - 31,60 €" → si prende il primo valore).
+**Lezione dai dati reali (giugno 2026):** Bermuda Miami = 90 ordini ma solo €20 di commissioni (rate 5,1%); Abito Desy = 48 ordini ma €143 di commissioni (rate 21,3%). Stesso volume non significa stesso guadagno: il €/vendita varia di 10× ed è il vero driver delle commissioni. Per questo NON si ottimizzano gli ordini ma le **commissioni**.
 
-### 5.3 Guadagno atteso per video (€/video) — saturazione
-Il €/vendita è metà del conto; l'altra metà è **quante vendite porta realisticamente un tuo nuovo video**, che dipende dalla **saturazione** (quanti affiliate già spingono il capo).
-```
-affiliate     = creators (total_author_count di FastMoss)
-denominatore  = affiliate > 0 ? affiliate + 1 : 15     // +1 = il tuo video; 15 = fallback prudente se dato assente
-venditePerVideo = min( vendite7gg / denominatore , 12 ) // cap realistico: un video fa una manciata di vendite/sett.
-€/video atteso  = €/vendita × venditePerVideo
-```
-**Interpretazione:** tanta domanda + pochi affiliate ⇒ ogni video cattura più vendite (spazio); tanti affiliate ⇒ mercato saturo, il tuo video rende meno.
+### 5.2 Volume
+`sold7` = unità vendute negli ultimi 7 giorni (da FastMoss o sommando lo storico). Proxy degli ordini che un video può generare.
 
-**Taratura sui dati reali (giugno 2026):** il cap è **12 vendite/video/settimana** (non 60). I capi di punta dell'utente fanno ~0,5–1,3 vendite/giorno per prodotto su più video: un singolo nuovo video ne porta una manciata, non decine. Un cap troppo alto sovrastimava di 5–6× il €/video dei capi ad alto volume, spingendoli falsamente in cima. Con commissione mediana reale ~6,3% (range 1,6–35%) il €/vendita è modesto, quindi il moltiplicatore "vendite per video" pesa molto: un cap realistico è cruciale. Il fallback saturazione è **15** (alto e conservativo) per non far scavalcare i capi con dati veri da quelli mal tracciati.
+### 5.3 Impennata (momentum)
+`spike7d` (regressione + accelerazione su 7 giorni) e `windowSpike(recentDays, baselineDays)` (medie su finestre, dati giornalieri). Usate come modificatore di traiettoria e per la vista Emergenti.
 
-### 5.4 Volume
-`sold7` = vendite degli ultimi 7 giorni (da FastMoss o sommando lo storico).
+### 5.4 Saturazione — perché NON penalizza più
+`creators` = `total_author_count` (quanti affiliate vendono il capo). **Non è una penalità**: un prodotto spinto da 217 creator (caso Bermuda Miami) vende lo stesso ogni giorno, perché la concorrenza tra creator non frena la domanda del pubblico. I creator vengono **mostrati come informazione**, non sottratti dallo score. (Versioni precedenti dividevano per i creator: era l'errore corretto qui.)
 
 ---
 
-## 6. Formula di ranking completa
-
-Per ogni prodotto idoneo si calcola uno **score 0–100** e si ordina in modo decrescente.
+## 6. Formula di ranking
 
 ### Filtri di idoneità
-- storico non vuoto;
-- visto negli ultimi **3 giorni** (`ageDays ≤ 3`, altrimenti considerato "morto");
-- è moda donna (se il focus categoria è attivo);
-- l'impennata della finestra non è `null`.
+- storico non vuoto; visto di recente (`ageDays ≤ MAX_AGE_DAYS`, default 3); sezione = quella del tab; `sold7 ≥ 3` (dev'essere un venditore reale).
 
-### Normalizzazioni (ognuna 0–100)
+### Vista 🏆 Migliori (potenziale di vendita) — default
 ```
-spikeNorm = clamp(impennata, 0, 200) / 2          // 200%+ = massimo (oltre è rumore)
-euroNorm  = clamp(€/vendita × 20, 0, 100)         // €5/vendita → 100
-videoNorm = clamp(log10(€/video + 1) × 55, 0, 100)// scala logaritmica
+volNorm   = clamp(log10(sold7 + 1) × 33, 0, 100)     // 100u→66, 1000u→99
+epsNorm   = clamp(€/vendita × 28, 0, 100)            // €3,6/vendita → 100
+momFactor = clamp(1 + impennata7gg/400, 0.7, 1.25)   // declino frena, crescita spinge
+score = pesoSezione × (0.55 × volNorm + 0.45 × epsNorm) × momFactor
 ```
+- **55% volume** (quanti ordini potenziali = il "best-seller sicuro")
+- **45% €/vendita** (quanto guadagni per ordine)
+- × **momentum** (gentile; nessuna penalità saturazione)
+- `pesoSezione = 0.6 + 0.4 × fit`
 
-### Score finale
+Validazione: con i dati reali, **Abito Desy** (alto volume + alto €/vendita) risulta #1 in Abbigliamento — coincide col vero top-earner dell'utente a giugno.
+
+### Vista 🚀 Emergenti
 ```
-score = pesoCategoria × ( 0.50 × spikeNorm
-                        + 0.35 × videoNorm
-                        + 0.15 × euroNorm )
+spikeNorm = clamp(impennataRecente, 0, 300) / 3
+volFloor  = clamp(log10(sold7 + 1) / 2.2, 0, 1)      // serve un minimo di vendite
+score = spikeNorm × (0.6 + 0.4 × volFloor) + 0.25 × min(€/vendita × 8, 25)
 ```
-- **50% impennata** (timing: cosa accelera ora)
-- **35% guadagno atteso €/video** (opportunità reale, già al netto di saturazione e volume)
-- **15% guadagno €/vendita** (ricchezza per vendita)
-- × **peso categoria** (1.0 / 0.95 / 0.75)
+Per anticipare i vincenti: prodotti in forte crescita con un minimo di volume reale.
 
 ### Ordinamento
-1. `score` decrescente.
-2. A parità di score: **`€/video atteso` decrescente** (a parità di trend, vince chi ti fa guadagnare di più).
+`score` desc; a parità, **`comm./sett mercato` (€/vendita × volume)** desc. Top 20 per vista.
 
-Si pubblicano i **top 20** per ogni finestra.
-
-> **Nota sul cap dell'impennata a 200%:** sopra il 200% lo spike è considerato "già esploso" e non differenzia più; questo crea volutamente più "pareggi" in cima, dove decide il guadagno €/video. È coerente con l'obiettivo: tra i capi che stanno esplodendo, conta quanto ti rendono.
-
----
-
-## 7. Le tre finestre temporali
-
-La dashboard mostra **tre classifiche selezionabili**, stessa formula ma con impennata calcolata su orizzonti diversi:
-
-| Pulsante | Funzione | Confronto (dati giornalieri) |
-|---|---|---|
-| 📈 **7 giorni** | `spike7d` | media ultimi 3gg vs precedenti + pendenza |
-| ⚡ **48 ore** | `windowSpike(2, 2)` | ultimi 2 giorni vs i 2 precedenti |
-| 🔥 **24 ore** | `windowSpike(1, 1)` | ultimo giorno vs il precedente |
-
-> ⚠️ **Granularità:** i dati FastMoss sono **giornalieri**, non orari. Quindi "24 ore" = ultimo giorno vs precedente, "48 ore" = ultimi 2 giorni vs i 2 prima. Serve a far emergere le accelerazioni recenti rispetto al trend di 7 giorni che guarda più indietro.
-
-`computeAllRankings()` produce `{ d7, h48, h24 }`, ciascuna una top 20.
+`computeAllRankings()` → `{ abbigliamento:{migliori,emergenti}, accessori:{...}, intimo:{...} }`.
 
 ---
 
@@ -255,7 +195,7 @@ La dashboard mostra **tre classifiche selezionabili**, stessa formula ma con imp
 
 Incrocia la classifica trend con il **tuo storico di conversione** (gli ordini affiliate importati). Tutto **client-side** ([`docs/affiliate.js`](docs/affiliate.js) + [`docs/app.js`](docs/app.js)).
 
-**Per modello:** la vista "Per te" di ogni tab usa solo gli ordini che `Models.classify` assegna a quel modello (dal nome prodotto), così Sofia consiglia sui vincenti di Sofia, Emma sui suoi, ecc. Il tab Affiliate mostra anche la **ripartizione commissioni per modello**.
+**Per sezione:** la vista "Per te" di ogni tab usa solo gli ordini che `Models.classify` assegna a quella sezione (dal nome prodotto). Il tab Affiliate mostra anche la **ripartizione commissioni per sezione** (Abbigliamento/Accessori/Intimo).
 
 ### Profilo personale (`profile(orders)`)
 Dai tuoi ordini validi (non annullati), pesati per commissione incassata:
@@ -271,7 +211,7 @@ match    = 0.7 × kwNorm + 0.3 × priceFit
 
 ### Uso nella dashboard
 - **Badge 🎯** sulle classifiche normali per i prodotti con `match ≥ 0.4` (con la motivazione: "capi simili ti hanno già reso (…)", "fascia prezzo che converte per te (~€X)").
-- **Pulsante 🎯 Per te**: unisce le tre finestre, tiene i prodotti con `match > 0.15`, e li ordina per `match` poi per `€/video atteso`. Mostra i capi in trend più simili a ciò che già ti rende.
+- **Pulsante 🎯 Per te**: unisce le tre finestre, tiene i prodotti con `match > 0.15`, e li ordina per `match` poi per `comm./sett mercato`. Mostra i capi in trend più simili a ciò che già ti rende.
 - Senza ordini importati la vista invita a importare il CSV/Excel. Più ordini importi, più il profilo è preciso.
 
 ---
@@ -374,14 +314,13 @@ TTPED/
   "generatedAt": "ISO",
   "top": [ /* unione di tutti i modelli (d7): per il cross-match affiliate */ ],
   "rankings": {
-    "sofia": { "d7": [ /*top 20*/ ], "h48": [ /*…*/ ], "h24": [ /*…*/ ] },
-    "emma":  { "d7": [ … ], "h48": [ … ], "h24": [ … ] },
-    "marco": { "d7": [ … ], "h48": [ … ], "h24": [ … ] },
-    "luca":  { "d7": [ … ], "h48": [ … ], "h24": [ … ] }
+    "abbigliamento": { "migliori": [ /*top 20*/ ], "emergenti": [ /*…*/ ] },
+    "accessori":     { "migliori": [ … ], "emergenti": [ … ] },
+    "intimo":        { "migliori": [ … ], "emergenti": [ … ] }
   }
 }
 ```
-Ogni elemento `trend` include anche `model` (id nicchia) e `fit` (0–1).
+Ogni elemento `trend` include: `view`, `model` (id sezione), `score`, `spikePct`, `euroPerSale`, `marketComm` (€ commissioni/sett di mercato = €/vendita × volume), `sold7`, `creators`, `videos`, `priceValue`, `spark`.
 Ogni elemento ha il prodotto + un oggetto `trend`:
 ```jsonc
 "trend": {
@@ -389,9 +328,8 @@ Ogni elemento ha il prodotto + un oggetto `trend`:
   "score": 86.2,
   "spikePct": 184.6,        // impennata della finestra
   "euroPerSale": 2.7,       // €/vendita
-  "euroPerVideo": 33.75,    // €/video atteso
-  "salesPerVideo": 15.0,
-  "creators": 12,           // affiliate (saturazione)
+  "marketComm": 1167,       // € commissioni/sett di mercato (€/vendita × volume)
+  "creators": 12,           // affiliate che lo vendono (info, non penalizza)
   "videos": 47,
   "priceValue": 27.0,
   "sold7": 333,
@@ -416,7 +354,7 @@ Ogni elemento ha il prodotto + un oggetto `trend`:
 
 - **Granularità giornaliera**: "24h/48h" sono approssimazioni su dati giornalieri (FastMoss non espone dati orari).
 - **Conteggi FastMoss**: sono il tracking di un osservatore esterno, non i numeri ufficiali interni di TikTok (standard del settore).
-- **Saturazione assente**: se `total_author_count` non è disponibile, il €/video usa un denominatore prudente (15) e la card mostra "saturazione n/d" — è una stima.
+- **Saturazione = informazione, non penalità**: i creator che vendono il capo sono mostrati ma non abbassano lo score (un best-seller resta tale anche con tanti creator).
 - **Piano free**: 10 item per lista, solo pagina 1; con un piano FastMoss a pagamento il tool pagina automaticamente e raccoglie di più.
 - **Cookie**: scade ogni qualche settimana → email automatica di workflow fallito → rigenerare il Secret.
 - **Link "Cerca su TikTok"**: le pagine prodotto di TikTok Shop sono deep-link app bloccati per regione sul web (502), quindi il pulsante fa una **ricerca per nome** (affidabile da loggati, mostra i video già fatti sul capo).
