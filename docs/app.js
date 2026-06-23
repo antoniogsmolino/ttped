@@ -59,7 +59,7 @@ function renderModelHeader() {
 
 function sparkline(points, w = 110, h = 34) {
   if (!points || points.length < 2) return '<div class="spark" style="height:34px"></div>';
-  const vs = points.map((p) => p.v);
+  const vs = points.map((p) => (typeof p === 'number' ? p : p.v)); // accetta numeri o {v}
   const min = Math.min(...vs), max = Math.max(...vs);
   const span = max - min || 1;
   const step = w / (points.length - 1);
@@ -79,6 +79,7 @@ async function loadTrends() {
     const status = data.status;
     trendsRankings = data.rankings || {};
     trendsTop = data.top || [];
+    setTopStatus(status);
 
     const meta = [];
     const when = data.generatedAt || status?.lastRun;
@@ -130,7 +131,7 @@ function cardHTML(p, i, winLabel, match) {
   const matchPill = match ? `<div class="match-pill">🎯 ${esc(match.reasons[0] || 'in linea col tuo storico')}</div>` : '';
   return `<div class="pcard" style="animation-delay:${i * 35}ms">
     <div class="pcard-media">
-      <img class="cover" src="${esc(p.cover)}" loading="lazy" alt="${esc(p.title)}" onerror="this.style.opacity=0"/>
+      <img class="cover" src="${esc(p.cover)}" loading="lazy" decoding="async" alt="${esc(p.title)}" onerror="this.style.opacity=0"/>
       <div class="media-scrim"></div>
       <div class="rank r${i + 1}">${i + 1}</div>
       <div class="spike-pill ${up ? 'up' : 'down'}" title="impennata ${winLabel}">${up ? '▲' : '▼'} ${Math.abs(g)}%</div>
@@ -367,18 +368,11 @@ window.resetAffiliate = () => {
   loadAffiliate();
 };
 
-/* ---------- stato globale ---------- */
-async function refreshTopStatus() {
-  try {
-    const res = await fetch('data/trends.json?t=' + Date.now());
-    const d = await res.json();
-    const ok = d.status?.ok;
-    $('#topStatus').innerHTML = `<span class="dot ${ok ? '' : 'off'}"></span> ${ok ? 'dati aggiornati' : 'in attesa di dati'}`;
-  } catch {
-    $('#topStatus').innerHTML = '<span class="dot off"></span> dati non disponibili';
-  }
+/* ---------- stato globale (riusa i dati già caricati: niente secondo download) ---------- */
+function setTopStatus(status) {
+  const ok = status?.ok;
+  $('#topStatus').innerHTML = `<span class="dot ${ok ? '' : 'off'}"></span> ${ok ? 'dati aggiornati' : 'in attesa di dati'}`;
 }
 
 buildNav();
 loadTrends();
-refreshTopStatus();

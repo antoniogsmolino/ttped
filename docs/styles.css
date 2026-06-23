@@ -20,25 +20,27 @@
 html, body { height: 100%; }
 
 body {
-  background: var(--bg);
+  /* aloni morbidi come gradienti radiali: stesso effetto degli ex .bg-glow ma a costo ~zero su iOS
+     (niente filter: blur, che mandava in crisi la GPU del telefono) */
+  background:
+    radial-gradient(55vw 55vw at 85% -10%, rgba(254, 44, 85, 0.13), transparent 60%),
+    radial-gradient(55vw 55vw at -10% 105%, rgba(37, 244, 238, 0.12), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Inter, Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
 
-/* aloni di sfondo */
-.bg-glow { position: fixed; width: 60vw; height: 60vw; border-radius: 50%; filter: blur(140px); opacity: .14; pointer-events: none; z-index: 0; }
-.bg-glow-pink { background: var(--pink); top: -25vw; right: -20vw; }
-.bg-glow-cyan { background: var(--cyan); bottom: -30vw; left: -22vw; }
+.bg-glow { display: none; } /* sostituiti dai gradienti del body */
 
 /* ---------- topbar ---------- */
 .topbar {
   position: sticky; top: 0; z-index: 50;
   display: flex; align-items: center; gap: 28px;
   padding: 14px 28px;
-  background: rgba(10, 10, 15, 0.75);
-  backdrop-filter: blur(22px);
+  background: rgba(12, 12, 18, 0.92);
   border-bottom: 1px solid var(--card-border);
 }
 
@@ -106,8 +108,8 @@ main { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; paddin
 
 .pcard {
   position: relative; overflow: hidden;
-  background: var(--card); border: 1px solid var(--card-border); border-radius: 22px;
-  backdrop-filter: blur(14px);
+  background: #15151d; border: 1px solid var(--card-border); border-radius: 22px;
+  content-visibility: auto; contain-intrinsic-size: 480px; /* salta il render delle card fuori schermo */
   transition: transform .25s ease, border-color .2s, box-shadow .3s;
   animation: fadeUp .4s ease both;
   display: flex; flex-direction: column;
@@ -137,7 +139,7 @@ main { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; paddin
   position: absolute; top: 12px; left: 12px;
   min-width: 34px; height: 34px; padding: 0 9px; display: grid; place-items: center;
   font-weight: 800; font-size: 14px; border-radius: 12px;
-  background: rgba(10,10,15,.55); color: #fff; backdrop-filter: blur(8px);
+  background: rgba(10,10,15,.72); color: #fff;
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.18);
 }
 .rank.r1, .rank.r2, .rank.r3 { background: var(--grad); box-shadow: 0 4px 18px rgba(254, 44, 85, .55); }
@@ -145,7 +147,7 @@ main { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; paddin
 .spike-pill {
   position: absolute; top: 12px; right: 12px;
   font-weight: 800; font-size: 13px; padding: 6px 11px; border-radius: 999px;
-  background: rgba(10,10,15,.55); backdrop-filter: blur(8px);
+  background: rgba(10,10,15,.72);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.14);
 }
 .spike-pill.up { color: #6ef7a8; } .spike-pill.down { color: #ff8a8a; }
@@ -235,7 +237,7 @@ main { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; paddin
 .aff-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; margin-top: 18px; }
 @media (max-width: 980px) { .aff-grid { grid-template-columns: 1fr; } }
 
-.card { background: var(--card); border: 1px solid var(--card-border); border-radius: var(--radius); padding: 20px; backdrop-filter: blur(14px); }
+.card { background: #15151d; border: 1px solid var(--card-border); border-radius: var(--radius); padding: 20px; }
 .card h3 { font-size: 15px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
 
 table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
