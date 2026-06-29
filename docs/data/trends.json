@@ -1,9 +1,9 @@
 {
   "status": {
-    "lastRun": "2026-06-28T08:32:29.233Z",
+    "lastRun": "2026-06-29T10:07:52.734Z",
     "ok": true,
-    "count": 338,
-    "matched": 292,
+    "count": 314,
+    "matched": 278,
     "limited": false,
     "source": "fastmoss",
     "region": "IT",
@@ -14,31 +14,85 @@
     "abbigliamento": {
       "migliori": [
         {
-          "id": "1729826012312279101",
-          "title": "taglie forti senza ferretto – Supporto forte e comfort invisibile solo lavaggio a mano cina reggiseni",
-          "cover": "https://s.500fd.com/tt_product/f228f9fe7d1a499eab5879350c90f7ba~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "26 €",
+          "id": "1729565920776919676",
+          "title": "Elegant Sequined Mermaid Dress, Square Neck Cut-Out Design, Perfect for Evening Parties & Ballroom Dances",
+          "cover": "https://s.500fd.com/tt_product/57c4774fe47547d39240c01eecc64978~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "36,59 €",
           "currency": "EUR",
-          "commissionRate": 12,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729826012312279101",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729565920776919676",
           "trend": {
             "view": "migliori",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 101.4,
-            "spikePct": 1511.1,
-            "euroPerSale": 3.12,
-            "marketComm": 627,
-            "sold7": 201,
-            "creators": 2,
-            "videos": 1,
-            "priceValue": 26,
-            "catLabel": "Bras",
+            "score": 114.3,
+            "spikePct": 36100,
+            "euroPerSale": 3.66,
+            "marketComm": 1325,
+            "sold7": 362,
+            "creators": 28,
+            "videos": 0,
+            "priceValue": 36.59,
+            "catLabel": "Formal Dresses",
+            "days": 1,
+            "spark": [
+              362
+            ]
+          }
+        },
+        {
+          "id": "1729785690479302883",
+          "title": "【Grace Karin】Vestido mini corsé floral para mujer y chicas, primavera/verano 2026, fluido línea A con bolsillos, SpringStatements",
+          "cover": "https://s.500fd.com/tt_product/376ecd566f8b495db4fe18d1d76066d5~tplv-o3syd03w52-resize-webp:800:800.webp",
+          "price": "26,88 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729785690479302883",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 111.1,
+            "spikePct": 147450,
+            "euroPerSale": 2.69,
+            "marketComm": 7938,
+            "sold7": 2951,
+            "creators": 55,
+            "videos": 0,
+            "priceValue": 26.88,
+            "catLabel": "Casual Dresses",
+            "days": 1,
+            "spark": [
+              2946
+            ]
+          }
+        },
+        {
+          "id": "1729828283826543538",
+          "title": "-ELETTA BOUTIQUE-  Pantalone Serena",
+          "cover": "https://s.500fd.com/tt_product/0d5473495ea64242a977902136e2b0de~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+          "price": "29,99 €",
+          "currency": "EUR",
+          "commissionRate": 12.5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729828283826543538",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 103.5,
+            "spikePct": 53.3,
+            "euroPerSale": 3.75,
+            "marketComm": 1331,
+            "sold7": 355,
+            "creators": 5,
+            "videos": 0,
+            "priceValue": 29.99,
+            "catLabel": "Trousers",
             "days": 3,
             "spark": [
-              34,
-              22,
-              145
+              294,
+              38,
+              23
             ]
           }
         },
@@ -70,6 +124,186 @@
           }
         },
         {
+          "id": "1729826012312279101",
+          "title": "taglie forti senza ferretto – Supporto forte e comfort invisibile solo lavaggio a mano cina reggiseni",
+          "cover": "https://s.500fd.com/tt_product/f228f9fe7d1a499eab5879350c90f7ba~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "26 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729826012312279101",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 98.9,
+            "spikePct": 474.1,
+            "euroPerSale": 3.12,
+            "marketComm": 484,
+            "sold7": 155,
+            "creators": 2,
+            "videos": 2,
+            "priceValue": 26,
+            "catLabel": "Bras",
+            "days": 3,
+            "spark": [
+              34,
+              22,
+              145
+            ]
+          }
+        },
+        {
+          "id": "1729559537142175752",
+          "title": "Abito Desy",
+          "cover": "https://s.500fd.com/tt_product/c8100f4dba104c2cb69ffe5248871676~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "22 €",
+          "currency": "EUR",
+          "commissionRate": 17.5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729559537142175752",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 97.9,
+            "spikePct": 29.6,
+            "euroPerSale": 3.85,
+            "marketComm": 1340,
+            "sold7": 348,
+            "creators": 55,
+            "videos": 3,
+            "priceValue": 22,
+            "catLabel": "Casual Dresses",
+            "days": 8,
+            "spark": [
+              111,
+              38,
+              154,
+              60,
+              60,
+              243,
+              49,
+              56
+            ]
+          }
+        },
+        {
+          "id": "1729840141694245700",
+          "title": "PULKRITU Elegant Women's Tie Dye Print Pleated Long Sleeve Maxi Prom Dress, Slim Fit Party Outfit Dress, Fashionable Birthday Event Wear, Educational Style Clothing,Lady Casual Dresses,Female Brunch Dresses,Graduation Dress,",
+          "cover": "https://s.500fd.com/tt_product/19cd0fde6d0949ccbea3a589f85f1a0e~tplv-aphluv4xwc-resize-jpeg:800:1066.jpeg",
+          "price": "45,99 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729840141694245700",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 97.2,
+            "spikePct": 6200,
+            "euroPerSale": 4.6,
+            "marketComm": 290,
+            "sold7": 63,
+            "creators": 3,
+            "videos": 0,
+            "priceValue": 45.99,
+            "catLabel": "Casual Dresses",
+            "days": 1,
+            "spark": [
+              63
+            ]
+          }
+        },
+        {
+          "id": "1729754186499070406",
+          "title": "Women's Spring Summer Polka Dot Casual Vacation Two-Piece Set, Off-Shoulder Short Top + High-Waisted Wide Leg Pants, Fitted Clothing Set",
+          "cover": "https://s.500fd.com/tt_product/b365c79f30524a3084aaf8b9cf19dadd~tplv-aphluv4xwc-resize-webp:800:800.webp",
+          "price": "18,90 €",
+          "currency": "EUR",
+          "commissionRate": 9,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729754186499070406",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 95.5,
+            "spikePct": 96400,
+            "euroPerSale": 1.7,
+            "marketComm": 3281,
+            "sold7": 1930,
+            "creators": 6,
+            "videos": 0,
+            "priceValue": 18.9,
+            "catLabel": "Sets",
+            "days": 1,
+            "spark": [
+              1923
+            ]
+          }
+        },
+        {
+          "id": "1729624057338370761",
+          "title": "【Lady First】Blazer & Completo Tailleur Elegance - Made in Italy Office Siren Outfits Girl Formal Workwear",
+          "cover": "https://s.500fd.com/tt_product/757b684b499547dfaabcf2a7efc4efbc~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "22 - 34,99 €",
+          "currency": "EUR",
+          "commissionRate": 8,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729624057338370761",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 92.7,
+            "spikePct": 3763.2,
+            "euroPerSale": 1.76,
+            "marketComm": 1292,
+            "sold7": 734,
+            "creators": 337,
+            "videos": 0,
+            "priceValue": 22,
+            "catLabel": "Suits",
+            "days": 1,
+            "spark": [
+              23
+            ]
+          }
+        },
+        {
+          "id": "1729782768461257327",
+          "title": "[MIXMUSE.NOHO] Stella, Tuta Pantalone Lunga Smanicata",
+          "cover": "https://s.500fd.com/tt_product/9ff0c4b2351b4d57bd686f4a9341de35~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "27,52 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729782768461257327",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 92.3,
+            "spikePct": 115.7,
+            "euroPerSale": 2.75,
+            "marketComm": 393,
+            "sold7": 143,
+            "creators": 74,
+            "videos": 5,
+            "priceValue": 27.52,
+            "catLabel": "Women's Suits & Overalls",
+            "days": 10,
+            "spark": [
+              206,
+              127,
+              127,
+              18,
+              7,
+              11,
+              9,
+              26,
+              32,
+              36
+            ]
+          }
+        },
+        {
           "id": "1729754516352768970",
           "title": "Jeans BELLA Larga da donna Tessuto Elastica con le tasche Stile casual",
           "cover": "https://s.500fd.com/tt_product/34d1a2c55af74228a84c01552b9a3641~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -81,11 +315,11 @@
             "view": "migliori",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 93.4,
-            "spikePct": 73.9,
+            "score": 92.2,
+            "spikePct": 71.5,
             "euroPerSale": 4.38,
-            "marketComm": 315,
-            "sold7": 72,
+            "marketComm": 293,
+            "sold7": 67,
             "creators": 26,
             "videos": 2,
             "priceValue": 29.21,
@@ -103,98 +337,7 @@
               0,
               57,
               10,
-              10
-            ]
-          }
-        },
-        {
-          "id": "1729829077431392879",
-          "title": "[MIXMUSE] Capri, Completo Camicia Con Coulisse In Vita E Pantalone Coordinato",
-          "cover": "https://s.500fd.com/tt_product/fe9c559305b146d1916f78ee6c82b898~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "34,90 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829077431392879",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 91.9,
-            "spikePct": 53.6,
-            "euroPerSale": 3.49,
-            "marketComm": 380,
-            "sold7": 109,
-            "creators": 89,
-            "videos": 3,
-            "priceValue": 34.9,
-            "catLabel": "Women's Suits & Overalls",
-            "days": 10,
-            "spark": [
-              204,
-              109,
-              20,
-              6,
-              4,
-              11,
-              10,
-              17,
-              17,
-              8
-            ]
-          }
-        },
-        {
-          "id": "1729565920776919676",
-          "title": "Elegant Sequined Mermaid Dress, Square Neck Cut-Out Design, Perfect for Evening Parties & Ballroom Dances",
-          "cover": "https://s.500fd.com/tt_product/57c4774fe47547d39240c01eecc64978~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "36,59 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729565920776919676",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 91.5,
-            "spikePct": 0,
-            "euroPerSale": 3.66,
-            "marketComm": 1325,
-            "sold7": 362,
-            "creators": 28,
-            "videos": 0,
-            "priceValue": 36.59,
-            "catLabel": "Formal Dresses",
-            "days": 1,
-            "spark": [
-              362
-            ]
-          }
-        },
-        {
-          "id": "1729828283826543538",
-          "title": "-ELETTA BOUTIQUE-  Pantalone Serena",
-          "cover": "https://s.500fd.com/tt_product/0d5473495ea64242a977902136e2b0de~tplv-t5fjg24jzw-crop-webp:500:500.webp",
-          "price": "29,99 €",
-          "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729828283826543538",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 90.8,
-            "spikePct": 0,
-            "euroPerSale": 3.75,
-            "marketComm": 1245,
-            "sold7": 332,
-            "creators": 5,
-            "videos": 0,
-            "priceValue": 29.99,
-            "catLabel": "Trousers",
-            "days": 2,
-            "spark": [
-              294,
-              38
+              0
             ]
           }
         },
@@ -210,8 +353,8 @@
             "view": "migliori",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 90.1,
-            "spikePct": 80,
+            "score": 88.3,
+            "spikePct": 70,
             "euroPerSale": 3.35,
             "marketComm": 214,
             "sold7": 64,
@@ -219,7 +362,7 @@
             "videos": 58,
             "priceValue": 22.34,
             "catLabel": "Sports & Outdoor",
-            "days": 8,
+            "days": 9,
             "spark": [
               0,
               0,
@@ -228,34 +371,8 @@
               0,
               0,
               64,
+              0,
               0
-            ]
-          }
-        },
-        {
-          "id": "1729785690479302883",
-          "title": "【Grace Karin】Vestido mini corsé floral para mujer y chicas, primavera/verano 2026, fluido línea A con bolsillos, SpringStatements",
-          "cover": "https://s.500fd.com/tt_product/376ecd566f8b495db4fe18d1d76066d5~tplv-o3syd03w52-resize-webp:800:800.webp",
-          "price": "26,88 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729785690479302883",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 88.9,
-            "spikePct": 0,
-            "euroPerSale": 2.69,
-            "marketComm": 7925,
-            "sold7": 2946,
-            "creators": 55,
-            "videos": 0,
-            "priceValue": 26.88,
-            "catLabel": "Casual Dresses",
-            "days": 1,
-            "spark": [
-              2946
             ]
           }
         },
@@ -289,6 +406,71 @@
           }
         },
         {
+          "id": "1729787973230697232",
+          "title": "Pantaloncini sportivi da donna ad asciugatura rapida e traspiranti, vestibilità ampia con vita elasticizzata, pantaloni casual estivi, stile Y2K a righe per uso domestico",
+          "cover": "https://s.500fd.com/tt_product/d69f7342bc4e43ba9065e09cc166b15a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "23,11 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729787973230697232",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 87,
+            "spikePct": 8346.7,
+            "euroPerSale": 1.16,
+            "marketComm": 3392,
+            "sold7": 2924,
+            "creators": 32,
+            "videos": 1,
+            "priceValue": 23.11,
+            "catLabel": "Women's Bottoms",
+            "days": 14,
+            "spark": [
+              13,
+              16,
+              8,
+              16,
+              13,
+              4,
+              10,
+              7,
+              7,
+              4,
+              4,
+              2924
+            ]
+          }
+        },
+        {
+          "id": "1729596094390770439",
+          "title": "Plus Size Deep V Neck Backless Sequin Party Dress, Elegant Cap Sleeve Evening Gown, Random Cut Design, Perfect for Special Occasions",
+          "cover": "https://s.500fd.com/tt_product/6f7230d6103444b7a65c4e3fe7b919de~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "60,90 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729596094390770439",
+          "trend": {
+            "view": "migliori",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 86.9,
+            "spikePct": 0,
+            "euroPerSale": 7.31,
+            "marketComm": 1477,
+            "sold7": 202,
+            "creators": 2,
+            "videos": 0,
+            "priceValue": 60.9,
+            "catLabel": "Formal Dresses",
+            "days": 1,
+            "spark": [
+              202
+            ]
+          }
+        },
+        {
           "id": "1729832327857150898",
           "title": "-ELETTA BOUTIQUE-  Bermuda Kaily",
           "cover": "https://s.500fd.com/tt_product/64910440dc2849ec91f9f6fa82851ad9~tplv-t5fjg24jzw-crop-webp:500:500.webp",
@@ -316,99 +498,68 @@
           }
         },
         {
-          "id": "1729820090356307976",
-          "title": "Set Ambra",
-          "cover": "https://s.500fd.com/tt_product/637a294e131c4181bbf1c2ee5c81897d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "19,99 €",
-          "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729820090356307976",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 83.9,
-            "spikePct": 11.1,
-            "euroPerSale": 2.5,
-            "marketComm": 1450,
-            "sold7": 580,
-            "creators": 27,
-            "videos": 8,
-            "priceValue": 19.99,
-            "catLabel": "Casual Dresses",
-            "days": 6,
-            "spark": [
-              167,
-              40,
-              50,
-              216,
-              54,
-              53
-            ]
-          }
-        },
-        {
-          "id": "1729833811348986479",
-          "title": "[MIXMUSE.COUTURE] Portofino, Cardigan A Rete",
-          "cover": "https://s.500fd.com/tt_product/61457584d60343e2b85ae683d4a93b25~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "14,90 €",
+          "id": "1729731821363698423",
+          "title": "Set 2 pezzi largo alla moda da donna, camicia a maniche lunghe e pantaloni a gamba larga, design casual con coulisse a vita alta, primavera e autunno",
+          "cover": "https://s.500fd.com/tt_product/ae5ed2811d7a486a87d5f79f8e0f17e3~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "9,35 - €10,02",
           "currency": "EUR",
           "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833811348986479",
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729731821363698423",
           "trend": {
             "view": "migliori",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 82.6,
-            "spikePct": 101,
-            "euroPerSale": 1.49,
-            "marketComm": 600,
-            "sold7": 403,
-            "creators": 42,
-            "videos": 5,
-            "priceValue": 14.9,
-            "catLabel": "Knitwear",
-            "days": 5,
+            "score": 83.6,
+            "spikePct": 105485,
+            "euroPerSale": 0.94,
+            "marketComm": 1243,
+            "sold7": 1322,
+            "creators": 63,
+            "videos": 0,
+            "priceValue": 9.35,
+            "catLabel": "Womenswear & Underwear",
+            "days": 11,
             "spark": [
-              121,
-              121,
-              26,
-              403,
-              63
+              12,
+              2,
+              17,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1319,
+              1319
             ]
           }
         },
         {
-          "id": "1729477524927388618",
-          "title": "Aikopa  Pesca Peach Lifting Leggings da donna da Palestra Push Up Senza cucitura ad altezza vita Tessuto Cationico Elastico Traspirante No pelucchi Vari colori",
-          "cover": "https://s.500fd.com/tt_product/b8d0104aac7046c5a8c4cbc97ec4ebb3~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "13 - 19,49 €",
+          "id": "1729823804713375752",
+          "title": "Pantalone Satin",
+          "cover": "https://s.500fd.com/tt_product/ba3b355eb4894922b5441742e368ef09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "17,99 €",
           "currency": "EUR",
-          "commissionRate": 15,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729477524927388618",
+          "commissionRate": 12.5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823804713375752",
           "trend": {
             "view": "migliori",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 81.6,
-            "spikePct": 80,
-            "euroPerSale": 1.95,
-            "marketComm": 482,
-            "sold7": 247,
-            "creators": 481,
-            "videos": 577,
-            "priceValue": 13,
-            "catLabel": "Sports & Outdoor",
-            "days": 8,
+            "score": 82.3,
+            "spikePct": 721.4,
+            "euroPerSale": 2.25,
+            "marketComm": 259,
+            "sold7": 115,
+            "creators": 5,
+            "videos": 1,
+            "priceValue": 17.99,
+            "catLabel": "Trousers",
+            "days": 3,
             "spark": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              247,
-              0
+              120,
+              99,
+              5
             ]
           }
         },
@@ -440,39 +591,6 @@
           }
         },
         {
-          "id": "1729559537142175752",
-          "title": "Abito Desy",
-          "cover": "https://s.500fd.com/tt_product/c8100f4dba104c2cb69ffe5248871676~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "22 €",
-          "currency": "EUR",
-          "commissionRate": 17.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729559537142175752",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 81.2,
-            "spikePct": 19.4,
-            "euroPerSale": 3.85,
-            "marketComm": 231,
-            "sold7": 60,
-            "creators": 54,
-            "videos": 3,
-            "priceValue": 22,
-            "catLabel": "Casual Dresses",
-            "days": 7,
-            "spark": [
-              111,
-              38,
-              154,
-              60,
-              60,
-              243,
-              49
-            ]
-          }
-        },
-        {
           "id": "1729818131500866197",
           "title": "Pantalone Balloon in cotone",
           "cover": "https://s.500fd.com/tt_product/7a3778d879ff40b38e0ba96d92cc6c09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -484,50 +602,139 @@
             "view": "migliori",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 77.7,
-            "spikePct": 100,
+            "score": 80.2,
+            "spikePct": 78.2,
             "euroPerSale": 3,
-            "marketComm": 63,
-            "sold7": 21,
+            "marketComm": 120,
+            "sold7": 40,
             "creators": 5,
             "videos": 1,
             "priceValue": 23.99,
             "catLabel": "Trousers",
-            "days": 3,
+            "days": 4,
             "spark": [
               9,
               4,
-              8
+              8,
+              19
+            ]
+          }
+        }
+      ],
+      "emergenti": [
+        {
+          "id": "1729565920776919676",
+          "title": "Elegant Sequined Mermaid Dress, Square Neck Cut-Out Design, Perfect for Evening Parties & Ballroom Dances",
+          "cover": "https://s.500fd.com/tt_product/57c4774fe47547d39240c01eecc64978~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "36,59 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729565920776919676",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 106.3,
+            "spikePct": 36100,
+            "euroPerSale": 3.66,
+            "marketComm": 1325,
+            "sold7": 362,
+            "creators": 28,
+            "videos": 0,
+            "priceValue": 36.59,
+            "catLabel": "Formal Dresses",
+            "days": 1,
+            "spark": [
+              362
             ]
           }
         },
         {
-          "id": "1729810129529706653",
-          "title": "MF Tuta a Fascia “Candy”  in 100% Lyocell Lunga Design Elasticizzato, Gamba Ampia e Tasche Laterali, Perfetta per Estate, Vacanze e Tempo Libero",
-          "cover": "https://s.500fd.com/tt_product/138c6a35c2be44479c85ffda99b72cb6~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "22,90 €",
+          "id": "1729785690479302883",
+          "title": "【Grace Karin】Vestido mini corsé floral para mujer y chicas, primavera/verano 2026, fluido línea A con bolsillos, SpringStatements",
+          "cover": "https://s.500fd.com/tt_product/376ecd566f8b495db4fe18d1d76066d5~tplv-o3syd03w52-resize-webp:800:800.webp",
+          "price": "26,88 €",
           "currency": "EUR",
-          "commissionRate": 8,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729810129529706653",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729785690479302883",
           "trend": {
-            "view": "migliori",
+            "view": "emergenti",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 77.2,
-            "spikePct": 519.2,
-            "euroPerSale": 1.83,
-            "marketComm": 245,
-            "sold7": 134,
-            "creators": 66,
-            "videos": 1,
-            "priceValue": 22.9,
-            "catLabel": "Suits",
-            "days": 4,
+            "score": 105.4,
+            "spikePct": 147450,
+            "euroPerSale": 2.69,
+            "marketComm": 7938,
+            "sold7": 2951,
+            "creators": 55,
+            "videos": 0,
+            "priceValue": 26.88,
+            "catLabel": "Casual Dresses",
+            "days": 1,
             "spark": [
-              24,
-              5,
-              134,
-              134
+              2946
+            ]
+          }
+        },
+        {
+          "id": "1729782932967103087",
+          "title": "[MIXMUSE] Butterfly, Maglia Basic in Misto Seta",
+          "cover": "https://s.500fd.com/tt_product/15e68394145847e181b204e44caac0a9~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "17,90 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729782932967103087",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 103.6,
+            "spikePct": 345.9,
+            "euroPerSale": 1.79,
+            "marketComm": 390,
+            "sold7": 218,
+            "creators": 131,
+            "videos": 5,
+            "priceValue": 17.9,
+            "catLabel": "Women's Tops",
+            "days": 9,
+            "spark": [
+              28,
+              28,
+              238,
+              22,
+              16,
+              17,
+              20,
+              52,
+              113
+            ]
+          }
+        },
+        {
+          "id": "1729624057338370761",
+          "title": "【Lady First】Blazer & Completo Tailleur Elegance - Made in Italy Office Siren Outfits Girl Formal Workwear",
+          "cover": "https://s.500fd.com/tt_product/757b684b499547dfaabcf2a7efc4efbc~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "22 - 34,99 €",
+          "currency": "EUR",
+          "commissionRate": 8,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729624057338370761",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 103.5,
+            "spikePct": 3763.2,
+            "euroPerSale": 1.76,
+            "marketComm": 1292,
+            "sold7": 734,
+            "creators": 337,
+            "videos": 0,
+            "priceValue": 22,
+            "catLabel": "Suits",
+            "days": 1,
+            "spark": [
+              23
             ]
           }
         },
@@ -540,14 +747,14 @@
           "commissionRate": 9,
           "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729754186499070406",
           "trend": {
-            "view": "migliori",
+            "view": "emergenti",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 76.4,
-            "spikePct": 0,
+            "score": 103.4,
+            "spikePct": 96400,
             "euroPerSale": 1.7,
-            "marketComm": 3269,
-            "sold7": 1923,
+            "marketComm": 3281,
+            "sold7": 1930,
             "creators": 6,
             "videos": 0,
             "priceValue": 18.9,
@@ -558,63 +765,6 @@
             ]
           }
         },
-        {
-          "id": "1729778310631364880",
-          "title": "Abito lungo elegante da donna con bottoni semplici, vita alta, effetto snellente, abito plissettato da vacanza con tasca e maniche lunghe, tendenza primavera 2026",
-          "cover": "https://s.500fd.com/tt_product/a77564b30f514201bbadd4849af03608~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "87,20 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729778310631364880",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 76.4,
-            "spikePct": 0,
-            "euroPerSale": 8.72,
-            "marketComm": 462,
-            "sold7": 53,
-            "creators": 7,
-            "videos": 0,
-            "priceValue": 87.2,
-            "catLabel": "Casual Dresses",
-            "days": 2,
-            "spark": [
-              26,
-              27
-            ]
-          }
-        },
-        {
-          "id": "1729809223560304787",
-          "title": "Pantalone Lumina",
-          "cover": "https://s.500fd.com/tt_product/94cbe870d6b54534bbc9198b0bc9292c~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "25 €",
-          "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729809223560304787",
-          "trend": {
-            "view": "migliori",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 75.9,
-            "spikePct": 0,
-            "euroPerSale": 3.13,
-            "marketComm": 316,
-            "sold7": 101,
-            "creators": 1,
-            "videos": 0,
-            "priceValue": 25,
-            "catLabel": "Trousers",
-            "days": 1,
-            "spark": [
-              101
-            ]
-          }
-        }
-      ],
-      "emergenti": [
         {
           "id": "1729805900468230416",
           "title": "Abito da cocktail lussuoso con corsetto per donne, sexy, spalle scoperte, arricciature, spacco, abito lungo per invitata/celebrity, abito da ballo per celebrity",
@@ -673,6 +823,71 @@
           }
         },
         {
+          "id": "1729787973230697232",
+          "title": "Pantaloncini sportivi da donna ad asciugatura rapida e traspiranti, vestibilità ampia con vita elasticizzata, pantaloni casual estivi, stile Y2K a righe per uso domestico",
+          "cover": "https://s.500fd.com/tt_product/d69f7342bc4e43ba9065e09cc166b15a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "23,11 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729787973230697232",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 102.3,
+            "spikePct": 26518.2,
+            "euroPerSale": 1.16,
+            "marketComm": 3392,
+            "sold7": 2924,
+            "creators": 32,
+            "videos": 1,
+            "priceValue": 23.11,
+            "catLabel": "Women's Bottoms",
+            "days": 14,
+            "spark": [
+              13,
+              16,
+              8,
+              16,
+              13,
+              4,
+              10,
+              7,
+              7,
+              4,
+              4,
+              2924
+            ]
+          }
+        },
+        {
+          "id": "1729500098008226423",
+          "title": "Maxi abito senza maniche con volant e spacco alto per donna, abbigliamento casual, elegante, slim fit, sexy, per feste e club",
+          "cover": "https://s.500fd.com/tt_product/dec555942a5e4b729a2cf7ae5fe72eb8~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "€6,49",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729500098008226423",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 101.3,
+            "spikePct": 8860,
+            "euroPerSale": 0.65,
+            "marketComm": 582,
+            "sold7": 896,
+            "creators": 149,
+            "videos": 0,
+            "priceValue": 6.49,
+            "catLabel": "Formal Dresses",
+            "days": 1,
+            "spark": [
+              896
+            ]
+          }
+        },
+        {
           "id": "1729492593743731319",
           "title": "Abito senza maniche con scollo a V e spalline sottili con stampa leopardata selvaggia per donna, abito lungo aderente casual sexy, eleganti abiti da discoteca per feste",
           "cover": "https://s.500fd.com/tt_product/8e3077d526ab42009232d64ef8ab93af~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -685,58 +900,130 @@
             "model": "abbigliamento",
             "fit": 1,
             "score": 101,
-            "spikePct": 991.2,
+            "spikePct": 1740,
             "euroPerSale": 0.52,
-            "marketComm": 211,
-            "sold7": 405,
+            "marketComm": 206,
+            "sold7": 397,
             "creators": 118,
-            "videos": 0,
+            "videos": 3,
             "priceValue": 5.2,
             "catLabel": "Casual Dresses",
-            "days": 4,
+            "days": 5,
             "spark": [
               25,
               9,
               11,
-              360
+              360,
+              8
             ]
           }
         },
         {
-          "id": "1729790403527022708",
-          "title": "URBANREVERSE set kimono boho: giacca kimono e pantaloni a gamba larga, completo da donna in 2 pezzi. Stile resort chic estivo, look premium, vestibilità rilassata, prodotto in Italia.",
-          "cover": "https://s.500fd.com/tt_product/a519542ece3a4cfcb154678738103629~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "26,77 €",
+          "id": "1729749154756663419",
+          "title": "Canotta corta aderente da donna a tinta unita con arricciature e strass, stile streetwear casual, design schiena scoperta, perfetta per l’uso quotidiano",
+          "cover": "https://s.500fd.com/tt_product/dee14c7cc92c400b8c66f0a2f622b375~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "3,56 €",
           "currency": "EUR",
           "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729790403527022708",
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729749154756663419",
           "trend": {
             "view": "emergenti",
             "model": "abbigliamento",
             "fit": 1,
-            "score": 100.2,
-            "spikePct": 680,
-            "euroPerSale": 1.34,
-            "marketComm": 154,
-            "sold7": 115,
-            "creators": 39,
+            "score": 100.4,
+            "spikePct": 11072.7,
+            "euroPerSale": 0.18,
+            "marketComm": 221,
+            "sold7": 1229,
+            "creators": 14,
             "videos": 0,
-            "priceValue": 26.77,
-            "catLabel": "Womenswear & Underwear",
-            "days": 13,
+            "priceValue": 3.56,
+            "catLabel": "Women's Tops",
+            "days": 1,
             "spark": [
-              1,
-              10,
-              7,
-              0,
-              17,
-              27,
-              0,
-              0,
-              5,
-              5,
-              78,
-              0
+              1227
+            ]
+          }
+        },
+        {
+          "id": "1729786303539353622",
+          "title": "New Summer-Autumn Women's Short Sleeve T-Shirt, Blue- Striped Knit Top, Loose Fit Digital Print, Versatile Outerwear",
+          "cover": "https://s.500fd.com/tt_product/a1bfd6c513cf48eb9d6e224efceca0d5~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "€ 8,29",
+          "currency": "EUR",
+          "commissionRate": 0,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729786303539353622",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 100,
+            "spikePct": 22285.7,
+            "euroPerSale": 0,
+            "marketComm": 0,
+            "sold7": 1567,
+            "creators": 2,
+            "videos": 0,
+            "priceValue": 8.29,
+            "catLabel": "T-shirts",
+            "days": 1,
+            "spark": [
+              1567
+            ]
+          }
+        },
+        {
+          "id": "1729698878485666443",
+          "title": "20/30 paia Calzini alla caviglia da donna/uomo, Morbidi e confortevoli per uso quotidiano, Ideali per lo sport, i viaggi e la casa, 20/30 paia",
+          "cover": "https://s.500fd.com/tt_product/8a8778eba1394ff488a19cc309997136~tplv-t5fjg24jzw-resize-jpeg:300:300.jpeg",
+          "price": "9,77 €  -  15,29 €",
+          "currency": "EUR",
+          "commissionRate": 0,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729698878485666443",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 100,
+            "spikePct": 1906.3,
+            "euroPerSale": 0,
+            "marketComm": 0,
+            "sold7": 642,
+            "creators": 2,
+            "videos": 0,
+            "priceValue": 9.77,
+            "catLabel": "Women's Underwear",
+            "days": 1,
+            "spark": [
+              639
+            ]
+          }
+        },
+        {
+          "id": "1729840979052960714",
+          "title": "Gonna Pantalone Milena estivo largo leggero da donna 100% Cotone Elastico in Vita veste da XS a XL Taglia Unica，Made in Italy",
+          "cover": "https://s.500fd.com/tt_product/1da22284d9c9499daa14f9d1d875c02f~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "24,99 €",
+          "currency": "EUR",
+          "commissionRate": 0,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729840979052960714",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 99.9,
+            "spikePct": 715.8,
+            "euroPerSale": 0,
+            "marketComm": 0,
+            "sold7": 155,
+            "creators": 9,
+            "videos": 3,
+            "priceValue": 24.99,
+            "catLabel": "Skirts",
+            "days": 2,
+            "spark": [
+              125,
+              30
             ]
           }
         },
@@ -775,6 +1062,63 @@
               17,
               120,
               16
+            ]
+          }
+        },
+        {
+          "id": "1729670829405871055",
+          "title": "Set di reggiseni comodi traspiranti senza cuciture e ferretto, 4 pezzi S-XL, colori tenui, uso quotidiano, ideale per la vita quotidiana e l'attività fisica delle donne",
+          "cover": "https://s.500fd.com/tt_product/a36512d09c03477aab66745be933e0e0~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "4,63 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729670829405871055",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 99.2,
+            "spikePct": 1337.5,
+            "euroPerSale": 0.56,
+            "marketComm": 69,
+            "sold7": 123,
+            "creators": 35,
+            "videos": 1,
+            "priceValue": 4.63,
+            "catLabel": "Women's Underwear",
+            "days": 4,
+            "spark": [
+              1,
+              7,
+              10,
+              105
+            ]
+          }
+        },
+        {
+          "id": "1729840141694245700",
+          "title": "PULKRITU Elegant Women's Tie Dye Print Pleated Long Sleeve Maxi Prom Dress, Slim Fit Party Outfit Dress, Fashionable Birthday Event Wear, Educational Style Clothing,Lady Casual Dresses,Female Brunch Dresses,Graduation Dress,",
+          "cover": "https://s.500fd.com/tt_product/19cd0fde6d0949ccbea3a589f85f1a0e~tplv-aphluv4xwc-resize-jpeg:800:1066.jpeg",
+          "price": "45,99 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729840141694245700",
+          "trend": {
+            "view": "emergenti",
+            "model": "abbigliamento",
+            "fit": 1,
+            "score": 99.1,
+            "spikePct": 6200,
+            "euroPerSale": 4.6,
+            "marketComm": 290,
+            "sold7": 63,
+            "creators": 3,
+            "videos": 0,
+            "priceValue": 45.99,
+            "catLabel": "Casual Dresses",
+            "days": 1,
+            "spark": [
+              63
             ]
           }
         },
@@ -863,362 +1207,6 @@
               18
             ]
           }
-        },
-        {
-          "id": "1729795254159317615",
-          "title": "[MIXMUSE.COUTURE] Jolie, Vestito Chemisier Con Cintura",
-          "cover": "https://s.500fd.com/tt_product/ebe7fd15f9734c1cb1936c1d419a8ca5~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "34,90 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729795254159317615",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 97.9,
-            "spikePct": 750,
-            "euroPerSale": 3.49,
-            "marketComm": 188,
-            "sold7": 54,
-            "creators": 72,
-            "videos": 0,
-            "priceValue": 34.9,
-            "catLabel": "Casual Dresses",
-            "days": 3,
-            "spark": [
-              3,
-              47,
-              4
-            ]
-          }
-        },
-        {
-          "id": "1729788109241161757",
-          "title": "Tuta Smash",
-          "cover": "https://s.500fd.com/tt_product/f0456da684dd4bc7a99550f154a2365d~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "29,99 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729788109241161757",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 94.9,
-            "spikePct": 800,
-            "euroPerSale": 3,
-            "marketComm": 114,
-            "sold7": 38,
-            "creators": 22,
-            "videos": 0,
-            "priceValue": 29.99,
-            "catLabel": "Casual Dresses",
-            "days": 3,
-            "spark": [
-              2,
-              14,
-              22
-            ]
-          }
-        },
-        {
-          "id": "1729821731208927944",
-          "title": "Spring Autumn Cotton Linen Long Sleeved shirt + Long Pants Two-piece Set Women Casual V-neck Shirt Drawstring Wide leg Pant Suit",
-          "cover": "https://s.500fd.com/tt_product/63870246ae8f419e9b9eea14627f72a9~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "43,84 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729821731208927944",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 93.5,
-            "spikePct": 3800,
-            "euroPerSale": 2.19,
-            "marketComm": 85,
-            "sold7": 39,
-            "creators": 11,
-            "videos": 0,
-            "priceValue": 43.84,
-            "catLabel": "Sets",
-            "days": 1,
-            "spark": [
-              39
-            ]
-          }
-        },
-        {
-          "id": "1729765722353605404",
-          "title": "T-shirt da donna a maniche corte con scollo a V, moda trendy, leggere e morbide, casual per l’estate, abbigliamento 2026",
-          "cover": "https://s.500fd.com/tt_product/2aa9a9c5707748a5bfc8ded162a97128~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "5,94 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729765722353605404",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 93.2,
-            "spikePct": 369.2,
-            "euroPerSale": 0.3,
-            "marketComm": 18,
-            "sold7": 61,
-            "creators": 68,
-            "videos": 3,
-            "priceValue": 5.94,
-            "catLabel": "Women's Tops",
-            "days": 5,
-            "spark": [
-              8,
-              19,
-              7,
-              61,
-              61
-            ]
-          }
-        },
-        {
-          "id": "1729852271589497493",
-          "title": "Tuta Oblò di produzione",
-          "cover": "https://s.500fd.com/tt_product/7439b77b544447e99280c49179fb5b64~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "37,99 €",
-          "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729852271589497493",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 92.6,
-            "spikePct": 300,
-            "euroPerSale": 4.75,
-            "marketComm": 128,
-            "sold7": 27,
-            "creators": 4,
-            "videos": 0,
-            "priceValue": 37.99,
-            "catLabel": "Casual Dresses",
-            "days": 3,
-            "spark": [
-              3,
-              13,
-              11
-            ]
-          }
-        },
-        {
-          "id": "1729566013982808478",
-          "title": "Giacca di Denim Vintage da Donna con Maniche a Bolle, Top Corto a vita Alta Sottile Estivo, Cappotto di Jeans Corto Casual alla Moda per le Donne",
-          "cover": "https://s.500fd.com/tt_product/5612210010594c71bebfab38087b4fcf~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "17,35 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729566013982808478",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 92.6,
-            "spikePct": 300,
-            "euroPerSale": 0.87,
-            "marketComm": 43,
-            "sold7": 49,
-            "creators": 51,
-            "videos": 2,
-            "priceValue": 17.35,
-            "catLabel": "Womenswear & Underwear",
-            "days": 21,
-            "spark": [
-              0,
-              24,
-              7,
-              7,
-              6,
-              3,
-              2,
-              0,
-              0,
-              1,
-              2,
-              2
-            ]
-          }
-        },
-        {
-          "id": "1729829076784880239",
-          "title": "[MIXMUSE] Tokyo, Completo Plissettato Con Top Con Laccetto In Vita E Pantalone",
-          "cover": "https://s.500fd.com/tt_product/881f678d28e142b994bfb05ad3529e78~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "34,90 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829076784880239",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 92,
-            "spikePct": 2400,
-            "euroPerSale": 3.49,
-            "marketComm": 87,
-            "sold7": 25,
-            "creators": 17,
-            "videos": 2,
-            "priceValue": 34.9,
-            "catLabel": "Sets",
-            "days": 3,
-            "spark": [
-              1,
-              25,
-              25
-            ]
-          }
-        },
-        {
-          "id": "1729841697716345455",
-          "title": "[MIXMUSE] Pantaloni Harem Morbidi",
-          "cover": "https://s.500fd.com/tt_product/e6852a5ff7f3421ab3d42ea4da1ca22d~tplv-t5fjg24jzw-origin-jpeg.jpeg",
-          "price": "19,90 €",
-          "currency": "EUR",
-          "commissionRate": 0,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729841697716345455",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 91.5,
-            "spikePct": 312.5,
-            "euroPerSale": 0,
-            "marketComm": 0,
-            "sold7": 53,
-            "creators": 5,
-            "videos": 1,
-            "priceValue": 19.9,
-            "catLabel": "Trousers",
-            "days": 2,
-            "spark": [
-              20,
-              33
-            ]
-          }
-        },
-        {
-          "id": "1729498364870170793",
-          "title": "Tuta da donna con stampa floreale, girocollo con anelli, collo asimmetrico, plissettata, Tuta casual bohémien a vita alta e gamba larga per l'estate",
-          "cover": "https://s.500fd.com/tt_product/d2815a364b844020bc39465c02e9a067~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "€6,23",
-          "currency": "EUR",
-          "commissionRate": 12,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729498364870170793",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 86.9,
-            "spikePct": 300,
-            "euroPerSale": 0.75,
-            "marketComm": 18,
-            "sold7": 24,
-            "creators": 120,
-            "videos": 0,
-            "priceValue": 6.23,
-            "catLabel": "Women's Suits & Overalls",
-            "days": 2,
-            "spark": [
-              20,
-              4
-            ]
-          }
-        },
-        {
-          "id": "1729670829405871055",
-          "title": "Set di reggiseni comodi traspiranti senza cuciture e ferretto, 4 pezzi S-XL, colori tenui, uso quotidiano, ideale per la vita quotidiana e l'attività fisica delle donne",
-          "cover": "https://s.500fd.com/tt_product/a36512d09c03477aab66745be933e0e0~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "4,63 €",
-          "currency": "EUR",
-          "commissionRate": 12,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729670829405871055",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 84.4,
-            "spikePct": 750,
-            "euroPerSale": 0.56,
-            "marketComm": 10,
-            "sold7": 18,
-            "creators": 33,
-            "videos": 1,
-            "priceValue": 4.63,
-            "catLabel": "Women's Underwear",
-            "days": 3,
-            "spark": [
-              1,
-              7,
-              10
-            ]
-          }
-        },
-        {
-          "id": "1729481971650107779",
-          "title": "Calzini da donna a quadri con fiocco stampato, Calzini casual comodi e traspiranti per uso quotidiano, Calzini da donna per tutte le stagioni",
-          "cover": "https://s.500fd.com/tt_product/dd1f3dded4db4b9c98aaef512deef3f0~tplv-aphluv4xwc-resize-webp:800:800.webp",
-          "price": "€4,52",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729481971650107779",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 83.7,
-            "spikePct": 800,
-            "euroPerSale": 0.23,
-            "marketComm": 4,
-            "sold7": 18,
-            "creators": 159,
-            "videos": 3,
-            "priceValue": 4.52,
-            "catLabel": "Women's Underwear",
-            "days": 3,
-            "spark": [
-              2,
-              18,
-              18
-            ]
-          }
-        },
-        {
-          "id": "1729502054411901315",
-          "title": "8 paia Calzini da donna alla caviglia, stampa floreale, Calzini low cut casual, comodi e traspiranti per uso quotidiano all'aperto, Moda estate 2024",
-          "cover": "https://s.500fd.com/tt_product/04cc00d2868b4f6b86281f276fc62a0f~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "3,74 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729502054411901315",
-          "trend": {
-            "view": "emergenti",
-            "model": "abbigliamento",
-            "fit": 1,
-            "score": 82.3,
-            "spikePct": 500,
-            "euroPerSale": 0.19,
-            "marketComm": 3,
-            "sold7": 15,
-            "creators": 85,
-            "videos": 4,
-            "priceValue": 3.74,
-            "catLabel": "Women's Underwear",
-            "days": 4,
-            "spark": [
-              3,
-              2,
-              15,
-              15
-            ]
-          }
         }
       ]
     },
@@ -1294,79 +1282,59 @@
             "view": "migliori",
             "model": "accessori",
             "fit": 0.9,
-            "score": 87.5,
-            "spikePct": 91.7,
+            "score": 86.5,
+            "spikePct": 77.8,
             "euroPerSale": 3.19,
-            "marketComm": 233,
-            "sold7": 73,
-            "creators": 3,
+            "marketComm": 274,
+            "sold7": 86,
+            "creators": 4,
             "videos": 7,
             "priceValue": 28.98,
             "catLabel": "Necklaces",
-            "days": 3,
+            "days": 4,
             "spark": [
               11,
               16,
-              46
+              46,
+              13
             ]
           }
         },
         {
-          "id": "1729646690071058767",
-          "title": "Collana Arabian Night Nefer in Acciaio Inossidabile 316L con Cubic Zirconia e Tecnica PVD Lunga 40cm + 5cm di Allungamento",
-          "cover": "https://s.500fd.com/tt_product/f35464cf75fd4d758d40d9ceadbc5ac3~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "€35,20",
+          "id": "1729831124243749562",
+          "title": "Collana dopamina, perline arcobaleno colorate, reattive agli UV, collane che cambiano colore, gioielli dopamina da donna, gioielli estivi da spiaggia, regali fatti a mano",
+          "cover": "https://s.500fd.com/tt_product/676b4a2285164a859ebd7a7e580908c0~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "12,99 €  -  19,90 €",
           "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729646690071058767",
-          "trend": {
-            "view": "migliori",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 77.5,
-            "spikePct": -19,
-            "euroPerSale": 4.4,
-            "marketComm": 682,
-            "sold7": 155,
-            "creators": 35,
-            "videos": 0,
-            "priceValue": 35.2,
-            "catLabel": "Necklaces",
-            "days": 4,
-            "spark": [
-              21,
-              66,
-              66,
-              2
-            ]
-          }
-        },
-        {
-          "id": "1729770893572872377",
-          "title": "Moero Vision Air Custodia per occhiali minimal con chiusura magnetica, esterno in vera pelle saffiano antigraffio interno morbidissimo in pelle di pecora , 10 colori perfetti per uomo e donna, design essenziale ma geniale.",
-          "cover": "https://s.500fd.com/tt_product/a063db779f1f470b8870bd51ff33bc50~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "€37,25",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729770893572872377",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729831124243749562",
           "trend": {
             "view": "migliori",
             "model": "accessori",
             "fit": 0.9,
             "score": 76.4,
-            "spikePct": 33.3,
-            "euroPerSale": 3.73,
-            "marketComm": 134,
-            "sold7": 36,
-            "creators": 211,
-            "videos": 3,
-            "priceValue": 37.25,
-            "catLabel": "Glasses Cases & Accessories",
-            "days": 3,
+            "spikePct": 5249.2,
+            "euroPerSale": 1.56,
+            "marketComm": 412,
+            "sold7": 264,
+            "creators": 21,
+            "videos": 1,
+            "priceValue": 12.99,
+            "catLabel": "Necklaces",
+            "days": 15,
             "spark": [
-              15,
-              9,
-              12
+              11,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              4,
+              1,
+              259
             ]
           }
         },
@@ -1394,6 +1362,33 @@
             "days": 1,
             "spark": [
               441
+            ]
+          }
+        },
+        {
+          "id": "1729807192434317636",
+          "title": "Combo Collana Anello Stellar",
+          "cover": "https://s.500fd.com/tt_product/a600bc495fd24c8a9de71d644dfcd2d7~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "31,90 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729807192434317636",
+          "trend": {
+            "view": "migliori",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 72.4,
+            "spikePct": 500,
+            "euroPerSale": 3.83,
+            "marketComm": 23,
+            "sold7": 6,
+            "creators": 27,
+            "videos": 1,
+            "priceValue": 31.9,
+            "catLabel": "Necklaces",
+            "days": 1,
+            "spark": [
+              1
             ]
           }
         },
@@ -1428,35 +1423,96 @@
           }
         },
         {
-          "id": "1729791843007503314",
-          "title": "Collana Magnetica Color",
-          "cover": "https://s.500fd.com/tt_product/0537c506b2d94e589118ddd8b18140aa~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "12 €",
+          "id": "1729770893572872377",
+          "title": "Moero Vision Air Custodia per occhiali minimal con chiusura magnetica, esterno in vera pelle saffiano antigraffio interno morbidissimo in pelle di pecora , 10 colori perfetti per uomo e donna, design essenziale ma geniale.",
+          "cover": "https://s.500fd.com/tt_product/a063db779f1f470b8870bd51ff33bc50~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "€37,25",
           "currency": "EUR",
-          "commissionRate": 15,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791843007503314",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729770893572872377",
           "trend": {
             "view": "migliori",
             "model": "accessori",
             "fit": 0.9,
-            "score": 71,
-            "spikePct": 26.5,
-            "euroPerSale": 1.8,
-            "marketComm": 673,
-            "sold7": 374,
-            "creators": 97,
-            "videos": 2,
-            "priceValue": 12,
-            "catLabel": "Necklaces",
-            "days": 7,
+            "score": 70.2,
+            "spikePct": -20.3,
+            "euroPerSale": 3.73,
+            "marketComm": 213,
+            "sold7": 57,
+            "creators": 215,
+            "videos": 4,
+            "priceValue": 37.25,
+            "catLabel": "Glasses Cases & Accessories",
+            "days": 4,
             "spark": [
-              210,
-              46,
-              312,
-              30,
-              374,
-              102,
-              168
+              15,
+              9,
+              12,
+              7
+            ]
+          }
+        },
+        {
+          "id": "1729616745922271881",
+          "title": "Elegante set di collane con ciondolo a forma di cuore da donna, Gioiello a più strati a forma di Y con perle finte, Regalo perfetto per uso quotidiano e feste da donna",
+          "cover": "https://s.500fd.com/tt_product/8a9348836edd4c0ab6439d93abb19bad~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "1,75 €",
+          "currency": "EUR",
+          "commissionRate": 15,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729616745922271881",
+          "trend": {
+            "view": "migliori",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 69.9,
+            "spikePct": 38766.7,
+            "euroPerSale": 0.26,
+            "marketComm": 303,
+            "sold7": 1166,
+            "creators": 7,
+            "videos": 0,
+            "priceValue": 1.75,
+            "catLabel": "Costume Jewelry & Accessories",
+            "days": 1,
+            "spark": [
+              1165
+            ]
+          }
+        },
+        {
+          "id": "1729747781651503146",
+          "title": "Collier Kim Love",
+          "cover": "https://s.500fd.com/tt_product/dfb4db6e1c544c50ae3646d284244497~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "24,69 - 30 €",
+          "currency": "EUR",
+          "commissionRate": 7,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729747781651503146",
+          "trend": {
+            "view": "migliori",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 69.3,
+            "spikePct": 42.7,
+            "euroPerSale": 1.73,
+            "marketComm": 427,
+            "sold7": 247,
+            "creators": 35,
+            "videos": 5,
+            "priceValue": 24.69,
+            "catLabel": "Necklaces",
+            "days": 11,
+            "spark": [
+              80,
+              40,
+              38,
+              25,
+              13,
+              59,
+              31,
+              6,
+              78,
+              34,
+              26
             ]
           }
         },
@@ -1485,6 +1541,87 @@
             "spark": [
               10,
               10
+            ]
+          }
+        },
+        {
+          "id": "1729579880767068775",
+          "title": "Collana da donna in acciaio inox con design a fiore a cinque petali rotante, gioiello informale per donne, regalo perfetto per la fidanzata",
+          "cover": "https://s.500fd.com/tt_product/57eb3d7267e74150ab016a91eef0c665~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "1,67 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729579880767068775",
+          "trend": {
+            "view": "migliori",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 67.2,
+            "spikePct": 10336.4,
+            "euroPerSale": 0.08,
+            "marketComm": 184,
+            "sold7": 2296,
+            "creators": 18,
+            "videos": 0,
+            "priceValue": 1.67,
+            "catLabel": "Costume Jewelry & Accessories",
+            "days": 1,
+            "spark": [
+              9
+            ]
+          }
+        },
+        {
+          "id": "1729725011281353132",
+          "title": "Pantaloncini da Donna Asimmetrici a Portafoglio con Vita Incrociata, Informale e Praticità, Tessuto Strutturato, Tasche con Patta sul Retro, Cerniera Invisibile Laterale (1 Pezzo)",
+          "cover": "https://s.500fd.com/tt_product/decb598d153b44bd82bf7f46079544cb~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "€2,83",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729725011281353132",
+          "trend": {
+            "view": "migliori",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 66.3,
+            "spikePct": 64000,
+            "euroPerSale": 0.34,
+            "marketComm": 218,
+            "sold7": 641,
+            "creators": 6,
+            "videos": 0,
+            "priceValue": 2.83,
+            "catLabel": "Women's Bottoms",
+            "days": 1,
+            "spark": [
+              641
+            ]
+          }
+        },
+        {
+          "id": "1729638714369940105",
+          "title": "12-Piece Elegant Women's Bracelet Set, Fashionable Chain Style Jewelry Accessories for Parties & Daily Wear, Perfect Gift Idea",
+          "cover": "https://s.500fd.com/tt_product/afa19e16f1c24372bde6c64ddad6dbc4~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "3,99 €",
+          "currency": "EUR",
+          "commissionRate": 0,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729638714369940105",
+          "trend": {
+            "view": "migliori",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 66,
+            "spikePct": 72000,
+            "euroPerSale": 0,
+            "marketComm": 0,
+            "sold7": 1442,
+            "creators": 1,
+            "videos": 0,
+            "priceValue": 3.99,
+            "catLabel": " Bracelets & Bangles",
+            "days": 1,
+            "spark": [
+              1442
             ]
           }
         },
@@ -1539,42 +1676,6 @@
             "days": 1,
             "spark": [
               1211
-            ]
-          }
-        },
-        {
-          "id": "1729747781651503146",
-          "title": "Collier Kim Love",
-          "cover": "https://s.500fd.com/tt_product/dfb4db6e1c544c50ae3646d284244497~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "24,69 - 30 €",
-          "currency": "EUR",
-          "commissionRate": 7,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729747781651503146",
-          "trend": {
-            "view": "migliori",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 64,
-            "spikePct": 18,
-            "euroPerSale": 1.73,
-            "marketComm": 353,
-            "sold7": 204,
-            "creators": 33,
-            "videos": 1,
-            "priceValue": 24.69,
-            "catLabel": "Necklaces",
-            "days": 10,
-            "spark": [
-              80,
-              40,
-              38,
-              25,
-              13,
-              59,
-              31,
-              6,
-              78,
-              34
             ]
           }
         },
@@ -1634,172 +1735,63 @@
           }
         },
         {
-          "id": "1729837185023449400",
-          "title": "Collana esmeralda",
-          "cover": "https://s.500fd.com/tt_product/3c409bab20594d488bc1550454922b53~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "26 €",
-          "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729837185023449400",
-          "trend": {
-            "view": "migliori",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 60.4,
-            "spikePct": -16.7,
-            "euroPerSale": 3.25,
-            "marketComm": 72,
-            "sold7": 22,
-            "creators": 1,
-            "videos": 0,
-            "priceValue": 26,
-            "catLabel": "Fashion Accessory Sets",
-            "days": 2,
-            "spark": [
-              12,
-              10
-            ]
-          }
-        },
-        {
-          "id": "1729815903791979288",
-          "title": "Occhiali alla moda unisex dal montatura grande 2026, design retrò per uso quotidiano, fotografia, viaggio, spiaggia e tutte le stagioni",
-          "cover": "https://s.500fd.com/tt_product/e5fb01cd8e89416eb86b36b14a08413a~tplv-t5fjg24jzw-crop-webp:500:500.webp",
-          "price": "€ 2,79",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729815903791979288",
-          "trend": {
-            "view": "migliori",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 58.2,
-            "spikePct": 1304,
-            "euroPerSale": 0.14,
-            "marketComm": 53,
-            "sold7": 376,
-            "creators": 2,
-            "videos": 0,
-            "priceValue": 2.79,
-            "catLabel": "Eyewear",
-            "days": 2,
-            "spark": [
-              25,
-              351
-            ]
-          }
-        },
-        {
-          "id": "1729839990535986098",
-          "title": "-ELETTA BOUTIQUE-  Body Collana",
-          "cover": "https://s.500fd.com/tt_product/8301b5b0211444ff89553ffd76ea2ffe~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "€ 17,99",
-          "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729839990535986098",
-          "trend": {
-            "view": "migliori",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 57.4,
-            "spikePct": 0,
-            "euroPerSale": 2.25,
-            "marketComm": 119,
-            "sold7": 53,
-            "creators": 3,
-            "videos": 0,
-            "priceValue": 17.99,
-            "catLabel": "Vest, Tank & Tube Tops",
-            "days": 1,
-            "spark": [
-              53
-            ]
-          }
-        },
-        {
-          "id": "1729616745922271881",
-          "title": "Elegante set di collane con ciondolo a forma di cuore da donna, Gioiello a più strati a forma di Y con perle finte, Regalo perfetto per uso quotidiano e feste da donna",
-          "cover": "https://s.500fd.com/tt_product/8a9348836edd4c0ab6439d93abb19bad~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "1,75 €",
+          "id": "1729791843007503314",
+          "title": "Collana Magnetica Color",
+          "cover": "https://s.500fd.com/tt_product/0537c506b2d94e589118ddd8b18140aa~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "12 €",
           "currency": "EUR",
           "commissionRate": 15,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729616745922271881",
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791843007503314",
           "trend": {
             "view": "migliori",
             "model": "accessori",
             "fit": 0.9,
-            "score": 55.9,
-            "spikePct": 0,
-            "euroPerSale": 0.26,
-            "marketComm": 303,
-            "sold7": 1165,
-            "creators": 7,
+            "score": 62.9,
+            "spikePct": -22.3,
+            "euroPerSale": 1.8,
+            "marketComm": 677,
+            "sold7": 376,
+            "creators": 99,
+            "videos": 2,
+            "priceValue": 12,
+            "catLabel": "Necklaces",
+            "days": 8,
+            "spark": [
+              210,
+              46,
+              312,
+              30,
+              374,
+              102,
+              168,
+              95
+            ]
+          }
+        },
+        {
+          "id": "1729738740505549197",
+          "title": "4-Leaf Grass Peach Heart Necklace, Personalized Mig Love Necklace, Love Shaped Jewelry, Hollow Copper Plated 24k Women's Jewelry, Suitable for Girlfriends, Exquisite Gifts for Mother's Day, Daily Gifts, Valentine's Day Gifts, Ramadan",
+          "cover": "https://s.500fd.com/tt_product/b7cf9164f22e4be18483737657b6f375~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "2,43 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729738740505549197",
+          "trend": {
+            "view": "migliori",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 62.6,
+            "spikePct": 23400,
+            "euroPerSale": 0.29,
+            "marketComm": 136,
+            "sold7": 470,
+            "creators": 2,
             "videos": 0,
-            "priceValue": 1.75,
-            "catLabel": "Costume Jewelry & Accessories",
+            "priceValue": 2.43,
+            "catLabel": "Necklaces",
             "days": 1,
             "spark": [
-              1165
-            ]
-          }
-        },
-        {
-          "id": "1729475088962525844",
-          "title": "Collana Amèlie Silver",
-          "cover": "https://s.500fd.com/tt_product/35d14aad359d4763abb461479a5f22b3~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "31 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729475088962525844",
-          "trend": {
-            "view": "migliori",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 54.9,
-            "spikePct": -72.5,
-            "euroPerSale": 3.1,
-            "marketComm": 152,
-            "sold7": 49,
-            "creators": 220,
-            "videos": 1,
-            "priceValue": 31,
-            "catLabel": "Silver Necklaces & Pendants",
-            "days": 4,
-            "spark": [
-              13,
-              49,
-              4,
-              2
-            ]
-          }
-        },
-        {
-          "id": "1729834277729311343",
-          "title": "[MIXMUSE.COUTURE] Ermione, Cintura In Vera Pelle",
-          "cover": "https://s.500fd.com/tt_product/78b5c0e43fba4401af1a9d8d3f2438db~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "19,90 €",
-          "currency": "EUR",
-          "commissionRate": 10,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729834277729311343",
-          "trend": {
-            "view": "migliori",
-            "model": "accessori",
-            "fit": 0.85,
-            "score": 53.1,
-            "spikePct": -47,
-            "euroPerSale": 1.99,
-            "marketComm": 277,
-            "sold7": 139,
-            "creators": 11,
-            "videos": 0,
-            "priceValue": 19.9,
-            "catLabel": "Belts",
-            "days": 4,
-            "spark": [
-              6,
-              139,
-              18,
-              26
+              470
             ]
           }
         }
@@ -1864,6 +1856,44 @@
           }
         },
         {
+          "id": "1729831124243749562",
+          "title": "Collana dopamina, perline arcobaleno colorate, reattive agli UV, collane che cambiano colore, gioielli dopamina da donna, gioielli estivi da spiaggia, regali fatti a mano",
+          "cover": "https://s.500fd.com/tt_product/676b4a2285164a859ebd7a7e580908c0~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "12,99 €  -  19,90 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729831124243749562",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 99,
+            "spikePct": 3150,
+            "euroPerSale": 1.56,
+            "marketComm": 412,
+            "sold7": 264,
+            "creators": 21,
+            "videos": 1,
+            "priceValue": 12.99,
+            "catLabel": "Necklaces",
+            "days": 15,
+            "spark": [
+              11,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              4,
+              1,
+              259
+            ]
+          }
+        },
+        {
           "id": "1729755464839502785",
           "title": "Collana per mamma collana Abbraccia la famiglia con ciondolo a forma di abbraccio gioielli alla moda per la Festa della Mamma e gli anniversari accessori regalo",
           "cover": "https://s.500fd.com/tt_product/0421cd76695f42568c6eedd057e5c0c3~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -1888,6 +1918,87 @@
             "spark": [
               20,
               14
+            ]
+          }
+        },
+        {
+          "id": "1729725011281353132",
+          "title": "Pantaloncini da Donna Asimmetrici a Portafoglio con Vita Incrociata, Informale e Praticità, Tessuto Strutturato, Tasche con Patta sul Retro, Cerniera Invisibile Laterale (1 Pezzo)",
+          "cover": "https://s.500fd.com/tt_product/decb598d153b44bd82bf7f46079544cb~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "€2,83",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729725011281353132",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 96.7,
+            "spikePct": 64000,
+            "euroPerSale": 0.34,
+            "marketComm": 218,
+            "sold7": 641,
+            "creators": 6,
+            "videos": 0,
+            "priceValue": 2.83,
+            "catLabel": "Women's Bottoms",
+            "days": 1,
+            "spark": [
+              641
+            ]
+          }
+        },
+        {
+          "id": "1729738740505549197",
+          "title": "4-Leaf Grass Peach Heart Necklace, Personalized Mig Love Necklace, Love Shaped Jewelry, Hollow Copper Plated 24k Women's Jewelry, Suitable for Girlfriends, Exquisite Gifts for Mother's Day, Daily Gifts, Valentine's Day Gifts, Ramadan",
+          "cover": "https://s.500fd.com/tt_product/b7cf9164f22e4be18483737657b6f375~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "2,43 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729738740505549197",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 96.6,
+            "spikePct": 23400,
+            "euroPerSale": 0.29,
+            "marketComm": 136,
+            "sold7": 470,
+            "creators": 2,
+            "videos": 0,
+            "priceValue": 2.43,
+            "catLabel": "Necklaces",
+            "days": 1,
+            "spark": [
+              470
+            ]
+          }
+        },
+        {
+          "id": "1729616745922271881",
+          "title": "Elegante set di collane con ciondolo a forma di cuore da donna, Gioiello a più strati a forma di Y con perle finte, Regalo perfetto per uso quotidiano e feste da donna",
+          "cover": "https://s.500fd.com/tt_product/8a9348836edd4c0ab6439d93abb19bad~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "1,75 €",
+          "currency": "EUR",
+          "commissionRate": 15,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729616745922271881",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 96.5,
+            "spikePct": 38766.7,
+            "euroPerSale": 0.26,
+            "marketComm": 303,
+            "sold7": 1166,
+            "creators": 7,
+            "videos": 0,
+            "priceValue": 1.75,
+            "catLabel": "Costume Jewelry & Accessories",
+            "days": 1,
+            "spark": [
+              1165
             ]
           }
         },
@@ -1920,6 +2031,33 @@
           }
         },
         {
+          "id": "1729579880767068775",
+          "title": "Collana da donna in acciaio inox con design a fiore a cinque petali rotante, gioiello informale per donne, regalo perfetto per la fidanzata",
+          "cover": "https://s.500fd.com/tt_product/57eb3d7267e74150ab016a91eef0c665~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "1,67 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729579880767068775",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 96.2,
+            "spikePct": 10336.4,
+            "euroPerSale": 0.08,
+            "marketComm": 184,
+            "sold7": 2296,
+            "creators": 18,
+            "videos": 0,
+            "priceValue": 1.67,
+            "catLabel": "Costume Jewelry & Accessories",
+            "days": 1,
+            "spark": [
+              9
+            ]
+          }
+        },
+        {
           "id": "1729836374009813214",
           "title": "Collana Fellon",
           "cover": "https://s.500fd.com/tt_product/4ab07f7466144e56bc909c4f25a12480~tplv-t5fjg24jzw-crop-webp:500:500.webp",
@@ -1932,18 +2070,46 @@
             "model": "accessori",
             "fit": 0.9,
             "score": 96,
-            "spikePct": 606.3,
+            "spikePct": 718.2,
             "euroPerSale": 0,
             "marketComm": 0,
-            "sold7": 248,
+            "sold7": 423,
             "creators": 1,
             "videos": 0,
             "priceValue": 14.16,
             "catLabel": "Necklaces",
-            "days": 2,
+            "days": 3,
             "spark": [
               22,
-              226
+              226,
+              134
+            ]
+          }
+        },
+        {
+          "id": "1729638714369940105",
+          "title": "12-Piece Elegant Women's Bracelet Set, Fashionable Chain Style Jewelry Accessories for Parties & Daily Wear, Perfect Gift Idea",
+          "cover": "https://s.500fd.com/tt_product/afa19e16f1c24372bde6c64ddad6dbc4~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "3,99 €",
+          "currency": "EUR",
+          "commissionRate": 0,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729638714369940105",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 96,
+            "spikePct": 72000,
+            "euroPerSale": 0,
+            "marketComm": 0,
+            "sold7": 1442,
+            "creators": 1,
+            "videos": 0,
+            "priceValue": 3.99,
+            "catLabel": " Bracelets & Bangles",
+            "days": 1,
+            "spark": [
+              1442
             ]
           }
         },
@@ -1986,30 +2152,86 @@
           }
         },
         {
-          "id": "1729679922260974329",
-          "title": "2pcs Women's Hair Claw Clips, Simple Geometric Vintage Leopard Print, Elegant Milk Texture Fashion Hair Accessories for All Seasons",
-          "cover": "https://s.500fd.com/tt_product/bb1a3ec728b841b69b2358a53501381d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "€0,71",
+          "id": "1729782526952249712",
+          "title": "Cappello foulard da donna con stampa di foglie, foulard leggero e traspirante, vari motivi floreali e fogliari, accessorio moda quotidiano",
+          "cover": "https://s.500fd.com/tt_product/7ba5a1445e5f4b388c9098f69741e017~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "4,75 €",
           "currency": "EUR",
-          "commissionRate": 12,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729679922260974329",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729782526952249712",
           "trend": {
             "view": "emergenti",
             "model": "accessori",
             "fit": 0.9,
-            "score": 79.7,
-            "spikePct": 1600,
-            "euroPerSale": 0.09,
-            "marketComm": 2,
-            "sold7": 17,
-            "creators": 0,
+            "score": 85,
+            "spikePct": 525,
+            "euroPerSale": 0.24,
+            "marketComm": 8,
+            "sold7": 34,
+            "creators": 2,
             "videos": 0,
-            "priceValue": 0.71,
-            "catLabel": "Hair Clips & Hair Pins",
+            "priceValue": 4.75,
+            "catLabel": "Clothes Accessories",
+            "days": 3,
+            "spark": [
+              2,
+              3,
+              22
+            ]
+          }
+        },
+        {
+          "id": "1729779909111290701",
+          "title": "Cappello/fascia con bordo quadrato in raso coreano, protezione solare per esterni, fascia regolabile tipo bandana, accessorio di moda (1 pezzo).",
+          "cover": "https://s.500fd.com/tt_product/fff2ebf3096e40708602d76b44cafec9~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "3,87 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729779909111290701",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 79.9,
+            "spikePct": 325,
+            "euroPerSale": 0.19,
+            "marketComm": 3,
+            "sold7": 17,
+            "creators": 7,
+            "videos": 0,
+            "priceValue": 3.87,
+            "catLabel": "Clothes Accessories",
             "days": 2,
             "spark": [
-              17,
-              17
+              8,
+              5
+            ]
+          }
+        },
+        {
+          "id": "1729807192434317636",
+          "title": "Combo Collana Anello Stellar",
+          "cover": "https://s.500fd.com/tt_product/a600bc495fd24c8a9de71d644dfcd2d7~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "31,90 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729807192434317636",
+          "trend": {
+            "view": "emergenti",
+            "model": "accessori",
+            "fit": 0.9,
+            "score": 78.4,
+            "spikePct": 500,
+            "euroPerSale": 3.83,
+            "marketComm": 23,
+            "sold7": 6,
+            "creators": 27,
+            "videos": 1,
+            "priceValue": 31.9,
+            "catLabel": "Necklaces",
+            "days": 1,
+            "spark": [
+              1
             ]
           }
         },
@@ -2133,44 +2355,6 @@
           }
         },
         {
-          "id": "1729831124243749562",
-          "title": "Collana dopamina, perline arcobaleno colorate, reattive agli UV, collane che cambiano colore, gioielli dopamina da donna, gioielli estivi da spiaggia, regali fatti a mano",
-          "cover": "https://s.500fd.com/tt_product/676b4a2285164a859ebd7a7e580908c0~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "12,99 €  -  19,90 €",
-          "currency": "EUR",
-          "commissionRate": 12,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729831124243749562",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 72.8,
-            "spikePct": 3150,
-            "euroPerSale": 1.56,
-            "marketComm": 6,
-            "sold7": 4,
-            "creators": 21,
-            "videos": 1,
-            "priceValue": 12.99,
-            "catLabel": "Necklaces",
-            "days": 15,
-            "spark": [
-              11,
-              0,
-              2,
-              0,
-              0,
-              0,
-              0,
-              0,
-              4,
-              4,
-              1,
-              259
-            ]
-          }
-        },
-        {
           "id": "1729571380453480878",
           "title": "Orecchini per cartilagine ipoallergenici da 16 gauge per donne, orecchino a cerchio in acciaio inossidabile da chirurgia, gioielli per piercing di elica, conca, tragus, daith",
           "cover": "https://s.500fd.com/tt_product/bc0c811bf7954c0293e060c8aa3539b7~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -2199,221 +2383,77 @@
               1
             ]
           }
-        },
-        {
-          "id": "1729747781651503146",
-          "title": "Collier Kim Love",
-          "cover": "https://s.500fd.com/tt_product/dfb4db6e1c544c50ae3646d284244497~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "24,69 - 30 €",
-          "currency": "EUR",
-          "commissionRate": 7,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729747781651503146",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 68.2,
-            "spikePct": 202.7,
-            "euroPerSale": 1.73,
-            "marketComm": 353,
-            "sold7": 204,
-            "creators": 33,
-            "videos": 1,
-            "priceValue": 24.69,
-            "catLabel": "Necklaces",
-            "days": 10,
-            "spark": [
-              80,
-              40,
-              38,
-              25,
-              13,
-              59,
-              31,
-              6,
-              78,
-              34
-            ]
-          }
-        },
-        {
-          "id": "1729695512966175380",
-          "title": "Collana Plissi Gold..",
-          "cover": "https://s.500fd.com/tt_product/27026054af234704831ac7b74bc5d1d8~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "€13,88",
-          "currency": "EUR",
-          "commissionRate": 11,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729695512966175380",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 61.1,
-            "spikePct": 225,
-            "euroPerSale": 1.53,
-            "marketComm": 20,
-            "sold7": 13,
-            "creators": 4,
-            "videos": 1,
-            "priceValue": 13.88,
-            "catLabel": "Necklaces",
-            "days": 1,
-            "spark": [
-              13
-            ]
-          }
-        },
-        {
-          "id": "1729856131524434580",
-          "title": "Collana Jolie",
-          "cover": "https://s.500fd.com/tt_product/2429a8812ae540048180cc5c4925d28e~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "28,98 €",
-          "currency": "EUR",
-          "commissionRate": 11,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729856131524434580",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 60.7,
-            "spikePct": 181.8,
-            "euroPerSale": 3.19,
-            "marketComm": 233,
-            "sold7": 73,
-            "creators": 3,
-            "videos": 7,
-            "priceValue": 28.98,
-            "catLabel": "Necklaces",
-            "days": 3,
-            "spark": [
-              11,
-              16,
-              46
-            ]
-          }
-        },
-        {
-          "id": "1729510342477781100",
-          "title": "Orologio da donna quadrato con decorazione di strass, quadrante in cristallo, orologio da polso al quarzo in stile hip-hop, cinturino regolabile, design elegante, tutte le stagioni",
-          "cover": "https://s.500fd.com/tt_product/889d742c6a584999a5c7b42447e6cd1b~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "2,14 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729510342477781100",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 53.5,
-            "spikePct": 200,
-            "euroPerSale": 0.11,
-            "marketComm": 2,
-            "sold7": 18,
-            "creators": 52,
-            "videos": 0,
-            "priceValue": 2.14,
-            "catLabel": "Watches & Accessories",
-            "days": 3,
-            "spark": [
-              6,
-              18,
-              18
-            ]
-          }
-        },
-        {
-          "id": "1729764306318497878",
-          "title": "Set di 5 paia di orecchini a perno con zirconi 4–8 mm | Orecchini a perno ipoallergenici in acciaio inox per orecchie sensibili | Set regalo di gioielli minimalisti classici da tutti i giorni per donne e ragazze sì",
-          "cover": "https://s.500fd.com/tt_product/3fe96f9e8af04d5db4e3a02ed46ab507~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "8,80 €",
-          "currency": "EUR",
-          "commissionRate": 0,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729764306318497878",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 41.2,
-            "spikePct": 137.5,
-            "euroPerSale": 0,
-            "marketComm": 0,
-            "sold7": 69,
-            "creators": 11,
-            "videos": 1,
-            "priceValue": 8.8,
-            "catLabel": "Earrings",
-            "days": 3,
-            "spark": [
-              12,
-              12,
-              45
-            ]
-          }
-        },
-        {
-          "id": "1729845774158567466",
-          "title": "Collana Wave Line",
-          "cover": "https://s.500fd.com/tt_product/569158026d144cf0a7fd056ff60b89e6~tplv-t5fjg24jzw-origin-jpeg.jpeg",
-          "price": "26,99 €",
-          "currency": "EUR",
-          "commissionRate": 0,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729845774158567466",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 38.1,
-            "spikePct": 119.2,
-            "euroPerSale": 0,
-            "marketComm": 0,
-            "sold7": 183,
-            "creators": 1,
-            "videos": 0,
-            "priceValue": 26.99,
-            "catLabel": "Necklaces",
-            "days": 4,
-            "spark": [
-              149,
-              18,
-              183,
-              183
-            ]
-          }
-        },
-        {
-          "id": "1729490213808806651",
-          "title": "Orecchini, Gioielli alla moda per donne e ragazze, Bellissimi gioielli alla moda che si abbinano con tutto da regalare per compleanno",
-          "cover": "https://s.500fd.com/tt_product/794ac40890b149bd877875257af3604e~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "€4,25",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729490213808806651",
-          "trend": {
-            "view": "emergenti",
-            "model": "accessori",
-            "fit": 0.9,
-            "score": 33,
-            "spikePct": 133.3,
-            "euroPerSale": 0.21,
-            "marketComm": 1,
-            "sold7": 7,
-            "creators": 60,
-            "videos": 1,
-            "priceValue": 4.25,
-            "catLabel": "Costume Jewelry & Accessories",
-            "days": 4,
-            "spark": [
-              2,
-              4,
-              7,
-              7
-            ]
-          }
         }
       ]
     },
     "intimo": {
       "migliori": [
+        {
+          "id": "1729771239702895539",
+          "title": "Shapellx top a fascia con spalline stile halter, effetto glamour, design frontale con bottone, comfort shapewear da donna, senza maniche, aderente e snellente",
+          "cover": "https://s.500fd.com/tt_product/a0789de12c134505bf50042bb7e6c02a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "46,79 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771239702895539",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 112.7,
+            "spikePct": 349.3,
+            "euroPerSale": 4.68,
+            "marketComm": 1432,
+            "sold7": 306,
+            "creators": 123,
+            "videos": 0,
+            "priceValue": 46.79,
+            "catLabel": "Bodysuits",
+            "days": 10,
+            "spark": [
+              0,
+              0,
+              76,
+              8,
+              0,
+              44,
+              0,
+              0,
+              128,
+              126
+            ]
+          }
+        },
+        {
+          "id": "1729771318244645811",
+          "title": "Shapellx Bare Essentials Skin Flow Smooth reggiseno senza imbottitura, con fodera interna, regolabile",
+          "cover": "https://s.500fd.com/tt_product/05ccf334e09a46f48470e6200ed372de~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "25,69 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771318244645811",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 96.5,
+            "spikePct": 58,
+            "euroPerSale": 2.57,
+            "marketComm": 1858,
+            "sold7": 723,
+            "creators": 88,
+            "videos": 1,
+            "priceValue": 25.69,
+            "catLabel": "Bras",
+            "days": 4,
+            "spark": [
+              32,
+              231,
+              231,
+              229
+            ]
+          }
+        },
         {
           "id": "1729771224087960499",
           "title": "Shapellx pantaloncini modellanti da donna senza cuciture a vita alta, modellazione del corpo e snellimento delle cosce, intimo",
@@ -2426,16 +2466,16 @@
             "view": "migliori",
             "model": "intimo",
             "fit": 1,
-            "score": 95,
-            "spikePct": 16.4,
+            "score": 86.4,
+            "spikePct": -8.4,
             "euroPerSale": 3.53,
-            "marketComm": 1327,
-            "sold7": 376,
-            "creators": 164,
-            "videos": 3,
+            "marketComm": 907,
+            "sold7": 257,
+            "creators": 170,
+            "videos": 6,
             "priceValue": 35.27,
             "catLabel": "Women's Underwear",
-            "days": 10,
+            "days": 11,
             "spark": [
               48,
               65,
@@ -2446,7 +2486,8 @@
               34,
               51,
               33,
-              35
+              35,
+              33
             ]
           }
         },
@@ -2474,6 +2515,34 @@
             "days": 1,
             "spark": [
               179
+            ]
+          }
+        },
+        {
+          "id": "1729497686775864314",
+          "title": "Body modellante per donna in tinta unita con chiusura a gancio e occhiello, regolabile, traspirante, con tracolla, modello a fondina, modello per sollevamento glutei e riduzione della pancia, comfort per signore",
+          "cover": "https://s.500fd.com/tt_product/df870332b7bc46d0bf17079d221f0a51~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "11,36 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729497686775864314",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 77.7,
+            "spikePct": 16790.9,
+            "euroPerSale": 0.57,
+            "marketComm": 1059,
+            "sold7": 1858,
+            "creators": 122,
+            "videos": 0,
+            "priceValue": 11.36,
+            "catLabel": "Women's Underwear",
+            "days": 2,
+            "spark": [
+              14,
+              14
             ]
           }
         },
@@ -2535,6 +2604,35 @@
           }
         },
         {
+          "id": "1729683051175254077",
+          "title": "SheThrive Reggiseno senza ferretto taglia grande Comodo sostegno invisibile approvato dalla tua schiena per comfort e stile",
+          "cover": "https://s.500fd.com/tt_product/0c830d3ed3a14a5c815f02521c6a7585~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "18,64 - 23,60 €",
+          "currency": "EUR",
+          "commissionRate": 8,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729683051175254077",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 69.8,
+            "spikePct": 0,
+            "euroPerSale": 1.49,
+            "marketComm": 966,
+            "sold7": 648,
+            "creators": 40,
+            "videos": 0,
+            "priceValue": 18.64,
+            "catLabel": "Bras",
+            "days": 3,
+            "spark": [
+              140,
+              140,
+              368
+            ]
+          }
+        },
+        {
           "id": "1729489948441286780",
           "title": "Body Modellante Liberty - Edizione Limitata AllWomen™",
           "cover": "https://s.500fd.com/tt_product/3d6e1875e1754f0bb85ee395061c3bd8~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -2558,6 +2656,87 @@
             "days": 1,
             "spark": [
               17
+            ]
+          }
+        },
+        {
+          "id": "1729489186074302583",
+          "title": "Camicia da notte da donna in tinta unita a costine, camicia da notte casual e comoda, senza maniche, con spalline allacciate, per l'estate, pigiama da donna per uso in ambiente interno",
+          "cover": "https://s.500fd.com/tt_product/6c0f289f25d84347859dd34853d7735f~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "5,62 €",
+          "currency": "EUR",
+          "commissionRate": 17,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729489186074302583",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 67.1,
+            "spikePct": 0,
+            "euroPerSale": 0.96,
+            "marketComm": 2079,
+            "sold7": 2166,
+            "creators": 235,
+            "videos": 0,
+            "priceValue": 5.62,
+            "catLabel": "Women's Sleepwear & Loungewear",
+            "days": 1,
+            "spark": [
+              2165
+            ]
+          }
+        },
+        {
+          "id": "1729492441821845623",
+          "title": "Set di pigiama da donna a due pezzi composto da canotta a costine e pantaloncini, set di abbigliamento da casa casual e confortevole per donne, abbigliamento da casa confortevole per uso quotidiano",
+          "cover": "https://s.500fd.com/tt_product/20b3b7b7ee1549a5919101451b7e8664~tplv-aphluv4xwc-resize-webp:800:800.webp",
+          "price": "€4,55",
+          "currency": "EUR",
+          "commissionRate": 17,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729492441821845623",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 64.7,
+            "spikePct": 0,
+            "euroPerSale": 0.77,
+            "marketComm": 1670,
+            "sold7": 2169,
+            "creators": 21,
+            "videos": 0,
+            "priceValue": 4.55,
+            "catLabel": "Women's Sleepwear & Loungewear",
+            "days": 1,
+            "spark": [
+              2168
+            ]
+          }
+        },
+        {
+          "id": "1729745370655857588",
+          "title": "S-5XL Women's Solid Color Sleeveless Lounge Dress, Elegant Long Summer Nightgown, Loose-Fitting Casual Home Wear",
+          "cover": "https://s.500fd.com/tt_product/a6c70051c2e646bd8c8286b6d48bd549~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "6,11 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729745370655857588",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 64.2,
+            "spikePct": 0,
+            "euroPerSale": 0.73,
+            "marketComm": 1828,
+            "sold7": 2504,
+            "creators": 7,
+            "videos": 0,
+            "priceValue": 6.11,
+            "catLabel": "Women's Sleepwear & Loungewear",
+            "days": 1,
+            "spark": [
+              2498
             ]
           }
         },
@@ -2589,6 +2768,60 @@
           }
         },
         {
+          "id": "1729788849184282685",
+          "title": "SheThrive Reggiseno per taglie forti senza ferretto: supporto invisibile e amico della schiena, per unire comfort e stile.",
+          "cover": "https://s.500fd.com/tt_product/a1d7eec4e2754134b791c7a35191e92f~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "15,99 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729788849184282685",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 59.8,
+            "spikePct": 0,
+            "euroPerSale": 1.6,
+            "marketComm": 242,
+            "sold7": 151,
+            "creators": 8,
+            "videos": 0,
+            "priceValue": 15.99,
+            "catLabel": "Bras",
+            "days": 1,
+            "spark": [
+              151
+            ]
+          }
+        },
+        {
+          "id": "1729649818835130509",
+          "title": "Set di mutandine e reggiseno push-up da donna in pizzo sexy trasparente, design aderente, vita naturale, tutte le stagioni, idea regalo per San Valentino",
+          "cover": "https://s.500fd.com/tt_product/d6ae691fdd2b48da84a34bc447a82309~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "€4,03",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729649818835130509",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 57.5,
+            "spikePct": 0,
+            "euroPerSale": 0.2,
+            "marketComm": 341,
+            "sold7": 1707,
+            "creators": 3,
+            "videos": 0,
+            "priceValue": 4.03,
+            "catLabel": "Women's Underwear",
+            "days": 1,
+            "spark": [
+              1702
+            ]
+          }
+        },
+        {
           "id": "1729642758220519452",
           "title": "Nuova camicia da notte con ricami floreali e inserti in rete, elegante abbigliamento da notte da donna, design confortevole e alla moda, perfetto per uso domestico.",
           "cover": "https://s.500fd.com/tt_product/4c5c19f5de014fecb81d2e414c0e32dc~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -2612,6 +2845,87 @@
             "days": 1,
             "spark": [
               535
+            ]
+          }
+        },
+        {
+          "id": "1729854606389188775",
+          "title": "Reggiseno Popilush senza ferretto con stampa leopardata in gelatina: reggiseno stile T‑shirt senza cuciture con effetto riducente e spalline regolabili per comodità quotidiana, vestibilità morbida e tessuto liscio; biancheria intima femminile.",
+          "cover": "https://s.500fd.com/tt_product/75a68bf13b154ec5ab72a342b17404b4~tplv-aphluv4xwc-resize-webp:800:800.webp",
+          "price": "21,99 €",
+          "currency": "EUR",
+          "commissionRate": 8,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729854606389188775",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 56.3,
+            "spikePct": 0,
+            "euroPerSale": 1.76,
+            "marketComm": 132,
+            "sold7": 75,
+            "creators": 7,
+            "videos": 1,
+            "priceValue": 21.99,
+            "catLabel": "Bras",
+            "days": 1,
+            "spark": [
+              75
+            ]
+          }
+        },
+        {
+          "id": "1729635584806263373",
+          "title": "Completo di abbigliamento da casa Completo di body sexy ricamato in pizzo, comodo senza ferretto, elegante e aderente, da indossare ogni giorno",
+          "cover": "https://s.500fd.com/tt_product/fd477052807648ac9a5887e27bc8cf26~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "€6,01",
+          "currency": "EUR",
+          "commissionRate": 17,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729635584806263373",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 55.3,
+            "spikePct": 0,
+            "euroPerSale": 1.02,
+            "marketComm": 222,
+            "sold7": 218,
+            "creators": 4,
+            "videos": 0,
+            "priceValue": 6.01,
+            "catLabel": "Women's Sleepwear & Loungewear",
+            "days": 1,
+            "spark": [
+              218
+            ]
+          }
+        },
+        {
+          "id": "1729602820855011858",
+          "title": "Women ' s Solid Color Sexy Lace Body Suit Lingerie Bodysuit , Fashion Comfy Breathable Lingerie for Daily Wear , Women ' s Lingerie for All Seasons",
+          "cover": "https://s.500fd.com/tt_product/5dfe495fbcd449d29d2876064806f7c6~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "4,15 - 4,28 €",
+          "currency": "EUR",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729602820855011858",
+          "trend": {
+            "view": "migliori",
+            "model": "intimo",
+            "fit": 1,
+            "score": 54.4,
+            "spikePct": 0,
+            "euroPerSale": 0.5,
+            "marketComm": 224,
+            "sold7": 448,
+            "creators": 3,
+            "videos": 0,
+            "priceValue": 4.15,
+            "catLabel": "Lingerie",
+            "days": 1,
+            "spark": [
+              448
             ]
           }
         },
@@ -2641,407 +2955,37 @@
               68
             ]
           }
-        },
-        {
-          "id": "1729679943987075622",
-          "title": "Abito da donna lungo color caffè, pigiama con scollo tondo e maniche corte con tasche, abbigliamento da casa casual in tessuto morbido da indossare tutto l'anno",
-          "cover": "https://s.500fd.com/tt_product/d2259d7009d04911a6d30594371f3f20~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "12,07 €",
-          "currency": "EUR",
-          "commissionRate": 12,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729679943987075622",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 50.2,
-            "spikePct": -45,
-            "euroPerSale": 1.45,
-            "marketComm": 186,
-            "sold7": 128,
-            "creators": 62,
-            "videos": 2,
-            "priceValue": 12.07,
-            "catLabel": "Women's Sleepwear & Loungewear",
-            "days": 17,
-            "spark": [
-              20,
-              28,
-              21,
-              19,
-              19,
-              19,
-              16,
-              6,
-              12,
-              4,
-              8,
-              4
-            ]
-          }
-        },
-        {
-          "id": "1729798006530349968",
-          "title": "Bikini Noelle",
-          "cover": "https://s.500fd.com/tt_product/2d8b0db8d979429c986c0e6de16c5bff~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "25,30 €",
-          "currency": "EUR",
-          "commissionRate": 0,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729798006530349968",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 47.9,
-            "spikePct": 236.8,
-            "euroPerSale": 0,
-            "marketComm": 0,
-            "sold7": 128,
-            "creators": 1,
-            "videos": 0,
-            "priceValue": 25.3,
-            "catLabel": "Bikinis",
-            "days": 3,
-            "spark": [
-              23,
-              20,
-              16
-            ]
-          }
-        },
-        {
-          "id": "1729525760312122284",
-          "title": "Reggiseno senza spalline laterale con fibbia rimovibile in tinta unita da donna, reggiseno push up wireless alla moda per l'uso quotidiano, lingerie per tutte le stagioni",
-          "cover": "https://s.500fd.com/tt_product/6536278ebf0343c798ce7605a71c4612~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "3,39 - 10,33 €",
-          "currency": "EUR",
-          "commissionRate": 12,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729525760312122284",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 47.5,
-            "spikePct": -21,
-            "euroPerSale": 0.41,
-            "marketComm": 123,
-            "sold7": 301,
-            "creators": 61,
-            "videos": 4,
-            "priceValue": 3.39,
-            "catLabel": "Women's Underwear",
-            "days": 10,
-            "spark": [
-              22,
-              49,
-              54,
-              44,
-              24,
-              27,
-              15,
-              27,
-              13,
-              21
-            ]
-          }
-        },
-        {
-          "id": "1729493676284352672",
-          "title": "Reggiseno wireless solido in fascia, Reggiseno senza tracolla senza cuciture con fibbia frontale, Lingerie e biancheria intima da donna, Lingerie casual e comoda per tutte le stagioni",
-          "cover": "https://s.500fd.com/tt_product/f096ddf56c12435ebf094b1b0126ba11~tplv-aphluv4xwc-resize-webp:800:800.webp",
-          "price": "4,44 - 12,93 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729493676284352672",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 46.3,
-            "spikePct": -14.6,
-            "euroPerSale": 0.22,
-            "marketComm": 68,
-            "sold7": 311,
-            "creators": 201,
-            "videos": 3,
-            "priceValue": 4.44,
-            "catLabel": "Women's Underwear",
-            "days": 10,
-            "spark": [
-              52,
-              83,
-              63,
-              18,
-              29,
-              33,
-              30,
-              19,
-              29,
-              16
-            ]
-          }
-        },
-        {
-          "id": "1729625622839990490",
-          "title": "Elvira - Regiseno Perfetto Contenitivo Senza Ferretto e Imbottitura con Spalline Larghe e Fascia Anatomica per Massimo Comfort e Supporto",
-          "cover": "https://s.500fd.com/tt_product/3f977b50618f49cba449711799caeeea~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "19,90 €",
-          "currency": "EUR",
-          "commissionRate": 8,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729625622839990490",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 45.5,
-            "spikePct": 133.3,
-            "euroPerSale": 1.59,
-            "marketComm": 11,
-            "sold7": 7,
-            "creators": 1,
-            "videos": 0,
-            "priceValue": 19.9,
-            "catLabel": "Bras",
-            "days": 1,
-            "spark": [
-              7
-            ]
-          }
-        },
-        {
-          "id": "1729490967232682799",
-          "title": "Reggiseno senza ferretto e schiena scoperta in tinta unita da donna, Comodi reggiseni traspiranti multiuso per uso quotidiano, Lingerie morbida per tutte le stagioni",
-          "cover": "https://s.500fd.com/tt_product/4b4e04ea2b394fa49501d7b0949b0bc1~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "5,24 - 24,65 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729490967232682799",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 43.3,
-            "spikePct": -1.6,
-            "euroPerSale": 0.26,
-            "marketComm": 42,
-            "sold7": 163,
-            "creators": 241,
-            "videos": 2,
-            "priceValue": 5.24,
-            "catLabel": "Women's Underwear",
-            "days": 10,
-            "spark": [
-              28,
-              248,
-              248,
-              19,
-              26,
-              20,
-              22,
-              24,
-              22,
-              18
-            ]
-          }
-        },
-        {
-          "id": "1729480084129159554",
-          "title": "Camicia da notte da donna con stampa floreale, pizzo a contrasto e spacco sulla coscia, Camicia da notte con spalline sottili regolabili e schiena scoperta, Pigiameria morbida e confortevole per donne",
-          "cover": "https://s.500fd.com/tt_product/c33683afb3364fb3b128f88ffa4264bb~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "6,10 - 6,17 €",
-          "currency": "EUR",
-          "commissionRate": 17,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480084129159554",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 42.2,
-            "spikePct": 2,
-            "euroPerSale": 1.04,
-            "marketComm": 40,
-            "sold7": 38,
-            "creators": 86,
-            "videos": 1,
-            "priceValue": 6.1,
-            "catLabel": "Women's Sleepwear & Loungewear",
-            "days": 7,
-            "spark": [
-              4,
-              4,
-              6,
-              6,
-              3,
-              6,
-              6
-            ]
-          }
-        },
-        {
-          "id": "1729772647937252240",
-          "title": "Costume da bagno da donna, bikini push-up, pantaloni sexy a taglio alto, decorazione tartaruga marina, outfit da spiaggia giallo neon per vacanze al mare per donne",
-          "cover": "https://s.500fd.com/tt_product/861c4ec228cc4c63a4aede894f65138c~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "10,08 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729772647937252240",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 42,
-            "spikePct": 23.9,
-            "euroPerSale": 0.5,
-            "marketComm": 34,
-            "sold7": 68,
-            "creators": 33,
-            "videos": 1,
-            "priceValue": 10.08,
-            "catLabel": "Sports & Outdoor",
-            "days": 23,
-            "spark": [
-              21,
-              25,
-              20,
-              21,
-              12,
-              8,
-              8,
-              11,
-              5,
-              15,
-              9,
-              9
-            ]
-          }
-        },
-        {
-          "id": "1729835682030525098",
-          "title": "Pantaloni a gamba larga con vita elastica e trama nero/bianco | Estetica minimalista e versatile | Tessuto fluido e leggero | Perfetti per l’estate/la spiaggia/l’uso quotidiano",
-          "cover": "https://s.500fd.com/tt_product/f7abc839a9234aa886f873fbd39aaa7e~tplv-t5fjg24jzw-resize-jpeg:300:300.jpeg",
-          "price": "10,29 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729835682030525098",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 41.3,
-            "spikePct": 12.9,
-            "euroPerSale": 0.51,
-            "marketComm": 36,
-            "sold7": 70,
-            "creators": 2,
-            "videos": 0,
-            "priceValue": 10.29,
-            "catLabel": "Women's Sleepwear & Loungewear",
-            "days": 3,
-            "spark": [
-              70,
-              70,
-              5
-            ]
-          }
-        },
-        {
-          "id": "1729849637951412464",
-          "title": "Pigiama COOTAIYA Fashion Fiocchi",
-          "cover": "https://s.500fd.com/tt_product/88e32640834a41a2a25f9f7a1185469f~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "6,99 €",
-          "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729849637951412464",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 39.7,
-            "spikePct": 100,
-            "euroPerSale": 0.87,
-            "marketComm": 11,
-            "sold7": 13,
-            "creators": 1,
-            "videos": 0,
-            "priceValue": 6.99,
-            "catLabel": "Pajamas",
-            "days": 3,
-            "spark": [
-              2,
-              7,
-              4
-            ]
-          }
-        },
-        {
-          "id": "1729771381186730796",
-          "title": "Mutandine modellanti da donna, design che stringe la vita e solleva i glutei, supporto con ferretto, comode per l’uso quotidiano, valorizzano la tua silhouette",
-          "cover": "https://s.500fd.com/tt_product/010cf2af760442658657ad5aa35e62d4~tplv-t5fjg24jzw-resize-jpeg:300:300.jpeg",
-          "price": "5,39 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771381186730796",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 37.2,
-            "spikePct": -21,
-            "euroPerSale": 0.27,
-            "marketComm": 25,
-            "sold7": 94,
-            "creators": 3,
-            "videos": 0,
-            "priceValue": 5.39,
-            "catLabel": "Women's Underwear",
-            "days": 3,
-            "spark": [
-              94,
-              94,
-              8
-            ]
-          }
-        },
-        {
-          "id": "1729585282285017903",
-          "title": "Reggiseno da donna in tinta unita a schiena scoperta, reggiseno senza ferretto traspirante e confortevole, lingerie da donna per tutte le stagioni, abbigliamento da donna",
-          "cover": "https://s.500fd.com/tt_product/33b137a89f34460a947c4ecea4c91294~tplv-aphluv4xwc-resize-webp:800:800.webp",
-          "price": "5,33 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729585282285017903",
-          "trend": {
-            "view": "migliori",
-            "model": "intimo",
-            "fit": 1,
-            "score": 37,
-            "spikePct": -61.9,
-            "euroPerSale": 0.27,
-            "marketComm": 45,
-            "sold7": 166,
-            "creators": 193,
-            "videos": 3,
-            "priceValue": 5.33,
-            "catLabel": "Women's Underwear",
-            "days": 16,
-            "spark": [
-              73,
-              27,
-              49,
-              27,
-              42,
-              18,
-              18,
-              166,
-              166,
-              8,
-              8,
-              2
-            ]
-          }
         }
       ],
       "emergenti": [
+        {
+          "id": "1729497686775864314",
+          "title": "Body modellante per donna in tinta unita con chiusura a gancio e occhiello, regolabile, traspirante, con tracolla, modello a fondina, modello per sollevamento glutei e riduzione della pancia, comfort per signore",
+          "cover": "https://s.500fd.com/tt_product/df870332b7bc46d0bf17079d221f0a51~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "11,36 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729497686775864314",
+          "trend": {
+            "view": "emergenti",
+            "model": "intimo",
+            "fit": 1,
+            "score": 101.1,
+            "spikePct": 16790.9,
+            "euroPerSale": 0.57,
+            "marketComm": 1059,
+            "sold7": 1858,
+            "creators": 122,
+            "videos": 0,
+            "priceValue": 11.36,
+            "catLabel": "Women's Underwear",
+            "days": 2,
+            "spark": [
+              14,
+              14
+            ]
+          }
+        },
         {
           "id": "1729500329276447738",
           "title": "Body modellante da donna a tinta unita con chiusura frontale a ganci e occhielli, traspirante e confortevole, con controllo dell’addome ed effetto push-up sui glutei; intimo modellante da donna per tutte le stagioni",
@@ -3108,26 +3052,26 @@
           }
         },
         {
-          "id": "1729777358535826262",
-          "title": "BODY “GIRO CONTENITIVO”",
-          "cover": "https://s.500fd.com/tt_product/1acdd9329f69441cba953abfeb0527a4~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "€7",
+          "id": "1729483826254616736",
+          "title": "Reggiseno senza tracolla da donna in tinta unita/ con stampa leopardata, Reggiseno push-up senza ferretto, Comodo reggiseno traspirante con bordo a festone e chiusura a ganci e occhi, Lingerie per tutte le stagioni",
+          "cover": "https://s.500fd.com/tt_product/b9cb3d4e664648c79369c1952e7ff380~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "5,44 - 27,95 €",
           "currency": "EUR",
-          "commissionRate": 12.5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729777358535826262",
+          "commissionRate": 17,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729483826254616736",
           "trend": {
             "view": "emergenti",
             "model": "intimo",
             "fit": 1,
             "score": 49.1,
             "spikePct": 200,
-            "euroPerSale": 0.88,
+            "euroPerSale": 0.92,
             "marketComm": 3,
             "sold7": 3,
-            "creators": 1,
+            "creators": 13,
             "videos": 0,
-            "priceValue": 7,
-            "catLabel": "Vest, Tank & Tube Tops",
+            "priceValue": 5.44,
+            "catLabel": "Women's Underwear",
             "days": 1,
             "spark": [
               3
@@ -3164,34 +3108,6 @@
           }
         },
         {
-          "id": "1729833845333006732",
-          "title": "BIKINI ILARY",
-          "cover": "https://s.500fd.com/tt_product/3ab6a3bcbc47451e991c2eac1d66af60~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "25,90 €",
-          "currency": "EUR",
-          "commissionRate": 0,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833845333006732",
-          "trend": {
-            "view": "emergenti",
-            "model": "intimo",
-            "fit": 1,
-            "score": 43,
-            "spikePct": 166.7,
-            "euroPerSale": 0,
-            "marketComm": 0,
-            "sold7": 8,
-            "creators": 1,
-            "videos": 0,
-            "priceValue": 25.9,
-            "catLabel": "Bikinis",
-            "days": 2,
-            "spark": [
-              2,
-              4
-            ]
-          }
-        },
-        {
           "id": "1729781049833199929",
           "title": "Reggiseno Selene Violeta con Ferretto – Sostegno Avvolgente e Comfort Quotidiano",
           "cover": "https://s.500fd.com/tt_product/fd3d5666529544819e950100869b0d44~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -3222,29 +3138,97 @@
           }
         },
         {
-          "id": "1729625622839990490",
-          "title": "Elvira - Regiseno Perfetto Contenitivo Senza Ferretto e Imbottitura con Spalline Larghe e Fascia Anatomica per Massimo Comfort e Supporto",
-          "cover": "https://s.500fd.com/tt_product/3f977b50618f49cba449711799caeeea~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "19,90 €",
+          "id": "1729771239702895539",
+          "title": "Shapellx top a fascia con spalline stile halter, effetto glamour, design frontale con bottone, comfort shapewear da donna, senza maniche, aderente e snellente",
+          "cover": "https://s.500fd.com/tt_product/a0789de12c134505bf50042bb7e6c02a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "46,79 €",
           "currency": "EUR",
-          "commissionRate": 8,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729625622839990490",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771239702895539",
           "trend": {
             "view": "emergenti",
             "model": "intimo",
             "fit": 1,
-            "score": 37.1,
-            "spikePct": 133.3,
-            "euroPerSale": 1.59,
-            "marketComm": 11,
-            "sold7": 7,
-            "creators": 1,
+            "score": 39.6,
+            "spikePct": 100,
+            "euroPerSale": 4.68,
+            "marketComm": 1432,
+            "sold7": 306,
+            "creators": 123,
             "videos": 0,
-            "priceValue": 19.9,
-            "catLabel": "Bras",
-            "days": 1,
+            "priceValue": 46.79,
+            "catLabel": "Bodysuits",
+            "days": 10,
             "spark": [
-              7
+              0,
+              0,
+              76,
+              8,
+              0,
+              44,
+              0,
+              0,
+              128,
+              126
+            ]
+          }
+        },
+        {
+          "id": "1729771318244645811",
+          "title": "Shapellx Bare Essentials Skin Flow Smooth reggiseno senza imbottitura, con fodera interna, regolabile",
+          "cover": "https://s.500fd.com/tt_product/05ccf334e09a46f48470e6200ed372de~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "25,69 €",
+          "currency": "EUR",
+          "commissionRate": 10,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771318244645811",
+          "trend": {
+            "view": "emergenti",
+            "model": "intimo",
+            "fit": 1,
+            "score": 30.1,
+            "spikePct": 74.9,
+            "euroPerSale": 2.57,
+            "marketComm": 1858,
+            "sold7": 723,
+            "creators": 88,
+            "videos": 1,
+            "priceValue": 25.69,
+            "catLabel": "Bras",
+            "days": 4,
+            "spark": [
+              32,
+              231,
+              231,
+              229
+            ]
+          }
+        },
+        {
+          "id": "1729683051175254077",
+          "title": "SheThrive Reggiseno senza ferretto taglia grande Comodo sostegno invisibile approvato dalla tua schiena per comfort e stile",
+          "cover": "https://s.500fd.com/tt_product/0c830d3ed3a14a5c815f02521c6a7585~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "18,64 - 23,60 €",
+          "currency": "EUR",
+          "commissionRate": 8,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729683051175254077",
+          "trend": {
+            "view": "emergenti",
+            "model": "intimo",
+            "fit": 1,
+            "score": 30.1,
+            "spikePct": 81.4,
+            "euroPerSale": 1.49,
+            "marketComm": 966,
+            "sold7": 648,
+            "creators": 40,
+            "videos": 0,
+            "priceValue": 18.64,
+            "catLabel": "Bras",
+            "days": 3,
+            "spark": [
+              140,
+              140,
+              368
             ]
           }
         },
@@ -3279,34 +3263,6 @@
               2,
               6,
               7
-            ]
-          }
-        },
-        {
-          "id": "1729494783350708966",
-          "title": "Reggiseno senza ferretto da donna a blocchi di colore con patchwork, reggiseno morbido, comodo e traspirante con schiena scoperta, lingerie da donna per tutte le stagioni, biancheria intima femminile",
-          "cover": "https://s.500fd.com/tt_product/e92bf61daf484cf39176108efa22d4dc~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "8,27 €",
-          "currency": "EUR",
-          "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729494783350708966",
-          "trend": {
-            "view": "emergenti",
-            "model": "intimo",
-            "fit": 1,
-            "score": 26.6,
-            "spikePct": 100,
-            "euroPerSale": 0.41,
-            "marketComm": 3,
-            "sold7": 8,
-            "creators": 31,
-            "videos": 1,
-            "priceValue": 8.27,
-            "catLabel": "Women's Underwear",
-            "days": 2,
-            "spark": [
-              6,
-              2
             ]
           }
         },
@@ -3394,6 +3350,41 @@
           }
         },
         {
+          "id": "1729810789564914346",
+          "title": "Pantaloni a gamba larga di lino trendy su TikTok, traspiranti per l’estate con vestibilità ampia, ideali per la spiaggia e outfit casual, tessuto confortevole in cotone e lino",
+          "cover": "https://s.500fd.com/tt_product/e679d324b3224f5781484e12b601f14a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "13,99 €",
+          "currency": "EUR",
+          "commissionRate": 5,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729810789564914346",
+          "trend": {
+            "view": "emergenti",
+            "model": "intimo",
+            "fit": 1,
+            "score": 20.4,
+            "spikePct": 57.1,
+            "euroPerSale": 0.7,
+            "marketComm": 1639,
+            "sold7": 2342,
+            "creators": 41,
+            "videos": 5,
+            "priceValue": 13.99,
+            "catLabel": "Women's Sleepwear & Loungewear",
+            "days": 9,
+            "spark": [
+              45,
+              174,
+              174,
+              1,
+              2,
+              1,
+              6,
+              7,
+              4
+            ]
+          }
+        },
+        {
           "id": "1729556013683874474",
           "title": "Body donna modellante sexy a tinta unita, con apertura sul seno e sulla zona del cavallo, con effetto pancia piatta e push-up per i glutei, per uso quotidiano, effetto compressione",
           "cover": "https://s.500fd.com/tt_product/86d51b62bca64b109183f78e3062a1fc~tplv-t5fjg24jzw-resize-webp:800:800.webp",
@@ -3423,75 +3414,31 @@
           }
         },
         {
-          "id": "1729640679645681958",
-          "title": "Pantaloncini modellanti anti-gravità da donna, leggings a compressione a vita alta, intimo con controllo dell’addome comodo e sexy, abbigliamento modellante per il corpo, set da 2 pezzi",
-          "cover": "https://s.500fd.com/tt_product/cd143d2e03c74c07b541fdfc506dfb98~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "9,99 €",
-          "currency": "EUR",
-          "commissionRate": 0,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729640679645681958",
-          "trend": {
-            "view": "emergenti",
-            "model": "intimo",
-            "fit": 1,
-            "score": 18.4,
-            "spikePct": 66.7,
-            "euroPerSale": 0,
-            "marketComm": 0,
-            "sold7": 17,
-            "creators": 12,
-            "videos": 0,
-            "priceValue": 9.99,
-            "catLabel": "Womenswear & Underwear",
-            "days": 20,
-            "spark": [
-              4,
-              3,
-              4,
-              0,
-              1,
-              1,
-              0,
-              1,
-              1,
-              2,
-              5,
-              0
-            ]
-          }
-        },
-        {
-          "id": "1729810789564914346",
-          "title": "Pantaloni a gamba larga di lino trendy su TikTok, traspiranti per l’estate con vestibilità ampia, ideali per la spiaggia e outfit casual, tessuto confortevole in cotone e lino",
-          "cover": "https://s.500fd.com/tt_product/e679d324b3224f5781484e12b601f14a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-          "price": "13,99 €",
+          "id": "1729834625875155656",
+          "title": "Women's Solid Color Batwing Sleeve Lounge Dress, Casual Comfy Short Sleeve Nightdress for Daily Wear, Ladies Sleepwear for All Seasons",
+          "cover": "https://s.500fd.com/tt_product/ad1d6d88a85a4157811da6d44367caf0~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+          "price": "11,72 €",
           "currency": "EUR",
           "commissionRate": 5,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729810789564914346",
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729834625875155656",
           "trend": {
             "view": "emergenti",
             "model": "intimo",
             "fit": 1,
-            "score": 17.4,
-            "spikePct": 57.1,
-            "euroPerSale": 0.7,
+            "score": 13,
+            "spikePct": 41.7,
+            "euroPerSale": 0.59,
             "marketComm": 14,
-            "sold7": 20,
-            "creators": 38,
-            "videos": 4,
-            "priceValue": 13.99,
-            "catLabel": "Women's Sleepwear & Loungewear",
-            "days": 9,
+            "sold7": 23,
+            "creators": 3,
+            "videos": 0,
+            "priceValue": 11.72,
+            "catLabel": "Nightdresses",
+            "days": 3,
             "spark": [
-              45,
-              174,
-              174,
-              1,
-              2,
-              1,
               6,
-              7,
-              4
+              6,
+              11
             ]
           }
         },
@@ -3507,12 +3454,12 @@
             "view": "emergenti",
             "model": "intimo",
             "fit": 1,
-            "score": 12.7,
+            "score": 11.4,
             "spikePct": 41.9,
             "euroPerSale": 0.45,
-            "marketComm": 10,
-            "sold7": 22,
-            "creators": 96,
+            "marketComm": 3,
+            "sold7": 6,
+            "creators": 100,
             "videos": 2,
             "priceValue": 3.73,
             "catLabel": "Women's Sleepwear & Loungewear",
@@ -3527,35 +3474,39 @@
           }
         },
         {
-          "id": "1729480084129159554",
-          "title": "Camicia da notte da donna con stampa floreale, pizzo a contrasto e spacco sulla coscia, Camicia da notte con spalline sottili regolabili e schiena scoperta, Pigiameria morbida e confortevole per donne",
-          "cover": "https://s.500fd.com/tt_product/c33683afb3364fb3b128f88ffa4264bb~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-          "price": "6,10 - 6,17 €",
+          "id": "1729525760312122284",
+          "title": "Reggiseno senza spalline laterale con fibbia rimovibile in tinta unita da donna, reggiseno push up wireless alla moda per l'uso quotidiano, lingerie per tutte le stagioni",
+          "cover": "https://s.500fd.com/tt_product/6536278ebf0343c798ce7605a71c4612~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "3,39 - 10,33 €",
           "currency": "EUR",
-          "commissionRate": 17,
-          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480084129159554",
+          "commissionRate": 12,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729525760312122284",
           "trend": {
             "view": "emergenti",
             "model": "intimo",
             "fit": 1,
-            "score": 12,
-            "spikePct": 33.3,
-            "euroPerSale": 1.04,
-            "marketComm": 40,
-            "sold7": 38,
-            "creators": 86,
-            "videos": 1,
-            "priceValue": 6.1,
-            "catLabel": "Women's Sleepwear & Loungewear",
-            "days": 7,
+            "score": 8.3,
+            "spikePct": 22.5,
+            "euroPerSale": 0.41,
+            "marketComm": 64,
+            "sold7": 155,
+            "creators": 61,
+            "videos": 4,
+            "priceValue": 3.39,
+            "catLabel": "Women's Underwear",
+            "days": 11,
             "spark": [
-              4,
-              4,
-              6,
-              6,
-              3,
-              6,
-              6
+              22,
+              49,
+              54,
+              44,
+              24,
+              27,
+              15,
+              27,
+              13,
+              21,
+              28
             ]
           }
         },
@@ -3587,37 +3538,161 @@
               2
             ]
           }
+        },
+        {
+          "id": "1729480084129159554",
+          "title": "Camicia da notte da donna con stampa floreale, pizzo a contrasto e spacco sulla coscia, Camicia da notte con spalline sottili regolabili e schiena scoperta, Pigiameria morbida e confortevole per donne",
+          "cover": "https://s.500fd.com/tt_product/c33683afb3364fb3b128f88ffa4264bb~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+          "price": "6,10 - 6,17 €",
+          "currency": "EUR",
+          "commissionRate": 17,
+          "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729480084129159554",
+          "trend": {
+            "view": "emergenti",
+            "model": "intimo",
+            "fit": 1,
+            "score": 5.4,
+            "spikePct": 11.1,
+            "euroPerSale": 1.04,
+            "marketComm": 36,
+            "sold7": 35,
+            "creators": 86,
+            "videos": 1,
+            "priceValue": 6.1,
+            "catLabel": "Women's Sleepwear & Loungewear",
+            "days": 8,
+            "spark": [
+              4,
+              4,
+              6,
+              6,
+              3,
+              6,
+              6,
+              4
+            ]
+          }
         }
       ]
     }
   },
   "top": [
     {
-      "id": "1729826012312279101",
-      "title": "taglie forti senza ferretto – Supporto forte e comfort invisibile solo lavaggio a mano cina reggiseni",
-      "cover": "https://s.500fd.com/tt_product/f228f9fe7d1a499eab5879350c90f7ba~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "26 €",
+      "id": "1729565920776919676",
+      "title": "Elegant Sequined Mermaid Dress, Square Neck Cut-Out Design, Perfect for Evening Parties & Ballroom Dances",
+      "cover": "https://s.500fd.com/tt_product/57c4774fe47547d39240c01eecc64978~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "36,59 €",
       "currency": "EUR",
-      "commissionRate": 12,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729826012312279101",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729565920776919676",
       "trend": {
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 101.4,
-        "spikePct": 1511.1,
-        "euroPerSale": 3.12,
-        "marketComm": 627,
-        "sold7": 201,
-        "creators": 2,
-        "videos": 1,
-        "priceValue": 26,
-        "catLabel": "Bras",
+        "score": 114.3,
+        "spikePct": 36100,
+        "euroPerSale": 3.66,
+        "marketComm": 1325,
+        "sold7": 362,
+        "creators": 28,
+        "videos": 0,
+        "priceValue": 36.59,
+        "catLabel": "Formal Dresses",
+        "days": 1,
+        "spark": [
+          362
+        ]
+      }
+    },
+    {
+      "id": "1729771239702895539",
+      "title": "Shapellx top a fascia con spalline stile halter, effetto glamour, design frontale con bottone, comfort shapewear da donna, senza maniche, aderente e snellente",
+      "cover": "https://s.500fd.com/tt_product/a0789de12c134505bf50042bb7e6c02a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "46,79 €",
+      "currency": "EUR",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771239702895539",
+      "trend": {
+        "view": "migliori",
+        "model": "intimo",
+        "fit": 1,
+        "score": 112.7,
+        "spikePct": 349.3,
+        "euroPerSale": 4.68,
+        "marketComm": 1432,
+        "sold7": 306,
+        "creators": 123,
+        "videos": 0,
+        "priceValue": 46.79,
+        "catLabel": "Bodysuits",
+        "days": 10,
+        "spark": [
+          0,
+          0,
+          76,
+          8,
+          0,
+          44,
+          0,
+          0,
+          128,
+          126
+        ]
+      }
+    },
+    {
+      "id": "1729785690479302883",
+      "title": "【Grace Karin】Vestido mini corsé floral para mujer y chicas, primavera/verano 2026, fluido línea A con bolsillos, SpringStatements",
+      "cover": "https://s.500fd.com/tt_product/376ecd566f8b495db4fe18d1d76066d5~tplv-o3syd03w52-resize-webp:800:800.webp",
+      "price": "26,88 €",
+      "currency": "EUR",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729785690479302883",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 111.1,
+        "spikePct": 147450,
+        "euroPerSale": 2.69,
+        "marketComm": 7938,
+        "sold7": 2951,
+        "creators": 55,
+        "videos": 0,
+        "priceValue": 26.88,
+        "catLabel": "Casual Dresses",
+        "days": 1,
+        "spark": [
+          2946
+        ]
+      }
+    },
+    {
+      "id": "1729828283826543538",
+      "title": "-ELETTA BOUTIQUE-  Pantalone Serena",
+      "cover": "https://s.500fd.com/tt_product/0d5473495ea64242a977902136e2b0de~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+      "price": "29,99 €",
+      "currency": "EUR",
+      "commissionRate": 12.5,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729828283826543538",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 103.5,
+        "spikePct": 53.3,
+        "euroPerSale": 3.75,
+        "marketComm": 1331,
+        "sold7": 355,
+        "creators": 5,
+        "videos": 0,
+        "priceValue": 29.99,
+        "catLabel": "Trousers",
         "days": 3,
         "spark": [
-          34,
-          22,
-          145
+          294,
+          38,
+          23
         ]
       }
     },
@@ -3649,38 +3724,149 @@
       }
     },
     {
-      "id": "1729771224087960499",
-      "title": "Shapellx pantaloncini modellanti da donna senza cuciture a vita alta, modellazione del corpo e snellimento delle cosce, intimo",
-      "cover": "https://s.500fd.com/tt_product/5909d87268cd4135b5d57bbca998d90f~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "35,27 €",
+      "id": "1729826012312279101",
+      "title": "taglie forti senza ferretto – Supporto forte e comfort invisibile solo lavaggio a mano cina reggiseni",
+      "cover": "https://s.500fd.com/tt_product/f228f9fe7d1a499eab5879350c90f7ba~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "26 €",
+      "currency": "EUR",
+      "commissionRate": 12,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729826012312279101",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 98.9,
+        "spikePct": 474.1,
+        "euroPerSale": 3.12,
+        "marketComm": 484,
+        "sold7": 155,
+        "creators": 2,
+        "videos": 2,
+        "priceValue": 26,
+        "catLabel": "Bras",
+        "days": 3,
+        "spark": [
+          34,
+          22,
+          145
+        ]
+      }
+    },
+    {
+      "id": "1729559537142175752",
+      "title": "Abito Desy",
+      "cover": "https://s.500fd.com/tt_product/c8100f4dba104c2cb69ffe5248871676~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "22 €",
+      "currency": "EUR",
+      "commissionRate": 17.5,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729559537142175752",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 97.9,
+        "spikePct": 29.6,
+        "euroPerSale": 3.85,
+        "marketComm": 1340,
+        "sold7": 348,
+        "creators": 55,
+        "videos": 3,
+        "priceValue": 22,
+        "catLabel": "Casual Dresses",
+        "days": 8,
+        "spark": [
+          111,
+          38,
+          154,
+          60,
+          60,
+          243,
+          49,
+          56
+        ]
+      }
+    },
+    {
+      "id": "1729840141694245700",
+      "title": "PULKRITU Elegant Women's Tie Dye Print Pleated Long Sleeve Maxi Prom Dress, Slim Fit Party Outfit Dress, Fashionable Birthday Event Wear, Educational Style Clothing,Lady Casual Dresses,Female Brunch Dresses,Graduation Dress,",
+      "cover": "https://s.500fd.com/tt_product/19cd0fde6d0949ccbea3a589f85f1a0e~tplv-aphluv4xwc-resize-jpeg:800:1066.jpeg",
+      "price": "45,99 €",
       "currency": "EUR",
       "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771224087960499",
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729840141694245700",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 97.2,
+        "spikePct": 6200,
+        "euroPerSale": 4.6,
+        "marketComm": 290,
+        "sold7": 63,
+        "creators": 3,
+        "videos": 0,
+        "priceValue": 45.99,
+        "catLabel": "Casual Dresses",
+        "days": 1,
+        "spark": [
+          63
+        ]
+      }
+    },
+    {
+      "id": "1729771318244645811",
+      "title": "Shapellx Bare Essentials Skin Flow Smooth reggiseno senza imbottitura, con fodera interna, regolabile",
+      "cover": "https://s.500fd.com/tt_product/05ccf334e09a46f48470e6200ed372de~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "25,69 €",
+      "currency": "EUR",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771318244645811",
       "trend": {
         "view": "migliori",
         "model": "intimo",
         "fit": 1,
-        "score": 95,
-        "spikePct": 16.4,
-        "euroPerSale": 3.53,
-        "marketComm": 1327,
-        "sold7": 376,
-        "creators": 164,
-        "videos": 3,
-        "priceValue": 35.27,
-        "catLabel": "Women's Underwear",
-        "days": 10,
+        "score": 96.5,
+        "spikePct": 58,
+        "euroPerSale": 2.57,
+        "marketComm": 1858,
+        "sold7": 723,
+        "creators": 88,
+        "videos": 1,
+        "priceValue": 25.69,
+        "catLabel": "Bras",
+        "days": 4,
         "spark": [
-          48,
-          65,
-          67,
-          23,
           32,
-          39,
-          34,
-          51,
-          33,
-          35
+          231,
+          231,
+          229
+        ]
+      }
+    },
+    {
+      "id": "1729754186499070406",
+      "title": "Women's Spring Summer Polka Dot Casual Vacation Two-Piece Set, Off-Shoulder Short Top + High-Waisted Wide Leg Pants, Fitted Clothing Set",
+      "cover": "https://s.500fd.com/tt_product/b365c79f30524a3084aaf8b9cf19dadd~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "price": "18,90 €",
+      "currency": "EUR",
+      "commissionRate": 9,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729754186499070406",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 95.5,
+        "spikePct": 96400,
+        "euroPerSale": 1.7,
+        "marketComm": 3281,
+        "sold7": 1930,
+        "creators": 6,
+        "videos": 0,
+        "priceValue": 18.9,
+        "catLabel": "Sets",
+        "days": 1,
+        "spark": [
+          1923
         ]
       }
     },
@@ -3715,6 +3901,69 @@
       }
     },
     {
+      "id": "1729624057338370761",
+      "title": "【Lady First】Blazer & Completo Tailleur Elegance - Made in Italy Office Siren Outfits Girl Formal Workwear",
+      "cover": "https://s.500fd.com/tt_product/757b684b499547dfaabcf2a7efc4efbc~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "22 - 34,99 €",
+      "currency": "EUR",
+      "commissionRate": 8,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729624057338370761",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 92.7,
+        "spikePct": 3763.2,
+        "euroPerSale": 1.76,
+        "marketComm": 1292,
+        "sold7": 734,
+        "creators": 337,
+        "videos": 0,
+        "priceValue": 22,
+        "catLabel": "Suits",
+        "days": 1,
+        "spark": [
+          23
+        ]
+      }
+    },
+    {
+      "id": "1729782768461257327",
+      "title": "[MIXMUSE.NOHO] Stella, Tuta Pantalone Lunga Smanicata",
+      "cover": "https://s.500fd.com/tt_product/9ff0c4b2351b4d57bd686f4a9341de35~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "27,52 €",
+      "currency": "EUR",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729782768461257327",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 92.3,
+        "spikePct": 115.7,
+        "euroPerSale": 2.75,
+        "marketComm": 393,
+        "sold7": 143,
+        "creators": 74,
+        "videos": 5,
+        "priceValue": 27.52,
+        "catLabel": "Women's Suits & Overalls",
+        "days": 10,
+        "spark": [
+          206,
+          127,
+          127,
+          18,
+          7,
+          11,
+          9,
+          26,
+          32,
+          36
+        ]
+      }
+    },
+    {
       "id": "1729754516352768970",
       "title": "Jeans BELLA Larga da donna Tessuto Elastica con le tasche Stile casual",
       "cover": "https://s.500fd.com/tt_product/34d1a2c55af74228a84c01552b9a3641~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -3726,11 +3975,11 @@
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 93.4,
-        "spikePct": 73.9,
+        "score": 92.2,
+        "spikePct": 71.5,
         "euroPerSale": 4.38,
-        "marketComm": 315,
-        "sold7": 72,
+        "marketComm": 293,
+        "sold7": 67,
         "creators": 26,
         "videos": 2,
         "priceValue": 29.21,
@@ -3748,98 +3997,7 @@
           0,
           57,
           10,
-          10
-        ]
-      }
-    },
-    {
-      "id": "1729829077431392879",
-      "title": "[MIXMUSE] Capri, Completo Camicia Con Coulisse In Vita E Pantalone Coordinato",
-      "cover": "https://s.500fd.com/tt_product/fe9c559305b146d1916f78ee6c82b898~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "34,90 €",
-      "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829077431392879",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 91.9,
-        "spikePct": 53.6,
-        "euroPerSale": 3.49,
-        "marketComm": 380,
-        "sold7": 109,
-        "creators": 89,
-        "videos": 3,
-        "priceValue": 34.9,
-        "catLabel": "Women's Suits & Overalls",
-        "days": 10,
-        "spark": [
-          204,
-          109,
-          20,
-          6,
-          4,
-          11,
-          10,
-          17,
-          17,
-          8
-        ]
-      }
-    },
-    {
-      "id": "1729565920776919676",
-      "title": "Elegant Sequined Mermaid Dress, Square Neck Cut-Out Design, Perfect for Evening Parties & Ballroom Dances",
-      "cover": "https://s.500fd.com/tt_product/57c4774fe47547d39240c01eecc64978~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "36,59 €",
-      "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729565920776919676",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 91.5,
-        "spikePct": 0,
-        "euroPerSale": 3.66,
-        "marketComm": 1325,
-        "sold7": 362,
-        "creators": 28,
-        "videos": 0,
-        "priceValue": 36.59,
-        "catLabel": "Formal Dresses",
-        "days": 1,
-        "spark": [
-          362
-        ]
-      }
-    },
-    {
-      "id": "1729828283826543538",
-      "title": "-ELETTA BOUTIQUE-  Pantalone Serena",
-      "cover": "https://s.500fd.com/tt_product/0d5473495ea64242a977902136e2b0de~tplv-t5fjg24jzw-crop-webp:500:500.webp",
-      "price": "29,99 €",
-      "currency": "EUR",
-      "commissionRate": 12.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729828283826543538",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 90.8,
-        "spikePct": 0,
-        "euroPerSale": 3.75,
-        "marketComm": 1245,
-        "sold7": 332,
-        "creators": 5,
-        "videos": 0,
-        "priceValue": 29.99,
-        "catLabel": "Trousers",
-        "days": 2,
-        "spark": [
-          294,
-          38
+          0
         ]
       }
     },
@@ -3855,8 +4013,8 @@
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 90.1,
-        "spikePct": 80,
+        "score": 88.3,
+        "spikePct": 70,
         "euroPerSale": 3.35,
         "marketComm": 214,
         "sold7": 64,
@@ -3864,7 +4022,7 @@
         "videos": 58,
         "priceValue": 22.34,
         "catLabel": "Sports & Outdoor",
-        "days": 8,
+        "days": 9,
         "spark": [
           0,
           0,
@@ -3873,34 +4031,8 @@
           0,
           0,
           64,
+          0,
           0
-        ]
-      }
-    },
-    {
-      "id": "1729785690479302883",
-      "title": "【Grace Karin】Vestido mini corsé floral para mujer y chicas, primavera/verano 2026, fluido línea A con bolsillos, SpringStatements",
-      "cover": "https://s.500fd.com/tt_product/376ecd566f8b495db4fe18d1d76066d5~tplv-o3syd03w52-resize-webp:800:800.webp",
-      "price": "26,88 €",
-      "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729785690479302883",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 88.9,
-        "spikePct": 0,
-        "euroPerSale": 2.69,
-        "marketComm": 7925,
-        "sold7": 2946,
-        "creators": 55,
-        "videos": 0,
-        "priceValue": 26.88,
-        "catLabel": "Casual Dresses",
-        "days": 1,
-        "spark": [
-          2946
         ]
       }
     },
@@ -3929,35 +4061,6 @@
         "spark": [
           49,
           91
-        ]
-      }
-    },
-    {
-      "id": "1729856131524434580",
-      "title": "Collana Jolie",
-      "cover": "https://s.500fd.com/tt_product/2429a8812ae540048180cc5c4925d28e~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "28,98 €",
-      "currency": "EUR",
-      "commissionRate": 11,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729856131524434580",
-      "trend": {
-        "view": "migliori",
-        "model": "accessori",
-        "fit": 0.9,
-        "score": 87.5,
-        "spikePct": 91.7,
-        "euroPerSale": 3.19,
-        "marketComm": 233,
-        "sold7": 73,
-        "creators": 3,
-        "videos": 7,
-        "priceValue": 28.98,
-        "catLabel": "Necklaces",
-        "days": 3,
-        "spark": [
-          11,
-          16,
-          46
         ]
       }
     },
@@ -3991,6 +4094,138 @@
       }
     },
     {
+      "id": "1729787973230697232",
+      "title": "Pantaloncini sportivi da donna ad asciugatura rapida e traspiranti, vestibilità ampia con vita elasticizzata, pantaloni casual estivi, stile Y2K a righe per uso domestico",
+      "cover": "https://s.500fd.com/tt_product/d69f7342bc4e43ba9065e09cc166b15a~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "23,11 €",
+      "currency": "EUR",
+      "commissionRate": 5,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729787973230697232",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 87,
+        "spikePct": 8346.7,
+        "euroPerSale": 1.16,
+        "marketComm": 3392,
+        "sold7": 2924,
+        "creators": 32,
+        "videos": 1,
+        "priceValue": 23.11,
+        "catLabel": "Women's Bottoms",
+        "days": 14,
+        "spark": [
+          13,
+          16,
+          8,
+          16,
+          13,
+          4,
+          10,
+          7,
+          7,
+          4,
+          4,
+          2924
+        ]
+      }
+    },
+    {
+      "id": "1729596094390770439",
+      "title": "Plus Size Deep V Neck Backless Sequin Party Dress, Elegant Cap Sleeve Evening Gown, Random Cut Design, Perfect for Special Occasions",
+      "cover": "https://s.500fd.com/tt_product/6f7230d6103444b7a65c4e3fe7b919de~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "60,90 €",
+      "currency": "EUR",
+      "commissionRate": 12,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729596094390770439",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 86.9,
+        "spikePct": 0,
+        "euroPerSale": 7.31,
+        "marketComm": 1477,
+        "sold7": 202,
+        "creators": 2,
+        "videos": 0,
+        "priceValue": 60.9,
+        "catLabel": "Formal Dresses",
+        "days": 1,
+        "spark": [
+          202
+        ]
+      }
+    },
+    {
+      "id": "1729856131524434580",
+      "title": "Collana Jolie",
+      "cover": "https://s.500fd.com/tt_product/2429a8812ae540048180cc5c4925d28e~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "28,98 €",
+      "currency": "EUR",
+      "commissionRate": 11,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729856131524434580",
+      "trend": {
+        "view": "migliori",
+        "model": "accessori",
+        "fit": 0.9,
+        "score": 86.5,
+        "spikePct": 77.8,
+        "euroPerSale": 3.19,
+        "marketComm": 274,
+        "sold7": 86,
+        "creators": 4,
+        "videos": 7,
+        "priceValue": 28.98,
+        "catLabel": "Necklaces",
+        "days": 4,
+        "spark": [
+          11,
+          16,
+          46,
+          13
+        ]
+      }
+    },
+    {
+      "id": "1729771224087960499",
+      "title": "Shapellx pantaloncini modellanti da donna senza cuciture a vita alta, modellazione del corpo e snellimento delle cosce, intimo",
+      "cover": "https://s.500fd.com/tt_product/5909d87268cd4135b5d57bbca998d90f~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "35,27 €",
+      "currency": "EUR",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729771224087960499",
+      "trend": {
+        "view": "migliori",
+        "model": "intimo",
+        "fit": 1,
+        "score": 86.4,
+        "spikePct": -8.4,
+        "euroPerSale": 3.53,
+        "marketComm": 907,
+        "sold7": 257,
+        "creators": 170,
+        "videos": 6,
+        "priceValue": 35.27,
+        "catLabel": "Women's Underwear",
+        "days": 11,
+        "spark": [
+          48,
+          65,
+          67,
+          23,
+          32,
+          39,
+          34,
+          51,
+          33,
+          35,
+          33
+        ]
+      }
+    },
+    {
       "id": "1729832327857150898",
       "title": "-ELETTA BOUTIQUE-  Bermuda Kaily",
       "cover": "https://s.500fd.com/tt_product/64910440dc2849ec91f9f6fa82851ad9~tplv-t5fjg24jzw-crop-webp:500:500.webp",
@@ -4018,34 +4253,39 @@
       }
     },
     {
-      "id": "1729820090356307976",
-      "title": "Set Ambra",
-      "cover": "https://s.500fd.com/tt_product/637a294e131c4181bbf1c2ee5c81897d~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "19,99 €",
+      "id": "1729731821363698423",
+      "title": "Set 2 pezzi largo alla moda da donna, camicia a maniche lunghe e pantaloni a gamba larga, design casual con coulisse a vita alta, primavera e autunno",
+      "cover": "https://s.500fd.com/tt_product/ae5ed2811d7a486a87d5f79f8e0f17e3~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "9,35 - €10,02",
       "currency": "EUR",
-      "commissionRate": 12.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729820090356307976",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729731821363698423",
       "trend": {
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 83.9,
-        "spikePct": 11.1,
-        "euroPerSale": 2.5,
-        "marketComm": 1450,
-        "sold7": 580,
-        "creators": 27,
-        "videos": 8,
-        "priceValue": 19.99,
-        "catLabel": "Casual Dresses",
-        "days": 6,
+        "score": 83.6,
+        "spikePct": 105485,
+        "euroPerSale": 0.94,
+        "marketComm": 1243,
+        "sold7": 1322,
+        "creators": 63,
+        "videos": 0,
+        "priceValue": 9.35,
+        "catLabel": "Womenswear & Underwear",
+        "days": 11,
         "spark": [
-          167,
-          40,
-          50,
-          216,
-          54,
-          53
+          12,
+          2,
+          17,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1319,
+          1319
         ]
       }
     },
@@ -4077,67 +4317,31 @@
       }
     },
     {
-      "id": "1729833811348986479",
-      "title": "[MIXMUSE.COUTURE] Portofino, Cardigan A Rete",
-      "cover": "https://s.500fd.com/tt_product/61457584d60343e2b85ae683d4a93b25~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "14,90 €",
+      "id": "1729823804713375752",
+      "title": "Pantalone Satin",
+      "cover": "https://s.500fd.com/tt_product/ba3b355eb4894922b5441742e368ef09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "17,99 €",
       "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729833811348986479",
+      "commissionRate": 12.5,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729823804713375752",
       "trend": {
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 82.6,
-        "spikePct": 101,
-        "euroPerSale": 1.49,
-        "marketComm": 600,
-        "sold7": 403,
-        "creators": 42,
-        "videos": 5,
-        "priceValue": 14.9,
-        "catLabel": "Knitwear",
-        "days": 5,
+        "score": 82.3,
+        "spikePct": 721.4,
+        "euroPerSale": 2.25,
+        "marketComm": 259,
+        "sold7": 115,
+        "creators": 5,
+        "videos": 1,
+        "priceValue": 17.99,
+        "catLabel": "Trousers",
+        "days": 3,
         "spark": [
-          121,
-          121,
-          26,
-          403,
-          63
-        ]
-      }
-    },
-    {
-      "id": "1729477524927388618",
-      "title": "Aikopa  Pesca Peach Lifting Leggings da donna da Palestra Push Up Senza cucitura ad altezza vita Tessuto Cationico Elastico Traspirante No pelucchi Vari colori",
-      "cover": "https://s.500fd.com/tt_product/b8d0104aac7046c5a8c4cbc97ec4ebb3~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "13 - 19,49 €",
-      "currency": "EUR",
-      "commissionRate": 15,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729477524927388618",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 81.6,
-        "spikePct": 80,
-        "euroPerSale": 1.95,
-        "marketComm": 482,
-        "sold7": 247,
-        "creators": 481,
-        "videos": 577,
-        "priceValue": 13,
-        "catLabel": "Sports & Outdoor",
-        "days": 8,
-        "spark": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          247,
-          0
+          120,
+          99,
+          5
         ]
       }
     },
@@ -4169,39 +4373,6 @@
       }
     },
     {
-      "id": "1729559537142175752",
-      "title": "Abito Desy",
-      "cover": "https://s.500fd.com/tt_product/c8100f4dba104c2cb69ffe5248871676~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "22 €",
-      "currency": "EUR",
-      "commissionRate": 17.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729559537142175752",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 81.2,
-        "spikePct": 19.4,
-        "euroPerSale": 3.85,
-        "marketComm": 231,
-        "sold7": 60,
-        "creators": 54,
-        "videos": 3,
-        "priceValue": 22,
-        "catLabel": "Casual Dresses",
-        "days": 7,
-        "spark": [
-          111,
-          38,
-          154,
-          60,
-          60,
-          243,
-          49
-        ]
-      }
-    },
-    {
       "id": "1729818131500866197",
       "title": "Pantalone Balloon in cotone",
       "cover": "https://s.500fd.com/tt_product/7a3778d879ff40b38e0ba96d92cc6c09~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -4213,50 +4384,192 @@
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 77.7,
-        "spikePct": 100,
+        "score": 80.2,
+        "spikePct": 78.2,
         "euroPerSale": 3,
-        "marketComm": 63,
-        "sold7": 21,
+        "marketComm": 120,
+        "sold7": 40,
         "creators": 5,
         "videos": 1,
         "priceValue": 23.99,
         "catLabel": "Trousers",
-        "days": 3,
+        "days": 4,
         "spark": [
           9,
           4,
-          8
+          8,
+          19
         ]
       }
     },
     {
-      "id": "1729646690071058767",
-      "title": "Collana Arabian Night Nefer in Acciaio Inossidabile 316L con Cubic Zirconia e Tecnica PVD Lunga 40cm + 5cm di Allungamento",
-      "cover": "https://s.500fd.com/tt_product/f35464cf75fd4d758d40d9ceadbc5ac3~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "€35,20",
+      "id": "1729477524927388618",
+      "title": "Aikopa  Pesca Peach Lifting Leggings da donna da Palestra Push Up Senza cucitura ad altezza vita Tessuto Cationico Elastico Traspirante No pelucchi Vari colori",
+      "cover": "https://s.500fd.com/tt_product/b8d0104aac7046c5a8c4cbc97ec4ebb3~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "13 - 19,49 €",
       "currency": "EUR",
-      "commissionRate": 12.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729646690071058767",
+      "commissionRate": 15,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729477524927388618",
       "trend": {
         "view": "migliori",
-        "model": "accessori",
-        "fit": 0.9,
-        "score": 77.5,
-        "spikePct": -19,
-        "euroPerSale": 4.4,
-        "marketComm": 682,
-        "sold7": 155,
-        "creators": 35,
-        "videos": 0,
-        "priceValue": 35.2,
-        "catLabel": "Necklaces",
-        "days": 4,
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 79.9,
+        "spikePct": 70,
+        "euroPerSale": 1.95,
+        "marketComm": 482,
+        "sold7": 247,
+        "creators": 481,
+        "videos": 577,
+        "priceValue": 13,
+        "catLabel": "Sports & Outdoor",
+        "days": 9,
         "spark": [
-          21,
-          66,
-          66,
-          2
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          247,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "1729599455391488170",
+      "title": "Abito da donna per San Valentino con scollo profondo, elegante abito lungo sexy con spalline regolabili, seno arricciato e vestibilità aderente, stile snellente",
+      "cover": "https://s.500fd.com/tt_product/8383f149f68646768906f0c0afb0df1f~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "12,74 €",
+      "currency": "EUR",
+      "commissionRate": 15,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729599455391488170",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 79.1,
+        "spikePct": 0,
+        "euroPerSale": 1.91,
+        "marketComm": 4525,
+        "sold7": 2369,
+        "creators": 4,
+        "videos": 0,
+        "priceValue": 12.74,
+        "catLabel": "Women's Dresses",
+        "days": 1,
+        "spark": [
+          2367
+        ]
+      }
+    },
+    {
+      "id": "1729795990037240667",
+      "title": "African Style Plus Size Kaftan, Geometric Print Ethnic Loose V-Neck with Pockets, Women's Casual Party Boubou Dress, Comfortable and Stylish",
+      "cover": "https://s.500fd.com/tt_product/b5468255fb3746ad9e498f4bf276153e~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "26,85 €",
+      "currency": "EUR",
+      "commissionRate": 9,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729795990037240667",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 78,
+        "spikePct": 0,
+        "euroPerSale": 2.42,
+        "marketComm": 995,
+        "sold7": 411,
+        "creators": 10,
+        "videos": 0,
+        "priceValue": 26.85,
+        "catLabel": "Casual Dresses",
+        "days": 1,
+        "spark": [
+          411
+        ]
+      }
+    },
+    {
+      "id": "1729832287872391456",
+      "title": "ViviModa Completo Due Pezzi Canotta Smanicata e Pantalone Gamba Larga Made in Italy, Tessuto Fresco Traspirante, Set Casual Elegante per Tutte le Stagioni, Abbigliamento Comodo Da Giorno e Vacanze-Vv25222",
+      "cover": "https://s.500fd.com/tt_product/2d3121dbce21451c8f116bbde7aff1f6~tplv-t5fjg24jzw-crop-webp:500:500.webp",
+      "price": "€ 25,89",
+      "currency": "EUR",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729832287872391456",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 77.8,
+        "spikePct": 0,
+        "euroPerSale": 2.59,
+        "marketComm": 793,
+        "sold7": 306,
+        "creators": 52,
+        "videos": 3,
+        "priceValue": 25.89,
+        "catLabel": "Women's Suits & Overalls",
+        "days": 1,
+        "spark": [
+          306
+        ]
+      }
+    },
+    {
+      "id": "1729497686775864314",
+      "title": "Body modellante per donna in tinta unita con chiusura a gancio e occhiello, regolabile, traspirante, con tracolla, modello a fondina, modello per sollevamento glutei e riduzione della pancia, comfort per signore",
+      "cover": "https://s.500fd.com/tt_product/df870332b7bc46d0bf17079d221f0a51~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "11,36 €",
+      "currency": "EUR",
+      "commissionRate": 5,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729497686775864314",
+      "trend": {
+        "view": "migliori",
+        "model": "intimo",
+        "fit": 1,
+        "score": 77.7,
+        "spikePct": 16790.9,
+        "euroPerSale": 0.57,
+        "marketComm": 1059,
+        "sold7": 1858,
+        "creators": 122,
+        "videos": 0,
+        "priceValue": 11.36,
+        "catLabel": "Women's Underwear",
+        "days": 2,
+        "spark": [
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "1729500098008226423",
+      "title": "Maxi abito senza maniche con volant e spacco alto per donna, abbigliamento casual, elegante, slim fit, sexy, per feste e club",
+      "cover": "https://s.500fd.com/tt_product/dec555942a5e4b729a2cf7ae5fe72eb8~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "€6,49",
+      "currency": "EUR",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729500098008226423",
+      "trend": {
+        "view": "migliori",
+        "model": "abbigliamento",
+        "fit": 1,
+        "score": 77.2,
+        "spikePct": 8860,
+        "euroPerSale": 0.65,
+        "marketComm": 582,
+        "sold7": 896,
+        "creators": 149,
+        "videos": 0,
+        "priceValue": 6.49,
+        "catLabel": "Formal Dresses",
+        "days": 1,
+        "spark": [
+          896
         ]
       }
     },
@@ -4291,33 +4604,6 @@
       }
     },
     {
-      "id": "1729754186499070406",
-      "title": "Women's Spring Summer Polka Dot Casual Vacation Two-Piece Set, Off-Shoulder Short Top + High-Waisted Wide Leg Pants, Fitted Clothing Set",
-      "cover": "https://s.500fd.com/tt_product/b365c79f30524a3084aaf8b9cf19dadd~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "price": "18,90 €",
-      "currency": "EUR",
-      "commissionRate": 9,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729754186499070406",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 76.4,
-        "spikePct": 0,
-        "euroPerSale": 1.7,
-        "marketComm": 3269,
-        "sold7": 1923,
-        "creators": 6,
-        "videos": 0,
-        "priceValue": 18.9,
-        "catLabel": "Sets",
-        "days": 1,
-        "spark": [
-          1923
-        ]
-      }
-    },
-    {
       "id": "1729778310631364880",
       "title": "Abito lungo elegante da donna con bottoni semplici, vita alta, effetto snellente, abito plissettato da vacanza con tasca e maniche lunghe, tendenza primavera 2026",
       "cover": "https://s.500fd.com/tt_product/a77564b30f514201bbadd4849af03608~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
@@ -4346,87 +4632,77 @@
       }
     },
     {
-      "id": "1729770893572872377",
-      "title": "Moero Vision Air Custodia per occhiali minimal con chiusura magnetica, esterno in vera pelle saffiano antigraffio interno morbidissimo in pelle di pecora , 10 colori perfetti per uomo e donna, design essenziale ma geniale.",
-      "cover": "https://s.500fd.com/tt_product/a063db779f1f470b8870bd51ff33bc50~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "€37,25",
+      "id": "1729831124243749562",
+      "title": "Collana dopamina, perline arcobaleno colorate, reattive agli UV, collane che cambiano colore, gioielli dopamina da donna, gioielli estivi da spiaggia, regali fatti a mano",
+      "cover": "https://s.500fd.com/tt_product/676b4a2285164a859ebd7a7e580908c0~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "12,99 €  -  19,90 €",
       "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729770893572872377",
+      "commissionRate": 12,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729831124243749562",
       "trend": {
         "view": "migliori",
         "model": "accessori",
         "fit": 0.9,
         "score": 76.4,
-        "spikePct": 33.3,
-        "euroPerSale": 3.73,
-        "marketComm": 134,
-        "sold7": 36,
-        "creators": 211,
-        "videos": 3,
-        "priceValue": 37.25,
-        "catLabel": "Glasses Cases & Accessories",
-        "days": 3,
+        "spikePct": 5249.2,
+        "euroPerSale": 1.56,
+        "marketComm": 412,
+        "sold7": 264,
+        "creators": 21,
+        "videos": 1,
+        "priceValue": 12.99,
+        "catLabel": "Necklaces",
+        "days": 15,
         "spark": [
-          15,
-          9,
-          12
+          11,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          4,
+          1,
+          259
         ]
       }
     },
     {
-      "id": "1729809223560304787",
-      "title": "Pantalone Lumina",
-      "cover": "https://s.500fd.com/tt_product/94cbe870d6b54534bbc9198b0bc9292c~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "25 €",
+      "id": "1729829077431392879",
+      "title": "[MIXMUSE] Capri, Completo Camicia Con Coulisse In Vita E Pantalone Coordinato",
+      "cover": "https://s.500fd.com/tt_product/fe9c559305b146d1916f78ee6c82b898~tplv-t5fjg24jzw-resize-webp:800:800.webp",
+      "price": "34,90 €",
       "currency": "EUR",
-      "commissionRate": 12.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729809223560304787",
+      "commissionRate": 10,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729829077431392879",
       "trend": {
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 75.9,
-        "spikePct": 0,
-        "euroPerSale": 3.13,
-        "marketComm": 316,
-        "sold7": 101,
-        "creators": 1,
-        "videos": 0,
-        "priceValue": 25,
-        "catLabel": "Trousers",
-        "days": 1,
+        "score": 75.2,
+        "spikePct": -7,
+        "euroPerSale": 3.49,
+        "marketComm": 213,
+        "sold7": 61,
+        "creators": 89,
+        "videos": 5,
+        "priceValue": 34.9,
+        "catLabel": "Women's Suits & Overalls",
+        "days": 11,
         "spark": [
-          101
-        ]
-      }
-    },
-    {
-      "id": "1729799536028195477",
-      "title": "Pantalone petalo in cotone",
-      "cover": "https://s.500fd.com/tt_product/542b1cab54a648518a9c31eaf0251743~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "21,99 €",
-      "currency": "EUR",
-      "commissionRate": 12.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729799536028195477",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 75.4,
-        "spikePct": 166.7,
-        "euroPerSale": 2.75,
-        "marketComm": 69,
-        "sold7": 25,
-        "creators": 8,
-        "videos": 0,
-        "priceValue": 21.99,
-        "catLabel": "Trousers",
-        "days": 3,
-        "spark": [
-          14,
-          3,
-          8
+          204,
+          109,
+          20,
+          6,
+          4,
+          11,
+          10,
+          17,
+          17,
+          8,
+          3
         ]
       }
     },
@@ -4461,38 +4737,30 @@
       }
     },
     {
-      "id": "1729806063335414383",
-      "title": "[MIXMUSE] Riviera, Cardigan In Maglia",
-      "cover": "https://s.500fd.com/tt_product/85f976f544e54e61b9abdb95bc5b1b10~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "14,90 €",
+      "id": "1729814604394306247",
+      "title": "Pantalone effetto satinato Universal",
+      "cover": "https://s.500fd.com/tt_product/c0b2407821ce46e7abe53b3d4ee354ff~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
+      "price": "22,94 €",
       "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729806063335414383",
+      "commissionRate": 12.5,
+      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729814604394306247",
       "trend": {
         "view": "migliori",
         "model": "abbigliamento",
         "fit": 1,
-        "score": 74.2,
-        "spikePct": 28.9,
-        "euroPerSale": 1.49,
-        "marketComm": 894,
-        "sold7": 600,
-        "creators": 93,
-        "videos": 3,
-        "priceValue": 14.9,
-        "catLabel": "Women's Tops",
-        "days": 10,
+        "score": 73.9,
+        "spikePct": 0,
+        "euroPerSale": 2.87,
+        "marketComm": 342,
+        "sold7": 119,
+        "creators": 4,
+        "videos": 0,
+        "priceValue": 22.94,
+        "catLabel": "Trousers",
+        "days": 2,
         "spark": [
-          67,
-          147,
-          94,
-          60,
-          72,
-          61,
-          60,
-          71,
-          116,
-          84
+          66,
+          53
         ]
       }
     },
@@ -4522,270 +4790,7 @@
           441
         ]
       }
-    },
-    {
-      "id": "1729842844070615894",
-      "title": "PANTALONE “FRESH”",
-      "cover": "https://s.500fd.com/tt_product/07dac1e63e884ccabda9e4020f0675ed~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "20 €",
-      "currency": "EUR",
-      "commissionRate": 12.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729842844070615894",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 72.6,
-        "spikePct": -4.5,
-        "euroPerSale": 2.5,
-        "marketComm": 510,
-        "sold7": 204,
-        "creators": 1,
-        "videos": 3,
-        "priceValue": 20,
-        "catLabel": "Trousers",
-        "days": 7,
-        "spark": [
-          49,
-          39,
-          100,
-          204,
-          204,
-          50,
-          16
-        ]
-      }
-    },
-    {
-      "id": "1729753326610913413",
-      "title": "WONDERSEN- Completo SPRING due pezzi composto da maglia e pantaloni realizzato in tessuto morbido e compatto",
-      "cover": "https://s.500fd.com/tt_product/1a160f50e8d1487ca46473e4f120989b~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "28,60 €",
-      "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729753326610913413",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 72.3,
-        "spikePct": 0,
-        "euroPerSale": 2.86,
-        "marketComm": 283,
-        "sold7": 99,
-        "creators": 53,
-        "videos": 0,
-        "priceValue": 28.6,
-        "catLabel": "Sets",
-        "days": 1,
-        "spark": [
-          99
-        ]
-      }
-    },
-    {
-      "id": "1729844197691202482",
-      "title": "-ELETTA BOUTIQUE-  Coordinato Ballon Viral",
-      "cover": "https://s.500fd.com/tt_product/0745a0f188004157b5bc789a9ae17cb0~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "32,99 €",
-      "currency": "EUR",
-      "commissionRate": 12.5,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729844197691202482",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 72.1,
-        "spikePct": 0,
-        "euroPerSale": 4.12,
-        "marketComm": 124,
-        "sold7": 30,
-        "creators": 2,
-        "videos": 0,
-        "priceValue": 32.99,
-        "catLabel": "Casual Dresses",
-        "days": 1,
-        "spark": [
-          30
-        ]
-      }
-    },
-    {
-      "id": "1729795254159317615",
-      "title": "[MIXMUSE.COUTURE] Jolie, Vestito Chemisier Con Cintura",
-      "cover": "https://s.500fd.com/tt_product/ebe7fd15f9734c1cb1936c1d419a8ca5~tplv-t5fjg24jzw-resize-jpeg:800:800.jpeg",
-      "price": "34,90 €",
-      "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729795254159317615",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 71.8,
-        "spikePct": -20,
-        "euroPerSale": 3.49,
-        "marketComm": 188,
-        "sold7": 54,
-        "creators": 72,
-        "videos": 0,
-        "priceValue": 34.9,
-        "catLabel": "Casual Dresses",
-        "days": 3,
-        "spark": [
-          3,
-          47,
-          4
-        ]
-      }
-    },
-    {
-      "id": "1729727105459395220",
-      "title": "1 Omaggio Gioiello tra anelli collane orecchini o bracciali",
-      "cover": "https://s.500fd.com/tt_product/075942dd61e240d89ac3ffba847ab5ed~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "25,52 €",
-      "currency": "EUR",
-      "commissionRate": 11,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729727105459395220",
-      "trend": {
-        "view": "migliori",
-        "model": "accessori",
-        "fit": 0.9,
-        "score": 71.3,
-        "spikePct": -20.7,
-        "euroPerSale": 2.81,
-        "marketComm": 649,
-        "sold7": 231,
-        "creators": 3,
-        "videos": 0,
-        "priceValue": 25.52,
-        "catLabel": "Jewelry Sets",
-        "days": 4,
-        "spark": [
-          314,
-          314,
-          231,
-          231
-        ]
-      }
-    },
-    {
-      "id": "1729786516561042031",
-      "title": "[MIXMUSE.NOHO] Lea, Completo Con Pantalone Fluido E Maglia Con Fiocco",
-      "cover": "https://s.500fd.com/tt_product/58d7776ab04049cb873a5c375ef18cdd~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "34,90 €",
-      "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729786516561042031",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 71.2,
-        "spikePct": -58.5,
-        "euroPerSale": 3.49,
-        "marketComm": 517,
-        "sold7": 148,
-        "creators": 132,
-        "videos": 0,
-        "priceValue": 34.9,
-        "catLabel": "Sets",
-        "days": 4,
-        "spark": [
-          100,
-          2,
-          36,
-          10
-        ]
-      }
-    },
-    {
-      "id": "1729504010144487858",
-      "title": "Women's Floral Print Dress, Fashion Casual Sleeveless Dress for Daily Outdoor Wear, Women Dress for Summer",
-      "cover": "https://s.500fd.com/tt_product/9268f5774c8a4653a47db1fc91ef1dd3~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "10,70 €",
-      "currency": "EUR",
-      "commissionRate": 12,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729504010144487858",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 71.1,
-        "spikePct": 0,
-        "euroPerSale": 1.28,
-        "marketComm": 2723,
-        "sold7": 2127,
-        "creators": 7,
-        "videos": 0,
-        "priceValue": 10.7,
-        "catLabel": "Casual Dresses",
-        "days": 1,
-        "spark": [
-          2127
-        ]
-      }
-    },
-    {
-      "id": "1729820527234489088",
-      "title": "New Summer Autumn Gradient Spray Color Fake Two-Piece High Waist Ripped Frayed Edge Wide Leg American Street Style Long Pants",
-      "cover": "https://s.500fd.com/tt_product/be9e141d178348669e16ea26eba4533b~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "30,80 €",
-      "currency": "EUR",
-      "commissionRate": 10,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729820527234489088",
-      "trend": {
-        "view": "migliori",
-        "model": "abbigliamento",
-        "fit": 1,
-        "score": 71.1,
-        "spikePct": 0,
-        "euroPerSale": 3.08,
-        "marketComm": 182,
-        "sold7": 59,
-        "creators": 2,
-        "videos": 0,
-        "priceValue": 30.8,
-        "catLabel": "Trousers",
-        "days": 1,
-        "spark": [
-          59
-        ]
-      }
-    },
-    {
-      "id": "1729791843007503314",
-      "title": "Collana Magnetica Color",
-      "cover": "https://s.500fd.com/tt_product/0537c506b2d94e589118ddd8b18140aa~tplv-t5fjg24jzw-resize-webp:800:800.webp",
-      "price": "12 €",
-      "currency": "EUR",
-      "commissionRate": 15,
-      "fastmossUrl": "https://www.fastmoss.com/e-commerce/detail/1729791843007503314",
-      "trend": {
-        "view": "migliori",
-        "model": "accessori",
-        "fit": 0.9,
-        "score": 71,
-        "spikePct": 26.5,
-        "euroPerSale": 1.8,
-        "marketComm": 673,
-        "sold7": 374,
-        "creators": 97,
-        "videos": 2,
-        "priceValue": 12,
-        "catLabel": "Necklaces",
-        "days": 7,
-        "spark": [
-          210,
-          46,
-          312,
-          30,
-          374,
-          102,
-          168
-        ]
-      }
     }
   ],
-  "generatedAt": "2026-06-28T08:32:29.633Z"
+  "generatedAt": "2026-06-29T10:07:53.124Z"
 }
