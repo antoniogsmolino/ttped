@@ -14,7 +14,7 @@
   ];
 
   // Esclusioni: non-moda + bambino (l'uomo è gestito dal gate di genere).
-  const EXCLUDE = /power tools|personal care|appliance|electronic|\bphone|computer|automotive|motorcycle|kitchen|household|home supplies|furnitur|\bpet\b|hardware|\bbook|\btoy|grocery|beverage|stationery|collectible|musical|fitness equipment|outdoor recreation|bath|body care|skincare|hair care|haircare|deodor|\bcrema\b|sapone|shampoo|balsam|conditioner|\bsiero\b|olio per capelli|batana|integrat|vitamin|profum|fragranz|makeup|mascara|rossetto|smalto|rasoio|shaver|trimmer|epilat|igiene|supplement|aliment|cucina|arred|monopattin|attrezz|elettrodom|smartwatch|smart ?watch|orologio intelligente|fitness tracker|smartband|safety|antinfortun|work &|\bkid|child|toddler|\bbaby\b|neonat|bambin/i;
+  const EXCLUDE = /power tools|personal care|appliance|electronic|\bphone|computer|automotive|motorcycle|kitchen|household|home supplies|furnitur|\bpet\b|hardware|\bbook|\btoy|grocery|beverage|stationery|collectible|musical|fitness equipment|outdoor recreation|bath|body care|skincare|hair care|haircare|deodor|\bcrema\b|sapone|shampoo|balsam|conditioner|\bsiero\b|olio per capelli|batana|integrat|vitamin|profum|fragranz|makeup|mascara|rossetto|smalto|rasoio|shaver|trimmer|epilat|igiene|supplement|aliment|cucina|arred|monopattin|attrezz|elettrodom|smartwatch|smart ?watch|orologio intelligente|fitness tracker|smartband|safety|antinfortun|work &|\bletto\b|lenzuol|\bbedding|federe|copripiumin|copriletto|tovagli|asciugam|\btenda\b|\btende\b|cuscin|tappeto|microfibra|\bkid|child|toddler|\bbaby\b|neonat|bambin/i;
 
   function genderOf(hay, l1Hint) {
     if (/\bwomen|woman|\bdonna|donne|femmin|\blady|ladies|\bgirl/.test(hay)) return 'w';
@@ -46,7 +46,26 @@
     return { model: null, fit: 0 };
   }
 
-  const API = { MODELS, classify, genderOf };
+  // ---------- Creator ----------
+  const CREATORS = [
+    { id: 'sharon', name: 'Sharon', emoji: '👑', tag: 'Moda donna — tutti i best-seller' },
+    { id: 'alena', name: 'Alena', emoji: '✨', tag: 'Gen-Z / young — trendy e virali' },
+  ];
+
+  const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+  const GENZ_POS = /\bcrop|cropp|baggy|oversize|cargo|parachute|\by2k|micro|corset|bustier|bralette|\bmesh\b|grunge|streetwear|vita bassa|low ?rise|platform|chunky|\bgraphic|jorts|tube top|halter|strappat|acid ?wash|coquette|balletcore|fairycore|\bgoth|\bmini|denim|rave|festival/i;
+  const GENZ_NEG = /blazer|tailleur|sartorial|elegante|raffinat|cappotto|trench|mocassin|classic|\bmidi\b|premium|luxury|cashmere|formale|ufficio/i;
+
+  // Quanto un prodotto è "Gen-Z / young" (0..1): stile giovane + prezzo basso, meno stili maturi.
+  function genZFit(title, cats, price) {
+    const hay = [title || '', ...(Array.isArray(cats) ? cats : [cats || ''])].join(' ').toLowerCase();
+    const style = GENZ_POS.test(hay) ? 1 : 0;
+    const mature = GENZ_NEG.test(hay) ? 1 : 0;
+    const cheap = price > 0 ? clamp((28 - price) / 28, 0, 1) : 0.4; // sotto ~€28 = giovane
+    return clamp(0.55 * style + 0.35 * cheap + 0.10 - 0.4 * mature, 0, 1);
+  }
+
+  const API = { MODELS, CREATORS, classify, genderOf, genZFit };
   if (typeof module !== 'undefined' && module.exports) module.exports = API;
   else root.Models = API;
 })(typeof window !== 'undefined' ? window : globalThis);

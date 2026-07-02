@@ -24,15 +24,20 @@ const scraper = require('../lib/scraper');
     process.exit(1);
   }
 
-  const rankings = scraper.computeAllRankings(20); // { sofia:{d7,h48,h24}, emma:{...}, marco:{...}, luca:{...} }
+  const rankings = scraper.computeAllRankings(20); // { sharon:{abbigliamento:{migliori,emergenti},...}, alena:{...} }
   writeJSON(path.join(process.env.DATA_DIR, 'trends.json'), {
     status,
     rankings,
-    top: scraper.computeTrends(40), // unione di tutti i modelli: per il cross-match affiliate
+    // top = solo il minimo per il cross-match affiliate (titolo + impennata): tiene leggero trends.json
+    top: {
+      sharon: scraper.topForCreator('sharon', 40).map((p) => ({ title: p.title, trend: { spikePct: p.trend.spikePct } })),
+      alena: scraper.topForCreator('alena', 40).map((p) => ({ title: p.title, trend: { spikePct: p.trend.spikePct } })),
+    },
     generatedAt: new Date().toISOString(),
   });
-  const summary = Object.entries(rankings).map(([m, r]) => `${m}=${r.migliori.length}`).join(' · ');
-  console.log(`Classifiche per sezione (migliori): ${summary}`);
+  const summary = Object.entries(rankings).map(([c, secs]) =>
+    `${c}(` + Object.entries(secs).map(([s, r]) => `${s.slice(0, 3)}:${r.migliori.length}`).join(',') + ')').join(' · ');
+  console.log(`Classifiche: ${summary}`);
 })().catch((e) => {
   console.error('Scrape fallito:', e);
   process.exit(1);

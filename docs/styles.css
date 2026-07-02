@@ -187,6 +187,8 @@ main { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; paddin
 .seg-btn { border: 0; background: transparent; color: var(--muted); font-weight: 700; font-size: 13px; padding: 8px 16px; border-radius: 10px; cursor: pointer; transition: all .18s ease; white-space: nowrap; }
 .seg-btn:hover { color: var(--text); }
 .seg-btn.active { color: #fff; background: var(--grad); box-shadow: 0 4px 16px rgba(254, 44, 85, .35); }
+.seg-sections { margin-bottom: 10px; }
+.seg-sections .seg-btn.active { background: rgba(255,255,255,.14); box-shadow: inset 0 0 0 1px var(--card-border); color: #fff; }
 
 /* ---------- studio ---------- */
 .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; margin-bottom: 22px; }
