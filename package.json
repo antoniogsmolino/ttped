@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "scrape": "node scripts/scrape.js",
+    "scrape:now": "bash scripts/local-daily.sh"
   },
   "engines": {
     "node": ">=18"
