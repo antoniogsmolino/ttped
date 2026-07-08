@@ -1,9 +1,9 @@
 {
-  "lastRun": "2026-06-23T08:12:07.451Z",
+  "lastRun": "2026-07-08T16:00:59.376Z",
   "ok": true,
-  "count": 311,
-  "matched": 268,
-  "limited": false,
+  "count": 154,
+  "matched": 143,
+  "limited": true,
   "source": "fastmoss",
   "region": "IT",
   "focus": true,
