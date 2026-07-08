@@ -26,7 +26,7 @@ jobs:
       - name: Esegui scraping
         env:
           FASTMOSS_COOKIE: ${{ secrets.FASTMOSS_COOKIE }}
-          SCRAPE_REGIONS: IT,GB   # IT = catalogo Sharon, GB = catalogo UK di Alena
+          SCRAPE_REGIONS: IT   # solo catalogo italiano (Sharon e Alena)
         run: node scripts/scrape.js
 
       - name: Pubblica i risultati

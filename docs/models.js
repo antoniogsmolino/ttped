@@ -53,16 +53,51 @@
   ];
 
   const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
-  const GENZ_POS = /\bcrop|cropp|baggy|oversize|cargo|parachute|\by2k|micro|corset|bustier|bralette|\bmesh\b|grunge|streetwear|vita bassa|low ?rise|platform|chunky|\bgraphic|jorts|tube top|halter|strappat|acid ?wash|coquette|balletcore|fairycore|\bgoth|\bmini|denim|rave|festival/i;
-  const GENZ_NEG = /blazer|tailleur|sartorial|elegante|raffinat|cappotto|trench|mocassin|classic|\bmidi\b|premium|luxury|cashmere|formale|ufficio/i;
 
-  // Quanto un prodotto è "Gen-Z / young" (0..1): stile giovane + prezzo basso, meno stili maturi.
+  // Tassonomia estetica Gen-Z (top, denim, pantaloni, shorts, gonne, abiti, set, felpe, giacche,
+  // beachwear, activewear/pilates, scarpe, borse, accessori capelli, bijoux, occhiali, aesthetics).
+  // Termini distintivi (non i generici "top"/"dress" che hanno tutti), in italiano e inglese.
+  const GENZ_POS = new RegExp([
+    // top
+    'baby ?tee', 'ringer', 'shrunken', 't-?shirt (crop|corta|aderente|grafica|fitted)', '\\bcrop', 'cropp', 'tube top', 'bandeau', 'top a fascia', '\\bhalter', 'off ?shoulder', 'one ?shoulder', 'monospalla', 'bardot', 'spalle scoperte', 'bow top', 'tie ?front', 'annodat', 'lace ?up', 'ruched', 'arricciat', 'drappeggiat', 'ribbed', 'a costine', 'racerback', '\\bcami\\b', 'corset', 'bustier', '\\bmesh', 'crochet', 'uncinet', 'cut ?out', 'open ?back', 'schiena scoperta', 'polo crop', 'bolero', 'shrug', 'coprispalle',
+    // denim + pantaloni + shorts
+    'baggy', 'wide ?leg', '\\bcargo', 'parachute', 'boyfriend', 'mom fit', 'barrel', 'balloon', 'slouchy', 'puddle', 'jorts', 'ripped', 'strappat', 'low ?rise', 'low ?waist', 'vita bassa', 'drawstring', 'coulisse', '\\bflare', 'capri', 'pinocchiett', 'culotte', 'utility', 'boxer short', 'dolphin', 'sweat ?short', 'micro ?short',
+    // gonne
+    'minigonna', 'mini ?skirt', 'pleated', 'plissett', 'plissé', 'tennis skirt', 'gonna tennis', '\\bskort', 'cargo skirt', 'denim skirt', 'wrap skirt', 'gonna pareo', 'ruffle', 'a balze', 'coquette',
+    // abiti
+    'mini ?dress', 'abito (corto|mini|cami)', 'bodycon', 'slip dress', 'sottoveste', 'babydoll', 'bubble dress', 'tennis dress', 't-?shirt dress', 'party dress', 'going out',
+    // set
+    'two ?piece', 'co-?ord', 'coordinat', 'due pezzi', '2 ?pezzi', 'set (top|crop|fascia|halter|crochet|lino|tennis|denim|cargo)',
+    // felpe / streetwear
+    'hoodie', 'oversize', 'zip ?hoodie', 'college', 'varsity', 'tracksuit', 'quarter zip', 'mezza zip', 'bomber', 'track jacket', 'windbreaker',
+    // beach / holiday
+    'bikini', 'cover ?up', 'copricostume', 'pareo', 'kaftano', 'straw bag', 'borsa paglia',
+    // activewear / pilates
+    'pilates', 'biker short', 'flare legging', 'yoga', 'sports bra', 'racerback',
+    // scarpe
+    'ballet ?flat', 'ballerin', 'mary ?jane', 'platform', 'slingback', 'kitten heel', 'cowboy boot', 'chunky', 'jelly sandal',
+    // borse
+    'baguette', 'crescent', 'hobo', 'mini bag', 'belt bag', 'marsup', 'crossbody', 'tote', 'tracolla',
+    // capelli / bijoux / occhiali
+    'fiocc', '\\bbow', 'claw clip', 'butterfly clip', 'mollett', 'scrunchie', 'cerchietto', 'headband', 'ribbon', 'choker', 'layered', 'perl', 'small hoop', 'stack ring', 'bag charm', 'cat ?eye', 'small sunglass', 'occhiali (piccoli|ovali|y2k)', 'trucker', 'bucket hat', 'baseball cap',
+    // intimo fashion
+    'bralette', 'bodysuit', '\\bbody\\b', 'seamless',
+    // aesthetics
+    'y2k', 'coquette', 'balletcore', 'tenniscore', 'preppy', 'clean girl', 'soft girl', 'streetwear', 'grunge', 'indie', 'gingham', 'a quadrett', 'animalier', 'leopard', 'a righe', 'striped', 'graphic', 'grafica', 'denim',
+  ].join('|'), 'i');
+
+  // Stili "maturi / da signora" (sezione da evitare per Alena).
+  const GENZ_NEG = /tailleur|cerimonia|\btubino\b|tunica|\bufficio\b|formale|shapewear|modellante|guaina|contenitiv|décolleté|decolt[eé]|over ?40|da signora|giacca pantalone classic|cappotto classic|palazzo elegante|business|blazer sartorial/i;
+
+  // Quanto un prodotto è "Gen-Z / young" (0..1): match con la tassonomia + prezzo basso, meno stili maturi.
   function genZFit(title, cats, price) {
     const hay = [title || '', ...(Array.isArray(cats) ? cats : [cats || ''])].join(' ').toLowerCase();
-    const style = GENZ_POS.test(hay) ? 1 : 0;
+    const hits = (hay.match(new RegExp(GENZ_POS.source, 'gi')) || []).length;
+    if (hits === 0) return price > 0 && price <= 15 ? 0.2 : 0.05; // niente segnale Gen-Z esplicito → quasi escluso
+    const style = Math.min(1, 0.6 + 0.2 * (hits - 1)); // 1 segnale=0.6, 2=0.8, 3+=1.0
     const mature = GENZ_NEG.test(hay) ? 1 : 0;
-    const cheap = price > 0 ? clamp((28 - price) / 28, 0, 1) : 0.4; // sotto ~€28 = giovane
-    return clamp(0.55 * style + 0.35 * cheap + 0.10 - 0.4 * mature, 0, 1);
+    const cheap = price > 0 ? clamp((30 - price) / 30, 0, 1) : 0.4; // sotto ~€30 = giovane
+    return clamp(0.6 * style + 0.25 * cheap + 0.15 - 0.6 * mature, 0, 1);
   }
 
   const API = { MODELS, CREATORS, classify, genderOf, genZFit };
