@@ -14,7 +14,9 @@ mkdir -p "$REPO/data"
 echo "===== $(date '+%Y-%m-%d %H:%M:%S') — scrape locale =====" >> "$LOG"
 
 # 1) Scrape con pause ampie (FastMoss limita le raffiche; ~5s tra le richieste evita il blocco).
-SCRAPE_SLEEP_MS=5000 "$NODE" scripts/scrape.js >> "$LOG" 2>&1
+#    Passa il cookie FastMoss da data/settings.json (dati autenticati, 10 item/pagina).
+COOKIE="$("$NODE" -e "try{const s=require('./data/settings.json');process.stdout.write((s.fastmossHeaders&&s.fastmossHeaders.cookie)||s.fastmossCookie||'')}catch(e){}")"
+SCRAPE_SLEEP_MS=5000 FASTMOSS_COOKIE="$COOKIE" "$NODE" scripts/scrape.js >> "$LOG" 2>&1
 RC=$?
 if [ $RC -ne 0 ]; then
   echo "scrape fallito (rc=$RC) — dati NON aggiornati (cookie FastMoss scaduto? rate-limit?)" >> "$LOG"
