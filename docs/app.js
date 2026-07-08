@@ -5,6 +5,8 @@ const $ = (sel) => document.querySelector(sel);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const fmtN = (n) => (n ?? 0).toLocaleString('it-IT');
 const fmtEur = (n) => '€' + (n ?? 0).toLocaleString('it-IT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const cur = (c) => (c === 'GBP' ? '£' : '€'); // Alena (UK) = sterline, Sharon (IT) = euro
+const moneyFmt = (n, c) => cur(c) + (n ?? 0).toLocaleString('it-IT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const STORAGE_KEY = 'ttped_affiliate_orders';
 
 let trendsRankings = {}; // { sharon:{abbigliamento:{migliori,emergenti},...}, alena:{...} }
@@ -165,8 +167,8 @@ function cardHTML(p, i, winLabel, match) {
       </div>
       <div class="pstats">
         <div class="pstat"><div class="v">${fmtN(t.sold7)}</div><div class="l">vendite 7gg</div></div>
-        <div class="pstat"><div class="v earn">${t.euroPerSale ? fmtEur(t.euroPerSale) : '–'}</div><div class="l">€/vendita</div></div>
-        <div class="pstat"><div class="v">${t.marketComm ? '€' + fmtN(t.marketComm) : '–'}</div><div class="l">comm./sett mercato</div></div>
+        <div class="pstat"><div class="v earn">${t.euroPerSale ? moneyFmt(t.euroPerSale, p.currency) : '–'}</div><div class="l">${cur(p.currency)}/vendita</div></div>
+        <div class="pstat"><div class="v">${t.marketComm ? cur(p.currency) + fmtN(t.marketComm) : '–'}</div><div class="l">comm./sett mercato</div></div>
       </div>
       <div class="pmeta">
         <span class="sat">${sat.length ? sat.join(' · ') + ' lo vendono' : 'concorrenza n/d'}</span>
