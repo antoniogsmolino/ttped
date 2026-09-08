@@ -1,0 +1,8 @@
+html { overflow-x: clip; }
+.hero-result { overflow: clip; }
+.primary-action[aria-disabled="true"] { filter: none; }
+
+@media (max-width: 560px) {
+  .secure-note { font-size: 10px; line-height: 1.25; text-align: right; }
+  .secure-note span { display: inline; max-width: 72px; }
+}

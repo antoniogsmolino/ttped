@@ -38,3 +38,37 @@ L'endpoint deve validare i dati lato server, applicare limiti antiabuso, dedupli
 - Nessun invio verso un destinatario non ancora scelto.
 
 Documentazione Google: https://developers.google.com/maps/documentation/javascript/place-autocomplete-data
+
+## Thank-you personalizzate
+
+Sono disponibili due percorsi distinti:
+
+- `analisi/self-service/` per il percorso Self-Service da 49 €/mese;
+- `analisi/managed/` per il ricontatto con un Local Marketing Strategist.
+
+Le pagine ricevono soltanto `analysis_id` nella query string. Configurare in `assets/analysis-result-config.js`:
+
+- `analysisEndpoint`: endpoint HTTPS da interrogare con `GET {endpoint}/{analysis_id}`;
+- `checkoutUrl`: destinazione HTTPS della CTA Self-Service.
+
+L’endpoint restituisce JSON con i soli campi pubblicabili:
+
+```json
+{
+  "route": "SELF_SERVICE | FULL_MANAGED",
+  "business_name": "Nome attività",
+  "business_address": "Indirizzo",
+  "google_rating": "4,8",
+  "review_count": 127,
+  "primary_strength": "Punto di forza emerso",
+  "primary_gap": "Priorità principale",
+  "competitor_context": "Confronto locale",
+  "secondary_gap": "Seconda priorità opzionale",
+  "report_url": "https://...",
+  "phone_masked": "+39 333 *** **67"
+}
+```
+
+I blocchi senza dati restano nascosti. Lo score, le soglie e la logica di instradamento restano nel backend/CRM e non vengono richiesti né renderizzati. Per integrazioni server-rendered è supportato anche `window.__SR_ANALYSIS_DATA__` con lo stesso contratto.
+
+Eventi inviati a `dataLayer`: `ty_self_view`, `ty_full_view`, `report_open`, `checkout_click` e `strategist_section_view`. Gli eventi successivi all’uscita dalla pagina (`checkout_start`, `purchase_completed`, `sales_contacted`, `appointment`, `sale`) devono essere prodotti dai sistemi che gestiscono checkout e vendita.
