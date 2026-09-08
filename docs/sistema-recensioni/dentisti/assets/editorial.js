@@ -20,6 +20,15 @@
   const review = document.querySelector('.review-card');
   const valueTitle = document.querySelector('.value h2');
   const valueField = document.querySelector('.value-field');
+
+  const heroOverride = document.createElement('style');
+  heroOverride.textContent = `
+    .hero-canvas{height:auto!important;aspect-ratio:1156/480!important}
+    .hero-art{transform:none!important;background-position:center!important;background-size:cover!important}
+    .hero-canvas .hammer-head,.hero-canvas .pin-label,.hero-canvas .canvas-coordinate{display:none!important}
+  `;
+  document.head.append(heroOverride);
+
   const progress = document.createElement('div');
   progress.className = 'scroll-progress';
   progress.setAttribute('aria-hidden', 'true');
@@ -100,8 +109,7 @@
     if (reduce.matches) return;
     const heroRect = heroCanvas.getBoundingClientRect();
     if (visible(heroRect)) {
-      const p = viewProgress(heroRect, 1, -.4);
-      heroArt.style.transform = `scale(${1.02 + p * .045}) translateY(${(p - .35) * -15}px)`;
+      heroArt.style.transform = 'none';
     }
     const compareRect = compare.getBoundingClientRect();
     if (visible(compareRect)) {
