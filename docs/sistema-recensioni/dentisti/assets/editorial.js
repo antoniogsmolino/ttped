@@ -24,7 +24,7 @@
   const heroOverride = document.createElement('style');
   heroOverride.textContent = `
     .hero-canvas{height:auto!important;aspect-ratio:1156/480!important}
-    .hero-art{background-image:url('hero-preferenza-dentisti.jpg')!important;transform:none!important;background-position:center!important;background-size:cover!important}
+    .hero-art{background-image:url('assets/hero-preferenza-dentisti.jpg')!important;transform:none!important;background-position:center!important;background-size:cover!important}
     .hero-canvas .hammer-head,.hero-canvas .pin-label,.hero-canvas .canvas-coordinate{display:none!important}
   `;
   document.head.append(heroOverride);
