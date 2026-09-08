@@ -20,15 +20,6 @@
   const review = document.querySelector('.review-card');
   const valueTitle = document.querySelector('.value h2');
   const valueField = document.querySelector('.value-field');
-
-  const heroOverride = document.createElement('style');
-  heroOverride.textContent = `
-    .hero-canvas{height:auto!important;aspect-ratio:1156/480!important}
-    .hero-art{background-image:url('assets/hero-preferenza-dentisti.jpg')!important;transform:none!important;background-position:center!important;background-size:cover!important}
-    .hero-canvas .hammer-head,.hero-canvas .pin-label,.hero-canvas .canvas-coordinate{display:none!important}
-  `;
-  document.head.append(heroOverride);
-
   const progress = document.createElement('div');
   progress.className = 'scroll-progress';
   progress.setAttribute('aria-hidden', 'true');
@@ -39,6 +30,7 @@
   let ticking = false;
   let revealObserver, sceneObserver;
   const words = [];
+  // Wrap text nodes without changing text, order, or semantics.
   const walker = document.createTreeWalker(valueTitle, NodeFilter.SHOW_TEXT);
   const textNodes = [];
   while (walker.nextNode()) textNodes.push(walker.currentNode);
@@ -50,6 +42,7 @@
     });
     node.replaceWith(fragment);
   });
+  // The opening headline reveals word by word, retaining its original wrapping.
   const headingWalker = document.createTreeWalker(document.querySelector('.hero h1'), NodeFilter.SHOW_TEXT);
   const headingNodes = [];
   while (headingWalker.nextNode()) headingNodes.push(headingWalker.currentNode);
@@ -69,6 +62,7 @@
   const targets = new Set();
   const reveal = (el, delay = 0) => { if (!el) return; el.dataset.reveal = ''; el.style.setProperty('--delay', `${delay}ms`); targets.add(el); };
   reveal(document.querySelector('.hero .k'));
+
   reveal(document.querySelector('.hero-intro'), 220);
   reveal(heroCanvas, 150);
   reveal(pinLabel, 550);
@@ -105,7 +99,10 @@
     progress.style.transform = `scaleX(${clamp(scrollY / Math.max(1, root.scrollHeight - innerHeight))})`;
     if (reduce.matches) return;
     const heroRect = heroCanvas.getBoundingClientRect();
-    if (visible(heroRect)) heroArt.style.transform = 'none';
+    if (visible(heroRect)) {
+      const p = viewProgress(heroRect, 1, -.4);
+      heroArt.style.transform = `scale(${1.02 + p * .045}) translateY(${(p - .35) * -15}px)`;
+    }
     const compareRect = compare.getBoundingClientRect();
     if (visible(compareRect)) {
       const p = viewProgress(compareRect, .9, -.1);
@@ -115,6 +112,7 @@
     }
     const flyRect = fly.getBoundingClientRect();
     if (visible(flyRect)) {
+      // Desktop has a finite pinned chapter; compact screens keep native continuous scroll.
       const p = desktop.matches
         ? clamp((80 - flyRect.top) / Math.max(1, fly.offsetHeight - (innerHeight - 80)))
         : clamp((innerHeight * .7 - flyVisual.getBoundingClientRect().top) / Math.max(1, flyVisual.offsetHeight * .85));
