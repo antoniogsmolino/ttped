@@ -4,9 +4,44 @@
 }
 
 .hero-art {
-  background-image: url('hero-preferenza-locale.jpg');
+  background-image: url('hero-preferenza-locale-2026-09.png');
   background-position: center center;
   background-size: cover;
+}
+
+.hammer-note {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: clamp(32px, 6vw, 96px);
+  margin-top: 18px;
+  padding: 28px 32px 31px;
+  border: 0;
+  border-left: 4px solid var(--red);
+  border-radius: 0 18px 18px 0;
+  background: var(--off);
+  color: var(--ink);
+  font-family: Manrope, sans-serif;
+  font-size: clamp(18px, 1.45vw, 22px);
+  font-weight: 500;
+  letter-spacing: -.025em;
+  line-height: 1.35;
+}
+
+.hammer-note strong {
+  color: var(--red);
+  font-size: clamp(21px, 1.75vw, 27px);
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+@media (max-width: 860px) {
+  .hammer-note {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 24px 25px 27px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -18,5 +53,17 @@
   .hero-art {
     background-position: 50% center;
     background-size: auto 100%;
+  }
+
+  .hammer-note {
+    margin-top: 14px;
+    padding: 21px 20px 24px;
+    border-left-width: 3px;
+    border-radius: 0 14px 14px 0;
+    font-size: 17px;
+  }
+
+  .hammer-note strong {
+    font-size: 21px;
   }
 }
