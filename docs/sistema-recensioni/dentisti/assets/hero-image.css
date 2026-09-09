@@ -1,12 +1,14 @@
 .hero-canvas {
   height: auto;
-  aspect-ratio: 1945 / 808;
+  aspect-ratio: 1942 / 809;
 }
 
 .hero-art {
   background-image: url('hero-preferenza-locale-2026-09.png');
   background-position: center center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: none;
 }
 
 .hammer-note {
@@ -46,13 +48,13 @@
 
 @media (max-width: 520px) {
   .hero-canvas {
-    height: 335px;
-    aspect-ratio: auto;
+    height: auto;
+    aspect-ratio: 1942 / 809;
   }
 
   .hero-art {
-    background-position: 50% center;
-    background-size: auto 100%;
+    background-position: center;
+    background-size: contain;
   }
 
   .hammer-note {
