@@ -389,3 +389,124 @@
   .fly-center strong { margin-top: 4px; font-size: 10px; }
   .fly-tag { bottom: -34px; left: 10%; width: 80%; font-size: 9px; }
 }
++
+/* Final flywheel refinement: the motion is the hero; the steps are luminous waypoints. */
+.orbit-base {
+  stroke: #ffffff28;
+  stroke-width: 1.25;
+}
+
+.orbit-progress {
+  stroke-width: 2.4;
+  filter: drop-shadow(0 0 5px #ff0d0d70);
+}
+
+.orbit-inner {
+  stroke-width: 1;
+  stroke-dasharray: 1 12;
+}
+
+.orbit-ticks {
+  stroke-width: 1;
+  stroke-dasharray: 1 13;
+  stroke: #ffffff1d;
+}
+
+.fly-center {
+  width: 33%;
+  padding: 18px;
+  border-color: #ffffff24;
+  background: radial-gradient(circle at 35% 25%, #20242b, #0b0d11 72%);
+  box-shadow: 0 0 0 10px #ffffff04, 0 24px 55px #00000042, inset 0 1px 0 #ffffff13;
+}
+
+.fly-center:before {
+  inset: 15px;
+  border-color: #ffffff18;
+}
+
+.fly-center span {
+  color: #d7dbe0;
+  font-size: 10px;
+  letter-spacing: .19em;
+}
+
+.fly-center strong {
+  margin-top: 8px;
+  font-size: clamp(17px, 1.9vw, 25px);
+  letter-spacing: -.06em;
+}
+
+.fly-node {
+  width: 124px;
+}
+
+.fly-node b {
+  width: 29px;
+  height: 29px;
+  margin: 0 auto 9px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #d1d6dd;
+  transition: color .35s ease, transform .45s var(--ease), filter .35s ease;
+}
+
+.fly-node b svg {
+  width: 28px;
+  height: 28px;
+  stroke-width: 1.55;
+}
+
+.fly-node .fly-step { display: none; }
+
+.fly-node-label {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #d7dbe0;
+  font: 600 12.5px/1.26 Manrope, sans-serif;
+  letter-spacing: -.035em;
+  transition: color .35s ease, text-shadow .35s ease;
+}
+
+.fly-node.active b,
+.fly-node.fuel b {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #ff3030;
+  filter: drop-shadow(0 0 7px #ff0d0d90);
+  transform: scale(1.22);
+}
+
+.fly-node.active .fly-node-label,
+.fly-node.fuel .fly-node-label {
+  border: 0;
+  background: transparent;
+  color: white;
+  text-shadow: 0 0 18px #ff0d0d60;
+}
+
+.fly-tag { display: none; }
+
+@media (max-width: 860px) {
+  .fly-node { width: 100px; }
+  .fly-node b { width: 24px; height: 24px; margin-bottom: 7px; }
+  .fly-node b svg { width: 24px; height: 24px; }
+  .fly-node-label { font-size: 10px; }
+}
+
+@media (max-width: 520px) {
+  .fly-node { width: 70px; }
+  .fly-node b { width: 18px; height: 18px; margin-bottom: 4px; }
+  .fly-node b svg { width: 18px; height: 18px; }
+  .fly-node-label { font-size: 7px; line-height: 1.2; }
+  .fly-center { width: 36%; }
+  .fly-center span { font-size: 6px; }
+  .fly-center strong { font-size: 11px; }
+}
