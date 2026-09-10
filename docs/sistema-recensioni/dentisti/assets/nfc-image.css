@@ -13,6 +13,29 @@
   background: #fff;
 }
 
+/* Give the NFC object its own measured presence instead of letting it dominate the section. */
+@media (min-width: 861px) {
+  .nfc {
+    padding: 86px 0;
+  }
+
+  .nfc-grid {
+    grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr);
+    gap: clamp(62px, 6vw, 120px);
+  }
+
+  .nfc-scene {
+    width: min(100%, 500px);
+    justify-self: start;
+    align-self: center;
+    border-radius: 28px;
+  }
+
+  .nfc-grid > div:first-child {
+    max-width: 700px;
+  }
+}
+
 @media (max-width: 520px) {
   .nfc-art {
     aspect-ratio: 1122 / 1402;
