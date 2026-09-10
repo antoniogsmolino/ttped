@@ -287,6 +287,11 @@
   .fly-node.f1 .fly-node-label,
   .fly-node.f6 .fly-node-label { font-size: 10.5px; }
   .fly-center strong { font-size: 19px; }
+
+  /* The lower trio moves inside the safe viewport, preventing clipped labels. */
+  .fly-node.f5 { --y: 74%; }
+  .fly-node.f6 { --y: 82.5%; }
+  .fly-node.f7 { --y: 74%; }
 }
 
 @media (max-width: 860px) {
