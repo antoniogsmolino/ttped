@@ -1,0 +1,270 @@
+/* Premium flywheel: thin kinetic orbit with a legible typographic system. */
+.fly {
+  background:
+    radial-gradient(circle at 72% 48%, #ff0d0d0a 0 14%, transparent 34%),
+    linear-gradient(145deg, #0b0d11 0%, #060709 100%);
+}
+
+.fly-visual {
+  width: 100%;
+  max-width: 760px;
+  aspect-ratio: 1;
+  isolation: isolate;
+  filter: none;
+}
+
+.fly-visual:before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  inset: 14%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff0d0d12 0%, #ff0d0d05 33%, transparent 68%);
+  filter: blur(15px);
+}
+
+.fly-visual:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 21%;
+  border: 1px solid #ffffff0c;
+  border-radius: 50%;
+  box-shadow: 0 0 0 26px #ffffff03, 0 0 0 55px #ffffff025;
+}
+
+.orbit-base {
+  stroke: #ffffff2e;
+  stroke-width: 1.15;
+}
+
+.orbit-progress {
+  stroke: #ff1919;
+  stroke-width: 2.15;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 4px #ff0d0d80);
+}
+
+.orbit-inner {
+  stroke: #ffffff16;
+  stroke-width: .8;
+  stroke-dasharray: 1 13;
+}
+
+.orbit-ticks {
+  stroke: #ffffff12;
+  stroke-width: 1;
+  stroke-dasharray: 1 15;
+}
+
+.orbit-core {
+  fill: #0b0d11;
+  stroke: #ffffff18;
+  stroke-width: 1;
+}
+
+.orbit-traveler {
+  fill: #ff1f1f;
+  filter: drop-shadow(0 0 5px #ff0d0d) drop-shadow(0 0 13px #ff0d0d80);
+}
+
+.orbit-traveler circle { r: 5px; }
+
+.fly-center {
+  z-index: 2;
+  width: 30%;
+  padding: 18px;
+  border: 1px solid #ffffff25;
+  background:
+    radial-gradient(circle at 34% 25%, #252a32 0%, #111419 42%, #08090c 100%);
+  box-shadow:
+    0 0 0 9px #ffffff03,
+    0 0 0 10px #ffffff08,
+    0 28px 65px #00000070,
+    inset 0 1px 0 #ffffff18;
+}
+
+.fly-center:before {
+  inset: 12px;
+  border: 1px solid #ff0d0d30;
+}
+
+.fly-center:after {
+  inset: -20px;
+  border: 1px solid #ffffff09;
+}
+
+.fly-center span {
+  color: #b9c0c9;
+  font-size: 9px;
+  letter-spacing: .2em;
+}
+
+.fly-center strong {
+  margin-top: 8px;
+  color: #fff;
+  font-size: clamp(19px, 2vw, 27px);
+  letter-spacing: -.065em;
+}
+
+/* Top and bottom are the two poles of the loop. */
+.fly-node {
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  gap: 12px;
+  color: #fff;
+  text-align: left;
+  transform: translate(-50%, -50%);
+}
+
+.fly-node.f1,
+.fly-node.f6 {
+  flex-direction: column;
+  width: 180px;
+  gap: 6px;
+  text-align: center;
+}
+
+.fly-node.f1 { --x: 50%; --y: 8.5%; }
+.fly-node.f2 { --x: 85%; --y: 23%; }
+.fly-node.f3 { --x: 91%; --y: 40.5%; }
+.fly-node.f4 { --x: 91%; --y: 59.5%; }
+.fly-node.f5 { --x: 85%; --y: 77%; }
+.fly-node.f6 { --x: 50%; --y: 91.5%; }
+.fly-node.f7 { --x: 15%; --y: 77%; flex-direction: row-reverse; text-align: right; }
+.fly-node.f8 { --x: 9%; --y: 59.5%; flex-direction: row-reverse; text-align: right; }
+.fly-node.f9 { --x: 9%; --y: 40.5%; flex-direction: row-reverse; text-align: right; }
+.fly-node.f10 { --x: 15%; --y: 23%; flex-direction: row-reverse; text-align: right; }
+
+.fly-node b {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #969faa;
+  transition: color .35s ease, transform .5s var(--ease), filter .35s ease;
+}
+
+.fly-node b svg {
+  width: 28px;
+  height: 28px;
+  stroke-width: 1.45;
+}
+
+.fly-node-label {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #e5e8ec;
+  font: 600 14px/1.16 Manrope, sans-serif;
+  letter-spacing: -.035em;
+  transition: color .35s ease, transform .5s var(--ease), text-shadow .35s ease;
+}
+
+.fly-node.f1 .fly-node-label,
+.fly-node.f6 .fly-node-label {
+  font-size: 14.5px;
+}
+
+.fly-node.active b {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #ff2020;
+  filter: drop-shadow(0 0 6px #ff0d0d) drop-shadow(0 0 16px #ff0d0d80);
+  transform: scale(1.32);
+}
+
+.fly-node.active .fly-node-label {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  text-shadow: 0 0 19px #ff0d0d8c;
+  transform: translateX(3px);
+}
+
+.fly-node.f7.active .fly-node-label,
+.fly-node.f8.active .fly-node-label,
+.fly-node.f9.active .fly-node-label,
+.fly-node.f10.active .fly-node-label {
+  transform: translateX(-3px);
+}
+
+/* The first step is not permanently highlighted after the cycle advances. */
+.fly-node.fuel:not(.active) b {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #969faa;
+  filter: none;
+  transform: none;
+}
+
+.fly-node.fuel:not(.active) .fly-node-label {
+  border: 0;
+  background: transparent;
+  color: #e5e8ec;
+  text-shadow: none;
+  transform: none;
+}
+
+.fly-step,
+.fly-tag { display: none !important; }
+
+@keyframes waypointPulse {
+  50% { filter: drop-shadow(0 0 10px #ff0d0d) drop-shadow(0 0 22px #ff0d0da8); }
+}
+
+.fly-node.active b {
+  animation: waypointPulse 1.8s ease-in-out infinite;
+}
+
+@media (max-width: 1150px) {
+  .fly-visual { max-width: 670px; }
+  .fly-node { width: 145px; gap: 9px; }
+  .fly-node-label { font-size: 12px; }
+  .fly-node.f1 .fly-node-label,
+  .fly-node.f6 .fly-node-label { font-size: 12.5px; }
+  .fly-node.f2, .fly-node.f5 { --x: 83%; }
+  .fly-node.f3, .fly-node.f4 { --x: 88%; }
+  .fly-node.f7, .fly-node.f10 { --x: 17%; }
+  .fly-node.f8, .fly-node.f9 { --x: 12%; }
+}
+
+@media (max-width: 860px) {
+  .fly-visual { max-width: 620px; margin-top: 24px; }
+  .fly-node { width: 132px; gap: 8px; }
+  .fly-node b { width: 24px; height: 24px; }
+  .fly-node b svg { width: 23px; height: 23px; }
+  .fly-node-label { font-size: 11px; }
+  .fly-node.f1 .fly-node-label,
+  .fly-node.f6 .fly-node-label { font-size: 11.5px; }
+  .fly-center { width: 31%; }
+  .fly-center strong { font-size: 20px; }
+}
+
+@media (max-width: 520px) {
+  .fly-visual { width: calc(100% + 20px); margin-left: -10px; }
+  .fly-node { width: 85px; gap: 4px; }
+  .fly-node b { width: 18px; height: 18px; }
+  .fly-node b svg { width: 17px; height: 17px; }
+  .fly-node-label,
+  .fly-node.f1 .fly-node-label,
+  .fly-node.f6 .fly-node-label { font-size: 8px; line-height: 1.12; }
+  .fly-node.f2, .fly-node.f5 { --x: 81%; }
+  .fly-node.f3, .fly-node.f4 { --x: 86%; }
+  .fly-node.f7, .fly-node.f10 { --x: 19%; }
+  .fly-node.f8, .fly-node.f9 { --x: 14%; }
+  .fly-center { width: 34%; padding: 9px; }
+  .fly-center span { font-size: 5.5px; }
+  .fly-center strong { margin-top: 4px; font-size: 11px; }
+}
