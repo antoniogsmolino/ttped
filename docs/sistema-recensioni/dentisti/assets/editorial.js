@@ -74,7 +74,8 @@
     targets.forEach(el => el.classList.add('is-visible'));
     revealObserver?.disconnect(); sceneObserver?.disconnect();
     document.querySelectorAll('.motion-paused').forEach(el => el.classList.remove('motion-paused'));
-    heroArt.style.transform = nfcArt.style.transform = googleCard.style.transform = winner.style.transform = review.style.transform = '';
+    heroArt.style.transform = nfcArt.style.transform = googleCard.style.transform = winner.style.transform = '';
+    if (review) review.style.transform = '';
     words.forEach(el => el.style.opacity = '1');
     track.style.strokeDashoffset = '0';
     traveler.style.transform = '';
@@ -126,7 +127,7 @@
     if (visible(nfcRect)) {
       const p = viewProgress(nfcRect, 1, -.3);
       nfcArt.style.transform = `scale(${1.07 - p * .055}) translateY(${(p - .5) * -16}px)`;
-      review.style.transform = `translateY(${(1 - p) * 25}px)`;
+      if (review) review.style.transform = `translateY(${(1 - p) * 25}px)`;
     }
     const valueRect = valueTitle.getBoundingClientRect();
     if (visible(valueRect)) {

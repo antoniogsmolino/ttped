@@ -1,15 +1,21 @@
 .nfc-art {
-  aspect-ratio: 4 / 5;
-  background-color: #eef1ee;
-  background-image: url('nfc-card-product.svg');
+  aspect-ratio: 1122 / 1402;
+  background-color: #fff;
+  background-image: url('nfc-preferenza.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
+.nfc-scene {
+  min-height: 0;
+  aspect-ratio: 1122 / 1402;
+  background: #fff;
+}
+
 @media (max-width: 520px) {
   .nfc-art {
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 1122 / 1402;
     background-position: center center;
   }
 }
