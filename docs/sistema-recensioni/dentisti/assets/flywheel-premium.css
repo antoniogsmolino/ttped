@@ -142,9 +142,9 @@
 .fly-node.f2 { --x: 76.5%; --y: 17.5%; }
 .fly-node.f3 { --x: 89%; --y: 35.5%; }
 .fly-node.f4 { --x: 89%; --y: 59%; }
-.fly-node.f5 { --x: 77%; --y: 79.5%; }
-.fly-node.f6 { --x: 50%; --y: 91.5%; }
-.fly-node.f7 { --x: 23%; --y: 79.5%; }
+.fly-node.f5 { --x: 77%; --y: 74.5%; }
+.fly-node.f6 { --x: 50%; --y: 82.5%; }
+.fly-node.f7 { --x: 23%; --y: 74.5%; }
 .fly-node.f8 { --x: 11%; --y: 59%; }
 .fly-node.f9 { --x: 11%; --y: 35.5%; }
 .fly-node.f10 { --x: 23.5%; --y: 17.5%; }
@@ -289,9 +289,16 @@
   .fly-center strong { font-size: 19px; }
 
   /* The lower trio moves inside the safe viewport, preventing clipped labels. */
-  .fly-node.f5 { --y: 74%; }
-  .fly-node.f6 { --y: 82.5%; }
-  .fly-node.f7 { --y: 74%; }
+  .fly-node.f5 { --y: 71.5%; }
+  .fly-node.f6 { --y: 79%; }
+  .fly-node.f7 { --y: 71.5%; }
+}
+
+/* Large displays use the available canvas instead of leaving the chapter centred and undersized. */
+@media (min-width: 1500px) {
+  .wrap { width: min(1800px, calc(100% - 160px)); }
+  .fly-grid { grid-template-columns: .95fr 1.25fr; gap: 105px; }
+  .fly-visual { max-width: 920px; }
 }
 
 @media (max-width: 860px) {
