@@ -301,6 +301,11 @@
   .fly-visual { max-width: 920px; }
 }
 
+/* The removed comparison prompt must not leave an empty grid row behind. */
+@media (min-width: 861px) {
+  .problem-grid h2 { grid-row: 2; }
+}
+
 @media (max-width: 860px) {
   .fly-visual { max-width: 640px; margin-top: 26px; }
   .fly-node,
