@@ -304,6 +304,11 @@
 /* The removed comparison prompt must not leave an empty grid row behind. */
 @media (min-width: 861px) {
   .problem-grid h2 { grid-row: 2; }
+  .problem-grid .points { margin-top: 24px; }
+}
+
+@media (max-width: 860px) {
+  .problem-grid .points { margin-top: 30px; }
 }
 
 @media (max-width: 860px) {
