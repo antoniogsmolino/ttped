@@ -1,44 +1,47 @@
 .nfc-art {
-  aspect-ratio: 1122 / 1402;
-  background-color: #fff;
-  background-image: url('nfc-preferenza.jpg');
+  position: absolute;
+  inset: 0;
+  aspect-ratio: auto;
+  background-color: transparent;
+  background-image: url('nfc-transparent-optimized.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .nfc-scene {
+  position: relative;
+  display: block;
   min-height: 0;
   aspect-ratio: 1122 / 1402;
-  background: #fff;
+  overflow: visible;
+  background: transparent;
 }
 
-/* Give the NFC object its own measured presence instead of letting it dominate the section. */
+/* The transparent product can be large without becoming a cropped photo panel. */
 @media (min-width: 861px) {
   .nfc {
-    padding: 86px 0;
+    padding: 112px 0;
   }
 
   .nfc-grid {
-    grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr);
-    gap: clamp(62px, 6vw, 120px);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(72px, 7vw, 140px);
   }
 
   .nfc-scene {
-    width: min(100%, 500px);
-    justify-self: start;
+    width: min(100%, 620px);
+    justify-self: center;
     align-self: center;
-    border-radius: 28px;
   }
 
   .nfc-grid > div:first-child {
-    max-width: 700px;
+    max-width: 680px;
   }
 }
 
 @media (max-width: 520px) {
   .nfc-art {
-    aspect-ratio: 1122 / 1402;
     background-position: center center;
   }
 }
