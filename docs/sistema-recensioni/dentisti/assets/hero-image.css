@@ -38,11 +38,57 @@
   white-space: normal;
 }
 
+.hero-microcopy {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Ten short, ordered steps remain legible around the flywheel. */
+.fly-node {
+  width: 94px;
+  font-size: 10px;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+.fly-node b {
+  font-family: Manrope, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 6px;
+}
+
+.f1 { --x: 50%; --y: 10%; }
+.f2 { --x: 73.5%; --y: 17%; }
+.f3 { --x: 87%; --y: 35%; }
+.f4 { --x: 87%; --y: 59%; }
+.f5 { --x: 73.5%; --y: 79%; }
+.f6 { --x: 50%; --y: 87%; }
+.f7 { --x: 26.5%; --y: 79%; }
+.f8 { --x: 13%; --y: 59%; }
+.f9 { --x: 13%; --y: 35%; }
+.f10 { --x: 26.5%; --y: 17%; }
+
 @media (max-width: 860px) {
   .hammer-note {
     grid-template-columns: 1fr;
     gap: 10px;
     padding: 24px 25px 27px;
+  }
+
+  .fly-node {
+    width: 78px;
+    font-size: 8px;
+  }
+
+  .fly-node b {
+    font-size: 9px;
+    width: 38px;
+    height: 38px;
   }
 }
 
@@ -67,5 +113,11 @@
 
   .hammer-note strong {
     font-size: 21px;
+  }
+
+  .fly-node b {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 5px;
   }
 }
