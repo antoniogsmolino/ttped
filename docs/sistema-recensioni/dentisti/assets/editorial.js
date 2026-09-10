@@ -117,9 +117,10 @@
         ? clamp((80 - flyRect.top) / Math.max(1, fly.offsetHeight - (innerHeight - 80)))
         : clamp((innerHeight * .7 - flyVisual.getBoundingClientRect().top) / Math.max(1, flyVisual.offsetHeight * .85));
       const travel = .04 + p * .96;
-      track.style.strokeDashoffset = `${1326 * (1 - travel)}`;
-      traveler.style.transform = `rotate(${travel * 360}deg)`;
-      nodes.forEach((node, i) => node.classList.toggle('active', i === Math.min(6, Math.floor(p * 7))));
+      if (track) track.style.strokeDashoffset = `${1326 * (1 - travel)}`;
+      if (traveler) traveler.style.transform = `rotate(${travel * 360}deg)`;
+      const activeIndex = Math.min(nodes.length - 1, Math.floor(p * nodes.length));
+      nodes.forEach((node, i) => node.classList.toggle('active', i === activeIndex));
     }
     const nfcRect = nfcScene.getBoundingClientRect();
     if (visible(nfcRect)) {

@@ -60,6 +60,46 @@
   width: 44px;
   height: 44px;
   margin-bottom: 6px;
+  position: relative;
+}
+
+.fly-node b svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.fly-node b svg path:only-child {
+  fill: currentColor;
+  stroke: none;
+}
+
+.fly-step {
+  position: absolute;
+  top: -6px;
+  right: -7px;
+  display: grid;
+  width: 17px;
+  height: 17px;
+  place-items: center;
+  border: 1px solid #38404a;
+  border-radius: 50%;
+  background: #12161b;
+  color: #cbd1d8;
+  font-size: 7px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.fly-node.active .fly-step,
+.fly-node.fuel .fly-step {
+  border-color: #fff;
+  background: #fff;
+  color: var(--red);
 }
 
 .f1 { --x: 50%; --y: 10%; }
@@ -90,6 +130,19 @@
     width: 38px;
     height: 38px;
   }
+
+  .fly-node b svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .fly-step {
+    top: -5px;
+    right: -6px;
+    width: 15px;
+    height: 15px;
+    font-size: 6px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -119,5 +172,10 @@
     width: 32px;
     height: 32px;
     margin-bottom: 5px;
+  }
+
+  .fly-node b svg {
+    width: 14px;
+    height: 14px;
   }
 }
