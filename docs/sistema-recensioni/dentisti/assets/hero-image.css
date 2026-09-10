@@ -45,6 +45,17 @@
   line-height: 1.5;
 }
 
+/* Header logo stays clean on the white navigation bar. */
+.header .brand {
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.header .logo {
+  width: 182px;
+}
+
 /* Ten short, ordered steps remain legible around the flywheel. */
 .fly-node {
   width: 94px;
