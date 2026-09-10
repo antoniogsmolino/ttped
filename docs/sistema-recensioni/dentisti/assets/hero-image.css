@@ -191,8 +191,201 @@
     margin-bottom: 5px;
   }
 
-  .fly-node b svg {
+.fly-node b svg {
     width: 14px;
     height: 14px;
   }
+}
++
+/* Volano: a clear circular system, not a collection of floating labels. */
+.fly-visual {
+  max-width: 720px;
+  filter: drop-shadow(0 28px 45px #00000038);
+}
+
+.orbit-base {
+  stroke: #ffffff18;
+  stroke-width: 9;
+}
+
+.orbit-progress {
+  stroke-width: 9;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 8px #ff0d0d80);
+}
+
+.orbit-inner {
+  stroke: #ffffff16;
+  stroke-width: 1.4;
+  stroke-dasharray: 1 11;
+}
+
+.orbit-core {
+  fill: #101319;
+  stroke: #ffffff18;
+  stroke-width: 1.3;
+}
+
+.orbit-ticks {
+  fill: none;
+  stroke: #ffffff20;
+  stroke-width: 3;
+  stroke-dasharray: 2 10;
+}
+
+.orbit-traveler {
+  filter: drop-shadow(0 0 8px #ff0d0d) drop-shadow(0 0 18px #ff0d0d80);
+}
+
+.fly-center {
+  z-index: 2;
+  width: 35%;
+  padding: 18px;
+  border: 1px solid #ffffff32;
+  background:
+    radial-gradient(circle at 35% 28%, #2a2f37 0%, #15181e 42%, #080a0e 100%);
+  box-shadow: 0 0 0 13px #ffffff05, 0 28px 60px #00000060, inset 0 1px 0 #ffffff18;
+  line-height: 1.12;
+}
+
+.fly-center:before {
+  content: '';
+  position: absolute;
+  inset: 13px;
+  border: 1px solid #ff0d0d38;
+  border-radius: 50%;
+}
+
+.fly-center:after {
+  inset: -18px;
+  border-color: #ff0d0d1c;
+}
+
+.fly-center span,
+.fly-center strong,
+.fly-center i { position: relative; z-index: 1; display: block; }
+
+.fly-center span {
+  color: #c9ced5;
+  font: 600 9px/1.2 Manrope, sans-serif;
+  letter-spacing: .16em;
+}
+
+.fly-center strong {
+  margin-top: 7px;
+  color: white;
+  font: 700 clamp(14px, 1.65vw, 22px)/1 Manrope, sans-serif;
+  letter-spacing: -.055em;
+}
+
+.fly-center i {
+  margin-top: 12px;
+  color: #9ea5af;
+  font: 500 8px/1.35 'DM Sans', sans-serif;
+  font-style: normal;
+}
+
+.fly-node {
+  z-index: 3;
+  width: 116px;
+  color: #f5f6f7;
+  font-size: 0;
+  line-height: 1;
+  white-space: normal;
+  pointer-events: none;
+}
+
+.fly-node b {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 7px;
+  border: 1px solid #ffffff30;
+  background: linear-gradient(145deg, #242a32, #12161c);
+  box-shadow: 0 10px 20px #0000003d, inset 0 1px 0 #ffffff13;
+}
+
+.fly-node b svg {
+  width: 20px;
+  height: 20px;
+}
+
+.fly-node .fly-step {
+  top: -7px;
+  right: -9px;
+  width: 19px;
+  height: 19px;
+  border-color: #ffffff2b;
+  background: #0c0f14;
+  color: #bdc3cc;
+  font-size: 7px;
+  box-shadow: 0 3px 7px #00000055;
+}
+
+.fly-node-label {
+  display: inline-block;
+  min-width: 82px;
+  padding: 5px 8px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  color: #c7cbd1;
+  background: #11151b9e;
+  box-shadow: 0 6px 14px #00000024;
+  font: 600 10px/1.28 'DM Sans', sans-serif;
+  letter-spacing: -.01em;
+  transition: .35s ease;
+}
+
+.fly-node.active b,
+.fly-node.fuel b {
+  border-color: #ff5a5a;
+  background: linear-gradient(145deg, #ff3333, #e70808);
+  box-shadow: 0 0 0 8px #ff0d0d10, 0 12px 26px #ff0d0d45;
+}
+
+.fly-node.active .fly-node-label,
+.fly-node.fuel .fly-node-label {
+  border-color: #ff0d0d50;
+  background: #ff0d0d1a;
+  color: white;
+}
+
+.fly-node.active .fly-step,
+.fly-node.fuel .fly-step {
+  border-color: #fff;
+  background: #fff;
+  color: var(--red);
+}
+
+.fly-tag {
+  bottom: -30px;
+  left: 19%;
+  width: 62%;
+  padding: 9px 14px;
+  border: 1px solid #ffffff14;
+  border-radius: 999px;
+  background: #ffffff08;
+  color: #c7cbd1;
+  font-size: 11px;
+}
+
+@media (max-width: 860px) {
+  .fly-node { width: 96px; }
+  .fly-node b { width: 46px; height: 46px; }
+  .fly-node-label { min-width: 72px; padding: 4px 6px; font-size: 8px; }
+  .fly-center { width: 34%; padding: 12px; }
+  .fly-center strong { font-size: 16px; }
+  .fly-center i { display: none; }
+}
+
+@media (max-width: 520px) {
+  .fly-node { width: 66px; }
+  .fly-node b { width: 34px; height: 34px; margin-bottom: 3px; }
+  .fly-node b svg { width: 14px; height: 14px; }
+  .fly-node-label { min-width: 58px; padding: 3px 4px; border-radius: 6px; font-size: 6.5px; }
+  .fly-node .fly-step { top: -5px; right: -6px; width: 13px; height: 13px; font-size: 5px; }
+  .fly-center { width: 38%; padding: 8px; }
+  .fly-center span { font-size: 6px; }
+  .fly-center strong { margin-top: 4px; font-size: 10px; }
+  .fly-tag { bottom: -34px; left: 10%; width: 80%; font-size: 9px; }
 }
