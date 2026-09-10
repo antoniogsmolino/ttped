@@ -116,20 +116,22 @@
 .social-proof {
   padding: 120px 0;
   overflow: hidden;
-  background: #111318;
-  color: white;
+  background:
+    radial-gradient(circle at 86% 14%, #ff0d0d0d 0 12%, transparent 31%),
+    linear-gradient(145deg, #ffffff 0%, #f7f7f6 100%);
+  color: var(--ink);
 }
 
 .social-proof .social-proof-head { max-width: 790px; }
-.social-proof .k { color: #fff; }
+.social-proof .k { color: var(--ink); }
 .social-proof .k:before { box-shadow: 0 0 14px #ff0d0d; }
 .social-proof h2 {
   margin-top: 25px;
   font-size: clamp(49px, 5.7vw, 83px);
   line-height: .98;
 }
-.social-proof h2 span { color: #ff5555; }
-.social-proof .lead { max-width: 600px; margin-top: 27px; color: #bcc1c8; }
+.social-proof h2 span { color: var(--red); }
+.social-proof .lead { max-width: 600px; margin-top: 27px; color: var(--muted); }
 
 .video-testimonial {
   display: grid;
