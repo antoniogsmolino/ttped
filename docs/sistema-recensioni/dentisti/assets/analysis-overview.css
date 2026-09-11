@@ -1,0 +1,15 @@
+/* Two-part Test overview, styled as a calm editorial bridge between hero and proof. */
+.analysis-overview{background:#f4f5f7;padding:clamp(92px,10vw,150px) 0 clamp(110px,12vw,170px)}
+.analysis-overview .k{margin-bottom:24px;color:#5d6671}
+.analysis-overview h2{font-size:clamp(48px,5.2vw,76px);max-width:760px;line-height:1.02}
+.analysis-overview-intro{max-width:790px;margin-top:22px;color:var(--muted);font-size:18px;line-height:1.6}
+.analysis-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:46px}
+.analysis-card{min-height:345px;padding:34px 29px 31px;border:1px solid #dfe3e8;border-radius:27px;background:#fff;box-shadow:0 18px 44px #17202b0b}
+.analysis-card-featured{border-color:#f5b5a8;box-shadow:0 20px 48px #ff0d0d10}
+.analysis-index{display:block;color:var(--red);font:700 13px Manrope;letter-spacing:.08em}
+.analysis-card h3{margin-top:23px;font:700 20px/1.25 Manrope;letter-spacing:-.03em}
+.analysis-card ul{display:grid;gap:11px;margin:22px 0 0;padding-left:18px;color:#687383;font-size:16px;line-height:1.5}
+.analysis-card li::marker{color:#7c8490}.analysis-card-featured li strong{color:#687383;font-weight:700}
+.analysis-overview>.wrap>.btn{margin-top:28px}
+@media(max-width:760px){.analysis-overview{padding:82px 0 100px}.analysis-overview h2{font-size:clamp(43px,11vw,62px)}.analysis-overview-intro{font-size:16px}.analysis-cards{grid-template-columns:1fr;gap:16px;margin-top:34px}.analysis-card{min-height:0;padding:27px 23px 25px;border-radius:22px}.analysis-card h3{font-size:18px}.analysis-card ul{font-size:15px}}
+
