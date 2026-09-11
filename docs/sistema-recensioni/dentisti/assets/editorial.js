@@ -112,7 +112,7 @@
       winner.style.transform = `translateX(${-8 - p * (desktop.matches ? 26 : 5)}px) scale(${1 + p * .05})`;
     }
     const flyRect = fly.getBoundingClientRect();
-    if (visible(flyRect)) {
+    if (visible(flyRect) && !fly.classList.contains('story-managed')) {
       // Desktop has a finite pinned chapter; compact screens keep native continuous scroll.
       const p = desktop.matches
         ? clamp((80 - flyRect.top) / Math.max(1, fly.offsetHeight - (innerHeight - 80)))
@@ -124,7 +124,7 @@
       nodes.forEach((node, i) => node.classList.toggle('active', i === activeIndex));
     }
     const nfcRect = nfcScene.getBoundingClientRect();
-    if (visible(nfcRect)) {
+    if (visible(nfcRect) && !document.querySelector('.nfc-photo')) {
       const p = viewProgress(nfcRect, 1, -.3);
       nfcArt.style.transform = `scale(${1.07 - p * .055}) translateY(${(p - .5) * -16}px)`;
       if (review) review.style.transform = `translateY(${(1 - p) * 25}px)`;
@@ -152,3 +152,4 @@
   reduce.addEventListener('change', () => { reduce.matches ? revealAll() : setupMotion(); requestUpdate(); });
   desktop.addEventListener('change', requestUpdate);
 })();
+

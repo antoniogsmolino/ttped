@@ -1,97 +1,14 @@
-/* The contact-point section now draws its atmosphere from the studio photograph. */
-.nfc {
-  position: relative;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 95% 82%, #765142 0%, transparent 48%),
-    linear-gradient(100deg, #151110 0%, #211714 43%, #51372d 100%);
-}
+.section.nfc{padding:0;background:#090909;overflow:visible}
+.nfc::before,.nfc-art::after{display:none}
+.nfc .nfc-grid{width:100%;max-width:none;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:0;height:auto;min-height:0;aspect-ratio:auto;align-items:center}
+.nfc .nfc-scene{grid-column:1;grid-row:1;display:block;width:100%;height:auto;min-height:0;aspect-ratio:auto;margin:0;padding:0;border:0;border-radius:0;box-shadow:none;background:#090909}
+.nfc .nfc-art{position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:auto;transform:none!important;background:none;will-change:auto}
+.nfc-photo{display:block;width:100%;height:auto;margin:0}
+.nfc .nfc-grid>div:first-child{grid-column:2;grid-row:1;max-width:none;width:100%;padding:clamp(20px,2.2vw,56px);color:#fafafa;align-self:center}
+.nfc h2{font-size:clamp(26px,2.5vw,56px)}
+.nfc .lead{font-size:clamp(14px,1vw,18px);line-height:1.6;color:#d6d6d6;margin-top:18px}
+.nfc p:not(.lead){font-size:clamp(13px,.85vw,16px);color:#ddd;margin-top:12px}
+.nfc .k{color:#eee;margin-bottom:18px;font-size:11px}
+.nfc-card-caption{color:white;background:#09090999;border-color:#ffffff33}
+@media(max-width:1100px){.nfc .nfc-grid{display:flex;flex-direction:column}.nfc .nfc-scene{order:0}.nfc .nfc-grid>div:first-child{order:1;padding:36px 24px}.nfc h2{font-size:34px}}
 
-.nfc::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: .55;
-  background-image: linear-gradient(115deg, transparent 0 46%, rgba(255, 255, 255, .035) 46% 46.1%, transparent 46.1% 100%);
-}
-
-.nfc-grid {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: none;
-  margin: 0;
-}
-
-.nfc-grid > div:first-child { color: #fffaf7; }
-.nfc .k, .nfc h2, .nfc p, .nfc p strong { color: inherit; }
-.nfc .lead { color: #ddd0c9; }
-.nfc p:not(.lead) { color: #eee5df; }
-.nfc p:not(.lead)::before { background: #ff4b43; box-shadow: 0 0 14px rgba(255, 75, 67, .55); }
-
-.nfc-scene {
-  position: relative;
-  min-height: 0;
-  overflow: hidden;
-  border: 0;
-  border-radius: 0;
-  background: #281915;
-  box-shadow: none;
-}
-
-.nfc-art {
-  position: absolute;
-  inset: 0;
-  background-image: url('nfc-dentista.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.nfc-art::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(130deg, rgba(24, 12, 10, .18), transparent 54%, rgba(7, 5, 5, .18));
-}
-
-.nfc-card-caption { z-index: 2; color: #fff; background: rgba(24, 12, 10, .5); border-color: rgba(255, 255, 255, .28); }
-
-@media (min-width: 861px) {
-  .nfc { padding: 0; }
-  .nfc-grid {
-    display: grid;
-    grid-template-columns: 50vw 50vw;
-    height: auto;
-    min-height: 0;
-    aspect-ratio: 3346 / 940;
-    gap: 0;
-    align-items: stretch;
-  }
-  .nfc-grid > div:first-child {
-    grid-column: 2;
-    grid-row: 1;
-    width: 100%;
-    max-width: none;
-    align-self: center;
-    padding: clamp(72px, 8vw, 150px);
-  }
-  .nfc-scene {
-    grid-column: 1;
-    grid-row: 1;
-    width: 100%;
-    height: 100%;
-    min-height: 0;
-    aspect-ratio: auto;
-    aspect-ratio: auto;
-  }
-}
-
-@media (max-width: 860px) {
-  .nfc { padding: 0; }
-  .nfc-grid { display: flex; flex-direction: column; gap: 0; }
-  .nfc-grid > div:first-child, .nfc-scene { width: 100%; }
-  .nfc-grid > div:first-child { order: 2; padding: 68px max(28px, calc((100vw - 580px) / 2)); }
-  .nfc-scene { order: 1; aspect-ratio: 16 / 10; }
-}
