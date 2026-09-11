@@ -21,7 +21,7 @@
 .hero-visual-composite::before{content:"";position:absolute;inset:-4px -22px -24px -18px;z-index:3;background:url('hero-preference-phone-final.png?v=1') 104% 0/122% auto no-repeat;pointer-events:none;filter:drop-shadow(0 28px 42px #11182738);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 84%,transparent 100%),linear-gradient(to right,transparent 0%,#000 9%,#000 90%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,#000 0%,#000 84%,transparent 100%),linear-gradient(to right,transparent 0%,#000 9%,#000 90%,transparent 100%);mask-composite:intersect}
 .hero-top .hero-canvas{margin:0;width:100%;height:430px;aspect-ratio:1942/809;border-radius:28px;overflow:hidden}
 .hero-art{background-size:contain;background-position:center;transform:none}
-.hammer-note{margin-top:0}
+.hammer-note{margin-top:clamp(28px,4vw,56px)}
 .hero-top .hero-canvas,.hero-visual-composite .report-preview{display:none}
 .hero-visual-composite .report-preview{position:absolute;z-index:4;right:-3%;bottom:1%;width:min(55%,390px);transform:rotate(-3deg);box-shadow:0 28px 80px #1010102e}
 @media(max-width:1100px){.hero-top{grid-template-columns:1fr minmax(330px,.8fr);gap:34px}.hero-copy h1{font-size:clamp(48px,5.5vw,70px)}.hero-visual-composite{min-height:480px}.hero-top .hero-canvas{height:360px}.hero-visual-composite .report-preview{width:82%;right:-4%}}
