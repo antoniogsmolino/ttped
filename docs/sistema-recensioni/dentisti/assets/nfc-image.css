@@ -1,8 +1,8 @@
 .section.nfc{padding:0;background:#090909;overflow:visible}
 .nfc::before,.nfc-art::after{display:none}
-.nfc .nfc-grid{width:100%;max-width:none;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:0;height:auto;min-height:0;aspect-ratio:auto;align-items:center}
-.nfc .nfc-scene{grid-column:1;grid-row:1;display:block;width:100%;height:auto;min-height:0;aspect-ratio:auto;margin:0;padding:0;border:0;border-radius:0;box-shadow:none;background:#090909}
-.nfc .nfc-art{position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:auto;transform:none!important;background:none;will-change:auto}
+.nfc .nfc-grid{width:100%;max-width:none;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:0;height:auto;min-height:0;aspect-ratio:auto;align-items:stretch}
+.nfc .nfc-scene{grid-column:1;grid-row:1;display:block;width:100%;height:auto;min-height:0;aspect-ratio:auto;margin:0;padding:0;border:0;border-radius:0;box-shadow:none;background:#090909;overflow:visible}
+.nfc .nfc-art{position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:auto;transform:none!important;background:none;will-change:auto;overflow:visible}
 .nfc-photo{display:block;width:100%;height:auto;margin:0}
 .nfc .nfc-grid>div:first-child{grid-column:2;grid-row:1;max-width:none;width:100%;padding:clamp(20px,2.2vw,56px);color:#fafafa;align-self:center}
 .nfc h2{font-size:clamp(26px,2.5vw,56px)}

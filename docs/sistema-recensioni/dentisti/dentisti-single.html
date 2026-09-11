@@ -575,9 +575,9 @@ h2{line-height:1.15!important}h1,h2,h3,.lead,.btn,.top-cta,.proof-card strong,.r
 <style data-source="assets/nfc-image.css">
 .section.nfc{padding:0;background:#090909;overflow:visible}
 .nfc::before,.nfc-art::after{display:none}
-.nfc .nfc-grid{width:100%;max-width:none;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:0;height:auto;min-height:0;aspect-ratio:auto;align-items:center}
-.nfc .nfc-scene{grid-column:1;grid-row:1;display:block;width:100%;height:auto;min-height:0;aspect-ratio:auto;margin:0;padding:0;border:0;border-radius:0;box-shadow:none;background:#090909}
-.nfc .nfc-art{position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:auto;transform:none!important;background:none;will-change:auto}
+.nfc .nfc-grid{width:100%;max-width:none;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:0;height:auto;min-height:0;aspect-ratio:auto;align-items:stretch}
+.nfc .nfc-scene{grid-column:1;grid-row:1;display:block;width:100%;height:auto;min-height:0;aspect-ratio:auto;margin:0;padding:0;border:0;border-radius:0;box-shadow:none;background:#090909;overflow:visible}
+.nfc .nfc-art{position:relative;inset:auto;display:block;width:100%;height:auto;aspect-ratio:auto;transform:none!important;background:none;will-change:auto;overflow:visible}
 .nfc-photo{display:block;width:100%;height:auto;margin:0}
 .nfc .nfc-grid>div:first-child{grid-column:2;grid-row:1;max-width:none;width:100%;padding:clamp(20px,2.2vw,56px);color:#fafafa;align-self:center}
 .nfc h2{font-size:clamp(26px,2.5vw,56px)}
@@ -1262,7 +1262,7 @@ h2{line-height:1.15!important}h1,h2,h3,.lead,.btn,.top-cta,.proof-card strong,.r
 }
 @media(prefers-reduced-motion:reduce){.story-rotor,.story-managed .story-rotor .fly-node b{transition:none}}
 .fly { min-height: 570vh; }
-.fly-sticky { overflow: hidden; }
+.fly-sticky { overflow: visible; }
 .fly-grid { grid-template-columns: minmax(0, 1.1fr) minmax(340px, .9fr); gap: clamp(54px, 7vw, 145px); align-items: center; }
 .fly-grid > div:first-child { order: 2; max-width: 560px; }
 .fly-visual { order: 1; width: min(100%, 820px); max-width: none; margin-left: auto; transform: rotate(var(--wheel-rotation, 0deg)); transition: transform .82s cubic-bezier(.2,.8,.2,1); }
@@ -1307,13 +1307,19 @@ h2{line-height:1.15!important}h1,h2,h3,.lead,.btn,.top-cta,.proof-card strong,.r
 .fly-story-content { transition: opacity .24s ease, transform .24s ease; }
 .fly-story-content.is-changing { opacity: .18; transform: translateY(10px); }
 @media (max-width: 860px) {
-  .fly { min-height: 0; padding: 88px 0; }
+  .fly { min-height: 0; padding: 88px 0 110px; overflow: visible; }
   .fly-sticky { position: relative; top: auto; min-height: 0; padding: 0; }
   .fly-grid { display: flex; flex-direction: column; gap: 46px; }
   .fly-grid > div:first-child { order: 2; max-width: 620px; }
-  .fly-visual { order: 1; width: min(100%, 610px); margin: 0 auto; }
+  .fly-visual { order: 1; width: min(calc(100vw - 28px), 610px); margin: 0 auto; overflow: visible; }
   .fly-story-title { font-size: clamp(39px, 11vw, 60px); }
   .fly-story-copy { font-size: 16px; }
+}
+
+/* Keep every orbit node inside the visible wheel on narrow screens. */
+@media (max-width: 520px) {
+  .story-managed .fly-visual { --wheel-size: min(88vw, 430px); }
+  .story-managed .story-rotor .fly-node { width: 19%; height: 19%; }
 }
 
 </style>
