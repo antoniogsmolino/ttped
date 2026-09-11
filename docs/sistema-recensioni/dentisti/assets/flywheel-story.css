@@ -23,7 +23,7 @@
 }
 @media(prefers-reduced-motion:reduce){.story-rotor,.story-managed .story-rotor .fly-node b{transition:none}}
 .fly { min-height: 570vh; }
-.fly-sticky { overflow: visible; }
+.fly-sticky { overflow: hidden; }
 .fly-grid { grid-template-columns: minmax(0, 1.1fr) minmax(340px, .9fr); gap: clamp(54px, 7vw, 145px); align-items: center; }
 .fly-grid > div:first-child { order: 2; max-width: 560px; }
 .fly-visual { order: 1; width: min(100%, 820px); max-width: none; margin-left: auto; transform: rotate(var(--wheel-rotation, 0deg)); transition: transform .82s cubic-bezier(.2,.8,.2,1); }
@@ -68,18 +68,12 @@
 .fly-story-content { transition: opacity .24s ease, transform .24s ease; }
 .fly-story-content.is-changing { opacity: .18; transform: translateY(10px); }
 @media (max-width: 860px) {
-  .fly { min-height: 0; padding: 88px 0 110px; overflow: visible; }
+  .fly { min-height: 0; padding: 88px 0; }
   .fly-sticky { position: relative; top: auto; min-height: 0; padding: 0; }
   .fly-grid { display: flex; flex-direction: column; gap: 46px; }
   .fly-grid > div:first-child { order: 2; max-width: 620px; }
-  .fly-visual { order: 1; width: min(calc(100vw - 28px), 610px); margin: 0 auto; overflow: visible; }
+  .fly-visual { order: 1; width: min(100%, 610px); margin: 0 auto; }
   .fly-story-title { font-size: clamp(39px, 11vw, 60px); }
   .fly-story-copy { font-size: 16px; }
-}
-
-/* Keep every orbit node inside the visible wheel on narrow screens. */
-@media (max-width: 520px) {
-  .story-managed .fly-visual { --wheel-size: min(88vw, 430px); }
-  .story-managed .story-rotor .fly-node { width: 19%; height: 19%; }
 }
 
