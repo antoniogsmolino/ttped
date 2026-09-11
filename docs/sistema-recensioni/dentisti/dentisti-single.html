@@ -578,9 +578,8 @@ h2{line-height:1.15!important}h1,h2,h3,.lead,.btn,.top-cta,.proof-card strong,.r
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(circle at 12% 8%, #89604c 0%, #4d3028 36%, transparent 62%),
-    radial-gradient(circle at 93% 95%, #6d4738 0%, transparent 51%),
-    linear-gradient(115deg, #1b1110 0%, #2e1b18 48%, #110f10 100%);
+    radial-gradient(circle at 95% 82%, #765142 0%, transparent 48%),
+    linear-gradient(100deg, #151110 0%, #211714 43%, #51372d 100%);
 }
 
 .nfc::before {
@@ -639,8 +638,9 @@ h2{line-height:1.15!important}h1,h2,h3,.lead,.btn,.top-cta,.proof-card strong,.r
   .nfc-grid {
     display: grid;
     grid-template-columns: 50vw 50vw;
-    height: clamp(520px, 28.1vw, 680px);
+    height: auto;
     min-height: 0;
+    aspect-ratio: 3346 / 940;
     gap: 0;
     align-items: stretch;
   }
@@ -658,6 +658,7 @@ h2{line-height:1.15!important}h1,h2,h3,.lead,.btn,.top-cta,.proof-card strong,.r
     width: 100%;
     height: 100%;
     min-height: 0;
+    aspect-ratio: auto;
     aspect-ratio: auto;
   }
 }
