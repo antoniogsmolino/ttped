@@ -18,7 +18,7 @@
 .report-footer{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #d9d2c6;border-top:0;text-align:center;padding:12px 5px;font:700 20px Georgia}.report-footer span+span{border-left:1px solid #d9d2c6}.report-footer small{font:600 10px Manrope;color:#d85b25;text-transform:uppercase}
 .report-verdict{margin-top:16px;padding:13px 15px;border-left:4px solid #e2ac2c;background:#fff6df;font:13px/1.45 Georgia;color:#3b342a}.report-verdict b{color:#d39a18;font:700 11px Manrope;letter-spacing:.06em}
 .hero-visual-composite{position:relative;min-height:560px;display:flex;align-items:center;justify-content:center}
-.hero-visual-composite::before{content:"";position:absolute;inset:0;z-index:3;background:url('hero-preference-phone.png?v=1') center 48%/contain no-repeat;pointer-events:none;filter:drop-shadow(0 28px 42px #11182738)}
+.hero-visual-composite::before{content:"";position:absolute;inset:0;z-index:3;background:url('hero-preference-phone-final.png?v=1') center 48%/contain no-repeat;pointer-events:none;filter:drop-shadow(0 28px 42px #11182738)}
 .hero-top .hero-canvas{margin:0;width:100%;height:430px;aspect-ratio:1942/809;border-radius:28px;overflow:hidden}
 .hero-art{background-size:contain;background-position:center;transform:none}
 .hammer-note{margin-top:0}
