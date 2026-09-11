@@ -9,8 +9,8 @@
 .hero-copy .btn{margin-top:25px}
 .hero-benefits{display:grid;gap:7px;margin-top:20px;color:var(--muted);font-size:13px;line-height:1.45}
 .report-preview{align-self:start;margin:0;background:#fff;border:1px solid #d8d3ca;border-radius:20px;padding:28px;box-shadow:0 24px 70px #1b17121a;transform:rotate(1.2deg)}
-.report-topline{display:flex;justify-content:flex-start;border-bottom:1px solid #ded9d0;padding-bottom:12px;color:#1a1a1a;font:700 11px/1.2 Manrope;letter-spacing:.08em}
-.report-title{margin-top:23px;font:700 clamp(23px,2.25vw,34px)/1.08 Georgia,serif;color:#1e1b18}
+.report-topline{display:none}
+.report-title{margin-top:0;font:700 clamp(23px,2.25vw,34px)/1.08 Georgia,serif;color:#1e1b18}
 .report-name{margin-top:17px;font:600 15px Manrope;color:#403b35}
 .report-metrics{display:grid;grid-template-columns:1fr 1fr;margin-top:22px;border:1px solid #d9d2c6}
 .report-metrics>div{text-align:center;padding:18px 10px;background:#faf7f0}.report-metrics>div+div{border-left:1px solid #d9d2c6;background:#fff6d8}
