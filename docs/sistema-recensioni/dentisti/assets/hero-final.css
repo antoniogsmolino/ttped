@@ -2,7 +2,7 @@
 .hero{padding-top:58px;padding-bottom:0;overflow:hidden}
 .hero-top{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(390px,.78fr);gap:clamp(42px,4.8vw,78px);align-items:center;margin-top:30px}
 .hero-copy{min-width:0}
-.hero-copy h1{max-width:900px;font-size:clamp(52px,5.15vw,79px)}
+.hero-copy h1{max-width:980px;font-size:clamp(48px,4.8vw,74px)}
 .hero-copy .hero-intro{display:block;max-width:680px;margin-top:28px;padding:0}
 .hero-copy .hero-intro .lead{font-size:18px;line-height:1.7;color:var(--muted)}
 .hero-offer{margin-top:18px;font-size:18px;line-height:1.5;max-width:640px}
@@ -18,12 +18,13 @@
 .report-footer{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #d9d2c6;border-top:0;text-align:center;padding:12px 5px;font:700 20px Georgia}.report-footer span+span{border-left:1px solid #d9d2c6}.report-footer small{font:600 10px Manrope;color:#d85b25;text-transform:uppercase}
 .report-verdict{margin-top:16px;padding:13px 15px;border-left:4px solid #e2ac2c;background:#fff6df;font:13px/1.45 Georgia;color:#3b342a}.report-verdict b{color:#d39a18;font:700 11px Manrope;letter-spacing:.06em}
 .hero-visual-composite{position:relative;min-height:560px;display:flex;align-items:center;justify-content:center}
-.hero-visual-composite::before{content:"";position:absolute;inset:0 -14px -18px 0;z-index:3;background:url('hero-preference-phone-final.png?v=1') 100% 5%/108% auto no-repeat;pointer-events:none;filter:drop-shadow(0 28px 42px #11182738);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 84%,transparent 100%),linear-gradient(to right,transparent 0%,#000 12%,#000 93%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,#000 0%,#000 84%,transparent 100%),linear-gradient(to right,transparent 0%,#000 12%,#000 93%,transparent 100%);mask-composite:intersect}
+.hero-visual-composite::before{content:"";position:absolute;inset:-4px -22px -24px -18px;z-index:3;background:url('hero-preference-phone-final.png?v=1') 104% 0/122% auto no-repeat;pointer-events:none;filter:drop-shadow(0 28px 42px #11182738);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 84%,transparent 100%),linear-gradient(to right,transparent 0%,#000 9%,#000 90%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,#000 0%,#000 84%,transparent 100%),linear-gradient(to right,transparent 0%,#000 9%,#000 90%,transparent 100%);mask-composite:intersect}
 .hero-top .hero-canvas{margin:0;width:100%;height:430px;aspect-ratio:1942/809;border-radius:28px;overflow:hidden}
 .hero-art{background-size:contain;background-position:center;transform:none}
 .hammer-note{margin-top:0}
 .hero-top .hero-canvas,.hero-visual-composite .report-preview{display:none}
 .hero-visual-composite .report-preview{position:absolute;z-index:4;right:-3%;bottom:1%;width:min(55%,390px);transform:rotate(-3deg);box-shadow:0 28px 80px #1010102e}
 @media(max-width:1100px){.hero-top{grid-template-columns:1fr minmax(330px,.8fr);gap:34px}.hero-copy h1{font-size:clamp(48px,5.5vw,70px)}.hero-visual-composite{min-height:480px}.hero-top .hero-canvas{height:360px}.hero-visual-composite .report-preview{width:82%;right:-4%}}
-@media(max-width:760px){.hero-top{grid-template-columns:1fr;gap:30px}.hero-copy h1{font-size:clamp(46px,11vw,64px)}.hero-visual-composite{min-height:430px}.hero-top .hero-canvas{height:260px}.hero-visual-composite::before{inset:0;background-size:108% auto;background-position:100% 5%}.hero-visual-composite .report-preview{width:72%;right:0;bottom:-10px;transform:rotate(-2deg)} }
+@media(max-width:760px){.hero-top{grid-template-columns:1fr;gap:30px}.hero-copy h1{font-size:clamp(46px,11vw,64px)}.hero-visual-composite{min-height:430px}.hero-top .hero-canvas{height:260px}.hero-visual-composite::before{inset:0;background-size:122% auto;background-position:104% 0}.hero-visual-composite .report-preview{width:72%;right:0;bottom:-10px;transform:rotate(-2deg)} }
 @media(max-width:520px){.hero{padding-top:30px}.hero-top{margin-top:22px;gap:30px}.hero-copy .hero-intro{margin-top:22px}.hero-copy .hero-intro .lead{font-size:16px}.hero-offer{font-size:17px}.hero-benefits{font-size:12px}.report-preview{padding:18px;border-radius:15px}.report-title{margin-top:18px;font-size:24px}.report-metrics strong{font-size:28px}.report-footer{font-size:17px}.hero-canvas{margin:34px -20px 0;border-radius:0;aspect-ratio:1942/809}}
+
