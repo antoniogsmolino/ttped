@@ -573,52 +573,72 @@ h2{line-height:1.15!important}h1,h2,h3,.lead,.btn,.top-cta,.proof-card strong,.r
 
 </style>
 <style data-source="assets/nfc-image.css">
-.nfc-art {
+/* The contact-point section now draws its atmosphere from the studio photograph. */
+.nfc {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 12% 8%, #89604c 0%, #4d3028 36%, transparent 62%),
+    radial-gradient(circle at 93% 95%, #6d4738 0%, transparent 51%),
+    linear-gradient(115deg, #1b1110 0%, #2e1b18 48%, #110f10 100%);
+}
+
+.nfc::before {
+  content: '';
   position: absolute;
   inset: 0;
-  aspect-ratio: auto;
-  background-color: transparent;
-  background-image: url('nfc-transparent-optimized.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  pointer-events: none;
+  opacity: .55;
+  background-image: linear-gradient(115deg, transparent 0 46%, rgba(255, 255, 255, .035) 46% 46.1%, transparent 46.1% 100%);
 }
+
+.nfc-grid { position: relative; z-index: 1; }
+.nfc-grid > div:first-child { color: #fffaf7; }
+.nfc .k, .nfc h2, .nfc p, .nfc p strong { color: inherit; }
+.nfc .lead { color: #ddd0c9; }
+.nfc p:not(.lead) { color: #eee5df; }
+.nfc p:not(.lead)::before { background: #ff4b43; box-shadow: 0 0 14px rgba(255, 75, 67, .55); }
 
 .nfc-scene {
   position: relative;
-  display: block;
   min-height: 0;
-  aspect-ratio: 1122 / 1402;
-  overflow: visible;
-  background: transparent;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 28px;
+  background: #281915;
+  box-shadow: 0 32px 70px rgba(0, 0, 0, .32);
 }
 
-/* The transparent product can be large without becoming a cropped photo panel. */
+.nfc-art {
+  position: absolute;
+  inset: 0;
+  background-image: url('nfc-dentista.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nfc-art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(130deg, rgba(24, 12, 10, .18), transparent 54%, rgba(7, 5, 5, .18));
+}
+
+.nfc-card-caption { z-index: 2; color: #fff; background: rgba(24, 12, 10, .5); border-color: rgba(255, 255, 255, .28); }
+
 @media (min-width: 861px) {
-  .nfc {
-    padding: 112px 0;
-  }
-
-  .nfc-grid {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: clamp(72px, 7vw, 140px);
-  }
-
-  .nfc-scene {
-    width: min(100%, 460px);
-    justify-self: center;
-    align-self: center;
-  }
-
-  .nfc-grid > div:first-child {
-    max-width: 680px;
-  }
+  .nfc { padding: 120px 0; }
+  .nfc-grid { grid-template-columns: minmax(0, 1.06fr) minmax(0, .94fr); gap: clamp(58px, 7vw, 132px); }
+  .nfc-grid > div:first-child { max-width: 610px; }
 }
 
-@media (max-width: 520px) {
-  .nfc-art {
-    background-position: center center;
-  }
+@media (max-width: 860px) {
+  .nfc { padding: 76px 0; }
+  .nfc-grid { display: flex; flex-direction: column; gap: 48px; }
+  .nfc-grid > div:first-child, .nfc-scene { width: 100%; }
+  .nfc-scene { order: -1; border-radius: 22px; aspect-ratio: 16 / 10; }
 }
 
 </style>
